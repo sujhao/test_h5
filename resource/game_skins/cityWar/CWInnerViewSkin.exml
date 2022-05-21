@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CWInnerViewSkin" width="690" height="490" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CWInnerRankView id="_cwInnerRankView" x="0" y="34"/>
+	<ns1:CWRefreshView id="_cwRefreshView" x="483" y="60"/>
+	<ns1:CWOperateView id="_cwOperateView" x="119" y="380"/>
+	<ns1:CustomButton id="_btnCaiJi" label="" x="316" y="281">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="cityWar_json.cityWar_flag1" source.down="cityWar_json.cityWar_flag1" source.disabled="cityWar_json.cityWar_flag1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="_btnAttack" label="" x="420" y="280">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="cityWar_json.cityWar_flag2" source.down="cityWar_json.cityWar_flag2" source.disabled="cityWar_json.cityWar_flag2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+</e:Skin>

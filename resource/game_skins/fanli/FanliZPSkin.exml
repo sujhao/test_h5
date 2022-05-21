@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FanliZPSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="577" height="677">
+	<ns1:GoodsItemSmall id="item_0" x="42" y="98"/>
+	<ns1:GoodsItemSmall x="144" y="98" id="item_1"/>
+	<ns1:GoodsItemSmall x="246" y="98" id="item_2"/>
+	<ns1:GoodsItemSmall x="348" y="98" id="item_3"/>
+	<ns1:GoodsItemSmall x="450" y="98" id="item_4"/>
+	<ns1:GoodsItemSmall x="450" y="191" id="item_5"/>
+	<ns1:GoodsItemSmall x="450" y="284" id="item_6"/>
+	<ns1:GoodsItemSmall x="450" y="377" id="item_7"/>
+	<ns1:GoodsItemSmall x="450" y="470" id="item_8"/>
+	<ns1:GoodsItemSmall x="348" y="470" id="item_9"/>
+	<ns1:GoodsItemSmall x="246" y="470" id="item_10"/>
+	<ns1:GoodsItemSmall x="144" y="470" id="item_11"/>
+	<ns1:GoodsItemSmall x="42" y="470" id="item_12"/>
+	<ns1:GoodsItemSmall x="42" y="377" id="item_13"/>
+	<ns1:GoodsItemSmall x="42" y="284" id="item_14"/>
+	<ns1:GoodsItemSmall x="42" y="191" id="item_15"/>
+	<ns1:GoodsItemSmall id="item_n_0" x="144" y="191"/>
+	<ns1:GoodsItemSmall x="246" y="191" id="item_n_1"/>
+	<ns1:GoodsItemSmall x="348" y="191" id="item_n_2"/>
+	<ns1:GoodsItemSmall x="348" y="284" id="item_n_3"/>
+	<ns1:GoodsItemSmall x="348" y="377" id="item_n_4"/>
+	<ns1:GoodsItemSmall x="246" y="377" id="item_n_5"/>
+	<ns1:GoodsItemSmall x="144" y="377" id="item_n_6"/>
+	<ns1:GoodsItemSmall x="144" y="284" id="item_n_7"/>
+	<ns1:CustomButton id="btnGet" label="" x="241" y="276">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="fanli_json.fanli_zpBtn" source.down="fanli_json.fanli_zpBtn" source.disabled="fanli_json.fanli_zpBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomImage id="image_select" x="30" y="87" source="share_json.share_itemSelected" visible="false"/>
+	<e:Scroller width="497" height="80" x="78" y="593" anchorOffsetY="0" anchorOffsetX="0">
+		<e:DataGroup id="logList" itemRenderer="LogItem"/>
+	</e:Scroller>
+	<ns1:CustomLabel text="每天24点积分重置" y="15" size="18" bold="true" textAlign="center" x="400" textColor="0x00D228"/>
+	<ns1:CustomLabel id="txtCount" text="充值得积分（我的积分：0）" y="15" size="18" bold="true" textAlign="left" x="38" textColor="0xe7d0b7"/>
+	<e:TabBar id="tabBar" width="520" height="50" x="25" y="35" itemRenderer="CustomItemRenderer" itemRendererSkinName="CustomTabItemSkin2Skin" anchorOffsetX="0"/>
+	<ns1:CustomImage source="fanli_json.fanli_zpTxt" x="260" y="484"/>
+	<ns1:CustomLabel id="txtCost" text="1000" y="301" size="18" bold="true" textAlign="left" x="278" textColor="0xE7D0B7" touchEnabled="false"/>
+	<ns1:CustomButton id="_helpButton" label="" y="-133" x="-60">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="comp_btn_help" source.down="comp_btn_help" source.disabled="comp_btn_help"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</ns1:CustomButton>
+</e:Skin>

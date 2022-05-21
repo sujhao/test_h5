@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossGuildCallWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" height="432">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" height="435" anchorOffsetY="0">
+		<ns1:CustomImage source="share_bg2" x="10" y="49" width="600" height="375" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="12,9,82,140"/>
+		<ns1:CustomImage x="12" y="312" width="595" anchorOffsetY="0" anchorOffsetX="0" source="share_json.share_contentBg"/>
+		<ns1:CustomLabel id="txtRoleName" text="名字七个字" y="181" size="18" textColor="0xE7D0B7" anchorOffsetX="0" width="150" anchorOffsetY="0" height="22" bold="true" textAlign="center" horizontalCenter="0"/>
+		<ns1:CustomLabel text="邀请你进入" y="227" size="18" textColor="0xE7D0B7" anchorOffsetX="0" anchorOffsetY="0" bold="true" textAlign="center" x="223"/>
+		<ns1:CustomLabel id="txtName" text="公会副本" y="227" size="18" anchorOffsetX="0" anchorOffsetY="0" bold="true" textAlign="left" x="322" textColor="0xe31101"/>
+		<ns1:CustomButton id="btnGet" label="接受" y="322" skinName="CustomButtonSkin2Skin" x="367"/>
+		<ns1:CustomButton id="btnNo" label="暂不接受" y="322" skinName="CustomButtonSkin2Skin" x="124"/>
+		<ns1:HeadItem id="headItem" y="101" horizontalCenter="0"/>
+		<ns1:CustomCheckBox id="checkBox" label="本次登录期间不弹出" y="380" horizontalCenter="2.5"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

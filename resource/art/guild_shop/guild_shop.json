@@ -1,0 +1,10 @@
+{"file":"guild_shop.png","frames":{
+"guild_shopHead":{"x":0,"y":1021,"w":241,"h":244,"offX":0,"offY":0,"sourceW":241,"sourceH":244},
+"guild_shopTalk":{"x":580,"y":867,"w":144,"h":31,"offX":4,"offY":4,"sourceW":151,"sourceH":38},
+"guild_shopTxt":{"x":0,"y":1269,"w":457,"h":38,"offX":1,"offY":0,"sourceW":460,"sourceH":39},
+"guild_shopTitle":{"x":245,"y":1021,"w":387,"h":35,"offX":0,"offY":2,"sourceW":387,"sourceH":40},
+"guild_shopItemBg":{"x":0,"y":761,"w":576,"h":256,"offX":0,"offY":0,"sourceW":576,"sourceH":256},
+"guild_shopTxt2":{"x":686,"y":829,"w":114,"h":29,"offX":0,"offY":0,"sourceW":114,"sourceH":29},
+"guild_shopHead_no":{"x":580,"y":761,"w":102,"h":102,"offX":0,"offY":0,"sourceW":102,"sourceH":102},
+"guild_shopIcon":{"x":686,"y":761,"w":63,"h":64,"offX":0,"offY":0,"sourceW":63,"sourceH":64},
+"guild_shopBg":{"x":0,"y":0,"w":579,"h":757,"offX":0,"offY":0,"sourceW":579,"sourceH":757}}}

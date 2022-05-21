@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChenghaoItemSkin" minWidth="567" minHeight="112" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage id="_bg" width="100%" height="100%" scale9Grid="18,14,528,84" source="share_json.share_layer"/>
+	<ns1:CustomImage  x="305" y="3" source="chenghao_json.chenghao_vline"/>
+	<ns1:CustomImage id="_imageType" x="0" y="1" source=""/>
+	<ns1:CustomImage id="_btnArrow" x="507" y="35" source="share_json.share_arrowDown"/>
+	<ns1:CustomImage id="_imageState" x="369" y="34" source="chenghao_json.chenghao_word"/>
+	<ns1:CustomButton id="_btnWear" label="穿戴" x="358" y="29" width="122" skinName="CustomButtonSkin3Skin"/>
+</e:Skin>

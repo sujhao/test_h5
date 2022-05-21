@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="CustomButtomSkin5Skin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image width="100%" height="100%" scale9Grid="17,14,114,23" alpha.disabled="0.5"
+             source="comp_json.comp_btn5"
+             source.down="comp_json.comp_btn5"/>
+    <e:Label id="labelDisplay" top="5" bottom="11" left="8" right="8"
+             size="20"
+             textColor="0xFFFFFF" verticalAlign="middle" textAlign="center" fontFamily="Arial" text="dfsdfs"/>
+    <e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0"/>
+
+	<w:Config id="15aa809809d" ></w:Config>
+</e:Skin>

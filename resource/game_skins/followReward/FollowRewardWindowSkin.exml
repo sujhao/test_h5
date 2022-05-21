@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FollowRewardWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin">
+		<ns1:CustomImage x="38" y="522" source="share_json.share_bg7" locked="true"/>
+		<ns1:CustomImage x="23" y="537" source="share_json.share_titleBg3" scale9Grid="55,11,336,30" anchorOffsetY="0" height="48"/>
+		<ns1:CustomButton id="btnFollow" label="点我关注" x="248" y="748" skinName="CustomButtonSkin2Skin"/>
+		<ns1:CustomLabel text="关注大礼包奖励展示" x="59" y="547" textColor="0xe7d0b7" size="20" fontFamily="Microsoft YaHei"/>
+		<ns1:CustomLabel text="微信内关注公众号，关注成功即可领取奖励 每个玩家进行领取1次" x="148" y="450" textColor="0xE7D0B7" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="384" anchorOffsetY="0" height="61" lineSpacing="8"/>
+		<ns1:CustomLabel text="活动说明：" x="49" y="449" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="107" anchorOffsetY="0" height="30" textColor="0xffda00"/>
+		<ns1:CustomImage x="43" y="227" source="followReward_json.followBg"/>
+		<ns1:CustomImage x="17" y="72" source="fuli_json.fuliBg"/>
+		<ns1:CustomImage x="261" y="115" source="followReward_json.followIcon"/>
+		<ns1:CustomImage x="138" y="368" source="followReward_json.followInfo"/>
+		<e:Group id="rewardCon" width="506" height="115" x="64" y="587" anchorOffsetX="0" anchorOffsetY="0"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

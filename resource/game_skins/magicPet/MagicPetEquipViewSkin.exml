@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MagicPetEquipViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="magicPet_json.weaponBg" locked="true"/>
+	<e:Group id="headCon" width="604" height="100" x="0" y="-10" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="weaponClip" width="148" height="111" x="300" y="240" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ns1:CustomImage x="141" y="359" source="share_fpowerBg"/>
+	<ns1:CustomLabel id="txtCur" text="生命+1\n攻击+1\n物防+1\n法防+1" x="130" y="445" anchorOffsetX="0" width="155" anchorOffsetY="0" height="108" fontFamily="Microsoft YaHei" size="20" textAlign="left" verticalAlign="middle" textColor="0xdbac7f"/>
+	<ns1:CustomLabel id="txtNext" text="生命+2\n攻击+2\n物防+2\n法防+2" x="360" y="445" anchorOffsetX="0" width="155" anchorOffsetY="0" height="108" fontFamily="Microsoft YaHei" size="20" textAlign="left" verticalAlign="middle" textColor="0x31db0a"/>
+	<ns1:CustomLabel id="txtItem" text="喂养【aaa】: 0/2" x="71" y="666" anchorOffsetX="0" width="315" anchorOffsetY="0" height="30" fontFamily="Microsoft YaHei" size="20" textAlign="left" verticalAlign="top" textColor="0xDBAC7F"/>
+	<ns1:CustomLabel id="txtLink" text="获得途径" x="441" y="666" anchorOffsetX="0" width="108" anchorOffsetY="0" height="30" fontFamily="Microsoft YaHei" size="20" textAlign="left" verticalAlign="top" textColor="0x32ff00"/>
+	<ns1:CustomButton id="btnUp" label="进阶" x="74" y="700" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomButton id="btnActive" label="激活" x="242" y="466" skinName="CustomButtonSkin2Skin" visible="false"/>
+	<ns1:CustomButton id="btnShow" label="展示" x="425" y="370" width="122" height="48" skinName="CustomButtonSkinSkin"/>
+	<ns1:CustomButton id="btnAuto" label="自动进阶" x="394" y="700" skinName="CustomButtonSkin2Skin"/>
+	<e:Group id="starCon" width="445" height="45" x="68" y="563" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ns1:CustomProgressBar id="proBar" x="71" y="619" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ns1:CustomButton id="btnUpGrade" label="升阶" x="242" y="636" skinName="CustomButtonSkin2Skin" visible="false"/>
+	<e:BitmapLabel id="numFight" x="231" y="379" font="number_0_fnt" text="0" anchorOffsetX="0" width="189" anchorOffsetY="0" height="36"/>
+</e:Skin>

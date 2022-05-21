@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainUIBossBtnViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="noviceguide_bossBg"/>
+	<ns1:CustomImage id="win_bg" x="-90" y="-3" source="noviceguide_bossTxt"/>
+	<ns1:CustomImage id="win_bg2" x="23" y="-33" source="noviceguide_bossTxt2"/>
+	<ns1:CustomButton id="btnGet" label="确定" x="373" y="293" skinName="CustomButtomSkin5Skin"/>
+	<ns1:CustomImage x="347" y="362" source="share_titleBg2" width="200"/>
+	<ns1:CustomLabel text="关开启" x="439" y="373" size="20" textColor="0xffd200" bold="true"/>
+	<ns1:CustomLabel id="txtOpen" text="20" x="416" y="373" size="20" bold="true" textColor="0x00d228"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossShieldViewSkin" width="252" height="84" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage x="0" y="0" source="boss_json.boss_shieldBg"/>
+	<ns1:CustomLabel text="护盾生命值" x="75" y="15" size="18" bold="true" width="110" textAlign="center"/>
+	<ns1:CustomImage id="_imageBlood" x="74" y="39" source="boss_json.boss_shieldblood"/>
+	<ns1:CustomLabel id="_txtValue" text="98%" x="74" y="37" size="14" width="147" textAlign="center" bold="true"/>
+</e:Skin>

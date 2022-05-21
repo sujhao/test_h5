@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CustomComboboxSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" width="145" height="39">
+	<ns1:CustomImage x="0" y="0" source="comp_json.textInput_bg" scale9Grid="5,6,132,23" width="100%" height="100%"/>
+	<ns1:CustomButton id="btnShow" label="" top="2" right="2">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="comp_json.combobox_down"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomLabel id="label" text="" size="20" textColor="0xdda66b" bold="true"  verticalCenter="0" left="2" right="35" top="2" bottom="2" verticalAlign="middle" textAlign="center"/>
+	<e:Group id="list" width="100%" y="40"/>
+</e:Skin>

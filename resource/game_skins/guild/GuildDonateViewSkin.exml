@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildDonateViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin">
+		<e:TabBar id="tabBar" width="230" height="50" x="41" y="852" anchorOffsetY="0" itemRendererSkinName="CustomTabItemSkinSkin" anchorOffsetX="0"/>
+		<e:Group id="contentGroup" width="580" height="755" x="20" y="72" anchorOffsetX="0" anchorOffsetY="0"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

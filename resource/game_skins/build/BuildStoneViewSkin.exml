@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BuildStrengthenViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="buildStrengthenBg"/>
+	<ns1:CustomLabel id="txtlink" text="获得道具" x="407.83" y="634" size="18" anchorOffsetX="0" width="105" anchorOffsetY="0" height="25" textColor="0x00D228" bold="true"/>
+	<ns1:CustomImage x="224" y="488" source="buildItemSelectp"/>
+	<ns1:CustomImage x="163" y="251" source="share_fpowerBg"/>
+	<ns1:CustomButton id="btnGet" label="镶嵌"  y="686" horizontalCenter="0" skinName="CustomButtonSkin2Skin"/>
+	<ns1:BuildItem id="item_5" x="243" y="106"/>
+	<ns1:BuildItem id="item_6" x="107" y="161"/>
+	<ns1:BuildItem id="item_7" x="33" y="294"/>
+	<ns1:BuildItem id="item_8" x="107" y="448"/>
+	<ns1:BuildItem id="item_4" x="388" y="161"/>
+	<ns1:BuildItem id="item_3" x="460" y="294"/>
+	<ns1:BuildItem id="item_2" x="388" y="448"/>
+	<ns1:BuildItem id="item_1"  y="508" x="243"/>
+	<ns1:CustomLabel text="消耗：" x="165" y="634" size="22" textColor="0xdbc7b0"/>
+	<ns1:CustomImage width="145" height="28" x="260" y="631" source="textInput_bg" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ns1:CustomLabel id="txtCount" text="100/100" x="260" y="635" textColor="0xdbc7b0" size="20" anchorOffsetX="0" width="145" anchorOffsetY="0" height="19" textAlign="center"/>
+	<e:BitmapLabel id="numFight" x="266" y="275" font="number_0_fnt" text="0" anchorOffsetX="0" width="189" anchorOffsetY="0" height="36"/>
+	<ns1:CustomLabel id="txtPro_1" text="宝石未激活" x="230" y="350" size="18" anchorOffsetX="0" width="195" anchorOffsetY="0" height="26" textColor="0x939393" bold="true"/>
+	<ns1:CustomLabel id="pro_2" text="攻击力+0" x="182" y="371" textColor="0xE7D0B7" size="18" anchorOffsetX="0" width="124" anchorOffsetY="0" height="26" visible="false"/>
+	<ns1:CustomLabel id="proNext_2" text="0" x="346" y="371" size="18" anchorOffsetX="0" width="105" anchorOffsetY="0" height="26" textColor="0x00d228" visible="false"/>
+	<ns1:CustomLabel id="txtPro_2" text="宝石未激活" x="230" y="378" size="18" anchorOffsetX="0" width="195" anchorOffsetY="0" height="26" textColor="0x939393" bold="true"/>
+	<ns1:CustomLabel id="txtPro_0" text="宝石未激活" x="230" y="322" size="18" anchorOffsetX="0" width="195" anchorOffsetY="0" height="26" textColor="0x939393" bold="true"/>
+	<ns1:CustomLabel id="txtPro_3" text="宝石未激活" x="230" y="406" size="18" anchorOffsetX="0" width="195" anchorOffsetY="0" height="26" textColor="0x939393" bold="true"/>
+	<ns1:CustomImage id="iconUp_2" x="310" y="362" source="buildIcon_up" visible="false"/>
+</e:Skin>

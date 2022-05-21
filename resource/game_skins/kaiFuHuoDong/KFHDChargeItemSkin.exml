@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KFHDChargeItemSkin" width="102" height="121" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="kfhdCharge_json.kfhdCharge_itemBg"/>
+	<ns1:CustomImage id="_imgItem" x="22" y="40" />
+	<ns1:CustomImage id="_imgIsToday" bottom="1" right="1" source="kfhdCharge_json.kfhdCharge_today"/>
+	<ns1:CustomImage id="_imgLock" x="22" y="40" source="kfhdCharge_json.kfhdCharge_itemLock"/>
+	<ns1:CustomImage id="_imgShader" y="4" source="kfhdCharge_json.kfhdCharge_itemShader" x="5"/>
+	<ns1:CustomImage id="_imgSelected" y="0" x="0" source="kfhdCharge_json.kfhdCharge_itemSelected"/>
+</e:Skin>

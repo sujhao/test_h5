@@ -1,0 +1,7 @@
+{"file":"chat.png","frames":{
+"chatIcon_sys":{"x":73,"y":758,"w":59,"h":30,"offX":0,"offY":4,"sourceW":59,"sourceH":37},
+"title_chat":{"x":0,"y":758,"w":69,"h":39,"offX":2,"offY":2,"sourceW":75,"sourceH":44},
+"chatIcon_gg":{"x":0,"y":801,"w":59,"h":30,"offX":0,"offY":4,"sourceW":59,"sourceH":37},
+"chatGMBg":{"x":0,"y":0,"w":576,"h":754,"offX":0,"offY":0,"sourceW":576,"sourceH":754},
+"chatIcon_zs":{"x":580,"y":49,"w":37,"h":22,"offX":0,"offY":0,"sourceW":37,"sourceH":22},
+"chatIcon_laba":{"x":580,"y":0,"w":45,"h":45,"offX":0,"offY":0,"sourceW":45,"sourceH":45}}}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CustomSmallWindowSkinSkin" minHeight="300" minWidth="513" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="100%" height="100%" anchorOffsetY="0"   source="comp_json.winBg2" scale9Grid="77,110,466,663"/>
+	<e:Group id="moveArea" left="0" right="0" top="0" height="45">
+		<e:Image source="comp_json.win_headBar2" y="8" x="5" />
+		<e:Label id="titleDisplay" size="20" fontFamily="Tahoma" textColor="0xFFFFFF" wordWrap="false" left="15" right="5"
+		         verticalCenter="0" />
+		<ns1:CustomButton id="closeButton" label="" right="-12" top="-12">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="win_close2" source.down="win_close2" source.disabled="win_close2" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomImage id="imageTitle" horizontalCenter="0" top="2" />
+	</e:Group>
+	<w:Config id="15a17ac02f5"></w:Config>
+</e:Skin>

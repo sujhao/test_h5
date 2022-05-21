@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildDonateInfoSkin" width="580" height="755" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+    <ns1:CustomImage source="guild_titleBg" />
+    <ns1:CustomImage x="230" y="0" source="guild_donate_logTxt" />
+    <ns1:CustomImage source="guild_titleBg" x="3" y="380" />
+    <ns1:CustomImage x="213" y="381" source="guild_donate_logTxt2" />
+    <e:Scroller width="100%" height="339" y="41" anchorOffsetX="0" anchorOffsetY="0">
+        <e:DataGroup id="itemList" itemRenderer="GuildLogItem" />
+    </e:Scroller>
+	<e:Scroller width="100%" height="339" y="420" anchorOffsetX="0" anchorOffsetY="0">
+		<e:DataGroup id="itemList2" itemRenderer="GuildLogItem"/>
+	</e:Scroller>
+</e:Skin>

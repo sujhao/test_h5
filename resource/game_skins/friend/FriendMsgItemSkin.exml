@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="FriendMsgItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="575" height="125">
+
+	<w:Config id="15a69da99f1" ></w:Config>
+	<ns1:CustomImage id="msgBg" x="91" scale9Grid="32,39,193,21" y="46" anchorOffsetX="0" width="473" source="friendMsgBg"/>
+	<ns1:CustomLabel id="txtMsg" text="标签dfsdfsdfsdfsdfsdfdsf" x="124" y="52.5" textColor="0xE7D0B7" size="18" anchorOffsetX="0" anchorOffsetY="0" height="55"/>
+	<ns1:CustomImage id="timeBg" x="202" y="0" source="friendMsgTimeBg" horizontalCenter="0"/>
+	<ns1:CustomLabel id="txtTime" text="2017-1-1 12:00:00" x="202" y="10" size="16" textColor="0xdda66b" anchorOffsetX="0" width="176" anchorOffsetY="0" height="20" textAlign="center"/>
+	<ns1:HeadItem id="bmHead" x="21" y="46"/>
+</e:Skin>

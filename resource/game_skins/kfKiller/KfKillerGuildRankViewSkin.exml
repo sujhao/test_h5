@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KfKillerGuildRankViewSkin" width="577" height="752" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Scroller width="567" height="650" x="1" y="1" anchorOffsetX="0" anchorOffsetY="0">
+        <e:Group id="_itemContainer">
+        </e:Group>
+    </e:Scroller>
+    <ns1:CustomImage source="kfKiller_json.kfKiller_border5" y="574" />
+    <ns1:CustomLabel id="_txtScore" text="领取积分要求：989（我的积分：250）" x="30" y="663" width="515" size="16"
+                     textColor="0xdda66b" textAlign="center" fontFamily="Microsoft YaHei" />
+    <ns1:CustomLabel text="公会杀戮奖励需公会所有成员本次活动累计击杀一定人数后可领取 奖励在每次活动开启时清空" x="30" y="689" width="515" size="16"
+                     textAlign="center" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="53" lineSpacing="5"
+                     textColor="0xe7d0b7" />
+</e:Skin>

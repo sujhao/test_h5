@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="MeridianNodeItemSkinSkin" states="up,down,disabled" width="53" height="53" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+    <e:Image id="imageBg" width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5"
+            
+              source="meridians_itemBg1"/>
+    <e:Label id="labelDisplay" 
+             size="20" fontFamily="Tahoma"
+             textColor="0xFFFFFF" text="" verticalAlign="middle" textAlign="center"/>
+	<ns1:CustomImage id="imageContent" horizontalCenter="0"  verticalCenter="0" source="meridians_json.meridians_item3"/>
+
+	<w:Config id="15a217162cd" ></w:Config>
+</e:Skin>

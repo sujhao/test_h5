@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MailContentViewSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin"  x="0" y="0" skinName="CustomSmallWindowSkinSkin" anchorOffsetY="0" height="513">
+		<ns1:CustomLabel id="txtContent" text="内容" x="23" y="61" anchorOffsetX="0" width="571" anchorOffsetY="0" height="234" size="18" textColor="0xe7d0b7"/>
+		<ns1:CustomImage x="14" y="438" source="share_json.share_line"/>
+		<ns1:CustomImage x="14" y="304" source="share_json.share_line"/>
+		<ns1:CustomButton id="btnGet" label="领取附件" horizontalCenter="0.5" y="448" skinName="CustomButtonSkin2Skin"/>
+		<ns1:CustomLabel text="附件：" x="39" y="325" size="18" textColor="0xdda66b"/>
+		<ns1:CustomButton id="returnButton" label="" right="5" bottom="6">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="share_json.share_btnReturn" source.down="share_json.share_btnReturn" source.disabled="share_json.share_btnReturn" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:GoodsItem id="good_0" x="91" y="313" visible="false"/>
+		<ns1:GoodsItem id="good_1" x="222" y="313" visible="false"/>
+		<ns1:GoodsItem id="good_2" x="353" y="313" visible="false"/>
+		<ns1:GoodsItem id="good_3" x="483.5" y="313" visible="false"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

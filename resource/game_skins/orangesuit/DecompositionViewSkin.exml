@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DecompositionViewSkin" width="620" height="769" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin"  skinName="CustomSmallWindowSkinSkin" width="100%" height="100%" >
+		<ns1:CustomImage x="246" y="7" source="decomposition_json.decomposition_title"/>
+        <ns1:CustomImage x="11" y="53" source="share_json.share_titleBg2" width="600"/>
+		<ns1:CustomLabel id="_txtTitle" text="分解橙装可获得大量碎片" x="169" y="62" size="20" fontFamily="Microsoft YaHei" textColor="0xe7d0b7" width="300" textAlign="center"/>
+		<e:Scroller id="_scroll" width="592" height="320" x="19" y="101" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="_itemContainer" anchorOffsetY="0" height="256"/>
+		</e:Scroller>
+		<ns1:CustomImage  x="15" y="475" source="share_json.share_line"/>
+		<ns1:CustomImage x="25" y="502" source="decomposition_json.decomposition_wordBg"/>
+		<ns1:CustomLabel text="其它途径：" x="38" y="513" size="20" fontFamily="Microsoft YaHei" textColor="0xE7D0B7" width="100" textAlign="left" height="25"/>
+		<e:Group id="_itemlinkContainer" width="200" height="61" x="28" y="544" anchorOffsetY="0"/>
+		<e:Group x="27" y="545" visible="false">
+			<ns1:CustomImage x="0" y="0" source="share_json.share_bg3"/>
+			<ns1:CustomLabel id="_txtLink1" text="其它途径：" x="20" y="14" size="20" fontFamily="Microsoft YaHei" width="300" textAlign="left" height="25" textColor="0x00d228"/>
+		</e:Group>
+		<e:Group x="27" y="609" visible="false">
+			<ns1:CustomImage x="0" y="0" source="share_json.share_bg3"/>
+			<ns1:CustomLabel id="_txtLink2" text="其它途径：" x="20" y="14" size="20" fontFamily="Microsoft YaHei" textColor="0x00D228" width="300" textAlign="left" height="25"/>
+		</e:Group>
+		<e:Group x="27" y="672" visible="false">
+			<ns1:CustomImage x="0" y="0" source="share_json.share_bg3"/>
+			<ns1:CustomLabel id="_txtLink3" text="其它途径：" x="20" y="14" size="20" fontFamily="Microsoft YaHei" textColor="0x00D228" width="300" textAlign="left" height="25"/>
+		</e:Group>
+        <ns1:CustomButton id="_btnReturn" label="" x="559" y="710">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="share_json.share_btnReturn" source.down="share_json.share_btnReturn" source.disabled="share_json.share_btnReturn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:CustomButton>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

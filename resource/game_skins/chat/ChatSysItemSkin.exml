@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="ChatSysItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage y="73" source="share_line" width="579"/>
+	<ns1:CustomImage x="23" y="16" source="chat_json.chatIcon_sys"/>
+	<ns1:CustomLabel id="txtContent" x="102" y="21" size="18" textColor="0xe7d0b7" text="" height="50" anchorOffsetX="0" width="470"/>
+
+	<w:Config id="15a460dd1de" ></w:Config>
+</e:Skin>

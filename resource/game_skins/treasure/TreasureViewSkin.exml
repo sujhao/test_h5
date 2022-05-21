@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TreasureViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="treasureBg"/>
+	<ns1:GoodsItemSmall id="item_1" x="17" y="37" skinName="GoodsItemSmallSkinSkin"/>
+	<ns1:GoodsItemSmall id="item_2" x="112" y="37" skinName="GoodsItemSmallSkinSkin"/>
+	<ns1:GoodsItemSmall id="item_3" x="207" y="37" skinName="GoodsItemSmallSkinSkin"/>
+	<ns1:GoodsItemSmall id="item_4" x="302" y="37" skinName="GoodsItemSmallSkinSkin"/>
+	<ns1:GoodsItemSmall id="item_5" x="397" y="37" skinName="GoodsItemSmallSkinSkin"/>
+	<ns1:GoodsItemSmall id="item_6" x="492" y="37" skinName="GoodsItemSmallSkinSkin"/>
+	<ns1:GoodsItemSmall id="item_7" x="397" y="145" skinName="GoodsItemSmallSkinSkin"/>
+	<ns1:GoodsItemSmall id="item_8" x="492" y="145" skinName="GoodsItemSmallSkinSkin"/>
+	<ns1:GoodsItemSmall id="item_9" x="17" y="145" skinName="GoodsItemSmallSkinSkin"/>
+	<ns1:GoodsItemSmall id="item_10" x="112" y="145" skinName="GoodsItemSmallSkinSkin"/>
+	<ns1:GoodsItemSmall id="item_11" x="207" y="145" skinName="GoodsItemSmallSkinSkin"/>
+	<ns1:GoodsItemSmall id="item_12" x="302" y="145" skinName="GoodsItemSmallSkinSkin"/>
+	<ns1:GoodsItem id="item_13" x="189" y="328"/>
+	<ns1:CustomImage x="415" y="347" source="treasureTxtEquip2"/>
+	<ns1:CustomButton id="btnBuy" label="购买1个" x="112" y="707" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomButton id="btnBuy10" label="购买10个" x="343" y="707" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomImage x="239" y="720" source="image_gold"/>
+	<ns1:CustomLabel id="txtCost" text="99" x="282" y="724" size="18" textColor="0xE7D0B7" bold="true"/>
+	<ns1:CustomLabel text="免费倒计时" x="10" y="712.5" size="18" bold="true" textColor="0x00d228" width="100" textAlign="center"/>
+	<ns1:CustomLabel id="txtTime" text="23:59:59" x="10" y="737" size="18" textColor="0x00D228" bold="true" width="100" textAlign="center"/>
+	<ns1:CustomImage x="470.5" y="720" source="image_gold"/>
+	<ns1:CustomLabel id="txtCost10" text="99" x="515.5" y="724" size="18" textColor="0xE7D0B7" bold="true"/>
+	<ns1:GoodsItem id="item_14" x="305" y="328"/>
+	<ns1:CustomImage x="1" y="347" source="treasureTxtEquip"/>
+	<e:Scroller width="431" height="112" y="563" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0">
+		<e:DataGroup id="logList" itemRenderer="LogItem" x="-15" y="69"/>
+	</e:Scroller>
+</e:Skin>

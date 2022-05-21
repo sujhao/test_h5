@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BuildViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="925">
+	<ns1:LayeroutWindowSkin id="panelSkin" height="100%">
+		<e:Group id="viewContainer" width="583" height="756.73" x="19" y="71" anchorOffsetX="0" anchorOffsetY="0">
+		</e:Group>
+		<e:Group id="topContainer" width="357" height="94" x="129" y="55"/>
+		<ns1:CustomButton id="guideBtn" label="" x="532" y="838" scaleX="1" scaleY="1" visible="false">
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="share_json.share_btnReturn" source.down="share_json.share_btnReturn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:CustomButton>
+		<e:TabBar id="tabBar" width="470" height="60" x="32" y="845" itemRenderer="CustomItemRenderer" itemRendererSkinName="CustomTabItemSkinSkin" anchorOffsetX="0"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

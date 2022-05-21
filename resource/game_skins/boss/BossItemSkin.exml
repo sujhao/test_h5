@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="BossItemSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage source="bossListBg"/>
+	<ns1:CustomImage x="14" y="139" source="bossNameBg"/>
+	<e:Group id="headGroup" x="21" y="26">
+	</e:Group>
+	<ns1:CustomLabel text="争夺：" x="146" y="11" size="18" bold="true" textColor="0xdda66b"/>
+	<ns1:CustomLabel text="掉落：" x="146" y="39" size="18" bold="true" textColor="0xDDA66B"/>
+	<ns1:CustomLabel id="txtCount" text="1人" x="200" y="11" size="18" bold="true" textColor="0x00d228"/>
+	<ns1:CustomLabel text="当前归属：" x="256.5" y="11" size="18" bold="true" textColor="0xdda66b"/>
+	<ns1:CustomLabel id="txtOwn" text="名字七个字" x="347" y="11" size="18" bold="true" textColor="0x00D228"/>
+	<ns1:EquipItem id="item_2" x="347" y="64"/>
+	<ns1:EquipItem id="item_1" x="247" y="64"/>
+	<ns1:CustomButton id="btnGet" label="挑战" x="446" y="73" skinName="CustomButtonSkin7Skin" width="117" height="47"/>
+	<ns1:CustomLabel id="txtName" text="boss名字" y="146" size="20" textColor="0xffea02" bold="true" anchorOffsetX="0" width="150" textAlign="center"/>
+	<ns1:EquipItem id="item_0" x="149" y="64"/>
+	<ns1:CustomImage x="28" y="111" source="bossBarBg" visible="false"/>
+	<ns1:CustomImage id="hpBar" x="31" y="114" source="bossBar2" visible="false"/>
+	<ns1:CustomLabel id="txtHp" text="100秒逃跑" y="121" size="18" bold="true" anchorOffsetX="0" width="150" textAlign="center" textColor="0xffe4c7"/>
+	<ns1:CustomLabel id="txtTime" text="10分钟刷新" x="440" y="86" size="18" bold="true" textColor="0x00D228" width="125" textAlign="center" visible="false"/>
+	<ns1:CustomLabel id="txtCon" text="VIP免费挑战" x="440" y="48" size="18" bold="true" textColor="0x00D228" width="120" textAlign="center" visible="false"/>
+	<ns1:CustomLabel id="txtBack" text="10/10" x="490" y="130" size="18" bold="true" textColor="0xDDA66B" visible="false"/>
+	<ns1:CustomImage id="img_go" x="20" y="70" source="bossGo" visible="false"/>
+	<ns1:CustomImage id="img_sha" x="20" y="70" source="boss_json.bossSha" visible="false"/>
+	<e:Group id="tipGroup" x="0" y="0" width="575" height="190" anchorOffsetX="0" visible="false">
+		<ns1:CustomImage width="100%" height="100%" source="share_black3" x="0" y="0"/>
+		<ns1:CustomImage id="lock" x="44" y="57" source="share_lock"/>
+		<ns1:CustomLabel id="txtTips" text="6转开启" x="163" y="77" size="42" textColor="0xdda66b" bold="true" textAlign="center" anchorOffsetX="0" width="261"/>
+	</e:Group>
+
+	<w:Config id="15aca92fc84" ></w:Config>
+</e:Skin>

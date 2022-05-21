@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KFHDRobShopItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="568" height="198">
+	<ns1:CustomImage x="0" y="201" source="kaiFuHuoDong_json.kfhd_robShop_line"/>
+	<ns1:CustomButton id="_btnBuy" label="购  买" x="409" y="64.5" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomLabel id="_txtPrice" text="10000" x="442" y="38" size="18" textColor="0xfcce01"/>
+	<ns1:CustomLabel id="_txtBuyTimes" text="标签" x="399" y="123" size="18" bold="true" width="154" textAlign="center"/>
+</e:Skin>

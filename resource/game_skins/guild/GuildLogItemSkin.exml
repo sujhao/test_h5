@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="GuildLogItemSkinSkin" states="up,down,disabled" minHeight="25" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="500">
+	<ns1:CustomLabel id="txtTime" text="2017-12-12 12:59:59" size="18" bold="true" textColor="0xdda66b" y="12"/>
+	<ns1:CustomLabel id="txtContent" text="[李狗蛋] 离开了公会" size="18" bold="true" x="173" textColor="0xe7d0b7" y="12"/>
+	<ns1:CustomImage y="42" source="share_line"/>
+
+	<w:Config id="15a98c25d75" ></w:Config>
+</e:Skin>

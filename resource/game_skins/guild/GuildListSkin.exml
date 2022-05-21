@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildListSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller width="580" height="710" anchorOffsetX="0" anchorOffsetY="0">
+		<e:DataGroup id="guildList"  itemRenderer="GuildListItem"/>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WingWearWindowSkin" width="579" height="755" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="wing_json.wing_bg"  x="5" y="-8"/>
+	<ns1:CustomImage x="25" y="371" source="wing_titleBg" />
+	<ns1:CustomLabel id="_txtJie" text="标签" size="18" fontFamily="Microsoft YaHei" textColor="0xffd200" height="18"
+	                 width="111" y="376" x="232" textAlign="center" />
+	<e:Group id="_startedContainer" x="3" y="67">
+		<ns1:CustomImage x="0" y="434" source="wing_border" />
+		<ns1:CustomImage x="162" y="0" source="bg_fightPower" />
+		<e:BitmapLabel id="_txtFpower" width="200" height="27" x="256" y="23" font="number_0_fnt" text="23214314"
+		               anchorOffsetY="0" />
+		<e:Group id="_normalGroup" x="120" y="433" anchorOffsetX="0" width="411">
+			<ns1:CustomLabel id="_txtPro" text="攻击：+1000防御：" x="0" y="0" size="18" textColor="0xe7d0b7" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="193" wordWrap="true" anchorOffsetY="0" height="107" lineSpacing="5"/>
+			<ns1:CustomLabel id="_txtCoinCount" text="10000" x="158" y="147" size="18" textColor="0xE7D0B7" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="88" wordWrap="true" anchorOffsetY="0" height="18"/>
+			<ns1:CustomLabel id="_txtItemCount" text="10000" x="298" y="148" size="18" textColor="0xE7D0B7" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="88" wordWrap="true" anchorOffsetY="0" height="18"/>
+			<ns1:CustomLabel id="_txtProNext" text="攻击：+1000防御：" x="193" y="0" size="18" textColor="0xE7D0B7" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="193" wordWrap="true" anchorOffsetY="0" height="107" lineSpacing="5"/>
+			<ns1:CustomButton id="_btnOK" label="金币提升" x="107" y="175" skinName="CustomButtonSkin6Skin"/>
+			<ns1:CustomButton id="_btnOK2" label="羽毛提升" x="256" y="175" skinName="CustomButtonSkin6Skin"/>
+			<ns1:CustomImage x="124" y="143" source="mainUI_json.image_copper"/>
+			<ns1:CustomImage x="272" y="143" source="wing_"/>
+			<ns1:CustomButton id="_btnAuto" label="自动升星" x="-42" y="175" skinName="CustomButtonSkin6Skin"/>
+		</e:Group>
+		<ns1:CustomButton id="_btnup" label="升阶" x="227" y="608" skinName="CustomButtonSkin6Skin"/>
+		<ns1:CustomButton id="_btnFast" label="" x="7" y="181">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="wing_json.wing_fast" source.down="wing_json.wing_fast" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomImage x="9" y="276" source="wing_json.wing_border1" />
+		<ns1:CustomLabel text="直升1阶" x="0" y="283" size="16" textColor="0xffd200" fontFamily="Microsoft YaHei" width="111"
+		                 textAlign="center" />
+		<e:Group id="starContainer" width="450" height="45" x="58" y="333" anchorOffsetY="0" />
+		<ns1:CustomButton id="_btnEquip" label="" x="486" y="201" width="88">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="wing_json.wing_btnWear" source.down="wing_json.wing_btnWear"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<e:Group id="_progressBar" x="60" y="387">
+			<ns1:CustomImage x="0" y="0" source="wing_barBg"/>
+			<ns1:CustomImage id="_bar" x="34" y="9" source="wing_bar"/>
+			<ns1:CustomLabel id="_txtProgress" text="20/333" x="194" y="8" textAlign="center" size="20" fontFamily="Microsoft YaHei" stroke="1.5" strokeColor="0x000000"/>
+		</e:Group> 
+	</e:Group>
+	<e:Group id="_wingCotainer" width="200" height="200" x="282" y="250" touchChildren="false" touchEnabled="false"/>
+	<ns1:CustomButton id="_btnActive" label="激活" y="660"  skinName="CustomButtonSkin6Skin" horizontalCenter="0.5"/>
+</e:Skin>

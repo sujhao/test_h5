@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="testWindowSkin" width="620" height="925" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin x="0" y="0" id="panelSkin">
+		<ns1:CustomLabel id="_txtContent" text="标签" x="18" y="61" anchorOffsetX="0" width="586" anchorOffsetY="0" height="770" size="18" bold="true"/>
+		<ns1:CustomButton id="_btnScene" label="场景信息" x="29" y="849"/>
+		<ns1:CustomButton id="_btnDeleteEffect" label="" x="166" y="849"/>
+		<ns1:CustomButton id="_btn10602" label="10602" x="306" y="849"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

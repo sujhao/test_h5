@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="BossRoundItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage source="boss_roundBg"/>
+	<e:Group id="headGroup" x="95" y="58">
+	</e:Group>
+	<ns1:CustomImage source="share_contentBg3" width="290" y="7"/>
+	<ns1:CustomLabel id="txtName" text="标签" y="15" size="18" textColor="0xffd200" bold="true" width="100%" textAlign="center"/>
+	<ns1:CustomImage y="171" source="boss_round_title" x="7"/>
+	<ns1:GoodsItemSmall id="item_0" x="15" y="212"/>
+	<ns1:GoodsItemSmall id="item_1" x="106" y="212"/>
+	<ns1:GoodsItemSmall id="item_2" x="197" y="212"/>
+	<ns1:CustomLabel id="txtRank" text="上次排名" x="206" y="153" size="16" textColor="0x00d228" bold="true"/>
+
+	<w:Config id="15b415a04c2" ></w:Config>
+</e:Skin>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FanliCircleCarnivalViewSkin" height="469" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="fanli_json.circleCarnivalBanner"/>
+	<ns1:CustomLabel id="txtTime" text="11天1小时1分" x="192" y="70" textColor="0x17ed23" size="18" anchorOffsetX="0" width="182" anchorOffsetY="0" height="23" fontFamily="Microsoft YaHei"/>
+</e:Skin>

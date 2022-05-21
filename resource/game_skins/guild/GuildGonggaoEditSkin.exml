@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildGonggaoEditSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" anchorOffsetY="0" height="511">
+		<ns1:CustomImage x="8.5" y="404" anchorOffsetX="0" width="607" source="share_contentBg"/>
+		<ns1:CustomButton id="btnGet" label="确定" x="248.5" y="431.5" skinName="CustomButtonSkin2Skin"/>
+		<ns1:CustomImage x="25" y="57" source="textInput_bg" anchorOffsetX="0" width="580" anchorOffsetY="0" height="334" scale9Grid="6,6,130,22"/>
+		<e:EditableText id="txtContent" width="550" height="305" text="来了就是兄弟，大家积极捐献，早日升级公会 尽快把战力提到100w，每周六晚上的决战沙城需要大家努力" x="39" y="70" size="18" textColor="0xe7d0b7" bold="true" anchorOffsetX="0" anchorOffsetY="0" multiline="true" lineSpacing="5"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

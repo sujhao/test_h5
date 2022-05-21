@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildDonateRedInfoSkin" width="580" height="755" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="guild_redBg"/>
+	<e:BitmapLabel id="txtCost" width="194" height="27" x="250" y="23" text="1" anchorOffsetX="0" anchorOffsetY="0" font="number_0_fnt"/>
+	<ns1:CustomImage x="90" y="17" source="guild_donateTxt"/>
+	<ns1:CustomImage x="145" y="53" source="guild_donateTitleBg2" scale9Grid="62,7,27,32" width="288"/>
+	<ns1:CustomImage x="441" y="18" source="guild_donateTxt_tq"/>
+	<ns1:CustomLabel id="txtCount" text="20人分抢" x="240" y="66" textColor="0xe7d0b7" size="20" bold="true" anchorOffsetX="0" width="101" anchorOffsetY="0" height="25" textAlign="center"/>
+	<e:Group id="redGroup" x="65" y="228">
+		<ns1:CustomImage y="0" source="share_titleBg3"/>
+		<ns1:CustomImage x="99" source="guild_redIcon_tq"/>
+		<e:BitmapLabel id="txtRed" width="182" height="27" x="162" y="14" text="1000000" anchorOffsetX="0" anchorOffsetY="0" font="number_0_fnt"/>
+	</e:Group>
+	<e:Group id="contentGroup" x="0" y="377">
+		<ns1:CustomImage y="0" source="guild_donateBg2" x="0"/>
+		<ns1:CustomImage y="211" source="share_contentBg" width="580" x="0"/>
+		<ns1:CustomLabel id="txtName" text="人物名字" x="215" y="157" size="18" bold="true" width="150" textAlign="center" textColor="0xe7d0b7"/>
+		<ns1:CustomImage x="210" y="18" anchorOffsetX="0" source="guild_donateTxt_cs"/>
+		<ns1:HeadItem id="headItem" x="253" y="65"/>
+		<ns1:CustomButton id="btnGet" label="" x="213" y="268">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="guild_redBtn" source.down="guild_redBtn" source.disabled="guild_redBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+	</e:Group>
+</e:Skin>

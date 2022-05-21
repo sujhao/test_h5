@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HFXgItemSkin" width="122" height="129" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="HFGift_json.HFGift_itemBg"/>
+</e:Skin>

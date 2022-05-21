@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildInfoViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="755">
+	<ns1:CustomImage source="guild_glBg"/>
+	<ns1:CustomImage y="181" source="guild_titleBg"/>
+	<ns1:CustomImage x="230" y="182" source="guild_title_gg"/>
+	<ns1:CustomLabel id="txtNotice" text="来了就是兄弟，大家积极捐献，早日升级公会 尽快把战力提到100w，每周六晚上的攻城战需要大家努力" x="25" y="234" textColor="0xE7D0B7" bold="true" size="18" anchorOffsetX="0" width="531" anchorOffsetY="0" height="156" lineSpacing="5"/>
+	<ns1:CustomImage y="407" source="guild_titleBg"/>
+	<ns1:CustomImage x="230" y="408" source="guild_title_ls"/>
+	<e:Scroller width="570" height="245" x="7" y="454" anchorOffsetX="0" anchorOffsetY="0">
+		<e:DataGroup id="logList"  itemRenderer="GuildLogItem"/>
+	</e:Scroller>
+	<ns1:CustomLabel id="txtGuildName" text="帮派名仔7个字" x="220" y="19" textColor="0xFFD200" size="20" bold="true" textAlign="center" anchorOffsetX="0" width="141" anchorOffsetY="0" height="21"/>
+	<ns1:CustomLabel text="公会等级：" x="227" y="60" size="18" bold="true" textColor="0xDDA66B"/>
+	<ns1:CustomLabel text="公会人数：" x="227" y="81" size="18" bold="true" textColor="0xDDA66B"/>
+	<ns1:CustomLabel text="公会资金：" x="227" y="102" size="18" bold="true" textColor="0xDDA66B"/>
+	<ns1:CustomLabel text="加入战力限制：" x="227" y="123" size="18" bold="true" textColor="0xDDA66B"/>
+	<ns1:CustomLabel id="txtLv" text="0" x="319" y="60" size="18" textColor="0xE7D0B7" bold="true"/>
+	<ns1:CustomLabel id="txtNum" text="0/40" x="319" y="81" size="18" textColor="0xE7D0B7" bold="true"/>
+	<ns1:CustomLabel id="txtCost" text="0" x="319" y="102" size="18" textColor="0xE7D0B7" bold="true"/>
+	<ns1:CustomLabel id="txtFight" text="0" x="354" y="123" size="18" textColor="0xE7D0B7" bold="true"/>
+	<ns1:CustomLabel id="txtName" text="会长名字名字7个仔" x="20" y="140" size="18" textColor="0xE7D0B7" bold="true" width="200" anchorOffsetX="0" anchorOffsetY="0" height="18" textAlign="center"/>
+	<ns1:CustomLabel id="txtEditName" text="改名" x="463" y="19" textColor="0x00D228" size="18" bold="true"/>
+	<ns1:HeadItem id="bmHead" x="83" y="55"/>
+	<ns1:CustomImage y="699" source="share_titleBg3" anchorOffsetX="0" width="580"/>
+	<ns1:CustomLabel text="我的可用贡献：" x="50" y="715" textColor="0xFFD200" size="20" bold="true" textAlign="center" anchorOffsetX="0" anchorOffsetY="0" height="21"/>
+	<ns1:CustomLabel id="txtGx" text="0" x="201.5" y="715" size="20" bold="true" textAlign="center" anchorOffsetX="0" anchorOffsetY="0" height="21" textColor="0x00d228"/>
+	<ns1:CustomButton id="btnGx" label="捐献" x="365" y="700" skinName="CustomButtonSkin2Skin"/>
+	<e:Group id="effectSp" width="86" height="38" x="459" y="115" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ns1:CustomLabel id="txtEditFight" text="查看申请" x="463" y="123" textColor="0x00D228" size="18" bold="true"/>
+</e:Skin>

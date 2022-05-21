@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="DarkRankItemSkinSkin" states="up,down,disabled" minHeight="45" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+	<w:Config id="15c24aa4605" ></w:Config>
+	<ns1:CustomImage width="590" source="share_line" y="42"/>
+	<ns1:CustomLabel id="txtName" text="名字一个七位数" x="225" y="14" size="18" textColor="0xE7D0B7" bold="true" textAlign="left"/>
+	<ns1:CustomLabel id="txtValue" text="1000关" y="14" size="18" bold="true" width="177" x="415" textAlign="center" textColor="0xe7d0b7"/>
+	<ns1:CustomLabel id="txtRank" text="100" y="12" size="20" textColor="0xE7D0B7" width="142" textAlign="center" bold="true"/>
+</e:Skin>

@@ -1,0 +1,15 @@
+{"file":"zhuan.png","frames":{
+"zhuan_bg":{"x":1,"y":1,"w":577,"h":556,"offX":0,"offY":0,"sourceW":577,"sourceH":755},
+"zhuan_border1":{"x":1,"y":811,"w":570,"h":102,"offX":2,"offY":0,"sourceW":576,"sourceH":103},
+"zhuan_border2":{"x":1,"y":915,"w":580,"h":54,"offX":0,"offY":0,"sourceW":580,"sourceH":54},
+"zhuan_buyItem":{"x":1,"y":559,"w":582,"h":131,"offX":0,"offY":0,"sourceW":582,"sourceH":131},
+"zhuan_buyItemSelected":{"x":1,"y":692,"w":568,"h":117,"offX":0,"offY":0,"sourceW":568,"sourceH":117},
+"zhuan_buyTitle":{"x":1,"y":971,"w":519,"h":49,"offX":4,"offY":0,"sourceW":528,"sourceH":49},
+"zhuan_numbg":{"x":580,"y":1,"w":280,"h":57,"offX":6,"offY":0,"sourceW":289,"sourceH":57},
+"zhuan_priceBg":{"x":580,"y":91,"w":184,"h":36,"offX":1,"offY":2,"sourceW":186,"sourceH":40},
+"zhuan_rightIcon":{"x":985,"y":1,"w":35,"h":34,"offX":1,"offY":1,"sourceW":37,"sourceH":35},
+"zhuan_titleXiuWei":{"x":862,"y":1,"w":121,"h":29,"offX":6,"offY":1,"sourceW":131,"sourceH":32},
+"zhuan_word":{"x":580,"y":60,"w":305,"h":29,"offX":1,"offY":5,"sourceW":306,"sourceH":39},
+"zhuan_word2":{"x":862,"y":32,"w":92,"h":23,"offX":0,"offY":0,"sourceW":92,"sourceH":23},
+"zhuan_word3":{"x":887,"y":57,"w":91,"h":23,"offX":0,"offY":0,"sourceW":91,"sourceH":23},
+"zhuan_xiuwei":{"x":956,"y":32,"w":23,"h":23,"offX":0,"offY":0,"sourceW":23,"sourceH":23}}}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendMenu" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage id="menuBg" source="share_bg2" scale9Grid="12,9,82,140" anchorOffsetY="0" height="205"/>
+	<ns1:CustomButton id="btnFriend" label="好友" x="5" y="6" skinName="CustomButtonSkin3Skin" width="92" height="44"/>
+	<ns1:CustomButton id="btnSl" label="私聊" x="5" y="152" skinName="CustomButtonSkin3Skin" width="92" height="44"/>
+	<ns1:CustomButton id="btnDel" label="删除" x="5" y="55" skinName="CustomButtonSkin3Skin" width="92" height="44"/>
+	<ns1:CustomButton id="btnPb" label="屏蔽" x="5" y="105" skinName="CustomButtonSkin3Skin" width="92" height="44"/>
+	<ns1:CustomButton id="btnBless" label="送冰块" x="5" y="155" skinName="CustomButtonSkin3Skin" width="92" height="44"/>
+</e:Skin>

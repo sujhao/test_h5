@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KingTiaozhanSkin" width="578" height="755" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="kingBg"/>
+	<ns1:CustomImage y="321" source="kingTitleBg"/>
+	<ns1:CustomButton id="btnGet" label="匹配对手" x="230" y="629" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomImage y="322" x="94" source="kingTxt_cur"/>
+	<ns1:CustomImage y="367" x="83" source="share_titleBg2" anchorOffsetY="0" height="142" scale9Grid="51,17,309,8"/>
+	<ns1:CustomImage y="515" x="64" source="share_titleBg3"/>
+	<ns1:CustomImage y="322" x="341" source="kingTxt_jie"/>
+	<ns1:CustomLabel id="txtName" text="青铜5" x="91" y="411" size="28" bold="true" textColor="0xffd200" anchorOffsetX="0" width="111" textAlign="center"/>
+	<ns1:CustomLabel text="比赛时间：周一10：00 —周日22：00（周日22：30结算）" x="52" y="533" size="18" bold="true" textColor="0xFFD200" anchorOffsetX="0" textAlign="center"/>
+	<ns1:CustomLabel id="txtSheng" text="净胜场：0" x="83" y="460" size="18" bold="true" anchorOffsetX="0" width="128" textAlign="center" textColor="0xe7d0b7"/>
+	<ns1:CustomLabel id="txtCount" text="剩余次数：6/6" x="117" y="705" size="18" bold="true" anchorOffsetX="0" textAlign="center" textColor="0xdda66b" width="350"/>
+	<ns1:CustomLabel id="txtBuy" text="购买次数" x="400" y="647" size="18" bold="true" anchorOffsetX="0" width="100" textAlign="left" textColor="0x00d228"/>
+	<ns1:GoodsItem id="item" x="377" y="380"/>
+	<e:BitmapLabel id="txtLv" x="277" y="250" text="5" font="number_0_fnt" visible="false"/>
+</e:Skin>

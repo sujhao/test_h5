@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShengongTaskItemSkin" width="567" height="65" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage   y="59" source="shengong_json.shengong_line" width="567"/>
+	<ns1:CustomLabel id="_txtName" text="标签" x="1" y="23" size="18" textColor="0xe7d0b7" fontFamily="Microsoft YaHei" width="150" textAlign="center"/>
+	<ns1:CustomLabel id="_txtTimes" text="标签" x="148" y="23" size="18" fontFamily="Microsoft YaHei" width="150" textAlign="center" textColor="0x00d228"/>
+	<ns1:CustomLabel id="_txtOp" text="标签" x="418" y="23" size="18" textColor="0x00D228" fontFamily="Microsoft YaHei" width="150" textAlign="center"/>
+	<ns1:CustomLabel id="_txtAwardName" text="标签" x="280" y="23" size="18" fontFamily="Microsoft YaHei" width="150" textAlign="center" textColor="0xffd200"/>
+	<ns1:CustomImage id="_imgState" x="453" y="17" source="shengong_json.shengong_finished"/>
+</e:Skin>

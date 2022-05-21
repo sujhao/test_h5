@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopQizhenResultWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"
+        height="365">
+	<ns1:LayeroutWindowSkin height="100%" id="panelSkin" skinName="CustomSmallWindowSkinSkin" anchorOffsetY="0" x="0"
+	                        anchorOffsetX="0">
+		<ns1:CustomLabel id="txtDes" text="恭喜你抽中元宝x100869" textColor="0xdda66b" size="20"  bold="true"   x="200" y="120"/>
+		<ns1:CustomImage y="280" source="share_json.share_contentBg" x="6" anchorOffsetX="0" width="608"/>
+		<ns1:CustomButton id="btnGet" label="确定" y="295" skinName="CustomButtonSkin2Skin"  horizontalCenter="0"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

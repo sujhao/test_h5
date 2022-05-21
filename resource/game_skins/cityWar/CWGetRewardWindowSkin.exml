@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CWGetRewardWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" anchorOffsetY="0" height="338">
+		<ns1:CustomImage x="7" y="49" source="share_json.share_bg" anchorOffsetX="0" width="602" scale9Grid="73,96,444,576" anchorOffsetY="0" height="290"/>
+		<e:Image source="cityWar_json.cityWar_titleReward" x="240" y="3"/>
+		<e:Image source="share_json.share_contentBg3" x="45" y="84"/>
+		<ns1:CustomLabel text="沙巴克占领公会成员可以领取每日奖励" x="152" y="93" size="18" bold="true" textColor="0xdda66b"/>
+		<e:Group id="_container" width="290" height="112" x="145" y="133" anchorOffsetY="0" anchorOffsetX="0"/>
+		<ns1:CustomButton id="_btn" label="领取" x="246" y="279" skinName="CustomButtonSkin2Skin"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

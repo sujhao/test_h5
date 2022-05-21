@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FubenTiaozhanViewSkin" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="580">
+	<ns1:CustomImage x="0" source="fuben_tiaozhanBg"/>
+	<ns1:CustomImage y="723" width="580" source="share_contentBg2"/>
+	<ns1:CustomButton id="btnGet" label="挑战" x="228" y="670" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomImage y="11" source="fuben_titleBg"/>
+	<ns1:CustomImage y="11" source="fuben_rank" x="5"/>
+	<ns1:CustomImage y="286" x="24" source="fuben_roleBg"/>
+	<ns1:CustomImage y="378" x="56" source="fuben_txt_g"/>
+	<ns1:CustomImage y="461" x="13" source="fuben_reward2"/>
+	<ns1:CustomImage y="461" x="199" source="fuben_reward2"/>
+	<ns1:CustomImage y="461" x="384" source="fuben_reward2"/>
+	<ns1:CustomImage y="378" source="fuben_txt_g" x="242"/>
+	<ns1:CustomImage y="378" source="fuben_txt_g" x="425"/>
+	<ns1:CustomImage y="286" source="fuben_roleBg" x="208"/>
+	<ns1:CustomImage y="286" source="fuben_roleBg" x="392"/>
+	<ns1:CustomImage y="32" x="362" source="fuben_tipsBg"/>
+	<ns1:CustomImage y="11" x="400" source="fuben_reward"/>
+	<ns1:CustomImage y="429" source="guild_barBg" width="100%"/>
+	<ns1:CustomImage id="guild_bar" x="5" y="433" source="guild_bar" scale9Grid="1,5,267,3" anchorOffsetX="0" width="570" anchorOffsetY="0" height="17"/>
+	<ns1:GoodsItemSmall id="item_1" x="20" y="521"/>
+	<ns1:GoodsItemSmall id="item_2" x="108" y="521"/>
+	<ns1:GoodsItemSmall id="item_3" x="205" y="521"/>
+	<ns1:GoodsItemSmall id="item_4" x="294" y="521"/>
+	<ns1:GoodsItemSmall id="item_5" x="391" y="521"/>
+	<ns1:GoodsItemSmall id="item_6" x="480" y="521"/>
+	<ns1:CustomLabel id="txtPro" text="标签" x="370" y="47" textColor="0xff7200" size="16" bold="true" lineSpacing="10"/>
+	<ns1:CustomImage id="point_1" y="422" x="85" source="fuben_pointBg"/>
+	<ns1:CustomImage id="point_2" y="422" x="271.5" source="fuben_pointBg"/>
+	<ns1:CustomImage id="point_3" y="422" x="456.5" source="fuben_pointBg"/>
+	<ns1:CustomLabel id="txtGuan_1" text="1" x="80" y="386" size="20" bold="true" textColor="0xffd200" width="50" textAlign="center"/>
+	<ns1:CustomLabel id="txtRank" text="查看排名" x="130" y="20" size="16" bold="true" textAlign="center" textColor="0x00d228" anchorOffsetX="0"/>
+	<ns1:CustomLabel id="txtGuan_2" text="1" x="266" y="386" size="20" bold="true" textColor="0xFFD200" width="50" textAlign="center"/>
+	<ns1:CustomLabel id="txtGuan_3" text="1" x="449" y="386" size="20" bold="true" textColor="0xFFD200" width="50" textAlign="center"/>
+	<e:Group id="monsterFigureContainer" width="200" height="100" x="3" y="200"/>
+	<ns1:CustomLabel id="txtName0" text="" x="17" y="53" bold="true" textColor="0xe7d0b7" size="16"/>
+	<ns1:CustomImage y="76" source="share_line" width="250"/>
+	<ns1:CustomLabel id="txtName1" text="" x="17" y="90" bold="true" textColor="0xE7D0B7" size="16"/>
+	<ns1:CustomImage y="116" source="share_line" width="250"/>
+	<ns1:CustomLabel id="txtName2" text="" x="17" y="129" bold="true" textColor="0xE7D0B7" size="16"/>
+	<ns1:CustomImage y="155" source="share_line" width="250"/>
+	<ns1:CustomImage id="icon_2" x="249.5" y="250" source="fubenIcon_tg"/>
+	<ns1:CustomImage id="icon_1" x="63.5" y="250" source="fubenIcon_tg"/>
+	<ns1:CustomImage id="icon_3" x="432.5" y="250" source="fubenIcon_tg"/>
+	<ns1:CustomLabel id="txtTips" text="已全部通关" x="240" y="686" size="20" bold="true" textColor="0xFFD200" textAlign="center" visible="false"/>
+</e:Skin>

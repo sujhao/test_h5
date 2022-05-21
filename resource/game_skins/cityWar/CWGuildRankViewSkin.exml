@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CWGuildRankViewSkin" width="585" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="share_json.share_titleBg" x="1" y="0" width="577"/>
+	<e:Image source="share_json.share_titleBg" x="2" y="141" width="105" anchorOffsetX="0"/>
+	<e:Image source="share_json.share_titleBg" x="107" y="141" width="205" anchorOffsetX="0"/>
+	<e:Image source="share_json.share_titleBg" x="312" y="141" width="170" anchorOffsetX="0"/>
+	<e:Image source="share_json.share_titleBg" x="482" y="141" width="95" anchorOffsetX="0"/>
+	<ns1:CustomLabel text="上届攻沙结果" x="236" y="8" size="18" bold="true" textColor="0xb98c5b"/>
+	<ns1:CustomLabel text="名次" x="35" y="150" size="18" bold="true" textColor="0xB98C5B"/>
+	<ns1:CustomLabel text="公会" x="192" y="150" size="18" bold="true" textColor="0xB98C5B"/>
+	<ns1:CustomLabel text="会长" x="380" y="150" size="18" bold="true" textColor="0xB98C5B"/>
+	<ns1:CustomLabel text="积分" x="513" y="150" size="18" bold="true" textColor="0xB98C5B"/>
+	<ns1:CustomLabel text="沙城占领公会：" x="15" y="52" size="24" bold="true" textColor="0xe7d0b7"/>
+	<ns1:CustomLabel id="_txtGuildName" text="虚位以待" x="195" y="52" size="24" bold="true" textColor="0x02a4e7"/>
+	<ns1:CustomLabel id="_txtReason" text="沙城占领公会：" x="195" y="95" size="24" bold="true" textColor="0x02ad21"/>
+	<ns1:CustomLabel text="占领缘由：" x="63" y="95" size="24" bold="true" textColor="0xE7D0B7" textAlign="right"/>
+	<e:Scroller width="579" height="568" x="4" y="179" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off">
+		<e:Group id="_container" anchorOffsetX="0" width="502" anchorOffsetY="0" height="500"/>
+	</e:Scroller>
+</e:Skin>

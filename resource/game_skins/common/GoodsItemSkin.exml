@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="GoodsItemSkinSkin"  minHeight="94" width="94" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+    <e:Image id="imageBorder" width="94" height="94" horizontalCenter="0"  
+            
+         source="share_json.itemBg"/>
+    <e:Label id="labelDisplay" left="1"
+             size="20" fontFamily="Tahoma"
+             textColor="0xFFFFFF" text="" verticalAlign="middle" textAlign="center" width="1" height="1"/>
+	<e:Image id="image" horizontalCenter="0" top="17" fillMode="scale" source=""/>
+	<ns1:CustomLabel id="txtNum" text=""  textAlign="right" size="20" bottom="33" anchorOffsetX="0" width="75" anchorOffsetY="0" height="21" x="10"/>
+	<ns1:CustomLabel id="txtLv" text="" horizontalCenter="0"  y="99" size="20" textAlign="center" wordWrap="false" multiline="false"/>
+	<ns1:CustomLabel id="_txtStrength" text="" bottom="33" right="10" size="20"  textColor="0x00d228"  textAlign="right" width="55"/>
+	<ns1:CustomImage id="imageCareer" right="1" top="1"/>
+
+	<w:Config id="159a628272a" ></w:Config>
+</e:Skin>

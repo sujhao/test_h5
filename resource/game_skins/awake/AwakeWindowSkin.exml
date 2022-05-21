@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AwakeWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="925">
+	<ns1:LayeroutWindowSkin id="panelSkin" height="100%">
+		<e:Group id="viewContainer" width="583" height="767" x="19" y="64" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:TabBar id="tabBar" width="100" height="60" x="32" y="845" itemRenderer="CustomItemRenderer" itemRendererSkinName="CustomTabItemSkinSkin"/>
+		<ns1:CustomButton id="btnHelp" label="" y="15" x="517">
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="comp_btn_help" source.down="comp_btn_help" source.disabled="comp_btn_help"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:CustomButton>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CWAssignViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="769">
+	<ns1:CustomImage source="cityWar_json.cityWar_bg3"/>
+	<ns1:CustomImage source="cityWar_json.cityWar_bg3" x="0" y="220"/>
+	<ns1:CustomImage x="222" y="0" source="cityWar_json.cityWar_guildBox"/>
+	<ns1:CustomImage x="197" y="220" source="cityWar_json.cityWar_boxAssign"/>
+	<e:Group id="_giftContainer" width="562" height="168" x="8" y="45" anchorOffsetY="0" anchorOffsetX="0"/>
+	<ns1:CustomImage x="0" y="660.5" source="share_json.share_contentBg" anchorOffsetX="0" width="574"/>
+	<e:Scroller id="_scroller" width="573" height="400" x="2" y="260" anchorOffsetX="0">
+		<e:DataGroup id="_dataGrp" itemRenderer="CWAssignItem"/>
+	</e:Scroller>
+	<ns1:CustomLabel text="点击宝箱进行分配，仅限                操作" x="119" y="675" size="18" textColor="0xbfac97" bold="true"/>
+	<ns1:CustomLabel text="公会会长" x="323" y="675" size="18" textColor="0xb11003" bold="true"/>
+	<ns1:CustomButton id="_btnOK" label="确定" x="117" y="702" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomButton id="_btnReset" label="重置" x="305" y="702" skinName="CustomButtonSkin2Skin"/>
+</e:Skin>

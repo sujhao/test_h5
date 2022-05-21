@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ArtifactViewSkin" width="580" height="751" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage  source="artifact_json.artifact_bg3"/>
+	<ns1:CustomImage  x="6" y="5" source="artifact_json.artifact_listBg"/>
+	<ns1:CustomImage x="219" y="13" source="artifact_json.artifact_nameBg"/>
+	<ns1:CustomImage id="_imageArrow" x="147" y="596" source="artifact_json.artifact_arrowRight"/>
+	<ns1:CustomImage x="318" y="710" source="artifact_json.artifact_word"/>
+	<ns1:CustomImage x="168" y="458" source="share_json.share_fpowerBg"/>
+	<ns1:CustomLabel id="_txtName" text="标签gdfgdgdg" x="251" y="31" size="20" textColor="0xffd200" fontFamily="Microsoft YaHei" textAlign="center" width="222"/>
+	<ns1:CustomLabel id="_txtDesc" text="标签gdfgdgdg" x="200" y="411" size="20" fontFamily="Microsoft YaHei" textAlign="center" width="322" textColor="0x00d228"/>
+	<ns1:CustomLabel id="_txtCondition" text="消耗：蓝色神器精华x1(0/1)" x="330" y="584" size="20" fontFamily="Microsoft YaHei" textAlign="left" width="266" textColor="0xe7d0b7" height="28"/>
+	<ns1:CustomLabel id="_txtName2" text="升级属性" x="329" y="545" size="20" fontFamily="Microsoft YaHei" textAlign="left" width="266" height="28" textColor="0xffd200"/>
+	<e:BitmapLabel id="_txtFPower" width="300" height="33" x="272" y="480" text="21321" font="number_0_fnt"/>
+	<e:Group id="_groupProLeft" x="10" y="537">
+		<ns1:CustomImage x="0" y="0" source="artifact_json.artifact_wordBg"/>
+		<ns1:CustomLabel text="升级属性" x="13" y="7" size="20" fontFamily="Microsoft YaHei" textAlign="left" width="88" textColor="0xffd200"/>
+		<ns1:CustomLabel id="_txtPro" text="攻击：+1000防御：" x="3" y="23" size="18" textColor="0xe7d0b7" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="204" wordWrap="true" anchorOffsetY="0" height="158" lineSpacing="7"/>
+	</e:Group>
+<ns1:CustomLabel id="_txtProNext" text="1666" x="190" y="560" size="18" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="124" wordWrap="true" anchorOffsetY="0" height="158" lineSpacing="7" textColor="0x00d228"/>
+	<e:Scroller id="vScroll" width="121" height="377" x="10" y="32">
+		<e:Group id="_itemContainer"/>
+	</e:Scroller>
+	<ns1:CustomButton id="_btnDown" label="" x="50" y="6">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="artifact_json.artifact_arrowDown" source.down="artifact_json.artifact_arrowDown"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="_btnUp" label="" x="50" y="406">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="artifact_json.artifact_arrowUp" source.down="artifact_json.artifact_arrowUp"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<e:Group id="_effectContainer" width="200" height="200" x="360" y="323" />
+	<ns1:CustomButton id="_btnOK" label="激活" x="373" y="635" skinName="CustomButtonSkin6Skin"/>
+</e:Skin>

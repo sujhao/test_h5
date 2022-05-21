@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DarkTansuoSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" height="510">
+		<ns1:CustomImage x="13" y="48" source="win_innerBg" scale9Grid="73,96,444,576" width="596" height="448" anchorOffsetY="0" anchorOffsetX="0"/>
+		<ns1:CustomImage x="18" y="282" anchorOffsetY="0" source="share_bg4" anchorOffsetX="0" width="588" scale9Grid="72,36,435,75"/>
+		<e:Group id="bgGroup" width="200" height="200" x="13" y="58"/>
+		<ns1:CustomImage x="91" y="160" anchorOffsetY="0" anchorOffsetX="0" source="share_titleBg3"/>
+		<ns1:CustomImage id="imageTitle" y="169" anchorOffsetY="0" anchorOffsetX="0" x="250" source="darkTxt4"/>
+		<ns1:CustomButton id="returnButton" label="" right="5" bottom="6">
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="share_json.share_btnReturn" source.down="share_json.share_btnReturn" source.disabled="share_json.share_btnReturn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="btnGet" label="确定" x="250" y="438" skinName="CustomButtonSkin2Skin"/>
+		<ns1:CustomProgressBar id="bar" x="90" y="222"/>
+		<ns1:CustomLabel id="txtDes" text="四周漆黑一片，野兽的吼叫从远方传来。。。 你在神殿中摸索着，想找出前进的方向" x="129.5" y="113" size="18" textColor="0x000000" bold="true" anchorOffsetY="0" height="44" anchorOffsetX="0" width="370"/>
+		<ns1:CustomLabel id="txtDes2" text="一个安全的场所，你搜索到了一些战利品" x="127" y="232" size="18" bold="true" anchorOffsetY="0" height="29" anchorOffsetX="0" width="370" textColor="0x00d228" textAlign="center" visible="false"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

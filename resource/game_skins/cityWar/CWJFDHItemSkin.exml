@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CWJFDHItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="cityWar_json.cityWar_bg4"/>
+	<e:BitmapLabel id="_txtPoint" width="55" height="20" x="20" y="14" font="number_2_fnt" text="50"/>
+	<ns1:GoodsItem id="_goodsItem" x="19" y="39"/>
+	<ns1:CustomImage x="67" y="15" source="cityWar_json.cityWar_jifenImage"/>
+</e:Skin>

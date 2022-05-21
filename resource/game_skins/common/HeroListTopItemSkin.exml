@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="HeroListTopItemSkinSkin" states="up,down,disabled" width="72" height="71"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+    <e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5" source="share_json.share_itemBg" />
+    <ns1:CustomImage id="headIcon" horizontalCenter="0" verticalCenter="0"   source="share_json.share_imageAdd"/>
+    <e:Label id="txtOpen" top="48" bottom="4" left="9" right="7" size="18" fontFamily="Tahoma" verticalAlign="middle"
+             textAlign="center" text="1转" textColor="0xdda66b" anchorOffsetY="0" />
+    <ns1:CustomImage id="careerIcon" right="1" top="1" />
+    <w:Config id="15a1c8df9df"></w:Config>
+</e:Skin>

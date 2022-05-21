@@ -1,0 +1,9 @@
+{"file":"awakeEquip.png","frames":{
+"awakeEquip_bg":{"x":0,"y":759,"w":577,"h":755,"offX":0,"offY":0,"sourceW":577,"sourceH":755},
+"awakeEquip_img2":{"x":583,"y":39,"w":83,"h":88,"offX":0,"offY":0,"sourceW":83,"sourceH":88},
+"awakeEquip_btnWear":{"x":757,"y":82,"w":133,"h":39,"offX":0,"offY":0,"sourceW":133,"sourceH":39},
+"awakeEquip_border5":{"x":0,"y":1518,"w":574,"h":41,"offX":1,"offY":0,"sourceW":575,"sourceH":41},
+"awakeEquip_btnSelect":{"x":757,"y":39,"w":135,"h":39,"offX":0,"offY":0,"sourceW":135,"sourceH":39},
+"awakeEquipSoul_w2":{"x":583,"y":0,"w":387,"h":35,"offX":0,"offY":0,"sourceW":387,"sourceH":35},
+"awakeEquipSoul_bg":{"x":0,"y":0,"w":579,"h":755,"offX":0,"offY":0,"sourceW":579,"sourceH":755},
+"awakeEquip_img1":{"x":670,"y":39,"w":83,"h":88,"offX":0,"offY":0,"sourceW":83,"sourceH":88}}}

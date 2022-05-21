@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SpeedPKViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" height="543">
+		<ns1:CustomImage x="23" y="70" source="fr_titleBg"/>
+		<ns1:CustomLabel text="立即获得3小时离线收益" x="202" y="80" size="20" textColor="0xdda66b" bold="true"/>
+		<ns1:CustomLabel text="可获得如下资源：" x="36" y="132.5" size="18" textColor="0xdda66b" bold="true"/>
+		<ns1:CustomLabel text="额外加成效果" x="310" y="132.5" size="18" textColor="0xDDA66B" bold="true"/>
+		<ns1:CustomImage x="84" y="173" source="textInput_bg" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="9,6,110,22" width="210" height="32"/>
+		<ns1:CustomImage x="84" y="214" source="textInput_bg" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="9,6,110,22" width="210" height="32"/>
+		<ns1:CustomImage x="84" y="256" source="textInput_bg" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="9,6,110,22" width="210" height="32"/>
+		<ns1:CustomImage x="310" y="173" source="textInput_bg" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="9,6,110,22" width="280" height="32"/>
+		<ns1:CustomImage x="310" y="214" source="textInput_bg" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="9,6,110,22" width="280" height="32"/>
+		<ns1:CustomImage x="36" y="172" source="resource/assets/icon/smallPic/1.png"/>
+		<ns1:CustomImage x="36" y="258.5" source="resource/assets/icon/smallPic/10022066.png"/>
+		<ns1:CustomImage x="36" y="219" source="resource/assets/icon/smallPic/5.png"/>
+		<ns1:CustomLabel id="txtCount" text="0" x="93" y="262.5" size="18" textColor="0xE7D0B7" bold="true"/>
+		<ns1:CustomLabel id="txtExt" text="0" x="93" y="221" size="18" textColor="0xE7D0B7" bold="true"/>
+		<ns1:CustomLabel id="txtCon" text="0" x="93" y="180" size="18" textColor="0xE7D0B7" bold="true"/>
+		<ns1:CustomLabel id="txtExt2" text="0" x="391" y="221" size="18" textColor="0x00D228" bold="true" anchorOffsetX="0" anchorOffsetY="0" height="20" textAlign="left"/>
+		<ns1:CustomLabel id="txtCon3" text="0" x="516" y="180" size="18" textColor="0x00D228" bold="true" textAlign="left"/>
+		<ns1:CustomLabel id="txtExt3" text="0" x="516" y="221" size="18" textColor="0x00D228" bold="true" textAlign="left"/>
+		<ns1:CustomLabel id="txtCon2" text="0" x="391" y="180" size="18" textColor="0x00D228" bold="true" textAlign="left" anchorOffsetX="0"/>
+		<ns1:CustomLabel text="月/终卡：" x="317" y="221" size="18" bold="true" textColor="0x00D228" width="80" textAlign="left" anchorOffsetX="0" anchorOffsetY="0" height="20"/>
+		<ns1:CustomLabel text="月/终卡：" x="317" y="180" size="18" bold="true" textColor="0x00D228" width="80" textAlign="left" anchorOffsetX="0" anchorOffsetY="0" height="20"/>
+		<ns1:CustomLabel id="txtTips" text="*背包不足时，多佘装备自动出售" x="314.5" y="263.5" size="18" bold="true" textAlign="left" anchorOffsetX="0" anchorOffsetY="0" height="20" textColor="0xe31101"/>
+		<ns1:CustomLabel text="神器：" x="465" y="180" size="18" textColor="0x00D228" bold="true" width="60" textAlign="left"/>
+		<ns1:CustomLabel text="神器：" x="465" y="221" size="18" textColor="0x00D228" bold="true" width="60" textAlign="left"/>
+		<ns1:CustomImage x="6.5" y="434" source="share_contentBg" anchorOffsetX="0" width="611"/>
+		<ns1:CustomImage x="9" y="359" source="share_line" width="608"/>
+		<e:Group id="contentGroup" x="36" y="317">
+			<ns1:CustomLabel text="消耗：" x="350" y="162" size="18" textColor="0xDDA66B"/>
+			<ns1:CustomLabel id="txtCost" text="100" x="433.5" y="162" size="18" textColor="0xffd200"/>
+			<ns1:CustomLabel text="今日剩余加速次数：" x="0" y="72.5" size="18" textColor="0xDDA66B"/>
+			<ns1:CustomLabel id="_txtShare" text="分享可获得额外次数，前往分享" x="-19" y="175.5" size="16" textColor="0xDDA66B" bold="true"/>
+			<ns1:CustomLabel id="_txtShareFree" text="分享可获得免费加速一次" x="-20" y="145" size="16" textColor="0xDDA66B" bold="true"/>
+			<ns1:CustomLabel id="txtVip" text="成为VIP5可额外获得2次加速战斗" x="277" y="72.5" size="18" textColor="0xDDA66B"/>
+			<ns1:CustomLabel id="txtDay" text="1次" x="162" y="72.5" size="18" bold="true" textColor="0x00d228" textAlign="left" anchorOffsetX="0" anchorOffsetY="0" height="20"/>
+			<ns1:CustomLabel text="实际获得装备数量受概率影响" x="154.5" y="0" size="18" bold="true" textColor="0x00D228" textAlign="left" anchorOffsetX="0" anchorOffsetY="0" height="20"/>
+			<ns1:CustomButton id="btnGet" label="加速" x="219" y="144.5" skinName="CustomButtonSkin2Skin"/>
+			<ns1:CustomImage x="390.5" y="157.5" source="image_gold"/>
+		</e:Group>
+		<e:Group id="contentGroup2" x="87" y="315" visible="false">
+			<ns1:CustomLabel id="txtBag" text="由于背包不足，自动出售 258 件装备" x="0" y="0" size="18" textColor="0xe7d0b7" anchorOffsetX="0" width="452" anchorOffsetY="0" height="22" bold="true" textAlign="center"/>
+			<ns1:CustomLabel text="开通月卡" x="38" y="76" size="18" bold="true" textColor="0x00D228" textAlign="left" anchorOffsetX="0" anchorOffsetY="0" height="20"/>
+			<ns1:CustomLabel text="可避免装备损失" x="286" y="76" size="18" bold="true" textAlign="left" anchorOffsetX="0" anchorOffsetY="0" height="20" textColor="0xdda66b"/>
+			<ns1:CustomLabel text="扩充背包" x="201" y="76" size="18" bold="true" textColor="0x00D228" textAlign="left" anchorOffsetX="0" anchorOffsetY="0" height="20"/>
+			<ns1:CustomLabel text="提高VIP" x="123" y="76" size="18" bold="true" textColor="0x00D228" textAlign="left" anchorOffsetX="0" anchorOffsetY="0" height="20"/>
+			<ns1:CustomButton id="btnOk" label="确定" x="163" y="146.5" skinName="CustomButtonSkin2Skin"/>
+		</e:Group>
+		<ns1:CustomButton id="returnButton" label="" right="5" bottom="6" x="534" y="461" scaleX="1" scaleY="1">
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="share_json.share_btnReturn" source.down="share_json.share_btnReturn" source.disabled="share_json.share_btnReturn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:CustomButton>
+		<e:Group id="effectGroup" width="200" height="200"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

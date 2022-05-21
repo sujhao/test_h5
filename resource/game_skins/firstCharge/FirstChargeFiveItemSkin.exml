@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FirstChargeFiveItemSkin" width="263" height="151" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="firstChargeFive_json.firstChargeFive_itembg"/>
+	<ns1:CustomImage x="17" y="45" source="firstChargeFive_json.firstChargeFive_charge"/>
+	<ns1:CustomImage x="200" y="45" source="firstChargeFive_json.firstChargeFive_yuan"/>
+	<!--<ns1:CustomImage id="_img" x="114" y="26" source="resource/assets/icon/firstChargeFive/6.png"/>-->
+	<ns1:CustomLabel id="_txtGold" text="标签" x="32" y="12" size="20" textColor="0xe7d0b7" fontFamily="Microsoft YaHei" width="203" textAlign="center" visible="false"/>
+	<ns1:CustomLabel id="_txtCount" text="5000元宝+送20000元宝" x="34" y="129" size="16" textColor="0xE7D0B7" fontFamily="Microsoft YaHei" width="203" textAlign="center"/>
+	<e:BitmapLabel id="_txtRmb" width="51" height="30" x="175" y="58" text="1" textAlign="center" font="number_2_fnt" visible="false"/>
+</e:Skin>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="FightUpItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="88">
+	<ns1:CustomImage source="share_bg2" height="88" width="567" scale9Grid="12,19,78,120"/>
+	<ns1:CustomImage x="111" height="88" source="share_titleBg3" y="4" anchorOffsetX="0" width="252"/>
+	<ns1:CustomImage x="110" source="share_line3" height="88"/>
+	<ns1:CustomLabel id="txtName" text="BOSS" x="150" y="31" size="26" anchorOffsetX="0" fontFamily="Microsoft YaHei" textColor="0xFFD200" bold="true"/>
+	<ns1:CustomButton id="btnGet" label="前往" x="452" y="22" skinName="CustomButtonSkin7Skin" visible="false"/>
+	<ns1:CustomLabel id="txtTips" text="条件不足" x="458" y="33" size="20" anchorOffsetX="0" fontFamily="Microsoft YaHei" bold="true" textColor="0x00d228" visible="false"/>
+
+	<w:Config id="15d0c71ab90" ></w:Config>
+</e:Skin>

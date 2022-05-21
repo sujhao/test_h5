@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MineViewSkin" width="585" height="762" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage id="bg" anchorOffsetX="0" anchorOffsetY="0" source="mineBg"/>
+	<ns1:CustomImage id="bg0" anchorOffsetX="0" anchorOffsetY="0" x="72" y="26" source="share_titleBg3"/>
+	<ns1:CustomButton id="btnLeft" label="" x="12" y="308">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="share_leftBtn" source.down="share_leftBtn" source.disabled="share_leftBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="btnGet" label="开采矿源" x="228" y="685" skinName="CustomButtonSkin2Skin">
+	</ns1:CustomButton>
+	<ns1:CustomButton id="btnRight" label="" x="518" y="308">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="share_rightBtn" source.down="share_rightBtn" source.disabled="share_rightBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="btnLog" label="" x="454" y="13">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mineBtn" source.down="mineBtn" source.disabled="mineBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomLabel id="txtTime" text="紫水晶开采中：22分：22秒" x="116" y="43" size="18" bold="true" textColor="0xe7d0b7"/>
+	<ns1:CustomLabel text="开采次数：" y="694" size="18" bold="true" textColor="0xdda66b" x="26"/>
+	<ns1:CustomLabel id="txtCount" text="3/6" x="113" y="694" size="18" bold="true" textColor="0x00d228"/>
+	<ns1:CustomLabel id="txtCount2" text="0/5" x="113" y="720" size="18" bold="true" textColor="0x00d228"/>
+	<ns1:CustomLabel text="掠夺次数：" y="720" size="18" bold="true" textColor="0xdda66b" x="26"/>
+	<ns1:CustomLabel id="txtSpeed" text="快速完成" x="368" y="43" size="18" bold="true" textColor="0x00d228"/>
+	<ns1:CustomButton id="btnHelp" label="">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="comp_btn_help" source.down="comp_btn_help" source.disabled="comp_btn_help"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</ns1:CustomButton>
+	<e:Group id="effectGroup" width="125" height="50" x="227" y="688"/>
+</e:Skin>

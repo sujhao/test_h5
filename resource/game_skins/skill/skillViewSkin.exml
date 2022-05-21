@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="587">
+		<e:Image source="skill_json.skillBg" x="0" y="0" width="587" height="770"/>
+		<ns1:CustomButton id="btnGetAll" label="全部升级" x="357" y="710" skinName="CustomButtonSkin2Skin"/>
+		<ns1:CustomButton id="btnGet" label="升级" x="111" y="710" skinName="CustomButtonSkin2Skin"/>
+		<ns1:SkillItem id="skillItem_0" x="38" y="100" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:SkillItem id="skillItem_1" x="381" y="100" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:SkillItem id="skillItem_4" x="169" y="172" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:SkillItem id="skillItem_2" x="381" y="335" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:SkillItem id="skillItem_3" x="38" y="335" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:CustomLabel id="txtName" text="标签" x="222.5" y="551" textColor="0xffd200" size="22" anchorOffsetX="0" width="128" anchorOffsetY="0" height="23" textAlign="center" bold="true"/>
+		<ns1:CustomLabel id="txtDes" text="使用小火球攻击目标，每次 攻击额外增加3160点伤害" x="169" y="580" anchorOffsetX="0" width="240" anchorOffsetY="0" height="66" textColor="0xe7d0b7" size="18" bold="true"/>
+		<ns1:CustomLabel id="txtCost" text="0" x="189" y="678" anchorOffsetX="0" width="100" anchorOffsetY="0" height="25" textColor="0xE7D0B7" size="18" bold="true"/>
+		<ns1:CustomLabel text="消耗：" x="343" y="678" anchorOffsetX="0" width="60" anchorOffsetY="0" height="30" textColor="0xE7D0B7" size="18" bold="true"/>
+		<ns1:CustomLabel text="消耗：" x="96" y="678" anchorOffsetX="0" width="60" anchorOffsetY="0" height="30" textColor="0xE7D0B7" size="18" bold="true"/>
+		<ns1:CustomLabel id="txtCostAll" text="0" x="450" y="678" anchorOffsetX="0" width="100" anchorOffsetY="0" height="22" textColor="0xE7D0B7" size="18" bold="true"/>
+		<ns1:CustomImage  x="145" y="671" source="image_copper"/>
+		<ns1:CustomImage x="403" y="671" source="image_copper"/>
+		<e:Group id="topContainer" width="357" height="94" x="108" y="-17" anchorOffsetY="0" anchorOffsetX="0"/>
+</e:Skin>

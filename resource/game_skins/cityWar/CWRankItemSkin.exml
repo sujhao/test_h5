@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CWRankItemSkin" width="591" height="51" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomLabel id="_txtRank" text="标签" x="0" y="16" width="105" size="18" bold="true" textAlign="center"/>
+	<ns1:CustomLabel id="_txtPoint" text="标签" x="480" y="15" width="105" size="18" bold="true" textAlign="center"/>
+	<ns1:CustomLabel id="_txtName1" text="标签" x="105" y="16" width="205" size="18" bold="true" textAlign="center"/>
+	<ns1:CustomLabel id="_txtName2" text="标签" x="310" y="16" width="170" size="18" bold="true" textAlign="center"/>
+	<e:Image source="share_json.share_line" x="-5" y="47"/>
+</e:Skin>

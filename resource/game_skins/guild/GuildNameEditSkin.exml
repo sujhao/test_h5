@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildNameEditSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" anchorOffsetY="0" height="419">
+		<ns1:CustomImage x="7" y="297" anchorOffsetX="0" width="607" source="share_contentBg"/>
+		<ns1:CustomButton id="btnGet" label="确定" x="248" y="325" skinName="CustomButtonSkin2Skin"/>
+		<ns1:CustomLabel text="公会改名需要：" x="99" y="121" textColor="0xdda66b" size="18" bold="true"/>
+		<ns1:CustomLabel text="请输入公会名字：" x="99" y="204" textColor="0xDDA66B" size="18" bold="true"/>
+		<ns1:CustomLabel id="txtGood" text="改名卡×5" x="228" y="121" textColor="0xDDA66B" size="18" bold="true"/>
+		<ns1:CustomLabel id="txtBuy" text="立即购买" x="409" y="121" size="18" bold="true" textColor="0x00d228"/>
+		<ns1:CustomTextInput id="txtName" width="215" height="30" x="250" y="198" anchorOffsetX="0" anchorOffsetY="0"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="QQFriendRankItem2Skin" states="up,down,disabled" width="576" height="85" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<ns1:CustomImage id="_imgBg" source="share_lineBg" width="576" height="85"/>
+	<ns1:CustomLabel id="_txtName" text="名字一个七位数" x="220" y="28" size="18" textColor="0xE7D0B7" bold="true" width="140" textAlign="left"/>
+	<ns1:CustomLabel id="_txtLv" text="0" x="382" y="28" size="20" bold="true" width="195" textAlign="center" textColor="0xe7d0b7"/>
+	<ns1:CustomLabel id="_txtRank" text="100" y="28" size="20" textColor="0xE7D0B7" width="107" textAlign="center" bold="true"/>
+	<ns1:CustomImage x="139" y="8" source="share_json.share_itemBg"/>
+
+	<w:Config id="15cfd0fd30b" ></w:Config>
+</e:Skin>

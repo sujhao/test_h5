@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="HeadItemSkin" states="up,down,disabled" width="72" height="71"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage id="headBg" source="share_itemBg"/>
+    <ns1:CustomImage id="headIcon" horizontalCenter="0" verticalCenter="0"   source=""/>
+    <ns1:CustomImage id="careerIcon" right="1" top="1" />
+    <w:Config id="15a1c8df9df"></w:Config>
+</e:Skin>

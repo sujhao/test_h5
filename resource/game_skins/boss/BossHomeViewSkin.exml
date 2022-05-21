@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossHomeViewSkin" width="575" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Scroller width="100%" height="595" y="155">
+		<e:DataGroup id="bossList" itemRenderer="BossHomeItem"/>
+	</e:Scroller>
+</e:Skin>

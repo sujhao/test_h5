@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatMainUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage x="0" y="0" source="mainUI_sysChatBg" width="370" visible="false"/>
+	<e:Scroller id="chatScroller" width="400" height="30" x="5" bottom="48">
+		<e:DataGroup id="chatList" itemRenderer="ChatMainUIItem" y="21"/>
+	</e:Scroller>
+</e:Skin>

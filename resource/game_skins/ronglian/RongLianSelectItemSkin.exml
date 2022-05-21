@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="RongLianSelectItemSkinSkin" states="up,down,disabled" width="160" height="181" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+    <e:Image width="100%" height="100%"  alpha.disabled="0.5"
+             source="ronglian_json.ronglian_sItem"
+            />
+    <e:Label id="labelDisplay" top="8"  left="8" 
+             size="20" fontFamily="Tahoma"
+             textColor="0xFFFFFF" text="" verticalAlign="middle" textAlign="center"/>
+	<ns1:EquipItem id="item" x="34" y="26"/>
+	<ns1:CustomLabel id="txtPoint" text="评分：111111" x="33" y="151" size="18" textColor="0xe7d0b7" fontFamily="Microsoft YaHei" horizontalCenter="0" textAlign="center"/>
+	<ns1:CustomCheckBox id="checkBox" label="" x="124" y="4" touchEnabled="false" touchChildren="false"/>
+
+	<w:Config id="15a46a689e3" ></w:Config>
+</e:Skin>

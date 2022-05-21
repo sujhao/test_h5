@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="bagUISkin" width="620" height="925" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin" width="100%" height="100%" x="0" y="0">
+		<ns1:CustomImage width="587" height="768" x="17" y="63" source="bag_bg" anchorOffsetX="0"/>
+		<e:Image x="17.66" y="758.36" anchorOffsetX="0" width="586" scale9Grid="72,9,438,56" height="74" source="bag_json.bg" visible="false"/>
+		<e:TabBar id="tabBar" width="366" height="55" x="29" y="851" anchorOffsetY="0" itemRenderer="CustomItemRenderer" itemRendererSkinName="CustomTabItemSkinSkin" anchorOffsetX="0"/>
+		<e:Scroller id="vScroll" width="561" height="680" x="29" y="76" anchorOffsetX="0" anchorOffsetY="0">
+			<e:DataGroup id="groupGrid" y="-3" anchorOffsetY="0" height="694" x="2">
+			</e:DataGroup>
+		</e:Scroller>
+		<ns1:CustomButton id="btnSettle" label="回收装备" x="456" y="769" skinName="CustomButtonSkin2Skin" width="120" height="50"/>
+		<e:Group id="_gridContainer" x="56" y="779">
+			<ns1:CustomLabel text="容量：" x="0" y="0" textColor="0xdbc7b0" fontFamily="Microsoft YaHei"/>
+			<e:Image x="87" y="0" source="comp_json.textInput_bg"/>
+			<ns1:CustomLabel id="txtGridNum" text="" x="92" y="7" anchorOffsetX="0" width="100" size="20"/>
+			<ns1:CustomButton id="btnAdd" label="" x="192" y="3">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="comp_json.btn_add" source.down="comp_json.btn_add"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:CustomButton>
+		</e:Group>
+		<e:Group id="_rongLuContainer" width="200" height="200" x="21" y="75"/>
+		<ns1:CustomLabel id="_txtRecLink" text="手动回收" x="338" y="786" size="22" textColor="0x04f268"/>
+		
+		
+	</ns1:LayeroutWindowSkin>
+	
+	
+	
+	
+</e:Skin>

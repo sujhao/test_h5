@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopHelpViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="580" height="740">
+	<ns1:CustomImage source="resource/assets/icon/shop/shopBg.jpg"/>
+	<ns1:CustomLabel text="跨服赶集说明：" x="48" y="283" size="20" textColor="0xffd200" bold="true" textAlign="left"/>
+	<ns1:CustomLabel id="txtTime" text="开启时间：" y="191" size="22" textColor="0xFFD200" bold="true" horizontalCenter="0"/>
+	<ns1:CustomLabel text="跨服赶集开启说明：" x="48" y="488" size="20" textColor="0xFFD200" bold="true"/>
+	<ns1:CustomLabel text="1.跨服赶集仅限已经开启跨服的服务器可参加" x="48" y="316" size="20" bold="true" textColor="0xe7d0b7" textAlign="left"/>
+	<ns1:CustomLabel text="3.觉醒装备价格由系统设定，不可更改" x="48" y="378" size="20" textColor="0xE7D0B7" bold="true" textAlign="left"/>
+	<ns1:CustomLabel text="4.赶集结束时，未售出的装备将通过邮件返还玩家" x="48" y="408" size="20" textColor="0xE7D0B7" bold="true" textAlign="left"/>
+	<ns1:CustomLabel text="2.玩家可在赶集中出售觉醒装备，或用元宝购买觉醒装备" x="48" y="348" size="20" textColor="0xE7D0B7" bold="true" anchorOffsetX="0" lineSpacing="5" textAlign="left"/>
+	<ns1:CustomLabel text="1.每人每天可通过赶集出售的装备数量：6" x="48" y="521" size="20" textColor="0xE7D0B7" bold="true" anchorOffsetX="0" lineSpacing="5"/>
+	<ns1:CustomLabel text="2.购买装备所花费元宝不参加消费活动" x="48" y="553" size="20" textColor="0xE7D0B7" bold="true" anchorOffsetX="0" lineSpacing="5"/>
+	<ns1:CustomLabel text="3.出售装备所获得元宝不参加充值活动" x="48" y="586" size="20" textColor="0xE7D0B7" bold="true" anchorOffsetX="0"/>
+	<ns1:CustomLabel text="4.交易成功时，买方获得装备，卖方通过邮件收取元宝" x="48" y="618" size="20" textColor="0xE7D0B7" bold="true" anchorOffsetX="0"/>
+	<ns1:CustomLabel text="5.系统将对买方收取装备价格5%的元宝作为税费" x="48" y="651" size="20" textColor="0xE7D0B7" bold="true" anchorOffsetX="0"/>
+	<ns1:CustomLabel text="6.每日活动结束时，未售出的装备将通过邮件返还玩家" x="48" y="683" size="20" textColor="0xE7D0B7" bold="true" anchorOffsetX="0"/>
+</e:Skin>

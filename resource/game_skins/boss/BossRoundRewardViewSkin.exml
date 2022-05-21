@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossRoundRewardViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin">
+		<ns1:CustomImage id="win_bg" source="comp_json.win_innerBg" scale9Grid="29,23,537,710" width="598.33" x="10.6" y="47" anchorOffsetY="0" height="822.6" anchorOffsetX="0"/>
+		<ns1:CustomButton id="returnButton" label="" right="4" bottom="6">
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="share_json.share_btnReturn" source.down="share_json.share_btnReturn" source.disabled="share_json.share_btnReturn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:CustomButton>
+		<e:TabBar id="tabBar" width="480" height="60" x="32" y="805.09" itemRenderer="CustomItemRenderer" itemRendererSkinName="CustomTabItemSkinSkin"/>
+		<ns1:CustomImage x="105" y="60" source="share_titleBg2"/>
+		<ns1:CustomImage x="10" y="105" source="boss_round_rewardBg"/>
+		<ns1:CustomImage x="30" y="280" source="boss_round_rewardBg2"/>
+		<ns1:CustomImage x="30" y="152" source="boss_round_rewardBg2"/>
+		<ns1:CustomImage x="30" y="402" source="boss_round_rewardBg2"/>
+		<ns1:CustomImage x="30" y="530" source="boss_round_rewardBg2"/>
+		<ns1:CustomImage x="320.47" y="686" source="boss_round_rewardBg2"/>
+		<ns1:CustomImage x="30" y="686" source="boss_round_rewardBg2"/>
+		<ns1:CustomImage x="13.44" y="640.33" source="boss_round_rewardBg"/>
+		<ns1:CustomImage y="259" source="share_line2" x="15" width="600"/>
+		<ns1:CustomLabel id="txtName" text="标签" y="70" size="20" textColor="0xFFD200" bold="true" width="200" textAlign="center" x="200"/>
+		<ns1:CustomImage x="63.17" y="180" source="boss_round_reward_1"/>
+		<ns1:CustomImage x="62" y="308" source="boss_round_reward_2"/>
+		<ns1:CustomImage x="50" y="551" source="boss_round_reward_txt5"/>
+		<ns1:CustomImage x="39" y="717" source="boss_round_reward_txt3"/>
+		<ns1:CustomImage x="35.44" y="640.33" source="boss_round_reward_txt2"/>
+		<ns1:CustomImage x="30" y="105" source="boss_round_reward_txt"/>
+		<ns1:CustomImage x="331.97" y="717" source="boss_round_reward_txt4"/>
+		<ns1:CustomImage x="46" y="430" source="boss_round_reward_3"/>
+		<ns1:GoodsItemSmall id="item_1_0" x="151" y="146"/>
+		<ns1:GoodsItemSmall id="item_1_1" x="267" y="146"/>
+		<ns1:GoodsItemSmall id="item_1_2" x="380" y="146"/>
+		<ns1:GoodsItemSmall id="item_1_3" x="493" y="146"/>
+		<ns1:CustomImage y="385" source="share_line2" x="15" width="600"/>
+		<ns1:GoodsItemSmall id="item_2_0" x="151" y="272"/>
+		<ns1:GoodsItemSmall id="item_2_1" x="267" y="272"/>
+		<ns1:GoodsItemSmall id="item_2_2" x="380" y="272"/>
+		<ns1:GoodsItemSmall id="item_2_3" x="493" y="272"/>
+		<ns1:CustomImage y="509" source="share_line2" x="15" width="600"/>
+		<ns1:GoodsItemSmall id="item_3_0" x="151" y="396"/>
+		<ns1:GoodsItemSmall id="item_3_1" x="267" y="396"/>
+		<ns1:GoodsItemSmall id="item_3_2" x="380" y="396"/>
+		<ns1:GoodsItemSmall id="item_3_3" x="493" y="396"/>
+		<ns1:CustomImage y="635" source="share_line2" x="15" width="600"/>
+		<ns1:GoodsItemSmall id="item_4_0" x="151" y="523"/>
+		<ns1:GoodsItemSmall id="item_kill" x="151" y="680"/>
+		<ns1:GoodsItemSmall id="item_luck" x="433" y="680"/>
+		<ns1:GoodsItemSmall id="item_4_1" x="267" y="523"/>
+		<ns1:GoodsItemSmall id="item_4_2" x="380" y="523"/>
+		<ns1:GoodsItemSmall id="item_4_3" x="493" y="523"/>
+		<ns1:CustomImage x="130" y="140" source="share_line3" height="120"/>
+		<ns1:CustomImage x="130" y="383" source="share_line3" height="120"/>
+		<ns1:CustomImage x="130" y="259" source="share_line3" height="120"/>
+		<ns1:CustomImage x="130" y="510" source="share_line3" height="120"/>
+		<ns1:CustomImage x="130" y="670" source="share_line3" height="120"/>
+		<ns1:CustomImage x="420" y="670" source="share_line3" height="120"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

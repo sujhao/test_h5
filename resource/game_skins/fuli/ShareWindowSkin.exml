@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShareWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin">
+		<e:Group id="_container" width="566" height="743" x="18" y="79" anchorOffsetX="0" anchorOffsetY="0"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="FubenEquipItemSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage source="fubenEquipBg"/>
+	<ns1:CustomButton id="btnGet" label="挑战" x="420" y="39" skinName="CustomButtonSkin7Skin" width="122" height="48"/>
+	<ns1:CustomButton id="btnAdd" label="" x="530" y="98">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_add" source.down="btn_add" source.disabled="btn_add"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomImage y="27" source="fubenTitleBg"/>
+	<ns1:CustomImage y="96" x="378" anchorOffsetX="0" width="152" source="share_json.share_contentBg3"/>
+	<ns1:CustomLabel text="剩余次数：" x="392" y="104" bold="true" size="18" textColor="0xDDA66B"/>
+	<ns1:CustomLabel id="txtCount" text="1次" x="478" y="104" textColor="0x00D228" bold="true" size="18"/>
+	<ns1:CustomLabel id="txtName" text="boss名字" y="31" size="26" textColor="0xFFEA02" bold="true" anchorOffsetX="0" width="182" textAlign="center"/>
+	<ns1:EquipItem id="item_2" x="230.5" y="62"/>
+	<ns1:EquipItem id="item_1" x="130.5" y="62"/>
+	<ns1:EquipItem id="item_0" x="32.5" y="62"/>
+	<e:Group id="tipGroup" x="0" y="0" width="575" height="184" anchorOffsetX="0" visible="false">
+		<ns1:CustomImage width="100%" height="100%" source="share_black3" x="0" y="0"/>
+		<ns1:CustomImage id="lock" x="62" y="87" source="share_lock"/>
+		<ns1:CustomLabel id="txtTips" text="6转开启" x="163" y="77" size="42" textColor="0xDDA66B" bold="true" textAlign="center" anchorOffsetX="0" width="261"/>
+	</e:Group>
+
+	<w:Config id="15c7c22d484" ></w:Config>
+</e:Skin>

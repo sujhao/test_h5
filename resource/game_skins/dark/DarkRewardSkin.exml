@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DarkRewardSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="735">
+	<ns1:CustomImage x="96" y="9" source="share_titleBg2"/>
+	<ns1:CustomImage x="20" y="222" source="share_itembg2"/>
+	<ns1:CustomImage x="20" y="94" source="share_itembg2"/>
+	<ns1:CustomImage x="20" y="344" source="share_itembg2"/>
+	<ns1:CustomImage x="20" y="472" source="share_itembg2"/>
+	<ns1:CustomImage x="20" y="616" source="share_itembg2"/>
+	<ns1:CustomImage y="201" source="share_line2" width="600"/>
+	<ns1:CustomLabel text="排行奖励在每周日23点30分通过邮件发放" y="20" size="20" textColor="0xFFD200" bold="true" width="404" textAlign="center" x="120" anchorOffsetX="0"/>
+	<ns1:CustomImage x="54.17" y="122" source="darkNum_1"/>
+	<ns1:CustomImage x="35" y="250" source="darkNum_2"/>
+	<ns1:CustomImage x="43" y="493" source="darkNum_100"/>
+	<ns1:CustomImage x="43" y="638" source="darkNum_200"/>
+	<ns1:CustomImage x="26" y="372" source="darkNum_4"/>
+	<ns1:GoodsItemSmall id="item_1_0" x="142" y="88"/>
+	<ns1:GoodsItemSmall id="item_1_1" x="258" y="88"/>
+	<ns1:GoodsItemSmall id="item_1_2" x="371" y="88"/>
+	<ns1:GoodsItemSmall id="item_1_3" x="484" y="88"/>
+	<ns1:CustomImage y="327" source="share_line2" width="600"/>
+	<ns1:GoodsItemSmall id="item_2_0" x="142" y="214"/>
+	<ns1:GoodsItemSmall id="item_2_1" x="258" y="214"/>
+	<ns1:GoodsItemSmall id="item_2_2" x="371" y="214"/>
+	<ns1:GoodsItemSmall id="item_2_3" x="484" y="214"/>
+	<ns1:CustomImage y="451" source="share_line2" width="600"/>
+	<ns1:GoodsItemSmall id="item_3_0" x="142" y="338"/>
+	<ns1:GoodsItemSmall id="item_3_1" x="258" y="338"/>
+	<ns1:GoodsItemSmall id="item_3_2" x="371" y="338"/>
+	<ns1:GoodsItemSmall id="item_3_3" x="484" y="338"/>
+	<ns1:CustomImage y="577" source="share_line2" width="600"/>
+	<ns1:GoodsItemSmall id="item_4_0" x="142" y="465"/>
+	<ns1:GoodsItemSmall id="item_4_1" x="258" y="465"/>
+	<ns1:GoodsItemSmall id="item_4_2" x="371" y="465"/>
+	<ns1:GoodsItemSmall id="item_4_3" x="484" y="465"/>
+	<ns1:GoodsItemSmall id="item_5_0" x="142" y="610"/>
+	<ns1:GoodsItemSmall id="item_5_1" x="258" y="610"/>
+	<ns1:GoodsItemSmall id="item_5_2" x="371" y="610"/>
+	<ns1:GoodsItemSmall id="item_5_3" x="484" y="610"/>
+	<ns1:CustomImage x="121" y="82" source="share_line3" height="120"/>
+	<ns1:CustomImage x="121" y="325" source="share_line3" height="120"/>
+	<ns1:CustomImage x="121" y="201" source="share_line3" height="120"/>
+	<ns1:CustomImage x="121" y="452" source="share_line3" height="120"/>
+	<ns1:CustomImage x="121" y="600" source="share_line3" height="120"/>
+</e:Skin>

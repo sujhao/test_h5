@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KuaFuMapViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomButton id="btnReturn" label="" x="565" y="155">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="cityBtnClose" source.down="cityBtnClose" source.disabled="cityBtnClose"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomImage x="278" y="242" name="down_1" source="cityNpc_1" visible="false"/>
+	<ns1:CustomImage x="143" y="482" name="down_1" source="cityNpc_4" visible="false"/>
+	<ns1:CustomImage x="419" y="585" name="down_1" source="cityNpc_6" visible="false"/>
+	<ns1:CustomImage y="780" name="down_1" source="cityNpc_11" visible="false"/>
+	<e:Group id="npcGroup_1" y="360" anchorOffsetX="0" width="159" anchorOffsetY="0" height="173">
+		<ns1:CustomImage id="npc_1" x="45" y="49" name="down_1" source="cityNpc_2"/>
+		<ns1:CustomImage id="npc_s_1" x="45" y="49" name="down_1" source="cityNpc_2s" visible="false"/>
+		<ns1:CustomButton id="btn_1" label="">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="cityTxt_1" source.down="cityTxt_1" source.disabled="cityTxt_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+	</e:Group>
+	<e:Group id="npcGroup_2" x="390" y="290">
+		<ns1:CustomImage id="npc_2" x="45" y="57" name="down_1" source="cityNpc_3"/>
+		<ns1:CustomImage id="npc_s_2" x="45" y="57" name="down_1" source="cityNpc_3s" visible="false"/>
+		<ns1:CustomButton id="btn_2" label="">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="cityTxt_2" source.down="cityTxt_2" source.disabled="cityTxt_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+	</e:Group>
+	<e:Group id="npcGroup_3" x="228" y="255">
+		<ns1:CustomImage id="npc_3" x="24" y="48" name="down_1" source="cityNpc_10"/>
+		<ns1:CustomImage id="npc_s_3" x="24" y="48" name="down_1" source="cityNpc_10s" visible="false"/>
+		<ns1:CustomButton id="btn_3" label="">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="cityTxt_3" source.down="cityTxt_3" source.disabled="cityTxt_3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+	</e:Group>
+	<e:Group id="npcGroup_4" x="400" y="500">
+		<ns1:CustomImage id="npc_4" x="45" y="57" name="down_1" source="cityNpc_5"/>
+		<ns1:CustomImage id="npc_s_4" x="45" y="57" name="down_1" source="cityNpc_5s" visible="false"/>
+				<ns1:CustomButton id="btn_4" label="">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="cityTxt_4" source.down="cityTxt_4" source.disabled="cityTxt_4"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+	</e:Group>
+	<e:Group id="npcGroup_6" x="230" y="660">
+		<ns1:CustomImage id="npc_6" x="45" y="46" name="down_1" source="cityNpc_8"/>
+		<ns1:CustomImage id="npc_s_6" x="45" y="46" name="down_1" source="cityNpc_8s" visible="false"/>
+				<ns1:CustomButton id="btn_6" label="">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="cityTxt_6" source.down="cityTxt_6" source.disabled="cityTxt_6"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+	</e:Group>
+	<e:Group id="npcGroup_5" x="90" y="500">
+		<ns1:CustomImage id="npc_5" x="45" y="47" name="down_1" source="cityNpc_7"/>
+		<ns1:CustomImage id="npc_s_5" x="45" y="47" name="down_1" source="cityNpc_7s" visible="false"/>
+				<ns1:CustomButton id="btn_5" label="">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="cityTxt_5" source.down="cityTxt_5" source.disabled="cityTxt_5"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+	</e:Group>
+	<e:Group id="npcGroup_7" x="450" y="660">
+		<ns1:CustomImage id="npc_7" x="45" y="57" name="down_1" source="cityNpc_9"/>
+		<ns1:CustomImage id="npc_s_7" x="45" y="57" name="down_1" source="cityNpc_9s" visible="false"/>
+				<ns1:CustomButton id="btn_7" label="">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="cityTxt_7" source.down="cityTxt_7" source.disabled="cityTxt_7"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+	</e:Group>
+	<e:Group id="npcGroup_8" y="660">
+		<ns1:CustomImage id="npc_8" x="30" y="57" name="down_1" source="cityNpc_12"/>
+		<ns1:CustomImage id="npc_s_8" x="30" y="57" name="down_1" source="cityNpc_12s" visible="false"/>
+				<ns1:CustomButton id="btn_8" label="">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="cityTxt_8" source.down="cityTxt_8" source.disabled="cityTxt_8"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DarkRewardSkin2" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="735">
+	<ns1:CustomImage x="95" y="11" source="share_titleBg2"/>
+	<ns1:CustomImage y="241" source="darkTitleBg2"/>
+	<ns1:CustomImage y="67" source="darkTitleBg2"/>
+	<ns1:CustomImage y="410" source="darkTitleBg2"/>
+	<ns1:CustomImage x="95" y="579" source="share_titleBg2"/>
+	<ns1:CustomImage y="228" source="share_line2" width="600"/>
+	<ns1:CustomLabel text="其他奖励直接进入背包" y="22" size="20" textColor="0xFFD200" bold="true" width="411" textAlign="center" x="95" anchorOffsetX="0"/>
+	<ns1:CustomLabel text="本周未获得排名的参与奖励" y="590" size="20" textColor="0xFFD200" bold="true" width="411" textAlign="center" x="95" anchorOffsetX="0"/>
+	<ns1:CustomImage x="15" y="67" source="darkTxt"/>
+	<ns1:CustomImage x="15" y="241" source="darkTxt2"/>
+	<ns1:CustomImage x="21" y="410" source="darkTxt3"/>
+	<ns1:GoodsItemSmall id="item_1_0" x="21" y="116"/>
+	<ns1:GoodsItemSmall id="item_1_1" x="137" y="116"/>
+	<ns1:GoodsItemSmall id="item_1_2" x="250" y="116"/>
+	<ns1:GoodsItemSmall id="item_1_3" x="363" y="116"/>
+	<ns1:CustomImage y="397" source="share_line2" width="600"/>
+	<ns1:GoodsItemSmall id="item_2_0" x="21" y="284"/>
+	<ns1:GoodsItemSmall id="item_2_1" x="137" y="284"/>
+	<ns1:GoodsItemSmall id="item_2_2" x="250" y="284"/>
+	<ns1:GoodsItemSmall id="item_2_3" x="363" y="284"/>
+	<ns1:CustomImage y="570" source="share_line2" width="600"/>
+	<ns1:GoodsItemSmall id="item_3_0" x="21" y="454"/>
+	<ns1:GoodsItemSmall id="item_3_1" x="137" y="454"/>
+	<ns1:GoodsItemSmall id="item_3_2" x="250" y="454"/>
+	<ns1:GoodsItemSmall id="item_3_3" x="363" y="454"/>
+	<ns1:GoodsItemSmall id="item_4_0" x="21" y="623"/>
+	<ns1:GoodsItemSmall id="item_4_1" x="137" y="623"/>
+	<ns1:GoodsItemSmall id="item_4_2" x="250" y="623"/>
+	<ns1:GoodsItemSmall id="item_4_3" x="363" y="623"/>
+</e:Skin>

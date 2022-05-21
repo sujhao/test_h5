@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AchievementItemSkin" width="567" height="112" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="achievement_json.achievement_itemBg"/>
+	<ns1:CustomImage x="4" y="1" source="achievement_json.achievement_border" height="110" width="110" scale9Grid="12,12,73,73"/>
+	<ns1:CustomImage x="25" y="25" source="resource/assets/icon/achievement/1.png" visible="false"/>
+	<ns1:CustomImage x="124" y="39" source="achievement_json.achievement_nameBg"/>
+	<ns1:CustomImage id="_imageState" x="441" y="32" source="share_json.share_geted"/>
+	<ns1:CustomLabel id="_txtName" text="标签" x="126" y="11" fontFamily="Microsoft YaHei" size="22" textColor="0xcca06c"/>
+	<ns1:CustomLabel id="_txtDesc" text="标签" x="131" y="45" fontFamily="Microsoft YaHei" size="20" textColor="0x8f674a"/>
+	<ns1:CustomLabel id="_txtCoin" text="22222" x="165" y="76" fontFamily="Microsoft YaHei" size="20" textColor="0xe7d0b7"/>
+	<ns1:CustomButton id="_btnOK" label="领取" x="441" y="47" skinName="CustomButtonSkin7Skin" width="117" height="47"/>
+	<ns1:CustomCheckBox id="_checkBox" label="自动领取" x="312" y="55"/>
+	<ns1:CustomImage x="132" y="72" source="mainUI_json.image_copper" visible="false"/>
+</e:Skin>

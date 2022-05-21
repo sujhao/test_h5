@@ -1,0 +1,10 @@
+{"file":"checkpointboss.png","frames":{
+"checkpointboss_barBg":{"x":0,"y":943,"w":307,"h":25,"offX":0,"offY":0,"sourceW":307,"sourceH":25},
+"checkpointboss_bg":{"x":0,"y":0,"w":579,"h":756,"offX":0,"offY":0,"sourceW":579,"sourceH":756},
+"checkpointboss_border":{"x":587,"y":972,"w":94,"h":29,"offX":0,"offY":0,"sourceW":94,"sourceH":29},
+"checkpointboss_border2":{"x":0,"y":972,"w":167,"h":34,"offX":0,"offY":0,"sourceW":167,"sourceH":34},
+"checkpointboss_border3":{"x":0,"y":760,"w":303,"h":138,"offX":0,"offY":0,"sourceW":303,"sourceH":138},
+"checkpointboss_title":{"x":685,"y":972,"w":69,"h":38,"offX":0,"offY":0,"sourceW":69,"sourceH":38},
+"checkpointboss_bar":{"x":171,"y":972,"w":297,"h":16,"offX":0,"offY":0,"sourceW":297,"sourceH":16},
+"checkpointboss_word2":{"x":472,"y":972,"w":111,"h":35,"offX":0,"offY":0,"sourceW":111,"sourceH":35},
+"checkpointboss_word":{"x":0,"y":902,"w":347,"h":37,"offX":0,"offY":0,"sourceW":347,"sourceH":37}}}

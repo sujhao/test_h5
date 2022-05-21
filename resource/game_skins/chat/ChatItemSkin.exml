@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="ChatItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage y="107" source="share_line" width="579"/>
+	<ns1:CustomLabel id="txtName" x="161" y="30" size="18" textColor="0x02a4e7" anchorOffsetX="0" width="230" anchorOffsetY="0" height="25" text="" bold="true" textAlign="left"/>
+	<ns1:CustomLabel id="txtContent" x="123" y="61" size="18" textColor="0xe7d0b7" anchorOffsetX="0" width="358" anchorOffsetY="0" height="42" text="" bold="true"/>
+	<ns1:CustomImage id="vipMonth" x="109" y="31" source="comp_vip_month" visible="false"/>
+	<ns1:CustomImage id="viplife" x="109" y="31" source="chatIcon_zs" visible="false"/>
+	<ns1:HeadItem id="head" x="28" y="21"/>
+	<ns1:CustomImage id="iconVip" x="109" y="22" source="comp_vip" visible="false"/>
+	<e:BitmapLabel id="vipNum" x="131" y="40" font="number_vip_fnt" text="10" visible="false"/>
+
+	<w:Config id="15a44972163" ></w:Config>
+</e:Skin>

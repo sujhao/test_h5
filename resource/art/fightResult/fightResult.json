@@ -1,0 +1,14 @@
+{"file":"fightResult.png","frames":{
+"fr_txt1":{"x":1755,"y":43,"w":180,"h":26,"offX":0,"offY":0,"sourceW":180,"sourceH":26},
+"fr_successBg":{"x":0,"y":0,"w":578,"h":935,"offX":0,"offY":0,"sourceW":578,"sourceH":935},
+"fr_txt2":{"x":1889,"y":0,"w":109,"h":26,"offX":0,"offY":0,"sourceW":109,"sourceH":26},
+"fightResultBtn_ll":{"x":1640,"y":0,"w":111,"h":108,"offX":0,"offY":0,"sourceW":111,"sourceH":110},
+"fightResultBtn_lh":{"x":1279,"y":210,"w":111,"h":107,"offX":0,"offY":0,"sourceW":111,"sourceH":109},
+"fightResultBtn_streng":{"x":1164,"y":210,"w":111,"h":107,"offX":0,"offY":0,"sourceW":111,"sourceH":109},
+"fightResultBtn_stone":{"x":1394,"y":210,"w":111,"h":106,"offX":0,"offY":0,"sourceW":111,"sourceH":108},
+"fr_bqBg":{"x":1164,"y":0,"w":472,"h":161,"offX":0,"offY":0,"sourceW":472,"sourceH":161},
+"title_offline":{"x":1755,"y":0,"w":130,"h":39,"offX":3,"offY":2,"sourceW":136,"sourceH":44},
+"fr_titleBg":{"x":1164,"y":165,"w":575,"h":41,"offX":0,"offY":0,"sourceW":575,"sourceH":41},
+"fr_failBg":{"x":582,"y":0,"w":578,"h":934,"offX":0,"offY":0,"sourceW":578,"sourceH":934},
+"fr_failBg_row1":{"x":1164,"y":321,"w":480,"h":10,"offX":0,"offY":0,"sourceW":480,"sourceH":10},
+"title_speedPK":{"x":1640,"y":112,"w":134,"h":39,"offX":2,"offY":2,"sourceW":139,"sourceH":44}}}

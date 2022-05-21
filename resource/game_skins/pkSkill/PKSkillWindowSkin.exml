@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PKSkillWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin" height="100%">
+		<e:Group id="viewContainer" width="585" height="767" x="16" y="63" anchorOffsetX="0" anchorOffsetY="0">
+		</e:Group>
+		<e:TabBar id="tabBar" width="240" height="60" x="32" y="845" itemRenderer="CustomItemRenderer" itemRendererSkinName="CustomTabItemSkinSkin" anchorOffsetX="0" visible="false"/>
+		<e:Group x="18" y="62">
+			<ns1:CustomImage x="12" y="3" source="pkSkill_json.pkSkill_listBg"/>
+			<ns1:CustomLabel id="txtExp" text="0" y="125" size="20" textColor="0xFFEA02" bold="true" anchorOffsetX="0" textAlign="left" x="422"/>
+			<ns1:CustomProgressBar id="bar" x="240" y="151" skinName="CustomProgressBarSkin2" width="300"/>
+			<ns1:CustomImage x="306" y="115" source="share_json.share_nameBg2"/>
+			<ns1:CustomImage x="309" y="115" source="pkSkill_json.pkSkill_txt"/>
+			<ns1:CustomImage x="464" y="21" source="resource/assets/icon/pkSkill/pet_3.png"/>
+			<ns1:CustomImage x="478" y="107" source="pkSkill_json.pkSkillTitleBg"/>
+			<ns1:CustomImage y="0" source="resource/assets/icon/pkSkill/pkSkillIcon.png" x="0"/>
+			<e:Group id="iconGroup" x="223" y="21">
+				<ns1:CustomImage x="0" y="0" source="resource/assets/icon/pkSkill/pet_3.png"/>
+				<ns1:CustomImage x="15" y="86" source="pkSkill_json.pkSkillTitleBg"/>
+				<ns1:CustomLabel id="txtCur" text="0" x="15" y="87" textColor="0xE7D0B7" bold="true" size="16" width="58" textAlign="center"/>
+			</e:Group>
+			<ns1:CustomLabel id="txtNext" text="0" x="478" y="108" textColor="0xE7D0B7" bold="true" size="16" width="58" textAlign="center"/>
+		</e:Group>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagEquipTipsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="share_bg4"/>
+	<ns1:CustomImage x="37" y="27" source="itemBg"/>
+	<ns1:CustomLabel id="txtContent" text="恭喜获得橙装装备" x="151" y="62" size="25" bold="true" textColor="0xff7200"/>
+</e:Skin>

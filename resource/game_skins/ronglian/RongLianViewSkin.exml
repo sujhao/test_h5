@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RongLianViewSkin" width="579" height="755" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+    <ns1:CustomImage  source="ronglian_json.ronglian_bg1" />
+    
+    <ns1:CustomImage x="128" y="230" source="ronglian_json.ronglian_word1" />
+    <ns1:CustomButton id="btnOK" label="熔炼" y="678"  skinName="CustomButtonSkin2Skin" horizontalCenter="0"/>
+	<e:Group id="itemContainer" x="5" y="37">
+		<ns1:EquipItem id="item1" x="0" y="0" name="1"/>
+		<ns1:EquipItem id="item5" x="0" y="154" name="5"/>
+		<ns1:EquipItem id="item7" x="0" y="309" name="7"/>
+		<ns1:EquipItem id="item6" x="468" y="154" name="6"/>
+		<ns1:EquipItem id="item8" x="468" y="309" name="8"/>
+		<ns1:EquipItem id="item2" x="154" y="0" name="2"/>
+		<ns1:EquipItem id="item3" x="315" y="0" name="3"/>
+		<ns1:EquipItem id="item4" x="472" y="0" name="4"/>
+		<ns1:EquipItem id="item9" x="0" y="478" name="9"/>
+		<ns1:EquipItem id="item10" x="154" y="478" name="10"/>
+		<ns1:EquipItem id="item11" x="315" y="478" name="11"/>
+		<ns1:EquipItem id="item12" x="472" y="478" name="12"/>
+	</e:Group>
+</e:Skin>

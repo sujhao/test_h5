@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KFShopEquipViewSkin" width="577" height="610" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage y="131" source="share_titleBg" width="415" anchorOffsetX="0" scale9Grid="35,9,217,18"/>
+	<ns1:CustomImage x="415" y="131" source="share_titleBg" width="160"/>
+	<e:Scroller width="100%" height="440" y="169" anchorOffsetY="0">
+		<e:DataGroup id="listGroup" itemRenderer="KFShopEquipItem"/>
+	</e:Scroller>
+	<ns1:CustomLabel text="奖励" x="189" y="140" size="18" textColor="0xDDA66B" bold="true"/>
+	<ns1:CustomLabel text="价格" x="476.5" y="140" size="18" textColor="0xDDA66B" bold="true"/>
+</e:Skin>

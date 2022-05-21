@@ -1,0 +1,7 @@
+{"file":"guild_skill.png","frames":{
+"guild_skillIcon":{"x":550,"y":967,"w":37,"h":35,"offX":1,"offY":0,"sourceW":40,"sourceH":36},
+"title_guild_skill":{"x":550,"y":926,"w":132,"h":37,"offX":2,"offY":3,"sourceW":138,"sourceH":43},
+"guild_skill_select":{"x":550,"y":760,"w":101,"h":162,"offX":0,"offY":0,"sourceW":101,"sourceH":162},
+"guild_skillBg3":{"x":0,"y":1064,"w":576,"h":167,"offX":0,"offY":0,"sourceW":576,"sourceH":167},
+"guild_skillBg":{"x":0,"y":0,"w":579,"h":756,"offX":0,"offY":0,"sourceW":579,"sourceH":756},
+"guild_skillBg2":{"x":0,"y":760,"w":546,"h":300,"offX":0,"offY":0,"sourceW":546,"sourceH":300}}}

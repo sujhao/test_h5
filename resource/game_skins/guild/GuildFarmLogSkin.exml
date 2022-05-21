@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildFarmLogSkin" width="580" height="755" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Scroller width="100%" height="100%" anchorOffsetX="0" anchorOffsetY="0">
+        <e:DataGroup id="itemList" itemRenderer="GuildLogItem" />
+    </e:Scroller>
+</e:Skin>

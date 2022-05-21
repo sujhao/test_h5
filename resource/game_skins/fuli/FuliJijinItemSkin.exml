@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="FuliJijinItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage width="567" height="112" source="share_listItemBg" scale9Grid="70,14,427,89"/>
+	<ns1:CustomImage source="fuli_box"/>
+	<ns1:CustomImage x="160" y="11" source="fuli_titleBg"/>
+	<ns1:CustomImage id="icon" x="166" y="23" source="image_gold"/>
+	<ns1:CustomImage x="154" source="share_line3" height="112"/>
+	<ns1:CustomButton id="btnGet" label="领取" x="436" y="32" skinName="CustomButtonSkin7Skin" width="117" height="47"/>
+	<ns1:CustomLabel id="txtContent" text="通过50关" x="167" y="75" size="20" bold="true" textColor="0xe7d0b7"/>
+	<e:BitmapLabel id="txtCost" x="220" y="26" font="number_0_fnt" text="600"/>
+	<ns1:CustomImage id="iconLq" x="445" y="21.5" source="loginReward_ylq" visible="false"/>
+
+	<w:Config id="15b8ac138a4" ></w:Config>
+</e:Skin>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MeetPlayerWindowSkin" width="620" height="925" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin x="0" y="0" width="620" height="925" id="panelSkin">
+		<!--<ns1:CustomImage x="18.5" y="72" source="meetPlayer_json.mp_bg2"/>
+		<ns1:CustomImage x="20.5" y="223" source="meetPlayer_json.mp_bg1"/>
+		<ns1:CustomImage x="249" y="223" source="meetPlayer_json.mp_txt1"/>
+		<e:Scroller width="568" height="474" x="24" y="268" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="_container" anchorOffsetX="0" width="570" height="475">
+			</e:Group>
+		</e:Scroller>
+		<ns1:CustomImage x="20" y="745" source="share_json.share_contentBg" anchorOffsetX="0" width="578" anchorOffsetY="0" height="77"/>
+		<ns1:CustomImage x="72" y="799" source="share_json.share_contentBg2"/>
+		<ns1:CustomLabel id="_txtLianSheng" text="今日连胜" x="41" y="777" size="18" bold="true" textColor="0xca9862"/>
+		<ns1:CustomLabel id="_txtNext" text="下次胜利声望" x="238" y="777" size="18"/>
+		<ns1:CustomButton id="_btnRecord" label="战斗记录" x="463" y="761"/>
+		<ns1:CustomLabel text="本日声望:" x="153" y="118" size="18" bold="true" textColor="0xca9862"/>
+		<ns1:CustomLabel text="结算奖励:" x="153" y="160" size="18" bold="true" textColor="0xCA9862"/>
+		<ns1:CustomImage x="242" y="110.5" source="comp_json.textInput_bg" width="167" height="35"/>
+		<ns1:CustomLabel id="_txtHonor" text="51" x="253" y="120" size="18" bold="true"/>
+		<ns1:CustomLabel id="_txtTong" text="4000000" x="272" y="163" size="18" bold="true"/>
+		<ns1:CustomLabel id="_txtNum" text="4000000" x="424" y="163" size="18" bold="true"/>
+		<ns1:CustomLabel id="_txtSeeRank" text="查看排名" x="421" y="119" size="18" bold="true" textColor="0x16b716"/>
+		<ns1:CustomImage x="244" y="162" source="share_json.share_smallCopper"/>
+		<e:Image source="share_json.itemBg" x="42" y="100"/>
+		<ns1:CustomImage id="_imageHead" width="20" height="20" x="51" y="109.5"/>-->
+		<e:TabBar id="_tabBar" width="330" height="57" x="20" y="837" anchorOffsetY="0" itemRendererSkinName="CustomTabItemSkinSkin"  itemRenderer="CustomItemRenderer" />
+		<e:Group id="_container" width="200" height="200" x="18" y="70"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AwakeEquipWearItemSkin" width="579" height="145" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="share_json.share_bg4" width="100%" height="100%" scale9Grid="38,35,503,79"/>
+	<ns1:EquipItem id="_item"  x="23" y="17"/>
+	<ns1:CustomLabel id="_txtName" text="标签" x="138" y="33" textColor="0xe7d0b7" size="22" fontFamily="Microsoft YaHei" width="110"/>
+	<ns1:CustomLabel id="_txtSkill" text="标签" x="251" y="33" textColor="0xE7D0B7" size="22" fontFamily="Microsoft YaHei" width="210"/>
+	<ns1:CustomLabel id="_txtSkillEff" text="标签" x="138" y="68" textColor="0xE7D0B7" size="22" fontFamily="Microsoft YaHei" width="270"/>
+	<ns1:CustomButton id="_btnWear" label="穿戴" x="412" y="51" skinName="CustomButtonSkin2Skin"/>
+</e:Skin>

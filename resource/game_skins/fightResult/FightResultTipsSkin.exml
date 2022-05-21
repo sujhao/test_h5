@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightResultTipsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomLabel id="txtName" text="玩家" x="28" y="147" size="18" bold="true" textColor="0xe7d0b7" width="150" textAlign="center"/>
+	<ns1:CustomLabel id="txtName2" text="玩家" x="350" y="147" size="18" bold="true" textColor="0xE7D0B7" width="150" textAlign="center"/>
+	<e:Group id="effectGroup" width="82" height="53" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:BitmapLabel id="txtCount" x="201" y="68.5" font="number_guildBoss_fnt" text="9" visible="false"/>
+</e:Skin>

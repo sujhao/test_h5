@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HFChargeViewSkin" width="577" height="678" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="HFCharge_json.HFCharge_bg"/>
+	<ns1:CustomImage x="33" y="148" source="HFCharge_json.HFCharge_word1"/>
+	<ns1:CustomImage x="18" y="275" source="HFCharge_json.HFCharge_border1"/>
+	<ns1:CustomImage x="240" y="285" source="HFCharge_json.HFCharge_word4"/>
+	<ns1:CustomImage x="329" y="287" source="HFCharge_json.HFCharge_word5"/>
+	<ns1:CustomImage x="70" y="285" source="HFCharge_json.HFCharge_word3"/>
+	<ns1:CustomImage x="9" y="329" source="HFCharge_json.HFCharge_gold"/>
+	<ns1:CustomLabel id="_txtReward" text="标签" x="14" y="486" size="20" textColor="0xdda66b" fontFamily="Microsoft YaHei" width="214" textAlign="center"/>
+	<ns1:CustomLabel id="_txtAlert" text="仅限今日领取" x="14" y="513" size="20" textColor="0xDDA66B" fontFamily="Microsoft YaHei" width="214" textAlign="center"/>
+	<ns1:CustomLabel id="_txtCount" text="活动期间l累计充值:990" x="109" y="579" size="20" textColor="0xDDA66B" fontFamily="Microsoft YaHei" width="344" textAlign="center"/>
+	<ns1:CustomImage id="_imgState" x="62.5" y="396" source="share_json.share_overdue"/>
+	<ns1:EquipItem id="_item" x="354" y="340"/>
+	<ns1:CustomButton id="_btnGet" label="领取奖励" x="340" y="484" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomButton id="_btnCharge" label="" x="206" y="593">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="HFCharge_json.HFCharge_btn" source.down="HFCharge_json.HFCharge_btn" source.disabled="HFCharge_json.HFCharge_btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton label="" x="4" y="30" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="HFCharge_json.HFCharge_leftArrow" source.down="HFCharge_json.HFCharge_leftArrow" source.disabled="HFCharge_json.HFCharge_leftArrow"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton label="" x="525" y="30" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="HFCharge_json.HFCharge_rightArrow" source.down="HFCharge_json.HFCharge_rightArrow" source.disabled="HFCharge_json.HFCharge_rightArrow"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<e:Scroller width="429" height="121" x="74" y="6" anchorOffsetY="0" anchorOffsetX="0" visible="false">
+		<e:Group id="_itemContainer"  y="-2" visible="false"/>
+	</e:Scroller>
+	<e:BitmapLabel id="_txtDay" width="39" height="49" x="79" y="148" font="number_6_fnt" text="3" textAlign="center"/>
+	<e:BitmapLabel id="_txtChargeNum" width="221" height="49" x="238" y="148" font="number_6_fnt" text="199999" textAlign="center" anchorOffsetX="0"/>
+</e:Skin>

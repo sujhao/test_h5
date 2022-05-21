@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KfKillerSceneLeftInfoSkin" width="242" height="203" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="kfKillerScene_json.kfKillerScene_leftBg"/>
+	<ns1:CustomLabel id="_txtMonName" text="暂未出现" x="11" y="42" size="18" fontFamily="Microsoft YaHei" textColor="0xe7d0b7"/>
+	<ns1:CustomLabel id="_txtCount" text="暂未出现" x="11" y="103" size="18" fontFamily="Microsoft YaHei" textColor="0x00d228"/>
+	<ns1:CustomLabel id="_txtName" text="暂未出现" x="11" y="168" size="18" fontFamily="Microsoft YaHei" textColor="0xe7d0b7"/>
+</e:Skin>

@@ -1,0 +1,6 @@
+{"file":"gameStart.png","frames":{
+"gameStart_btnStart":{"x":0,"y":0,"w":256,"h":87,"offX":0,"offY":0,"sourceW":256,"sourceH":87},
+"gameStart_notice":{"x":0,"y":91,"w":118,"h":118,"offX":0,"offY":0,"sourceW":118,"sourceH":118},
+"gameStart_hot":{"x":331,"y":0,"w":66,"h":45,"offX":0,"offY":0,"sourceW":66,"sourceH":45},
+"gameStart_maintenance":{"x":122,"y":91,"w":66,"h":45,"offX":0,"offY":0,"sourceW":66,"sourceH":45},
+"gameStart_new":{"x":260,"y":0,"w":67,"h":45,"offX":0,"offY":0,"sourceW":67,"sourceH":45}}}

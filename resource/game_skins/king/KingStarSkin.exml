@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KingStarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="302" height="313">
+	<ns1:CustomImage source="kingBg2" x="-31"/>
+	<ns1:CustomImage id="imageIcon" y="120" source="kingType_1" horizontalCenter="0"/>
+	<ns1:CustomImage id="star_3" y="201" x="185" source="kingStar_r"/>
+	<ns1:CustomImage id="star_4" y="150" x="211" source="kingStar_r"/>
+	<ns1:CustomImage id="star_2" y="201" x="65" source="kingStar_l"/>
+	<ns1:CustomImage id="star_1" y="150" x="41" source="kingStar_l"/>
+	<ns1:CustomImage y="230" x="126" source="kingIcon"/>
+	<e:BitmapLabel id="txtLv" x="142" y="245" text="5" font="number_0_fnt"/>
+	<e:Group id="effectSp" width="200" height="200"/>
+</e:Skin>

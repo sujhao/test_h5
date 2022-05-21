@@ -1,0 +1,6 @@
+{"file":"noviceguide.png","frames":{
+"noviceguide_bossBg":{"x":0,"y":0,"w":652,"h":444,"offX":0,"offY":0,"sourceW":652,"sourceH":444},
+"noviceguide_bossTxt":{"x":656,"y":0,"w":694,"h":339,"offX":0,"offY":2,"sourceW":698,"sourceH":341},
+"noviceguide_bossTxt2":{"x":1354,"y":0,"w":585,"h":370,"offX":0,"offY":0,"sourceW":587,"sourceH":370},
+"noviceguide_btn_meetBoss":{"x":1943,"y":0,"w":83,"h":83,"offX":3,"offY":0,"sourceW":89,"sourceH":90},
+"noviceguide_btn_boss":{"x":656,"y":343,"w":110,"h":106,"offX":0,"offY":0,"sourceW":110,"sourceH":106}}}

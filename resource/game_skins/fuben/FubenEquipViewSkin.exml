@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FubenEquipViewSkin" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="580">
+	<e:Scroller width="100%" height="690">
+		<e:DataGroup id="list" itemRenderer="FubenEquipItem"/>
+	</e:Scroller>
+	<ns1:CustomImage y="690" source="share_json.share_contentBg" width="580"/>
+	<ns1:CustomImage y="722" width="580" source="share_json.share_contentBg2"/>
+	<ns1:CustomImage y="705" x="138" anchorOffsetX="0" width="152" source="comp_json.textInput_bg"/>
+	<ns1:CustomLabel text="通行证可通过任务获得" x="291" y="713" textColor="0x00D228" bold="true" size="18"/>
+	<ns1:CustomButton id="btnAdd" label="" x="251" y="708">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="btn_add" source.down="btn_add" source.disabled="btn_add"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</ns1:CustomButton>
+	<ns1:CustomLabel id="txtCount" text="0" x="138" y="713" bold="true" size="18" textColor="0xDDA66B" width="115" textAlign="center"/>
+</e:Skin>

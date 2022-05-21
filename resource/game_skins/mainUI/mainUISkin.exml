@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mainUISkin" width="640" height="1280" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="1599085b885" />
+	<e:Group id="bottomGroup" y="939" touchEnabled="false">
+		<ns1:CustomImage id="_imageBottom" x="0" y="-1" source="bg_bottom"  locked="true"/>
+		<!--<ns1:CustomButton id="btnPK" label="" x="536" y="-347">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_pk" source.down="btn_pk" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</ns1:CustomButton>-->
+		<ns1:CustomButton id="btnRank" label="" x="261" y="115" visible="false">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="main_btn_rank" source.down="main_btn_rank" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<e:Group id="bottomGroup2" x="2" y="12">
+			<ns1:CustomButton id="btnSkill" label="" x="243.35" y="101">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="btn_skill" source.down="btn_skill" />
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					</e:Skin>
+				</e:skinName>
+			</ns1:CustomButton>
+			<ns1:CustomImage id="_imgHp" x="156.58" y="97.17" source="mainUI_json.mainUI_hp"  height="5" width="150"/>
+			<ns1:CustomImage id="_imgMp" x="331.8" y="97" source="mainUI_json.mainUI_mp"  width="147" height="5"/>
+			<ns1:CustomButton id="btnFigure" label="" x="164.02" y="101">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="btn_figure" source.down="btn_figure" />
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					</e:Skin>
+				</e:skinName>
+			</ns1:CustomButton>
+			<ns1:CustomButton id="_btnMainCity" label="" x="41" y="66">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="mainUI_json.mainUI_btnMainCity"
+						         source.down="mainUI_json.mainUI_btnMainCity" source.disabled="mainUI_json.mainUI_btnMainCity" />
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:CustomButton>
+			<ns1:CustomButton id="_btnMainCityMask" label="" x="41" y="66">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="mainUI_json.mainUI_btnMainCityMask" source.down="mainUI_json.mainUI_btnMainCityMask" source.disabled="mainUI_json.mainUI_btnMainCityMask"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:CustomButton>
+			<!--<ns1:CustomButton id="btnFuben" label="" x="537" y="-261">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="mainUI_json.mainUI_btnFuebn" source.down="mainUI_json.mainUI_btnFuebn"
+						         source.disabled="mainUI_json.mainUI_btnFuebn" />
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:CustomButton>-->
+			<ns1:CustomButton id="btnBuild" label="" x="409.98" y="101">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="btn_build" source.down="btn_build" />
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					</e:Skin>
+				</e:skinName>
+			</ns1:CustomButton>
+			<ns1:CustomButton id="btnPack" label="" x="324.32" y="101">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="mainUI_json.btn_pack" source.down="mainUI_json.btn_pack" />
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					</e:Skin>
+				</e:skinName>
+			</ns1:CustomButton>
+			<ns1:CustomImage x="511" y="69" source="mainUI_json.mainUI_rangle"/>
+			<ns1:CustomButton id="btnTarget" label="" x="495.5" y="82" width="96">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="mainUI_json.mainUI_btn_target" source.down="mainUI_json.mainUI_btn_target" source.disabled="mainUI_json.mainUI_btn_target"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:CustomButton>
+			<ns1:CustomImage x="0" y="124" source="mainUI_json.mainUI_bottomBorder" touchEnabled="false" />
+		</e:Group>
+		<ns1:CustomImage width="387" height="26" x="127" y="176" source="expBar_bg"  visible="false"/>
+		<ns1:CustomImage id="_imageExp" width="333" height="7" x="153.17" y="189.67" source="expBar" />
+		<ns1:CustomImage source="mainUI_json.mainUI_expGap" x="173" y="189" height="9.5" visible="false"/>
+		<e:BitmapLabel id="_txtTopExp" text="10000000v9898989898" x="210" y="184.5" width="222" textAlign="center"
+		               font="number_3_fnt" />
+	</e:Group>
+	<e:Group id="topGroup" x="0" y="0" width="640" height="95">
+		<e:Group id="_fpowerEffectContainer" x="139" y="46" touchEnabled="false" touchChildren="false" />
+		<ns1:CustomImage id="_imageTop" x="0" y="0" source="bg_top" scale9Grid="616,15,8,93" width="640"  locked="true"/>
+		<ns1:CustomLabel id="_txtName" text="标签" x="85.66" y="27.67" fontFamily="Microsoft YaHei" textColor="0xe7d0b7" size="18"
+		                 width="133" />
+		<e:Group id="_moneyGroup" right="4" top="6">
+			<ns1:CustomImage source="comp_json.textInput_bg" width="129" height="33" x="0" y="0" />
+			<ns1:CustomLabel id="_txtTopCopper" text="10000" x="39" y="8" fontFamily="Microsoft YaHei" textColor="0xE7D0B7"
+			                 size="18" width="100" />
+			<ns1:CustomImage source="comp_json.textInput_bg" width="129" height="33" x="132" y="0" />
+			<ns1:CustomLabel id="_txtGold" text="10000" x="178" y="8" fontFamily="Microsoft YaHei" textColor="0xE7D0B7" size="18"
+			                 width="80" />
+			<ns1:CustomImage width="41" height="27" x="137" y="3" source="image_gold" />
+			<ns1:CustomButton id="btnAddGold" label="" x="232" y="3">
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_add" source.down="btn_add" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</ns1:CustomButton>
+			<ns1:CustomImage width="28" height="27" x="7" y="3" source="mainUI_json.image_copper" />
+		</e:Group>
+		
+		<ns1:CustomButton id="_btnCharge" label="" x="438" y="45" visible="false">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="mainUI_json.mainUI_btnMonthCard"
+					         source.down="mainUI_json.mainUI_btnMonthCard" source.disabled="mainUI_json.mainUI_btnMonthCard" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<e:Group id="_btnGroup" right="72" y="2.99">
+			<ns1:CustomButton id="btnVip" label="" x="6" y="0" height="38" skinName="CustomButtonSkin8Skin" width="99" />
+			<ns1:CustomButton id="_btnMonthCard" label="" x="96" y="0" visible="false">
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="mainUI_json.mainUI_btnMonthCard"
+					         source.down="mainUI_json.mainUI_btnMonthCard" source.disabled="mainUI_json.mainUI_btnMonthCard" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</ns1:CustomButton>
+			<ns1:CustomButton id="_btnLifeCard" label="" x="195" y="0" visible="false">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="mainUI_json.mainUI_btnLifeCard"
+						         source.down="mainUI_json.mainUI_btnLifeCard" source.disabled="mainUI_json.mainUI_btnLifeCard" />
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:CustomButton>
+		</e:Group>
+		<e:Group id="_fpowerContainer" x="82.34" y="48.37">
+			<ns1:CustomImage width="58" height="49" x="1" y="-7" source="image_career_1" />
+			<e:BitmapLabel id="_txtFpower" height="25" text="012345324" y="8" anchorOffsetX="0" x="61" font="number_0_fnt"
+			               smoothing="false" />
+		</e:Group>
+		<e:BitmapLabel id="txtVip" width="33" height="25" text="0" y="55" anchorOffsetX="0" x="400"
+		               font="number_2_fnt" touchEnabled="false"  visible="false"/>
+		<ns1:CustomLabel id="_txtResetName" text="改名" x="145.66" y="27.67" fontFamily="Microsoft YaHei" size="18" width="70"
+		                 textColor="0x1add00" />
+		<ns1:CustomImage id="_imgLvl" x="1" y="50" source="mainUI_json.mainUI_lvlBg" width="90" visible="false"/>
+		<ns1:CustomLabel id="_txtLv0" text="等级：" x="112" y="3" fontFamily="Microsoft YaHei" size="18" width="90" textColor="0xFFEA02" height="18" textAlign="left"/>
+		<ns1:CustomLabel id="_txtLv" text="22转11级" x="161" y="3" fontFamily="Microsoft YaHei" size="18" width="90" textColor="0xffea02" height="18" textAlign="left"/>
+	</e:Group>
+	<e:Group id="topBarContainer" width="640" height="80" x="0" y="-17">
+</e:Group>
+	<!--<ns1:TaskView id="mainUI_task" x="155" y="837" />-->
+	<e:Group id="mainuiChatSys" y="240" x="-5" touchChildren="false" touchEnabled="false" visible="false">
+		<ns1:CustomImage y="0" source="mainUI_chatSysBg" touchEnabled="false" />
+		<e:Group id="chatSysContentGroup" y="9" width="640" touchChildren="false" touchEnabled="false">
+			<ns1:CustomLabel id="txtChatSys" text="系统公告" y="0" size="20" textColor="0xeddece" bold="true" textAlign="center"
+			                 x="0" touchEnabled="false" />
+		</e:Group>
+	</e:Group>
+	<e:Group id="mainuiChatSys2" y="284" touchChildren="false" touchEnabled="false" width="640" visible="false">
+		<ns1:CustomImage id="chatBg" y="0" x="27" source="mainUI_chatSysBg2" touchEnabled="false" />
+		<e:Group id="chatSysContentGroup2" y="10" width="640" height="20" touchChildren="false" touchEnabled="false">
+			<ns1:CustomLabel id="txtChatSys2" text="系统公告" y="0" size="20" textColor="0xEDDECE" bold="true" textAlign="center"
+			                 x="0" height="20" touchEnabled="false" />
+		</e:Group>
+	</e:Group>
+	<e:Group id="waviTips" x="10" y="397.5" visible="false">
+		<ns1:CustomImage y="0" source="mainUI_tipBg" x="0" />
+		<ns1:CustomImage y="122" x="140" source="resource/assets/icon/smallPic/5.png" />
+		<ns1:CustomImage y="71" x="140" source="resource/assets/icon/smallPic/1.png" />
+		<ns1:CustomImage y="73" x="287" source="mainUI_tipIcon" />
+		<ns1:CustomImage y="127" x="287" source="mainUI_tipIcon" />
+		<ns1:CustomImage y="10" x="175" source="mainUI_tipBg2" />
+		<ns1:CustomLabel id="waveTip_cur" text="99999" x="182" y="76" size="20" bold="true" textColor="0xe7d0b7" />
+		<ns1:CustomLabel id="waveTip_next" text="99999/小时" x="345" y="76" size="20" bold="true" textColor="0xe7d0b7" />
+		<ns1:CustomLabel id="waveTip_next2" text="99999/小时" x="345" y="127" size="20" bold="true" textColor="0xe7d0b7" />
+		<ns1:CustomLabel id="waveTip_cur2" text="99999" x="182" y="127" size="20" textColor="0xE7D0B7" bold="true" />
+	</e:Group>  
+	<e:Group id="_containerKill" x="481.62" y="672" anchorOffsetY="0" height="228">
+		<ns1:CustomButton id="_btnCheckPointBoss" label="" x="19" y="-9">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="mainUI_json.mainUI_killBoss" source.down="mainUI_json.mainUI_killBoss"
+					         source.disabled="mainUI_json.mainUI_killBoss" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="_btnAuto" label="" x="57" y="156">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="mainUI_json.mainUI_auto" source.down="mainUI_json.mainUI_auto"
+					         source.disabled="mainUI_json.mainUI_auto" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomImage source="mainUI_json.mainUI_jianBing" x="49" y="126" />
+		<ns1:CustomImage id="_imagePro" source="mainUI_json.mainUI_bossPro" x="66" y="134" />
+		<ns1:CustomLabel id="_txtKillBossPro" text="3/9" x="51" y="133" size="16" width="80" textAlign="center"
+		                 textColor="0xfff600" />
+		<ns1:CustomButton id="btn_speekPK" label="" y="199" x="57">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="mainUI_pk" source.down="mainUI_pk" source.disabled="mainUI_pk" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+	</e:Group>
+	<e:Group id="chatGroup" y="1000">
+		<!--<ns1:CustomButton id="btnChatShow" label="" visible="false">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="mainUI_btn_sysChat_show" source.down="mainUI_btn_sysChat_show"
+					         source.disabled="mainUI_btn_sysChat_show" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>-->
+		<!--<ns1:CustomButton id="btnChatHide" label="">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="mainUI_btn_sysChat_hide" source.down="mainUI_btn_sysChat_hide"
+					         source.disabled="mainUI_btn_sysChat_hide" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>-->
+	</e:Group>
+	<ns1:CustomButton id="_btnMeetBoss" label="" x="12.99" y="941.36">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zyboss" source.down="zyboss" source.disabled="zyboss" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<e:Group id="_rightBtnGoup" x="409.72" y="929.45" anchorOffsetY="0" height="68.01" anchorOffsetX="0" width="228.33">
+		<ns1:CustomButton id="_btnAth" label="" x="-332.67" y="1.99">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mainUI_json.mainUI_btnAth" source.down="mainUI_json.mainUI_btnAth" source.disabled="mainUI_json.mainUI_btnAth"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="_btnTrain" label="" x="-253.67" y="2">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mainUI_json.mainUI_btnTrain" source.down="mainUI_json.mainUI_btnTrain" source.disabled="mainUI_json.mainUI_btnTrain"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="_btnGongHui" label="" x="-176.67" y="1.99">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mainUI_json.mainUI_gonghui" source.down="mainUI_json.mainUI_gonghui" source.disabled="mainUI_json.mainUI_gonghui"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+	</e:Group>
+	<e:Group id="_containerRightTop" x="460" y="42" anchorOffsetY="0" height="356">
+		<ns1:CustomImage x="0" y="0" source="mainUI_json.mainUI_shouyi" />
+		<ns1:CustomLabel id="_txtGuanQia" text="第二关 落霞村2" x="0" y="14" anchorOffsetX="0" width="175" size="18"
+		                 textAlign="right" textColor="0xffba00" bold="true" />
+		<e:Group id="_containerShouYi" x="41" y="42.5">
+			<ns1:CustomLabel id="_txtCopper" text="125632/小时" x="30" y="2" size="18" anchorOffsetX="0" width="110"
+			                 anchorOffsetY="0" height="19" />
+			<ns1:CustomLabel id="_txtExp" text="541252/小时" x="30" y="30" size="18" anchorOffsetX="0" width="110"
+			                 anchorOffsetY="0" height="19" />
+			<ns1:CustomImage x="4" y="0" source="mainUI_json.mainUI_copper" />
+			<ns1:CustomImage x="0" y="20" source="mainUI_json.mainUI_expIcon" />
+		</e:Group>
+		<ns1:CustomLabel id="_txtSceneDes" text="场景描述" x="35" y="40" size="18" bold="true" anchorOffsetY="0" height="55"
+		                 anchorOffsetX="0" width="145" lineSpacing="4"  visible="false"/>
+	</e:Group>
+	<ns1:CustomButton id="btnBuff" label="" x="23" y="894.97">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mainUI_json.image_buff" source.down="mainUI_json.image_buff"
+				         source.disabled="mainUI_json.image_buff" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="btnBoss" label="" x="513" y="128">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mainBtn_boss" source.down="btn_pk" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<!--<ns1:CustomButton id="btnChat" label="" x="15" y="284">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="image_msg" source.down="image_msg" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</ns1:CustomButton>-->
+	<ns1:CustomButton id="btn_guildRed" label="" x="74.99" y="937.03">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mainUI_icon_guildRed" source.down="mainUI_icon_guildRed"
+				         source.disabled="mainUI_icon_guildRed" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="btnFriend" label="" x="410.36" y="929">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="image_friend" source.down="image_friend"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="btnMail" label="" x="559.35" y="936">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="image_mail" source.down="image_mail"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</ns1:CustomButton>
+</e:Skin>

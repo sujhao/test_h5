@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="GuildSkillItemSkin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+    <e:Image  scale9Grid="1,3,8,8" alpha.disabled="0.5"
+            
+              source="itemBg" width="84" height="84" anchorOffsetX="0" x="9" y="14"/>
+	<e:Image id="nameBg" x="9" y="97" width="84" source="share_nameBg"/>
+	<ns1:CustomLabel id="txtName" text="标签" y="104" textColor="0xe7d0b7" size="16" anchorOffsetX="0" width="84" anchorOffsetY="0" height="20" textAlign="center" bold="true" x="9"/>
+	<ns1:CustomImage id="iconSelect" source="guild_skill_select" visible="false"/>
+	<ns1:CustomLabel id="txtLv" text="0" x="14" y="70" size="18" anchorOffsetX="0" width="65" textAlign="right" anchorOffsetY="0" height="18" bold="true" textColor="0x00d228"/>
+
+	<w:Config id="15a1c961e21" ></w:Config>
+</e:Skin>

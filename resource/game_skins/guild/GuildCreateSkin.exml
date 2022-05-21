@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildCreateSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" anchorOffsetY="0" height="513">
+		<ns1:CustomImage source="comp_json.win_innerBg" scale9Grid="29,23,537,710" x="11" y="46" height="453" width="598" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:CustomImage x="13.5" y="58" source="guild_createBg"/>
+		<ns1:CustomImage id="bm_select" x="20" y="55" source="guild_select"/>
+		<ns1:CustomImage x="14" y="408" source="share_contentBg"/>
+		<e:Group id="rightGroup" x="375" y="79">
+			<ns1:CustomImage x="-10.5" y="201.5" source="guild_titleBg2"/>
+			<ns1:CustomImage x="0" y="0" source="guild_icon_qi"/>
+			<ns1:CustomImage x="66" y="22" source="guild_txt_gh"/>
+			<ns1:CustomImage x="46" y="19" source="guild_txt_2"/>
+			<ns1:CustomImage x="30" y="57" source="guild_txt_content2"/>
+			<ns1:CustomLabel text="创建消耗：" x="16" y="210" size="18" textColor="0xe7d0b7" bold="true"/>
+			<ns1:CustomImage x="100" y="210" source="image_gold" width="25" height="17"/>
+			<ns1:CustomLabel id="txtCost2" text="999" x="126" y="210" size="18" textColor="0xffd200" bold="true"/>
+			<ns1:CustomLabel id="txtContent2" text="容纳40公会成员返还500公会贡献" x="23.5" y="88" size="18" textColor="0xE7D0B7" bold="true" anchorOffsetX="0" width="142" anchorOffsetY="0" verticalAlign="justify" textAlign="center" lineSpacing="5"/>
+		</e:Group>
+		<e:Group id="leftGroup" x="58" y="79">
+			<ns1:CustomImage x="-12" y="202" source="guild_titleBg2" scaleX="1" scaleY="1"/>
+			<ns1:CustomImage x="0" y="0" source="guild_icon_qi"/>
+			<ns1:CustomImage x="66" y="22" source="guild_txt_gh"/>
+			<ns1:CustomImage x="46" y="19" source="guild_txt_1"/>
+			<ns1:CustomImage x="29" y="57" source="guild_txt_content1"/>
+			<ns1:CustomLabel text="创建消耗：" x="17" y="210" size="18" textColor="0xE7D0B7" bold="true"/>
+			<ns1:CustomImage x="101" y="211" source="image_gold" width="25" height="17"/>
+			<ns1:CustomLabel id="txtCost1" text="999" x="127" y="210" size="18" textColor="0xFFD200" bold="true"/>
+			<ns1:CustomLabel id="txtContent" text="容纳30公会成员" x="21" y="88" size="18" textColor="0xe7d0b7" bold="true" anchorOffsetX="0" width="142" anchorOffsetY="0" height="19" textAlign="center"/>
+		</e:Group>
+		<ns1:CustomTextInput id="txtName" width="200" height="28" x="317" y="363" maxChars="7"/>
+		<ns1:CustomButton id="btnGet" label="创建" x="261" y="435" skinName="CustomButtonSkin2Skin"/>
+		<ns1:CustomLabel text="请输入公会名字：" x="159" y="365" size="20" textColor="0xdda66b" bold="true"/>
+		<ns1:CustomImage x="14" y="340" source="share_line"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

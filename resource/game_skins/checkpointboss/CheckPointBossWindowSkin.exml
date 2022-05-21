@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CheckPointBossWindowSkin" width="620" height="925" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin" width="100%" height="100%" x="0" y="0">
+		<ns1:CustomImage x="19" y="74" source="checkpointboss_json.checkpointboss_bg" />
+		<ns1:CustomLabel id="_txtMapName" text="通关 禁地峡谷 所有关卡可获得特戒碎片奖励" x="48" y="107" size="18" textColor="0xe7d0b7"
+		                 fontFamily="Microsoft YaHei" width="400" height="20" />
+		<ns1:CustomLabel text="轮回后已通关的关卡不再产出戒指碎片" x="48" y="185" size="18" fontFamily="Microsoft YaHei" width="400"
+		                 height="20" textColor="0xed0e0e" bold="true" />
+		<ns1:CustomLabel id="_txtAlert" text="还需要击杀【】波小怪才能挑战BOSS" x="107" y="856" size="18" fontFamily="Microsoft YaHei"
+		                 width="400" height="20" textAlign="center" textColor="0xff0000" />
+		<ns1:CustomLabel text="关卡进度：" x="50" y="144" size="18" fontFamily="Microsoft YaHei" width="90" height="20"
+		                 id="_txtMapName0" textColor="0xdda66b" />
+		<ns1:CustomImage x="144" y="142" source="checkpointboss_json.checkpointboss_barBg" />
+		<ns1:CustomImage id="_bar" x="149" y="146" source="checkpointboss_json.checkpointboss_bar" />
+		<ns1:CustomImage x="19" y="477" source="checkpointboss_json.checkpointboss_border2" />
+		<ns1:CustomImage y="513" source="checkpointboss_json.checkpointboss_border2" x="19"/>
+		<ns1:CustomImage x="130" y="650" source="checkpointboss_json.checkpointboss_word" />
+		<ns1:CustomImage x="474" y="182" source="checkpointboss_json.checkpointboss_border" />
+		<ns1:CustomLabel id="_txtProgress" text="11/11" x="216" y="146" size="16" fontFamily="Microsoft YaHei" width="155"
+		                 height="20" textAlign="center" textColor="0xffffff" stroke="1.5" />
+		<ns1:GoodsItem id="_item" x="474" y="85" />
+		<ns1:CustomLabel id="_txtItemName" text="" x="477" y="186" size="18" textColor="0xE7D0B7" fontFamily="Microsoft YaHei"
+		                 width="88" height="20" textAlign="center" />
+		<e:Group id="_itemRankingContainer" x="25" y="231">
+			<ns1:CustomImage x="0" y="0" source="checkpointboss_json.checkpointboss_border3" />
+			<ns1:CustomLabel id="txtName0" text="" x="17" y="46" bold="true" textColor="0xE7D0B7" size="16" />
+			<ns1:CustomLabel id="txtName1" text="" x="17" y="79" bold="true" textColor="0xE7D0B7" size="16" />
+			<ns1:CustomLabel id="txtName2" text="" x="17" y="112" bold="true" textColor="0xE7D0B7" size="16" />
+			<ns1:CustomImage x="19" y="2" source="checkpointboss_json.checkpointboss_word2" />
+			<ns1:CustomLabel id="_txtLink" text="查看排行" x="168" y="9" size="18" fontFamily="Microsoft YaHei" width="90"
+			                 height="20" textColor="0x00d228" />
+		</e:Group>
+		<ns1:CustomLabel id="_txtBossName" text="关卡进度：" x="28" y="485" size="18" fontFamily="Microsoft YaHei" width="200"
+		                 height="20" textColor="0xDDA66B"  rotation="359.82"/>
+		<ns1:CustomLabel id="_txtWave" text="关卡进度：" x="28" y="520" size="18" fontFamily="Microsoft YaHei" width="200" height="20" textColor="0xDDA66B" textAlign="left"/>
+		<e:Group id="_itemContainer" width="551" height="112" x="23" y="705" anchorOffsetY="0" anchorOffsetX="0"
+		         visible="false" />
+		<e:Group id="_monsterFigureContainer" width="200" height="200" x="230" y="410"/>
+		<e:Group id="waviTips" x="23" y="705" anchorOffsetX="0" width="571" anchorOffsetY="0" height="130">
+			<ns1:CustomImage y="65" x="140" source="resource/assets/icon/smallPic/5.png"/>
+			<ns1:CustomImage y="14" x="140" source="resource/assets/icon/smallPic/1.png"/>
+			<ns1:CustomImage y="16" x="287" source="mainUI_tipIcon"/>
+			<ns1:CustomImage y="70" x="287" source="mainUI_tipIcon"/>
+			<ns1:CustomLabel id="waveTip_cur" text="99999" x="182" y="19" size="20" bold="true" textColor="0xe7d0b7"/>
+			<ns1:CustomLabel id="waveTip_next" text="99999/小时" x="345" y="19" size="20" bold="true" textColor="0xe7d0b7"/>
+			<ns1:CustomLabel id="waveTip_next2" text="99999/小时" x="345" y="70" size="20" bold="true" textColor="0xe7d0b7"/>
+			<ns1:CustomLabel id="waveTip_cur2" text="99999" x="182" y="70" size="20" textColor="0xE7D0B7" bold="true"/>
+		</e:Group>
+		<ns1:CustomButton id="_btnOK" label="挑战" x="231" y="840" skinName="CustomButtomSkin5Skin" />
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

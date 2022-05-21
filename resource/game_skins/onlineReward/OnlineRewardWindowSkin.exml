@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OnlineRewardWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="633">
+	<ns1:CustomImage x="-163" y="-28" source="onlineReward_json.onlineRewardBg" height="973" scale9Grid="332,543,303,19"/>
+	<ns1:CustomImage id="btnClose" x="534" y="195" source="onlineReward_json.btnOut"/>
+	<e:Group id="rewardCon" width="437" height="339" x="98" y="253" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ns1:CustomLabel text="活动时间：2017年10月18日~10月29日\n每逢周六、日开启" x="133" y="613" anchorOffsetX="0" width="360" anchorOffsetY="0" height="55" size="20" fontFamily="Microsoft YaHei" textColor="0x07ff00" textAlign="center" lineSpacing="6"/>
+	<ns1:CustomButton id="btnGet" label="领取奖励" x="251" y="674" width="122" height="48"/>
+	<ns1:CustomLabel id="txtTime" text="今天在线时间：0分钟" x="201" y="732" anchorOffsetX="0" width="237" anchorOffsetY="0" height="31" size="22" fontFamily="Microsoft YaHei" textColor="0xfceacc"/>
+	<ns1:CustomButton id="btnHelp" label="" x="51" y="182">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="cityWar_help" source.down="cityWar_help" source.disabled="cityWar_help"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+</e:Skin>

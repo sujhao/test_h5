@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AwakeEquipComposeWindowSkin" width="620" height="925" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin" width="100%" height="100%" x="0" y="0">
+		<ns1:CustomImage width="579" height="756" x="17" y="69" source="awakeEquipCompose_json.awakeEquipCompose_bg"/>
+		<ns1:CustomImage  x="70" y="402" source="awakeEquipCompose_json.awakeEquipCompose_border"/>
+		<ns1:CustomImage x="246" y="555" source="awakeEquipCompose_json.awakeEquipCompose_word"/>
+		<e:Group id="_itemLinksContainer" width="556" height="183" x="72" y="83" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:EquipItem id="_item"  x="136" y="417"/>
+		<e:Group id="_itemContainer" x="50" y="600">
+			<ns1:EquipItem id="_item0" x="0" y="0" name="1"/>
+			<ns1:EquipItem id="_item1" x="135" y="0" name="2"/>
+			<ns1:EquipItem id="_item2" x="270" y="0" name="3"/>
+			<ns1:EquipItem id="_item3" x="405" y="0" name="4"/>
+		</e:Group>
+		<ns1:CustomLabel id="_txtName" text="标签" x="212" y="413" textColor="0xe7d0b7" size="20" fontFamily="Microsoft YaHei" width="233" textAlign="center"/>
+		<ns1:CustomLabel id="_txtCoin" text="标签" x="265" y="728" textColor="0xE7D0B7" size="20" fontFamily="Microsoft YaHei" width="110" textAlign="left"/>
+		<ns1:CustomLabel id="_txtPro" text="攻击：+1000防御：" x="271" y="424" size="18" textColor="0xE7D0B7" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="254" wordWrap="true" anchorOffsetY="0" height="107" lineSpacing="5"/>
+		<ns1:CustomButton id="_btnOK" label="合成" x="245" y="754" skinName="CustomButtonSkin2Skin"/>
+		<ns1:CustomImage id="_imgCoin"  x="348" y="728" source="mainUI_json.image_copper"/>
+		<e:Group id="_equipContainer" width="200" height="97" x="83" y="291" anchorOffsetY="0"/>
+		
+	</ns1:LayeroutWindowSkin>
+	
+	
+	
+	
+</e:Skin>

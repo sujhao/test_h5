@@ -1,0 +1,14 @@
+{"file":"skill.png","frames":{
+"skillBg":{"x":1,"y":759,"w":579,"h":755,"offX":0,"offY":0,"sourceW":579,"sourceH":755},
+"skillBtn_book":{"x":813,"y":456,"w":83,"h":87,"offX":0,"offY":0,"sourceW":83,"sourceH":89},
+"skillfeatBg":{"x":1,"y":1,"w":579,"h":756,"offX":0,"offY":0,"sourceW":579,"sourceH":756},
+"skillfeatTitleBg":{"x":1,"y":1516,"w":577,"h":56,"offX":0,"offY":0,"sourceW":577,"sourceH":56},
+"skillfeatTitleBg2":{"x":582,"y":1,"w":427,"h":148,"offX":100,"offY":0,"sourceW":573,"sourceH":148},
+"skillItemBg":{"x":835,"y":306,"w":148,"h":148,"offX":3,"offY":2,"sourceW":155,"sourceH":153},
+"skillItemBg2":{"x":582,"y":391,"w":135,"h":112,"offX":0,"offY":0,"sourceW":135,"sourceH":112},
+"skillItemBg3":{"x":582,"y":151,"w":251,"h":238,"offX":0,"offY":0,"sourceW":251,"sourceH":238},
+"skillItemLvBg":{"x":719,"y":483,"w":77,"h":32,"offX":0,"offY":0,"sourceW":78,"sourceH":32},
+"skill_lock":{"x":719,"y":391,"w":92,"h":90,"offX":0,"offY":0,"sourceW":92,"sourceH":90},
+"skill_select":{"x":835,"y":151,"w":153,"h":153,"offX":0,"offY":0,"sourceW":154,"sourceH":154},
+"title_skill":{"x":898,"y":487,"w":72,"h":29,"offX":2,"offY":7,"sourceW":75,"sourceH":42},
+"title_skill_book":{"x":898,"y":456,"w":85,"h":29,"offX":11,"offY":7,"sourceW":107,"sourceH":42}}}

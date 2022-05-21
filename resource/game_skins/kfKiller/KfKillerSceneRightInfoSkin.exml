@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KfKillerSceneRightInfoSkin" width="181" height="459" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="kfKillerScene_json.kfKillerScene_rightBg"/>
+	<ns1:CustomImage x="55" y="16" source="kfKillerScene_json.kfKillerScene_dot"/>
+	<ns1:CustomLabel id="_txtMapName" text="杀戮战场" x="72" y="15" textColor="0xffba00" size="18" fontFamily="Microsoft YaHei"/>
+	<ns1:CustomLabel id="_txtDesc" text="本层原地复活不会降层" x="73" y="45" size="18" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="49" anchorOffsetX="0" width="94" lineSpacing="5" textColor="0xe7d0b7"/>
+	<ns1:CustomButton id="_btnOK" label="" x="96" y="146">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="kfKillerScene_json.kfKillerScene_btnRefresh" source.down="kfKillerScene_json.kfKillerScene_btnRefresh" source.disabled="kfKillerScene_json.kfKillerScene_btnRefresh"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<e:Group id="_enemyContainer" width="99" height="232" x="72" y="216" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

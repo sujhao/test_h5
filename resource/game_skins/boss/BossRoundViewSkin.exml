@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossRoundViewSkin" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="575">
+	<ns1:CustomButton id="btnGet" label="进入" x="229" y="666" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomLabel id="txtReward" text="查看奖励" x="371" y="682" size="16" textColor="0x00D228" bold="true"/>
+	<ns1:CustomLabel id="txtTips" text="今天20:00-21:00开放转生BOSS挑战" x="165" y="720" size="16" textColor="0x00D228" bold="true"/>
+	<ns1:BossRoundItem id="item_1"/>
+	<ns1:BossRoundItem id="item_2" x="290"/>
+	<ns1:BossRoundItem id="item_3" y="320"/>
+	<ns1:BossRoundItem id="item_4" x="290" y="320"/>
+</e:Skin>

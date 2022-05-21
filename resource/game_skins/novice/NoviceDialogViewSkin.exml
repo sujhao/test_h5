@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NoviceDialogViewSkin" width="640" height="321" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="resource/assets/icon/novice/bg.jpg"/>
+	<ns1:CustomLabel id="_txtNpcName" text="NPC名字啊" x="37" y="23" textColor="0xffd800" size="24" fontFamily="Microsoft YaHei" stroke="0.5"/>
+	<ns1:CustomLabel id="_txtContent" text="5秒后自动提交" x="57" y="58" fontFamily="Microsoft YaHei" size="18" anchorOffsetX="0" width="510" anchorOffsetY="0" height="71" lineSpacing="5" textColor="0x000000"/>
+	<ns1:CustomLabel text="任务奖励" x="37" y="138" size="20" fontFamily="Microsoft YaHei"/>
+	<e:Group id="_itemContainer" width="463" height="56" x="75" y="174" anchorOffsetY="0" anchorOffsetX="0"/>
+	<ns1:CustomButton id="_btnOK" label="领取奖励" x="456" y="237" skinName="CustomButtonSkin20"/>
+	<ns1:CustomLabel id="_txtTime" text="5秒后自动提交" x="456" y="287" size="18" fontFamily="Microsoft YaHei" width="126" textAlign="center" textColor="0xffffff" stroke="1"/>
+</e:Skin>

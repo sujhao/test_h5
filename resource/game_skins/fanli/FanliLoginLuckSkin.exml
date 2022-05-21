@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FanliLoginLuckSkin" width="577" height="677" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage id="itemBg_1" source="fanliColor_1" x="18" y="18"/>
+	<ns1:CustomImage id="itemBg_2" source="fanliColor_1" x="157" y="18"/>
+	<ns1:CustomImage id="itemBg_3" source="fanliColor_1" x="297" y="18"/>
+	<ns1:CustomImage id="itemBg_4" source="fanliColor_1" x="436" y="18"/>
+	<ns1:CustomImage id="itemBg_5" source="fanliColor_1" x="436" y="153"/>
+	<ns1:CustomImage id="itemBg_6" source="fanliColor_1" x="436" y="290"/>
+	<ns1:CustomImage id="itemBg_7" source="fanliColor_1" x="297" y="290"/>
+	<ns1:CustomImage id="itemBg_8" source="fanliColor_1" x="157" y="290"/>
+	<ns1:CustomImage id="itemBg_9" source="fanliColor_1" x="18" y="290"/>
+	<ns1:CustomImage id="itemBg_10" source="fanliColor_1" x="18" y="153"/>
+	<ns1:CustomImage x="120" y="442" source="FanliLoginLuckTitle"/>
+	<ns1:CustomImage id="image_select" x="18" y="18" source="fanli_select"/>
+	<ns1:CustomLabel id="txtName_1" text="标签" x="18" y="109" size="18" textColor="0xE7D0B7" bold="true" width="122" textAlign="center"/>
+	<ns1:CustomLabel id="txtName_2" text="标签" x="157" y="109" size="18" textColor="0xE7D0B7" bold="true" width="122" textAlign="center"/>
+	<ns1:CustomLabel id="txtName_3" text="标签" x="297" y="109" size="18" textColor="0xE7D0B7" bold="true" width="122" textAlign="center"/>
+	<ns1:CustomLabel id="txtName_4" text="标签" x="436" y="109" size="18" textColor="0xE7D0B7" bold="true" width="122" textAlign="center"/>
+	<ns1:CustomLabel id="txtName_5" text="标签" x="436" y="244" size="18" textColor="0xE7D0B7" bold="true" width="122" textAlign="center"/>
+	<ns1:CustomLabel id="txtName_6" text="标签" x="436" y="382" size="18" textColor="0xE7D0B7" bold="true" width="122" textAlign="center"/>
+	<ns1:CustomLabel id="txtName_7" text="标签" x="297" y="382" size="18" textColor="0xE7D0B7" bold="true" width="122" textAlign="center"/>
+	<ns1:CustomLabel id="txtName_8" text="标签" x="157" y="382" size="18" textColor="0xE7D0B7" bold="true" width="122" textAlign="center"/>
+	<ns1:CustomLabel id="txtName_9" text="标签" x="18" y="382" size="18" textColor="0xE7D0B7" bold="true" width="122" textAlign="center"/>
+	<ns1:CustomLabel id="txtName_10" text="标签" x="18" y="244" size="18" textColor="0xE7D0B7" bold="true" width="122" textAlign="center"/>
+	<e:Scroller width="523" height="112" x="52" y="475" anchorOffsetY="0" anchorOffsetX="0">
+		<e:DataGroup id="logList" itemRenderer="LogItem"/>
+	</e:Scroller>
+	<e:Group id="group_lq" x="181" y="187" visible="false">
+		<ns1:CustomButton id="btnGet" label="普通" x="0" y="0" skinName="CustomButtonSkin2Skin" width="100"/>
+		<ns1:CustomButton id="btnGet10" label="十倍" x="119" y="0" skinName="CustomButtonSkin2Skin" width="100"/>
+		<ns1:CustomLabel id="txtCost" text="99" x="174" y="61" textColor="0xffd200" size="18" bold="true"/>
+		<ns1:CustomImage x="128" y="56" source="image_gold"/>
+	</e:Group>
+	<ns1:CustomButton id="btnChou" label="抽奖" x="230" y="190" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomImage id="image_lq" x="240" y="183" source="share_json.loginReward_ylq" visible="false"/>
+</e:Skin>

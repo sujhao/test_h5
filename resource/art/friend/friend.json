@@ -1,0 +1,12 @@
+{"file":"friend.png","frames":{
+"title_friend_black":{"x":76,"y":244,"w":100,"h":41,"offX":2,"offY":2,"sourceW":105,"sourceH":46},
+"title_friend":{"x":402,"y":136,"w":71,"h":37,"offX":2,"offY":3,"sourceW":76,"sourceH":43},
+"title_friend_add":{"x":262,"y":136,"w":136,"h":37,"offX":2,"offY":2,"sourceW":141,"sourceH":42},
+"friendContentBg":{"x":0,"y":91,"w":575,"h":41,"offX":0,"offY":0,"sourceW":575,"sourceH":41},
+"title_friend_check":{"x":843,"y":0,"w":132,"h":41,"offX":3,"offY":2,"sourceW":138,"sourceH":46},
+"friendContentBg2":{"x":0,"y":0,"w":577,"h":87,"offX":1,"offY":0,"sourceW":578,"sourceH":87},
+"title_friend_sl":{"x":0,"y":312,"w":69,"h":39,"offX":2,"offY":2,"sourceW":75,"sourceH":44},
+"friendMsgTimeBg":{"x":0,"y":208,"w":182,"h":32,"offX":2,"offY":2,"sourceW":185,"sourceH":35},
+"friendMsgBg":{"x":0,"y":136,"w":258,"h":68,"offX":2,"offY":2,"sourceW":261,"sourceH":71},
+"friendMsgBg2":{"x":581,"y":0,"w":258,"h":68,"offX":0,"offY":0,"sourceW":258,"sourceH":68},
+"btnFeedChance":{"x":0,"y":244,"w":72,"h":64,"offX":0,"offY":0,"sourceW":72,"sourceH":64}}}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FigureEquipViewSkin" width="577" height="755" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="share_bg" y="-18" />
+	<ns1:CustomImage source="bg_figure" x="6" y="-14" />
+	<ns1:CustomButton id="_btnForgemind" label="" x="22" y="9">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_zhouhun" source.down="btn_zhouhun" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="_btnOrangeSuit" label="" x="491" y="4">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_chenzhuang" source.down="btn_chenzhuang" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomImage x="124" y="67" source="bg_fightPower" />
+	<e:BitmapLabel id="_txtFpower" width="200" height="29" x="223" y="89" text="34234324"
+	               anchorOffsetY="0"  font="number_0_fnt"/>
+	<e:Group id="figureMovieContainer" width="200" height="200" x="289" y="400"/>
+	<e:Group id="equipItemContainer" x="13" y="131">
+		<ns1:EquipItemSmall x="0" y="493" name="101" />
+		<ns1:EquipItemSmall id="equip_1" x="0" y="0" name="1" />
+		<ns1:EquipItemSmall id="equip_2" x="0" y="125" name="2" />
+		<ns1:EquipItemSmall id="equip_5" x="0" y="250" name="5" />
+		<ns1:EquipItemSmall id="equip_6" x="0" y="368" name="7" />
+		<ns1:EquipItemSmall id="equip_3" x="478" y="0" name="3" />
+		<ns1:EquipItemSmall id="equip_4" x="478" y="125" name="4" />
+		<ns1:EquipItemSmall id="equip_500" x="478" y="250" name="6" />
+		<ns1:EquipItemSmall id="equip_600" x="478" y="368" name="8" />
+		<ns1:EquipItemSmall x="478" y="493" name="104" />
+		<ns1:EquipItemSmall x="377" y="125" name="9" />
+		<ns1:EquipItemSmall x="377" y="250" name="112" />
+		<ns1:EquipItemSmall x="377" y="368" name="114" />
+		<ns1:EquipItemSmall x="377" y="493" name="103" />
+		<ns1:EquipItemSmall x="102" y="250" name="111" />
+		<ns1:EquipItemSmall x="102" y="368" name="113" />
+		<ns1:EquipItemSmall x="102" y="493" name="102" />
+	</e:Group>
+	<ns1:CustomButton id="_btnChange" label="一键换装" x="222" y="684" anchorOffsetX="0" anchorOffsetY="0" width="144"
+	                  skinName="CustomButtonSkin6Skin" />
+	<ns1:CustomButton id="_btnFashion" label="" x="299" y="557">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_zhuangban" source.down="btn_zhuangban"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="_btnChenghao" label="" x="211" y="557">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_chenghao" source.down="btn_chenghao" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomLabel id="_txtLink" text="标签" x="393" y="89" size="20" textColor="0x00d228" fontFamily="Microsoft YaHei" />
+</e:Skin>

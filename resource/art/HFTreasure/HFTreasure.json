@@ -1,0 +1,10 @@
+{"file":"HFTreasure.png","frames":{
+"HFTreasuree_barBg":{"x":0,"y":737,"w":508,"h":26,"offX":0,"offY":0,"sourceW":508,"sourceH":26},
+"HFTreasure__box1":{"x":864,"y":0,"w":64,"h":64,"offX":0,"offY":0,"sourceW":64,"sourceH":64},
+"HFTreasure_bar":{"x":512,"y":737,"w":460,"h":12,"offX":0,"offY":0,"sourceW":460,"sourceH":12},
+"HFTreasure_bg":{"x":0,"y":0,"w":577,"h":677,"offX":0,"offY":0,"sourceW":577,"sourceH":677},
+"HFTreasure_border1":{"x":581,"y":0,"w":279,"h":57,"offX":0,"offY":0,"sourceW":279,"sourceH":57},
+"HFTreasure_border2":{"x":0,"y":681,"w":558,"h":52,"offX":0,"offY":0,"sourceW":558,"sourceH":52},
+"HFTreasure_box2":{"x":932,"y":67,"w":63,"h":62,"offX":0,"offY":0,"sourceW":63,"sourceH":62},
+"HFTreasure_box3":{"x":932,"y":0,"w":64,"h":63,"offX":0,"offY":0,"sourceW":64,"sourceH":63},
+"HFTreasure_equipTxt":{"x":562,"y":681,"w":100,"h":34,"offX":0,"offY":0,"sourceW":100,"sourceH":34}}}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CWStroageItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="cityWar_json.cityWar_bg4"/>
+	<e:BitmapLabel id="_txtNum" width="90" height="20" x="36" y="12" font="number_2_fnt" text="0"/>
+	<ns1:GoodsItem id="_goodsItem" x="19" y="39"/>
+	<ns1:CustomImage x="13" y="11" source="cityWar_json.cityWar_txt1"/>
+</e:Skin>

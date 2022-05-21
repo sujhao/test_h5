@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="topBarSkin" width="640" height="75" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage id="_imgBg"  source="mainUI_topBg" scale9Grid="80,23,480,25" width="700"/>
+	<ns1:CustomImage  x="3" y="18" source="mainUI_top_nameBg"/>
+	<ns1:CustomLabel id="txtName" text="你大爷" x="14" y="24" size="18" fontFamily="Microsoft YaHei" width="133" textColor="0xe7d0b7"/>
+	<ns1:CustomLabel id="txtLvl" text="5转4级" x="153" y="25" size="20" width="100" textColor="0xffea02"/>
+	<e:Group id="_moneyGroup" right="5" top="17">
+		<ns1:CustomImage x="0" y="0" source="textInput_bg" anchorOffsetX="0" width="183"/>
+		<ns1:CustomImage x="186" y="0" source="textInput_bg" width="183"/>
+		<ns1:CustomImage x="6" y="5" source="mainUI_json.image_copper"/>
+		<ns1:CustomImage x="188" y="4" source="image_gold"/>
+		<ns1:CustomLabel id="txtCopper" text="标签" x="52" y="7" size="20" fontFamily="Microsoft YaHei" width="100" textColor="0xe7d0b7"/>
+		<ns1:CustomLabel id="txtGold" text="标签" x="236" y="7" size="20" fontFamily="Microsoft YaHei" width="100" textColor="0xe7d0b7"/>
+		<ns1:CustomButton id="btnAddCopper" label="" x="144" y="3">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_add" source.down="btn_add"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="btnAddGold" label="" x="330" y="3">
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_add" source.down="btn_add"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:CustomButton>
+	</e:Group>
+	
+</e:Skin>

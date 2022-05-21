@@ -1,0 +1,5 @@
+{"file":"HFTitle.png","frames":{
+"HFTitle_word":{"x":581,"y":0,"w":130,"h":62,"offX":0,"offY":0,"sourceW":130,"sourceH":62},
+"HFTitle_border1":{"x":0,"y":324,"w":580,"h":156,"offX":0,"offY":0,"sourceW":580,"sourceH":156},
+"HFTitle_border2":{"x":0,"y":484,"w":579,"h":39,"offX":0,"offY":0,"sourceW":579,"sourceH":39},
+"HFTitle_midBg":{"x":0,"y":0,"w":577,"h":320,"offX":0,"offY":0,"sourceW":577,"sourceH":320}}}

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="LogItemSkinSkin" states="up,down,disabled" minHeight="30" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomLabel id="txtContent" text="" size="18" textColor="0xE7D0B7" anchorOffsetX="0" anchorOffsetY="0" bold="true"/>
+
+	<w:Config id="15af55071d1" ></w:Config>
+</e:Skin>

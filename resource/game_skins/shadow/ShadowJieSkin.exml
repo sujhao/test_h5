@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShadowJieSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="755" width="578">
+	<e:Group id="itemGroup" x="53" y="100">
+		<ns1:CustomImage source="shadowTxt" x="0" y="0"/>
+		<ns1:CustomImage y="30" source="itemBgSmall_4"/>
+		<ns1:CustomImage id="lock_skill" y="29" source="shadowOpen"/>
+	</e:Group>
+	<ns1:CustomImage x="79" y="583" horizontalCenter="1" source="share_contentBg2"/>
+	<ns1:CustomImage x="161" y="345" source="share_fpowerBg"/>
+	<e:BitmapLabel id="numFight" x="264" y="369" font="number_0_fnt" text="0" anchorOffsetX="0" width="189" anchorOffsetY="0" height="36"/>
+	<ns1:CustomImage source="share_contentBg2" x="53" y="725" visible="false"/>
+	<ns1:CustomProgressBar id="bar" y="608" horizontalCenter="0" anchorOffsetX="0" skinName="CustomProgressBarSkin"/>
+	<ns1:CustomLabel id="txtPro" text="" x="117" y="428" size="18" textColor="0xDDA66B" bold="true" anchorOffsetX="0" width="158" anchorOffsetY="0" height="105" lineSpacing="5"/>
+	<ns1:CustomLabel id="txtPro2" text="" x="347" y="428" size="18" bold="true" anchorOffsetX="0" width="158" anchorOffsetY="0" height="105" textColor="0x00d228" lineSpacing="5"/>
+	<ns1:CustomImage id="imageJiantou" x="269" y="462" source="shadow_jt" visible="false"/>
+	<ns1:CustomButton id="btn_tiaozhan" label="挑战守卫" y="688" horizontalCenter="0" skinName="CustomButtonSkin2Skin" visible="false"/>
+	<e:Group id="starGroup" x="78" y="553">
+		<ns1:CustomButton id="btn_jihuo" label="激活" y="135" skinName="CustomButtonSkin2Skin" x="150" visible="false"/>
+		<ns1:CustomImage id="star_1" x="5" y="0" source="shadowStar"/>
+		<ns1:CustomImage id="star_2" source="shadowStar" x="47" y="0"/>
+		<ns1:CustomImage id="star_3" source="shadowStar" x="89" y="0"/>
+		<ns1:CustomImage id="star_4" source="shadowStar" x="131" y="0"/>
+		<ns1:CustomImage id="star_5" source="shadowStar" x="173" y="0"/>
+		<ns1:CustomImage id="star_6" source="shadowStar" x="215" y="0"/>
+		<ns1:CustomImage id="star_7" source="shadowStar" x="257" y="0"/>
+		<ns1:CustomImage id="star_8" source="shadowStar" x="299" y="0"/>
+		<ns1:CustomImage id="star_9" source="shadowStar" x="341" y="0"/>
+		<ns1:CustomImage id="star_10" source="shadowStar" x="383" y="0"/>
+		<ns1:CustomLabel text="消耗进阶丹：" x="0" y="106" size="18" textColor="0xDDA66B" bold="true"/>
+		<ns1:CustomLabel id="txtlink" text="获取途径" x="300" y="106" size="18" bold="true" textColor="0x00d228"/>
+		<ns1:CustomLabel id="txtCount" text="0/5" x="103" y="106" size="18" bold="true" textColor="0xdda66b"/>
+		<ns1:CustomButton id="btnGet" label="进阶" y="135" skinName="CustomButtonSkin2Skin" x="2" visible="false"/>
+		<ns1:CustomButton id="btnGetAuto" label="自动进阶" y="135" skinName="CustomButtonSkin2Skin" x="296" visible="false"/>
+		<ns1:CustomButton id="btnStop" label="停止" y="135" skinName="CustomButtonSkin2Skin" x="296" visible="false"/>
+	</e:Group>
+	<ns1:CustomLabel id="txtTips" text="挑战守卫成功后可突破"  horizontalCenter="0" y="659" size="18" textColor="0xDDA66B" bold="true"/>
+	<e:Group id="effectGroup" width="200" height="200"/>
+	<e:Group id="lockGroup" x="35" y="21"/>
+</e:Skin>

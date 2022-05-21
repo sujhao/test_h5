@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HFDlViewSkin" width="577" height="917" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="HFDl_json.HFDl_border" x="120" y="433"/>
+	<e:Group id="_itemContainer" width="552" height="265" x="-6" y="108" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="_itemAwardContainer" width="552" height="142" x="6" y="460" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ns1:CustomButton id="_btnGet" label="领取奖励" x="228" y="606" skinName="CustomButtonSkin2Skin"/>
+</e:Skin>

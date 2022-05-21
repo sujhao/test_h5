@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FanliDFWSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="577" height="678">
+	<e:Group id="contentGroup" width="577" height="678">
+		<ns1:CustomImage id="item_17" source="share_json.itemBg_4" x="47" y="137" width="60" height="60" scaleX="1" scaleY="1"/>
+		<ns1:CustomImage id="item_16" source="share_json.itemBg_4" x="117" y="137" width="60" height="60"/>
+		<ns1:CustomImage id="item_15" source="share_json.itemBg_4" x="187" y="137" width="60" height="60"/>
+		<ns1:CustomImage id="item_14" source="share_json.itemBg_4" x="256" y="137" width="60" height="60"/>
+		<ns1:CustomImage id="item_13" source="share_json.itemBg_4" x="326" y="137" width="60" height="60"/>
+		<ns1:CustomImage id="item_12" source="share_json.itemBg_4" x="396" y="137" width="60" height="60"/>
+		<ns1:CustomImage id="item_11" source="share_json.itemBg_4" x="466" y="137" width="60" height="60"/>
+		<ns1:CustomImage id="item_10" source="share_json.itemBg_4" x="466" y="206" width="60" height="60"/>
+		<ns1:CustomImage id="item_9" source="share_json.itemBg_4" x="466" y="275" width="60" height="60"/>
+		<ns1:CustomImage id="item_8" source="share_json.itemBg_4" x="466" y="345" width="60" height="60"/>
+		<ns1:CustomImage id="item_7" source="share_json.itemBg_4" x="466" y="414" width="60" height="60"/>
+		<ns1:CustomImage id="item_6" source="share_json.itemBg_4" x="466" y="483" width="60" height="60"/>
+		<ns1:CustomImage id="item_5" source="share_json.itemBg_4" x="396" y="483" width="60" height="60"/>
+		<ns1:CustomImage id="item_4" source="share_json.itemBg_4" x="326" y="483" width="60" height="60"/>
+		<ns1:CustomImage id="item_3" source="share_json.itemBg_4" x="256" y="483" width="60" height="60"/>
+		<ns1:CustomImage id="item_2" source="share_json.itemBg_4" x="187" y="483" width="60" height="60"/>
+		<ns1:CustomImage id="item_1" source="share_json.itemBg_4" x="117" y="483" width="60" height="60"/>
+		<ns1:CustomImage id="item_0" source="share_json.itemBg_4" x="47" y="483" width="60" height="60"/>
+		<ns1:CustomImage id="item_19" source="share_json.itemBg_4" x="47" y="275" width="60" height="60"/>
+		<ns1:CustomImage id="item_18" source="share_json.itemBg_4" x="47" y="206" width="60" height="60"/>
+		<ns1:CustomImage x="54" y="490" source="fanli_json.fanliTxt_start"/>
+		<ns1:CustomImage x="52" y="281" source="fanli_json.fanliTxt_end"/>
+		<ns1:CustomLabel id="txtFloor" text="第1层" y="399" size="18" bold="true" textAlign="center" x="36" textColor="0xE7D0B7" touchEnabled="false" width="80"/>
+		<ns1:CustomLabel id="txtNum_1" text="0" y="519" size="18" bold="true" textAlign="right" x="119" textColor="0x00D228" touchEnabled="false" width="55"/>
+		<ns1:CustomLabel id="txtNum_2" text="0" y="519" size="18" bold="true" textAlign="right" x="187" textColor="0x00D228" touchEnabled="false" width="55"/>
+		<ns1:CustomLabel id="txtNum_3" text="0" y="519" size="18" bold="true" textAlign="right" x="256" textColor="0x00D228" touchEnabled="false" width="55"/>
+		<ns1:CustomLabel id="txtNum_4" text="0" y="519" size="18" bold="true" textAlign="right" x="326" textColor="0x00D228" touchEnabled="false" width="55"/>
+		<ns1:CustomLabel id="txtNum_5" text="0" y="519" size="18" bold="true" textAlign="right" x="396" textColor="0x00D228" touchEnabled="false" width="55"/>
+		<ns1:CustomLabel id="txtNum_6" text="0" y="519" size="18" bold="true" textAlign="right" x="466" textColor="0x00D228" touchEnabled="false" width="55"/>
+		<ns1:CustomLabel id="txtNum_7" text="0" y="450" size="18" bold="true" textAlign="right" x="466" textColor="0x00D228" touchEnabled="false" width="55"/>
+		<ns1:CustomLabel id="txtNum_8" text="0" y="381" size="18" bold="true" textAlign="right" x="466" textColor="0x00D228" touchEnabled="false" width="55"/>
+		<ns1:CustomLabel id="txtNum_9" text="0" y="311" size="18" bold="true" textAlign="right" x="466" textColor="0x00D228" touchEnabled="false" width="55"/>
+		<ns1:CustomLabel id="txtNum_10" text="0" y="240" size="18" bold="true" textAlign="right" x="466" textColor="0x00D228" touchEnabled="false" width="55"/>
+		<ns1:CustomLabel id="txtNum_11" text="0" y="172" size="18" bold="true" textAlign="right" x="466" textColor="0x00D228" touchEnabled="false" width="55"/>
+		<ns1:CustomLabel id="txtNum_12" text="0" y="172" size="18" bold="true" textAlign="right" x="396" textColor="0x00D228" touchEnabled="false" width="55"/>
+		<ns1:CustomLabel id="txtNum_13" text="0" y="172" size="18" bold="true" textAlign="right" x="326" textColor="0x00D228" touchEnabled="false" width="55"/>
+		<ns1:CustomLabel id="txtNum_14" text="0" y="172" size="18" bold="true" textAlign="right" x="256" textColor="0x00D228" touchEnabled="false" width="55"/>
+		<ns1:CustomLabel id="txtNum_15" text="0" y="172" size="18" bold="true" textAlign="right" x="187" textColor="0x00D228" touchEnabled="false" width="55"/>
+		<ns1:CustomLabel id="txtNum_16" text="0" y="172" size="18" bold="true" textAlign="right" x="117" textColor="0x00D228" touchEnabled="false" width="55"/>
+		<ns1:CustomLabel id="txtNum_17" text="0" y="172" size="18" bold="true" textAlign="right" x="47" textColor="0x00D228" touchEnabled="false" width="55"/>
+		<ns1:CustomLabel id="txtNum_18" text="0" y="240" size="18" bold="true" textAlign="right" x="47" textColor="0x00D228" touchEnabled="false" width="55"/>
+		<e:Group id="diceGroup" x="113" y="255">
+			<ns1:CustomButton id="btnGet" label="" x="22" y="10">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fanli_json.fanli_dfwBtn" source.down="fanli_json.fanli_dfwBtn" source.disabled="fanli_json.fanli_dfwBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:CustomButton>
+			<ns1:CustomButton id="btnGet6" label="" x="181" y="0">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fanli_json.fanli_dfwBtn6" source.down="fanli_json.fanli_dfwBtn6" source.disabled="fanli_json.fanli_dfwBtn6"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:CustomButton>
+			<ns1:CustomImage x="188" y="132" source="share_json.share_contentBg3" anchorOffsetX="0" width="145"/>
+			<ns1:CustomImage x="14" y="130" source="share_json.share_contentBg3" anchorOffsetX="0" width="145"/>
+			<ns1:CustomImage x="210" y="129" anchorOffsetX="0" source="fanli_json.fanliTxt_6"/>
+			<ns1:CustomImage x="35" y="128" anchorOffsetX="0" source="fanli_json.fanliTxt_pt"/>
+			<ns1:CustomImage x="101" y="166" anchorOffsetX="0" source="mainUI_json.image_gold2"/>
+			<ns1:CustomLabel id="txtCost" text="1000" y="173" size="18" bold="true" textAlign="right" x="0" textColor="0xE7D0B7" touchEnabled="false" width="100"/>
+			<ns1:CustomLabel id="txtCount" text="0" y="173" size="18" bold="true" textAlign="left" x="272" touchEnabled="false" textColor="0x00d228"/>
+			<ns1:CustomLabel text="剩余：" y="173" size="18" bold="true" textAlign="left" x="217" touchEnabled="false" textColor="0xffd200"/>
+		</e:Group>
+		<e:Group id="effectGroup" x="47" y="483"/>
+		<ns1:CustomImage id="img_dice" y="310" anchorOffsetX="0" width="60" anchorOffsetY="0" height="60" source="fanli_json.fanli_dice_1" x="259"/>
+	</e:Group>
+	<ns1:CustomImage source="resource/assets/icon/fanli/fanli_zpBg2.jpg" visible="false"/>
+	<ns1:CustomImage id="boxReward" y="540" source="fanli_json.fanli_box" anchorOffsetX="0" width="159" anchorOffsetY="0" height="129" x="2"/>
+	<ns1:CustomImage id="lq_reward" x="25" y="583" anchorOffsetX="0" source="share_json.loginReward_ylq"/>
+	<ns1:CustomLabel text="（财富值达到手动领取）" y="582" size="18" bold="true" textAlign="left" x="283" touchEnabled="false" textColor="0x00D228"/>
+	<ns1:CustomLabel text="财富值奖励" y="582" size="18" bold="true" textAlign="left" x="185" touchEnabled="false" textColor="0xFFD200"/>
+	<ns1:CustomProgressBar id="bar" x="125" y="608" width="400"/>
+	<ns1:CustomLabel id="txtFloor_0" text="100层" y="86" size="18" bold="true" textAlign="center" x="29" touchEnabled="false" width="100" textColor="0xffd200"/>
+	<ns1:CustomLabel id="txtFloor_1" text="100层" y="86" size="18" bold="true" textAlign="center" x="133" touchEnabled="false" width="100" textColor="0xffd200"/>
+	<ns1:CustomLabel id="txtFloor_2" text="100层" y="86" size="18" bold="true" textAlign="center" x="228" touchEnabled="false" width="100" textColor="0xffd200"/>
+	<ns1:CustomLabel id="txtFloor_3" text="100层" y="86" size="18" bold="true" textAlign="center" x="329" touchEnabled="false" width="100" textColor="0xffd200"/>
+	<ns1:CustomLabel id="txtFloor_4" text="100层" y="86" size="18" bold="true" textAlign="center" x="425" touchEnabled="false" width="100" textColor="0xffd200"/>
+	<ns1:CustomImage id="box_0" x="50" y="17" anchorOffsetX="0" source="fanli_json.fanli_box_close"/>
+	<ns1:CustomImage x="149" y="17" anchorOffsetX="0" source="fanli_json.fanli_box_close" id="box_1"/>
+	<ns1:CustomImage x="248" y="17" anchorOffsetX="0" source="fanli_json.fanli_box_close" id="box_2"/>
+	<ns1:CustomImage x="346" y="17" anchorOffsetX="0" source="fanli_json.fanli_box_close" id="box_3"/>
+	<ns1:CustomImage x="445" y="17" anchorOffsetX="0" source="fanli_json.fanli_box_close" id="box_4"/>
+	<ns1:CustomImage id="lq_1" x="129" y="25" anchorOffsetX="0" source="share_json.loginReward_ylq"/>
+	<ns1:CustomImage id="lq_2" x="230" y="24" anchorOffsetX="0" source="share_json.loginReward_ylq"/>
+	<ns1:CustomImage id="lq_3" x="330" y="25" anchorOffsetX="0" source="share_json.loginReward_ylq"/>
+	<ns1:CustomImage id="lq_4" x="430" y="25" anchorOffsetX="0" source="share_json.loginReward_ylq"/>
+	<ns1:CustomImage id="lq_0" x="26" y="25" anchorOffsetX="0" source="share_json.loginReward_ylq"/>
+</e:Skin>

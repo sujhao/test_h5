@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NoviceCgWindowSkin" width="601" height="405" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage x="10" y="64" source="novicecg_json.novice_bg"/>
+	<ns1:CustomImage id="_imageHead" x="12" y="-107" touchEnabled="false" source=""/>
+	<ns1:CustomImage x="251" y="198" touchEnabled="false" source="novicecg_json.novice_word"/>
+	<ns1:CustomLabel id="_txtTitle" text="标签" x="229" y="91" size="22" textColor="0xffd200" width="333" fontFamily="Microsoft YaHei"/>
+	<ns1:CustomLabel id="_txtContent" text="标签标签标签标签标签标签标签标签标签标签标签标签标签标签标签标签标签标签" x="230" y="127" size="22" width="333" fontFamily="Microsoft YaHei" textColor="0xe7d0b7" anchorOffsetY="0" height="66"/>
+	<ns1:GoodsItem id="_item"   x="309" y="197"/>
+	<ns1:CustomButton id="_btnOK" label="点击继续" x="425" y="243" skinName="CustomButtonSkin3Skin"/>
+</e:Skin>

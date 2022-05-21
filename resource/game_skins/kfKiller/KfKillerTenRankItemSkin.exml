@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KfKillerTenRankItemSkin" width="189" height="181" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="kfKiller_json.kfKiller_itemBg"/>
+	<ns1:CustomImage x="16" y="102" source="kfKiller_json.kfKiller_border4"/>
+<ns1:HeadItem id="_headItem" y="27" x="61"/>
+	<ns1:CustomLabel id="_txtGuildName" text="Label" x="11" y="146" bold="true" size="20" fontFamily="Microsoft YaHei" textColor="0xffd200" width="168" textAlign="center"/>
+	<ns1:CustomLabel id="_txtName" text="Label" x="11" y="110"  size="20" fontFamily="Microsoft YaHei" width="168" textAlign="center" textColor="0xe7d0b7"/>
+</e:Skin>

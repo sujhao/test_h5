@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QQVipWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin">
+		<ns1:CustomImage x="18" y="72" source="fuli_json.fuliBg"/>
+		<ns1:CustomImage id="_selectImage" x="144" y="91" scaleX="1" scaleY="1" source="fanli_json.fanli_selected"/>
+		<ns1:CustomButton id="btn_reward" label="" x="149" y="106">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="activity_json.qqvipBtn_reward" source.down="activity_json.qqvipBtn_reward" source.disabled="activity_json.qqvipBtn_reward"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="btn_shop" label="" x="370" y="106">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="activity_json.qqvipBtn_shop" source.down="activity_json.qqvipBtn_shop" source.disabled="activity_json.qqvipBtn_shop"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<e:Group id="_viewReward" x="17" y="218" anchorOffsetX="0" width="588">
+			<e:Scroller width="580" height="612" anchorOffsetY="0">
+				<e:DataGroup id="rewardList" itemRenderer="QQVipRewardItem"/>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="_viewShop" y="218" anchorOffsetX="0" width="588" x="17" visible="false">
+			<e:Scroller width="580" height="612" anchorOffsetY="0">
+			<e:DataGroup id="shopList" itemRenderer="QQVipShopItem"/>
+			</e:Scroller>
+		</e:Group>
+		<ns1:CustomLabel id="_txtVipLv" text="我的vip特权等级等级" x="35" y="841" size="22" textColor="0x00ff00"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

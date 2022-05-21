@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopSelfViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="580" height="750">
+	<ns1:CustomImage source="share_json.share_contentBg" y="650" width="580"/>
+	<ns1:CustomImage source="share_json.share_contentBg2" y="722" horizontalCenter="0"/>
+	<ns1:CustomButton id="btnGet" label="商品上架" y="673" width="116" skinName="CustomButtonSkin2Skin" horizontalCenter="0"/>
+	<e:Scroller width="571" height="648" y="0" anchorOffsetY="0" x="4" anchorOffsetX="0">
+		<e:DataGroup id="itemList" itemRenderer="ShopSelfItem"/>
+	</e:Scroller>
+</e:Skin>

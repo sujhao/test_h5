@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FashionItemSkin" width="113" height="151" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="fashion_json.fashion_itemBg"/>
+	<ns1:GoodsItem id="_item"  x="10" y="9"/>
+	<ns1:CustomLabel id="_txtName" text="标签" x="4" y="115" size="20" textColor="0xe7d0b7" fontFamily="Microsoft YaHei" width="105" textAlign="center"/>
+	<ns1:CustomImage id="_imgFlag" x="0" y="0" source="fashion_json.fashion_flag"/>
+</e:Skin>

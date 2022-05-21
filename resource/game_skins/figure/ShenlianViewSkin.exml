@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShenlianViewSkin" width="579" height="756" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+    <ns1:CustomImage x="126" y="379" source="shenlian_json.shenlian_border" />
+    <ns1:CustomImage x="219" y="370" source="shenlian_json.shenlian_w1" />
+    <ns1:CustomImage x="117" y="84" source="shenlian_json.shenlian_w2" />
+    <ns1:CustomImage id="_imgArrow" x="269" y="472" source="share_json.share_arrow1" />
+    <ns1:CustomLabel id="_txtProNext" text="标签" x="332" y="472" size="36" fontFamily="Microsoft YaHei"
+                     textColor="0x00D228" stroke="1" />
+    <ns1:CustomLabel id="_txtPro" text="标签" x="181" y="472" size="36" fontFamily="Microsoft YaHei" stroke="1"
+                     textColor="0xffffff" />
+    <ns1:CustomLabel id="_txtName" text="消耗红装碎片" x="84" y="636" size="22" textColor="0xdbc7b0" fontFamily="Microsoft YaHei"
+                     width="138"  anchorOffsetX="0"/>
+    <ns1:CustomImage x="229" y="630" source="comp_json.textInput_bg" />
+    <ns1:CustomLabel id="_txtCount" text="8/9" x="241" y="636" size="20" fontFamily="Microsoft YaHei" width="122"
+                     textColor="0x34c800" textAlign="center" />
+    <ns1:CustomLabel id="_txtRecLink" text="回收战魂" x="380" y="636" size="20" fontFamily="Microsoft YaHei" width="166"
+                     textColor="0x00d228" />
+    <ns1:CustomLabel id="_txtlvl" text="Label" x="243" y="398" size="20" textColor="0xffd200" width="88" textAlign="center"
+                     fontFamily="Microsoft YaHei" />
+    <ns1:CustomLabel text="全身装备加成" x="208" y="430" size="20" width="155" textAlign="center" textColor="0xe7d0b7"
+                     fontFamily="Microsoft YaHei" />
+    <ns1:CustomLabel text="当普通装备被爆时，神炼等级自动 降低防止装备损失" x="134" y="246" size="20" width="300" textAlign="center"
+                     fontFamily="Microsoft YaHei" textColor="0x00f022" stroke="0.7" />
+    <e:Group id="_itemContainer" x="18" y="79">
+        <ns1:EquipItemSmall x="0" y="0" name="1" />
+        <ns1:EquipItemSmall x="0" y="138" name="2" />
+        <ns1:EquipItemSmall x="0" y="272" name="5" />
+        <ns1:EquipItemSmall x="0" y="404" name="7" />
+        <ns1:EquipItemSmall x="446" y="0" name="3" />
+        <ns1:EquipItemSmall x="446" y="138" name="4" />
+        <ns1:EquipItemSmall x="446" y="272" name="6" />
+        <ns1:EquipItemSmall x="446" y="404" name="8" />
+    </e:Group>
+    <ns1:CustomButton id="_btnOK" label="神炼" x="239" y="686" skinName="CustomButtonSkin2Skin" />
+	<ns1:GoodsItemSmall id="_item" x="242" y="443" visible="false"/>
+    <ns1:CustomImage id="_imageSelected" y="250" x="20" source="share_json.share_itemSelected" touchEnabled="false"/>
+</e:Skin>

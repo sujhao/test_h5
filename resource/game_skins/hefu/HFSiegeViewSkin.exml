@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HFSiegeViewSkin" width="578" height="676" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomButton id="_btnOK" label="决战沙城" x="226" y="633" skinName="CustomButtonSkin2Skin"/>
+	<e:Scroller width="578" height="480" x="0" y="126" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="_itemContainer"/>
+	</e:Scroller>
+</e:Skin>

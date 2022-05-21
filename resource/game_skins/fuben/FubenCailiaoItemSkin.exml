@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="FubenCailiaoItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage source="fubenBg_1"/>
+	<ns1:CustomButton id="btnGet" label="挑战" x="423" y="40" skinName="CustomButtonSkin7Skin" width="122" height="48"/>
+	<ns1:CustomButton id="btnSao" label="扫荡" x="438" y="40" skinName="CustomButtonSkin7Skin" visible="false"/>
+	<ns1:CustomButton id="btnSao2" label="扫荡" x="438" y="40" skinName="CustomButtonSkin7Skin" visible="false"/>
+	<ns1:CustomImage y="27" source="fubenTitleBg"/>
+	<ns1:GoodsItem id="item" x="46" y="70"/>
+	<ns1:CustomLabel text="剩余次数：" x="423" y="103" bold="true" size="18" textColor="0xDDA66B"/>
+	<ns1:CustomLabel id="txtCost" text="0" x="323" y="87" bold="true" size="18" textColor="0xDDA66B"/>
+	<ns1:CustomLabel id="txtCount" text="1次" x="509" y="103" textColor="0x00D228" bold="true" size="18"/>
+	<ns1:CustomImage id="iconCost" x="275" y="83" source="image_gold"/>
+	<ns1:CustomImage id="fubenBarBg" x="415" y="130" source="fubenBarBg" visible="false"/>
+	<ns1:CustomImage id="fubenBar" x="418" y="133" source="fubenBar" width="0" visible="false"/>
+	<e:Group id="tipGroup" x="0" y="0" width="575" height="184" anchorOffsetX="0" visible="false">
+		<ns1:CustomImage width="100%" height="100%" source="share_black3" x="0" y="0"/>
+		<ns1:CustomImage id="lock" x="62" y="87" source="share_lock"/>
+		<ns1:CustomLabel id="txtTips" text="6转开启" x="163" y="77" size="42" textColor="0xDDA66B" bold="true" textAlign="center" anchorOffsetX="0" width="261"/>
+	</e:Group>
+	<ns1:CustomLabel id="txtMonth" text="月卡可扫荡" x="436" y="17" size="18" bold="true" textColor="0x00D228"/>
+
+	<w:Config id="15c7c22d484" ></w:Config>
+</e:Skin>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LevelupAlertViewSkin" width="617" height="146" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="levelup_json.levelup_bg"/>
+	<e:BitmapLabel id="_txtLvl" width="89" height="30" x="346" y="91" font="number_0_fnt" text="132" textAlign="center"/>
+</e:Skin>

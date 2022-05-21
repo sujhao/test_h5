@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CWRefreshViewSkin" width="142" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomButton id="_btnRefresh" label="" x="20">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="cityWar_json.cityWar_refreshBtn" source.down="cityWar_json.cityWar_refreshBtn" source.disabled="cityWar_json.cityWar_refreshBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<e:Group id="_container" width="114" height="200" x="1" y="67" anchorOffsetX="0"/>
+</e:Skin>

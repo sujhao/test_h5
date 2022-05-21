@@ -1,0 +1,27 @@
+<data>
+  <item name="\stand9.png" size="19482"/>
+  <item name="\stand8.png" size="15984"/>
+  <item name="\stand6.png" size="22759"/>
+  <item name="\stand3.png" size="21895"/>
+  <item name="\stand2.png" size="19610"/>
+  <item name="\run9.png" size="27169"/>
+  <item name="\run8.png" size="22356"/>
+  <item name="\run6.png" size="33530"/>
+  <item name="\run3.png" size="34262"/>
+  <item name="\run2.png" size="31296"/>
+  <item name="\hit9.png" size="14150"/>
+  <item name="\hit8.png" size="11314"/>
+  <item name="\hit6.png" size="18092"/>
+  <item name="\hit3.png" size="18514"/>
+  <item name="\hit2.png" size="16725"/>
+  <item name="\dead9.png" size="19467"/>
+  <item name="\dead8.png" size="16305"/>
+  <item name="\dead6.png" size="24358"/>
+  <item name="\dead3.png" size="24690"/>
+  <item name="\dead2.png" size="21905"/>
+  <item name="\attack9.png" size="30540"/>
+  <item name="\attack8.png" size="25622"/>
+  <item name="\attack6.png" size="33762"/>
+  <item name="\attack3.png" size="32363"/>
+  <item name="\attack2.png" size="29011"/>
+</data>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopQizhenZhuanViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="shopQizhenBg2"/>
+	<ns1:CustomLabel text="每天24点清空抽奖次数" x="135" y="326" size="22" fontFamily="Microsoft YaHei" textColor="0x00D228" bold="true"/>
+	<ns1:CustomLabel text="奇珍商店购买1次，就可抽奖1次" x="135" y="296" size="22" fontFamily="Microsoft YaHei" textColor="0x00D228" bold="true"/>
+	<ns1:GoodsItemSmall id="item_0" x="22" y="31"/>
+	<ns1:GoodsItemSmall id="item_1" x="173" y="31"/>
+	<ns1:GoodsItemSmall id="item_2" x="323" y="31"/>
+	<ns1:GoodsItemSmall x="474" y="31" id="item_3"/>
+	<ns1:GoodsItemSmall x="474" y="181" id="item_4"/>
+	<ns1:GoodsItemSmall x="474" y="331" id="item_5"/>
+	<ns1:GoodsItemSmall x="474" y="481" id="item_6"/>
+	<ns1:GoodsItemSmall x="323" y="481" id="item_7"/>
+	<ns1:GoodsItemSmall x="173" y="481" id="item_8"/>
+	<ns1:GoodsItemSmall x="22" y="481" id="item_9"/>
+	<ns1:GoodsItemSmall x="22" y="331" id="item_10"/>
+	<ns1:GoodsItemSmall x="22" y="181" id="item_11"/>
+	<ns1:CustomImage x="170" y="260" source="shopQizhenTxt2"/>
+	<e:BitmapLabel id="txtCount" width="20" height="20" x="303" y="261" text="0" font="number_0_fnt"/>
+	<ns1:CustomButton id="btnGet" label="" y="611"  horizontalCenter="0">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shopQizhenBtn" source.down="shopQizhenBtn" source.disabled="shopQizhenBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomImage id="img_select" x="9" y="19" source="share_json.share_itemSelected"/>
+</e:Skin>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MPWildViewSkin" width="585" height="762" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" >
+	<ns1:CustomImage x="0.5" y="2" source="meetPlayer_json.mp_bg2"/>
+		<ns1:CustomImage x="2.5" y="153" source="meetPlayer_json.mp_bg1"/>
+		<ns1:CustomImage x="231" y="153" source="meetPlayer_json.mp_txt1"/>
+		<e:Scroller width="568" height="474" x="6" y="198" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="_container" anchorOffsetX="0" width="570" height="475">
+			</e:Group>
+		</e:Scroller>
+		<ns1:CustomImage x="2" y="675" source="share_json.share_contentBg" anchorOffsetX="0" width="578" anchorOffsetY="0" height="77"/>
+		<ns1:CustomImage x="54" y="729" source="share_json.share_contentBg2"/>
+		<ns1:CustomLabel id="_txtLianSheng" text="今日连胜" x="23" y="707" size="18" bold="true" textColor="0xca9862"/>
+		<ns1:CustomLabel id="_txtNext" text="下次胜利声望" x="220" y="707" size="18"/>
+		<ns1:CustomButton id="_btnRecord" label="战斗记录" x="445" y="691"/>
+		<ns1:CustomLabel text="本日声望:" x="135" y="48" size="18" bold="true" textColor="0xca9862"/>
+		<ns1:CustomLabel text="结算奖励:" x="135" y="90" size="18" bold="true" textColor="0xCA9862"/>
+		<ns1:CustomImage x="224" y="40.5" source="comp_json.textInput_bg" width="167" height="35"/>
+		<ns1:CustomLabel id="_txtHonor" text="51" x="235" y="50" size="18" bold="true"/>
+		<ns1:CustomLabel id="_txtTong" text="4000000" x="254" y="93" size="18" bold="true"/>
+		<ns1:CustomLabel id="_txtNum" text="4000000" x="406" y="93" size="18" bold="true"/>
+		<ns1:CustomLabel id="_txtSeeRank" text="查看排名" x="403" y="49" size="18" bold="true" textColor="0x16b716"/>
+		<ns1:CustomImage x="226" y="92" source="share_json.share_smallCopper"/>
+	<ns1:CustomImage id="_imageJMD" x="376" y="92" source="" width="20" height="20"/>
+	<ns1:HeadItem id="_imageHead" x="38" y="43"/>
+</e:Skin>

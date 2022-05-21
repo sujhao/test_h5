@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossRightViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="boss_json.boss_rightBg"/>
+	<ns1:CustomCheckBox id="_boxOthers" label="屏蔽他人" x="12" y="19"/>
+	<ns1:CustomCheckBox id="_boxRelive" label="元宝复活" x="132" y="19"/>
+	<ns1:CustomButton id="_btn" label="奖励" x="254" y="11" skinName="CustomButtonSkin3Skin" width="84"/>
+</e:Skin>

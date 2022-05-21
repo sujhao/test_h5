@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MallContentSkin2" width="580" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage  x="0" y="665" width="580" height="83" source="mall_json.mallContentBg"/>
+	<e:Scroller id="mallScroller" width="580" height="665" x="8" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group  id="mallList"/>
+	</e:Scroller>
+	<e:Group id="contentGroup" x="95" y="690">
+		<ns1:CustomImage id="txtBg" x="132" y="0" source="comp_json.textInput_bg"/>
+		<ns1:CustomLabel id="txtMy" text="我的元宝：" y="7" textColor="0xdda66b" size="18" anchorOffsetY="0" height="23" bold="true" textAlign="right" width="150" x="-55"/>
+		<ns1:CustomLabel id="txtCount" text="0" x="137" y="8" size="18" anchorOffsetY="0" height="24" textColor="0xe7d0b7" anchorOffsetX="0" width="138" textAlign="center" bold="true"/>
+		<ns1:CustomLabel id="txtlink" text="获得道具" x="280" y="8" size="18" anchorOffsetX="0" anchorOffsetY="0" height="25" textColor="0x00D228" bold="true"/>
+	</e:Group>
+</e:Skin>

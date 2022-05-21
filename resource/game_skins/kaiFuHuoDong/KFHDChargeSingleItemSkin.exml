@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KFHDChargeSingleItemSkin" width="570" height="135" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage x="0" y="130" source="share_json.share_line"/>
+	<ns1:CustomLabel id="_txtType" text="累计充值" x="368" y="35" size="18" bold="true" textAlign="center" width="200"/>
+	<ns1:CustomButton id="_btnGet" label="领取" x="409" y="65.5" skinName="CustomButtonSkin7Skin" width="117" height="47"/>
+</e:Skin>

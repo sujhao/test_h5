@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FanLiXfItemSkin" width="578" height="131" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="flxf_json.flxf_itemBg"/>
+	<e:Group id="_itemContainer" width="376" height="106" x="12" y="10" anchorOffsetY="0" anchorOffsetX="0"/>
+	<ns1:CustomLabel id="_txtGold" text="累计充值1999元宝" x="390" y="24" width="188" textColor="0xe7d0b7" fontFamily="Microsoft YaHei" size="20" textAlign="center" anchorOffsetY="0" height="19"/>
+	<ns1:CustomLabel id="_txtGold2" text="标签" x="390" y="51" width="188" textColor="0xE7D0B7" fontFamily="Microsoft YaHei" size="20" textAlign="center" anchorOffsetY="0" height="19"/>
+	<ns1:CustomButton id="_btnOK" label="领取" x="426" y="76" skinName="CustomButtonSkin7Skin" width="117" height="47"/>
+</e:Skin>

@@ -1,0 +1,2430 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,share_json,mainUI_json,title_activity_off_png,chatItemBg_vip16_png,chatItemBg_vip17_png,chatItemBg_vip18_png,chatItemBg_vip19_png,chatItemBg_vip20_png,chat_roleOnline_1_png,chat_roleOnline_2_png,bg_png,fanliLoginAward_bg_png,fuli_jijinBg_png,fuli_vip1_png,fuli_vip2_png,daily8_pic_jpg,loading_jpg,notice_png,notice1_png,notice2_png,welcomeBg_png,welcomeBtn_png,MagicPetShopBg_png,ShareNew_content_1_png,ShareNew_content_4_png,vipContent_10_png,vipContent_11_png,vipContent_12_png,vipContent_13_png,vipContent_14_png,vipContent_15_png,vipContent_16_png,vipContent_17_png,vipContent_18_png,vipContent_19_png,vipContent_20_png,vipContent_21_png,vipContent_22_png,vipContent_23_png,vipContent_24_png,vipContent_25_png,vipContent_6_png,vipContent_7_png,vipContent_8_png,vipContent_9_png,vipGuizuContent_1_png,comp2_json,comp3_json",
+			"name": "preload"
+		},
+		{
+			"keys": "mainUI_json",
+			"name": "mainUI"
+		},
+		{
+			"keys": "number_0_png,number_0_fnt",
+			"name": "number_0"
+		},
+		{
+			"keys": "comp_json",
+			"name": "comp"
+		},
+		{
+			"keys": "bag_json",
+			"name": "bag"
+		},
+		{
+			"keys": "share_json",
+			"name": "share"
+		},
+		{
+			"keys": "10000_png",
+			"name": "goods"
+		},
+		{
+			"keys": "number_2_fnt,number_2_png",
+			"name": "number_2"
+		},
+		{
+			"keys": "figure_json",
+			"name": "figure"
+		},
+		{
+			"keys": "run2_json,run2_png,stand_json,stand_png",
+			"name": "player"
+		},
+		{
+			"keys": "createRole_json",
+			"name": "createRole"
+		},
+		{
+			"keys": "wing_json",
+			"name": "wing"
+		},
+		{
+			"keys": "zhuan_json",
+			"name": "zhuan"
+		},
+		{
+			"keys": "skill_json",
+			"name": "skill"
+		},
+		{
+			"keys": "meridians_json",
+			"name": "meridians"
+		},
+		{
+			"keys": "mall_json",
+			"name": "mall"
+		},
+		{
+			"keys": "mail_json",
+			"name": "mail"
+		},
+		{
+			"keys": "friend_json",
+			"name": "friend"
+		},
+		{
+			"keys": "ronglian_json",
+			"name": "ronglian"
+		},
+		{
+			"keys": "chat_json",
+			"name": "chat"
+		},
+		{
+			"keys": "fightResult_json",
+			"name": "fightResult"
+		},
+		{
+			"keys": "vip_json",
+			"name": "vip"
+		},
+		{
+			"keys": "special_json",
+			"name": "special"
+		},
+		{
+			"keys": "forgemind_json",
+			"name": "forgemind"
+		},
+		{
+			"keys": "chenghao_json",
+			"name": "chenghao"
+		},
+		{
+			"keys": "guild_json",
+			"name": "guild"
+		},
+		{
+			"keys": "openpartner_json",
+			"name": "openpartner"
+		},
+		{
+			"keys": "number_3_fnt",
+			"name": "number_3"
+		},
+		{
+			"keys": "number4_tmf,number_4_fnt,number_4_png",
+			"name": "number_4"
+		},
+		{
+			"keys": "getmaterial_json",
+			"name": "getmaterial"
+		},
+		{
+			"keys": "boss_json",
+			"name": "boss"
+		},
+		{
+			"keys": "fuli_json",
+			"name": "fuli"
+		},
+		{
+			"keys": "loginReward_json",
+			"name": "loginReward"
+		},
+		{
+			"keys": "artifact_json",
+			"name": "artifact"
+		},
+		{
+			"keys": "meetPlayer_json",
+			"name": "meetPlayer"
+		},
+		{
+			"keys": "firstCharge_json",
+			"name": "firstCharge"
+		},
+		{
+			"keys": "lunhui_json",
+			"name": "lunhui"
+		},
+		{
+			"keys": "fuben_json",
+			"name": "fuben"
+		},
+		{
+			"keys": "checkpointboss_json",
+			"name": "checkpointboss"
+		},
+		{
+			"keys": "novicecg_json",
+			"name": "novicecg"
+		},
+		{
+			"keys": "number5_tmm,number_5_fnt,number_5_png,number_5_tmf",
+			"name": "number_5"
+		},
+		{
+			"keys": "rank_json",
+			"name": "rank"
+		},
+		{
+			"keys": "partnerProperty_json",
+			"name": "partnerproperty"
+		},
+		{
+			"keys": "orangesuit_json",
+			"name": "orangesuit"
+		},
+		{
+			"keys": "huodongDaily_json",
+			"name": "huodongDaily"
+		},
+		{
+			"keys": "treasure_json",
+			"name": "treasure"
+		},
+		{
+			"keys": "decomposition_json",
+			"name": "decomposition"
+		},
+		{
+			"keys": "guild_donate_json",
+			"name": "guild_donate"
+		},
+		{
+			"keys": "kaiFuHuoDong_json",
+			"name": "kaiFuHuoDong"
+		},
+		{
+			"keys": "noviceguide_json",
+			"name": "noviceguide"
+		},
+		{
+			"keys": "guild_skill_json",
+			"name": "guild_skill"
+		},
+		{
+			"keys": "dominate_json",
+			"name": "dominate"
+		},
+		{
+			"keys": "loading_json",
+			"name": "loadingUI"
+		},
+		{
+			"keys": "guild_farm_json",
+			"name": "guild_farm"
+		},
+		{
+			"keys": "cityWar_json",
+			"name": "cityWar"
+		},
+		{
+			"keys": "gameStart_json",
+			"name": "gameStart"
+		},
+		{
+			"keys": "guild_shop_json",
+			"name": "guild_shop"
+		},
+		{
+			"keys": "charge_json",
+			"name": "charge"
+		},
+		{
+			"keys": "guild_fuben_json",
+			"name": "guild_fuben"
+		},
+		{
+			"keys": "shengong_json",
+			"name": "shengong"
+		},
+		{
+			"keys": "number_fight_1_png,number_fight_1_fnt",
+			"name": "number_fight_1"
+		},
+		{
+			"keys": "number_fight_2_png,number_fight_2_fnt",
+			"name": "number_fight_2"
+		},
+		{
+			"keys": "number_fight_3_png,number_fight_3_fnt",
+			"name": "number_fight_3"
+		},
+		{
+			"keys": "number_fight_0_png,number_fight_0_fnt",
+			"name": "number_fight_0"
+		},
+		{
+			"keys": "number_fight_4_png,number_fight_4_fnt",
+			"name": "number_fight_4"
+		},
+		{
+			"keys": "mine_tmm,mine_json",
+			"name": "mine"
+		},
+		{
+			"keys": "exnobility_json",
+			"name": "exnobility"
+		},
+		{
+			"keys": "kfhdCharge_json",
+			"name": "kfhdCharge"
+		},
+		{
+			"keys": "number_6_fnt",
+			"name": "number_6"
+		},
+		{
+			"keys": "oneRmb_json",
+			"name": "oneRmb"
+		},
+		{
+			"keys": "number_7_fnt",
+			"name": "number_7"
+		},
+		{
+			"keys": "vipGuizu_tmm,vipGuizu_json",
+			"name": "vipGuizu"
+		},
+		{
+			"keys": "kfhdTreasure_json",
+			"name": "kfhdTreasure"
+		},
+		{
+			"keys": "all_json",
+			"name": "allConfig"
+		},
+		{
+			"keys": "dailyCharge_json",
+			"name": "dailyCharge"
+		},
+		{
+			"keys": "dark_tmm,dark_json",
+			"name": "dark"
+		},
+		{
+			"keys": "functionNotice_json",
+			"name": "functionNotice"
+		},
+		{
+			"keys": "fanli_json",
+			"name": "fanli"
+		},
+		{
+			"keys": "flxg_json",
+			"name": "flxg"
+		},
+		{
+			"keys": "fllc_json",
+			"name": "fllc"
+		},
+		{
+			"keys": "shadow_tmm,shadow_json",
+			"name": "shadow"
+		},
+		{
+			"keys": "fashion_json",
+			"name": "fashion"
+		},
+		{
+			"keys": "kfhdReCharge_json",
+			"name": "kfhdReCharge"
+		},
+		{
+			"keys": "king_tmm,king_json",
+			"name": "king"
+		},
+		{
+			"keys": "HFBossPoint_json",
+			"name": "HFBossPoint"
+		},
+		{
+			"keys": "HFExchange_json",
+			"name": "HFExchange"
+		},
+		{
+			"keys": "HFSiege_json",
+			"name": "HFSiege"
+		},
+		{
+			"keys": "HFCharge_json",
+			"name": "HFCharge"
+		},
+		{
+			"keys": "HFDl_json",
+			"name": "HFDl"
+		},
+		{
+			"keys": "HFTreasure_json",
+			"name": "HFTreasure"
+		},
+		{
+			"keys": "HFGift_json",
+			"name": "HFGift"
+		},
+		{
+			"keys": "HFRank_json",
+			"name": "HFRank"
+		},
+		{
+			"keys": "hefu_json",
+			"name": "hefu"
+		},
+		{
+			"keys": "kfhdTitle_json",
+			"name": "kfhdTitle"
+		},
+		{
+			"keys": "HFTitle_json",
+			"name": "HFTitle"
+		},
+		{
+			"keys": "number_vip_png,number_vip_fnt",
+			"name": "number_vip"
+		},
+		{
+			"keys": "flluck_json",
+			"name": "flluck"
+		},
+		{
+			"keys": "awake_tmm,awake_json",
+			"name": "awake"
+		},
+		{
+			"keys": "number_guildBoss_png,number_guildBoss_fnt",
+			"name": "number_guildBoss"
+		},
+		{
+			"keys": "bless_json",
+			"name": "bless"
+		},
+		{
+			"keys": "QQFriend_json",
+			"name": "QQFriend"
+		},
+		{
+			"keys": "kuafu_tmm,kuafu_json",
+			"name": "kuafu"
+		},
+		{
+			"keys": "awakeEquip_json",
+			"name": "awakeEquip"
+		},
+		{
+			"keys": "awakeEquipCompose_json",
+			"name": "awakeEquipCompose"
+		},
+		{
+			"keys": "city_tmm,city_json",
+			"name": "city"
+		},
+		{
+			"keys": "noviceTaskGift_json",
+			"name": "noviceTaskGift"
+		},
+		{
+			"keys": "levelup_json",
+			"name": "levelup"
+		},
+		{
+			"keys": "firstChargeFive_json",
+			"name": "firstChargeFive"
+		},
+		{
+			"keys": "achievement_json",
+			"name": "alchievement"
+		},
+		{
+			"keys": "flxf_json",
+			"name": "flxf"
+		},
+		{
+			"keys": "shareFunc_json",
+			"name": "shareFunc"
+		},
+		{
+			"keys": "shopQizhen_json,shopQizhen_tmm",
+			"name": "shopQizhen"
+		},
+		{
+			"keys": "followReward_json",
+			"name": "followReward"
+		},
+		{
+			"keys": "shop_tmm,shop_json",
+			"name": "shop"
+		},
+		{
+			"keys": "levelSell_json",
+			"name": "levelSell"
+		},
+		{
+			"keys": "activity_tmm,activity_json",
+			"name": "activity"
+		},
+		{
+			"keys": "build_json",
+			"name": "build"
+		},
+		{
+			"keys": "shenlian_json",
+			"name": "shenlian"
+		},
+		{
+			"keys": "onlineReward_json",
+			"name": "onlineReward"
+		},
+		{
+			"keys": "magicPet_json",
+			"name": "magicPet"
+		},
+		{
+			"keys": "number_8_fnt,number_8_png",
+			"name": "number_8"
+		},
+		{
+			"keys": "number_9_png,number_9_fnt",
+			"name": "number_9"
+		},
+		{
+			"keys": "number_10_png,number_10_fnt",
+			"name": "number_10"
+		},
+		{
+			"keys": "awakeScore_json",
+			"name": "awakeScore"
+		},
+		{
+			"keys": "createRole2_tmm,createRole2_json",
+			"name": "createRole2"
+		},
+		{
+			"keys": "pkSkill_tmm,pkSkill_json",
+			"name": "pkSkill"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "art/goods/10000.png",
+			"type": "image",
+			"name": "10000_png"
+		},
+		{
+			"url": "art/numbers/number2/number_2.fnt",
+			"type": "font",
+			"name": "number_2_fnt"
+		},
+		{
+			"url": "art/numbers/number2/number_2.png",
+			"type": "image",
+			"name": "number_2_png"
+		},
+		{
+			"url": "assets/mapAssets/player/cloth/daoshi/man/0/stand.png",
+			"type": "image",
+			"name": "stand_png"
+		},
+		{
+			"url": "assets/mapAssets/player/cloth/daoshi/man/0/stand.json",
+			"type": "json",
+			"name": "stand_json"
+		},
+		{
+			"url": "assets/mapAssets/figure/cloth/daoshi/man/0/stand1.png",
+			"type": "image",
+			"name": "stand1_png"
+		},
+		{
+			"url": "assets/mapAssets/figure/cloth/daoshi/man/0/stand1.json",
+			"type": "json",
+			"name": "stand1_json"
+		},
+		{
+			"url": "game_skins/mainUI/mainUISkin.exml",
+			"type": "bin",
+			"name": "mainUISkin_exml"
+		},
+		{
+			"url": "art/mainUI/mainUI.json",
+			"type": "sheet",
+			"name": "mainUI_json",
+			"subkeys": "bg_bottom,bg_bottom2,bg_top,btn_build,btn_charge,btn_figure,btn_jindi,btn_maifu,btn_mall,btn_pack,btn_pk,btn_skill,btn_taojin,btn_vs,btn_yellow,btn_zhizhan,expBar,expBar_bg,image_alert,image_buff,image_career_1,image_copper,image_friend,image_gold,image_gold2,image_mail,image_msg,image_vip,mainBtn_boss,mainUI_auto,mainUI_auto2,mainUI_bossPro,mainUI_bottomBorder,mainUI_btnAth,mainUI_btnFuebn,mainUI_btnKillBoss,mainUI_btnLifeCard,mainUI_btnLunhui,mainUI_btnMainCity,mainUI_btnMainCityMask,mainUI_btnMonthCard,mainUI_btnTrain,mainUI_btnWild,mainUI_btn_sysChat_hide,mainUI_btn_sysChat_show,mainUI_btn_target,mainUI_chatSysBg,mainUI_chatSysBg2,mainUI_copper,mainUI_exp,mainUI_expGap,mainUI_expIcon,mainUI_finishTask,mainUI_gonghui,mainUI_hide,mainUI_hp,mainUI_icon_guildRed,mainUI_jianBing,mainUI_joinGuild,mainUI_killBoss,mainUI_lvlBg,mainUI_mp,mainUI_pk,mainUI_rangle,mainUI_shouyi,mainUI_show,mainUI_startHook,mainUI_sysChatBg,mainUI_taskBg,mainUI_taskIcon,mainUI_taskIcon2,mainUI_taskIcon3,mainUI_tipBg,mainUI_tipBg2,mainUI_tipIcon,mainUI_tipsBg,mainUI_topBg,mainUI_top_nameBg,main_btn_rank,zyboss"
+		},
+		{
+			"url": "assets/mapAssets/figure/weapon/daoshi/man/0/stand2.json",
+			"type": "json",
+			"name": "stand2_json"
+		},
+		{
+			"url": "assets/mapAssets/figure/wing/daoshi/man/0/stand3.png",
+			"type": "image",
+			"name": "stand3_png"
+		},
+		{
+			"url": "assets/mapAssets/figure/wing/daoshi/man/0/stand3.json",
+			"type": "json",
+			"name": "stand3_json"
+		},
+		{
+			"url": "art/share/share.json",
+			"type": "sheet",
+			"name": "share_json",
+			"subkeys": "itemBg,itemBgSmall_0,itemBgSmall_1,itemBgSmall_2,itemBgSmall_3,itemBgSmall_4,itemBgSmall_5,itemBgSmall_6,itemBg_0,itemBg_1,itemBg_2,itemBg_3,itemBg_4,itemBg_5,itemBg_6,loginReward_ylq,share_alert,share_arrow1,share_arrowDown,share_arrowUp,share_bg,share_bg2,share_bg3,share_bg4,share_bg5,share_bg6,share_bg7,share_bigCopper,share_black,share_black2,share_black3,share_btnCharge,share_btnMax,share_btnMin,share_btnReturn,share_btnUp,share_career1,share_career2,share_career3,share_contentBg,share_contentBg2,share_contentBg3,share_equipForgmineBg,share_fpowerBg,share_geted,share_guildAlertBg,share_heroListBg,share_imageAdd,share_itemBg,share_itemSelected,share_itemSelected2,share_itembg2,share_jihuo,share_layer,share_leftBtn,share_line,share_line2,share_line3,share_lineBg,share_lineBg2,share_listItemBg,share_lock,share_messageItem,share_nameBg,share_nameBg2,share_ok,share_overdue,share_rightBtn,share_smallCopper,share_soldOut,share_star1,share_star2,share_star3,share_star4,share_tip_nameBg1,share_tip_nameBg2,share_tip_nameBg3,share_tip_nameBg4,share_tip_nameBg5,share_tip_nameBg6,share_tipbg,share_titleBg,share_titleBg2,share_titleBg3,share_titleBg4,share_title_career1,share_title_career2,share_title_career3,share_title_line,share_txt_bg,share_vLine,share_vline2,share_word_lvl,share_word_round"
+		},
+		{
+			"url": "art/comp/comp.json",
+			"type": "sheet",
+			"name": "comp_json",
+			"subkeys": "CustomButtonSkin4,btn1_down,btn1_up,btn2,btn2_dis,btn2_up,btn7_dis,btn7_up,btn_add,btn_jian,combobox_down,combobox_up,comp_bar,comp_barBg,comp_btn10,comp_btn11,comp_btn12,comp_btn1_down,comp_btn20,comp_btn5,comp_btn8,comp_btn9_down,comp_btn9_up,comp_btnTar_down,comp_btnTar_up,comp_btn_add10,comp_btn_buy,comp_btn_charge,comp_btn_help,comp_btn_left,comp_btn_right,comp_btn_sub10,comp_checkbox_select_up,comp_checkbox_unselect,comp_close,comp_h_thumb,comp_thumb,comp_vip,comp_vip_month,custom_radiobutton_down,custom_radiobutton_up,guild_bar,guild_barBg,textInput_bg,winBg,winBg2,win_close,win_close2,win_headBar,win_headBar2,win_innerBg,wingBg3"
+		},
+		{
+			"url": "art/figure/figure.json",
+			"type": "sheet",
+			"name": "figure_json",
+			"subkeys": "bg_equipItem,bg_fightPower,bg_figure,btn_chenghao,btn_chenzhuang,btn_zhouhun,btn_zhuangban,figure_midBg,image_glass,item_lock,title_figure,title_meridians,title_wing,title_zhuansheng"
+		},
+		{
+			"url": "art/bag/bag.json",
+			"type": "sheet",
+			"name": "bag_json",
+			"subkeys": "bg,bag_bg,title_bag"
+		},
+		{
+			"url": "assets/mapAssets/figure/weapon/daoshi/man/0/stand2.png",
+			"type": "image",
+			"name": "stand2_png"
+		},
+		{
+			"url": "assets/mapAssets/player/cloth/daoshi/man/0/run2.png",
+			"type": "image",
+			"name": "run2_png"
+		},
+		{
+			"url": "assets/mapAssets/player/cloth/daoshi/man/0/run2.json",
+			"type": "json",
+			"name": "run2_json"
+		},
+		{
+			"url": "assets/mapAssets/player/weapon/daoshi/man/0/stand_weapon.json",
+			"type": "json",
+			"name": "stand_weapon_json"
+		},
+		{
+			"url": "assets/mapAssets/player/weapon/daoshi/man/0/stand_weapon.png",
+			"type": "image",
+			"name": "stand_weapon_png"
+		},
+		{
+			"url": "assets/mapAssets/player/wing/daoshi/man/0/stand_wing.json",
+			"type": "json",
+			"name": "stand_wing_json"
+		},
+		{
+			"url": "assets/mapAssets/player/wing/daoshi/man/0/stand_wing.png",
+			"type": "image",
+			"name": "stand_wing_png"
+		},
+		{
+			"url": "assets/mapAssets/player/wing/daoshi/man/0/stand.png",
+			"type": "image",
+			"name": "stand4_png"
+		},
+		{
+			"url": "assets/mapAssets/player/wing/daoshi/man/0/stand.json",
+			"type": "json",
+			"name": "stand4_json"
+		},
+		{
+			"url": "assets/mapAssets/player/weapon/daoshi/man/0/stand.png",
+			"type": "image",
+			"name": "stand5_png"
+		},
+		{
+			"url": "assets/mapAssets/player/weapon/daoshi/man/0/stand.json",
+			"type": "json",
+			"name": "stand5_json"
+		},
+		{
+			"url": "assets/mapAssets/monster/10001/run_m1.png",
+			"type": "image",
+			"name": "run_m1_png"
+		},
+		{
+			"url": "assets/mapAssets/monster/10002/run_m2.json",
+			"type": "json",
+			"name": "run_m2_json"
+		},
+		{
+			"url": "assets/mapAssets/monster/10002/run_m2.png",
+			"type": "image",
+			"name": "run_m2_png"
+		},
+		{
+			"url": "assets/mapAssets/monster/10001/run_m1.json",
+			"type": "json",
+			"name": "run_m1_json"
+		},
+		{
+			"url": "assets/mapAssets/monster/10003/attack.json",
+			"type": "json",
+			"name": "attack_json"
+		},
+		{
+			"url": "assets/mapAssets/monster/10003/attack.png",
+			"type": "image",
+			"name": "attack_png"
+		},
+		{
+			"url": "assets/mapAssets/monster/10003/run_m2.json",
+			"type": "json",
+			"name": "run_m22_json"
+		},
+		{
+			"url": "assets/mapAssets/monster/10003/run_m2.png",
+			"type": "image",
+			"name": "run_m22_png"
+		},
+		{
+			"url": "assets/mapAssets/monster/10003/stand.json",
+			"type": "json",
+			"name": "stand6_json"
+		},
+		{
+			"url": "assets/mapAssets/monster/10003/stand.png",
+			"type": "image",
+			"name": "stand6_png"
+		},
+		{
+			"url": "art/createRole/createRole.tmm",
+			"type": "bin",
+			"name": "createRole_tmm"
+		},
+		{
+			"url": "art/createRole/createRole.json",
+			"type": "sheet",
+			"name": "createRole_json",
+			"subkeys": "career_1_1,career_1_2,career_2_1,career_2_2,career_3_1,career_3_2,createRoleBtn_dice,createRoleBtn_enter"
+		},
+		{
+			"url": "art/wing/wing.tmm",
+			"type": "bin",
+			"name": "wing_tmm"
+		},
+		{
+			"url": "art/wing/wing.json",
+			"type": "sheet",
+			"name": "wing_json",
+			"subkeys": "wing_,wing_bar,wing_barBg,wing_bg,wing_border,wing_border1,wing_border2,wing_border3,wing_btnWear,wing_fast,wing_pic,wing_titleBg,wing_up"
+		},
+		{
+			"url": "art/zhuan/zhuan.tmm",
+			"type": "bin",
+			"name": "zhuan_tmm"
+		},
+		{
+			"url": "art/zhuan/zhuan.json",
+			"type": "sheet",
+			"name": "zhuan_json",
+			"subkeys": "zhuan_bg,zhuan_border1,zhuan_border2,zhuan_buyItem,zhuan_buyItemSelected,zhuan_buyTitle,zhuan_numbg,zhuan_priceBg,zhuan_rightIcon,zhuan_titleXiuWei,zhuan_word,zhuan_word2,zhuan_word3,zhuan_xiuwei"
+		},
+		{
+			"url": "art/skill/skill.tmm",
+			"type": "bin",
+			"name": "skill_tmm"
+		},
+		{
+			"url": "art/skill/skill.json",
+			"type": "sheet",
+			"name": "skill_json",
+			"subkeys": "skillBg,skillBtn_book,skillItemBg,skillItemBg2,skillItemBg3,skillItemLvBg,skill_lock,skill_select,skillfeatBg,skillfeatTitleBg,skillfeatTitleBg2,title_skill,title_skill_book"
+		},
+		{
+			"url": "art/meridians/meridians.tmm",
+			"type": "bin",
+			"name": "meridians_tmm"
+		},
+		{
+			"url": "art/meridians/meridians.json",
+			"type": "sheet",
+			"name": "meridians_json",
+			"subkeys": "meridian_line1,meridian_line2,meridian_line3,meridian_line4,meridian_line5,meridian_line6,meridian_line7,meridians_barBg,meridians_border1,meridians_border2,meridians_fast,meridians_fightpower,meridians_iconGoods,meridians_item1,meridians_item2,meridians_item3,meridians_item4,meridians_item5,meridians_item6,meridians_item7,meridians_item8,meridians_itemBg1,meridians_itemBg2,meridians_itemBg3,meridians_itemBg4,meridians_itemBg5,meridians_itemBg6,meridians_itemBg7,meridians_itemBg8,meridians_jie,meridians_lvlBg,meridians_maxLvl,meridians_word1,meridians_word2"
+		},
+		{
+			"url": "art/mall/mall.tmm",
+			"type": "bin",
+			"name": "mall_tmm"
+		},
+		{
+			"url": "art/mall/mall.json",
+			"type": "sheet",
+			"name": "mall_json",
+			"subkeys": "mallBtn,mallContentBg,mallContentBg2,mallIcon_dl,mallIcon_over,mallNameBg_0,mallNameBg_1,mallNameBg_2,mallNameBg_3,mallNameBg_4,mallNameBg_5,mallNameBg_6,mallWindowBg"
+		},
+		{
+			"url": "assets/config/all.json",
+			"type": "json",
+			"name": "all_json"
+		},
+		{
+			"url": "art/mail/mail.tmm",
+			"type": "bin",
+			"name": "mail_tmm"
+		},
+		{
+			"url": "art/mail/mail.json",
+			"type": "sheet",
+			"name": "mail_json",
+			"subkeys": "mailIcon_no,mailIcon_yes,title_mail,title_mailContent"
+		},
+		{
+			"url": "art/friend/friend.tmm",
+			"type": "bin",
+			"name": "friend_tmm"
+		},
+		{
+			"url": "art/ronglian/ronglian.tmm",
+			"type": "bin",
+			"name": "ronglian_tmm"
+		},
+		{
+			"url": "art/ronglian/ronglian.json",
+			"type": "sheet",
+			"name": "ronglian_json",
+			"subkeys": "ronglian_bar,ronglian_barBg,ronglian_bg1,ronglian_bg2,ronglian_border1,ronglian_border2,ronglian_border3,ronglian_headBg,ronglian_imageAdd,ronglian_rightArrow,ronglian_sItem,ronglian_title1,ronglian_title2,ronglian_title3,ronglian_title4,ronglian_title5,ronglian_word1,ronglian_word2,share_messageItem"
+		},
+		{
+			"url": "art/chat/chat.tmm",
+			"type": "bin",
+			"name": "chat_tmm"
+		},
+		{
+			"url": "art/chat/chat.json",
+			"type": "sheet",
+			"name": "chat_json",
+			"subkeys": "chatGMBg,chatIcon_gg,chatIcon_laba,chatIcon_sys,chatIcon_zs,title_chat"
+		},
+		{
+			"url": "art/numbers/number1/number_0.fnt",
+			"type": "font",
+			"name": "number_0_fnt"
+		},
+		{
+			"url": "art/numbers/number1/number_0.png",
+			"type": "image",
+			"name": "number_0_png"
+		},
+		{
+			"url": "art/numbers/number3/number3.tmf",
+			"type": "bin",
+			"name": "number3_tmf"
+		},
+		{
+			"url": "art/numbers/number3/number_3.fnt",
+			"type": "font",
+			"name": "number_3_fnt"
+		},
+		{
+			"url": "art/numbers/number3/number_3.png",
+			"type": "image",
+			"name": "number_3_png"
+		},
+		{
+			"url": "art/fightResult/fightResult.json",
+			"type": "sheet",
+			"name": "fightResult_json",
+			"subkeys": "fightResultBtn_lh,fightResultBtn_ll,fightResultBtn_stone,fightResultBtn_streng,fr_bqBg,fr_failBg,fr_failBg_row1,fr_successBg,fr_titleBg,fr_txt1,fr_txt2,title_offline,title_speedPK"
+		},
+		{
+			"url": "art/vip/vip.tmm",
+			"type": "bin",
+			"name": "vip_tmm"
+		},
+		{
+			"url": "art/vip/vip.json",
+			"type": "sheet",
+			"name": "vip_json",
+			"subkeys": "title_vip,vipBg,vipBg3,vipBtnLeft,vipBtnRight,vipBtn_cz,vipTxt_kcw,vipTxt_vip,vipTxt_vip2,vipTxt_zcz"
+		},
+		{
+			"url": "art/special/special.tmm",
+			"type": "bin",
+			"name": "special_tmm"
+		},
+		{
+			"url": "art/special/special.json",
+			"type": "sheet",
+			"name": "special_json",
+			"subkeys": "special_bg,special_border1,special_border2,special_rightArrow,special_word1,special_word2,special_word3"
+		},
+		{
+			"url": "art/forgemind/forgemind.tmm",
+			"type": "bin",
+			"name": "forgemind_tmm"
+		},
+		{
+			"url": "art/forgemind/forgemind.json",
+			"type": "sheet",
+			"name": "forgemind_json",
+			"subkeys": "forgemind_bg,forgemind_border,forgemind_title,forgemind_word1"
+		},
+		{
+			"url": "art/chenghao/chenghao.tmm",
+			"type": "bin",
+			"name": "chenghao_tmm"
+		},
+		{
+			"url": "art/chenghao/chenghao.json",
+			"type": "sheet",
+			"name": "chenghao_json",
+			"subkeys": "chenghao_hline,chenghao_vline,chenghao_word,chenghao_wordBg"
+		},
+		{
+			"url": "art/guild/guild.tmm",
+			"type": "bin",
+			"name": "guild_tmm"
+		},
+		{
+			"url": "art/guild/guild.json",
+			"type": "sheet",
+			"name": "guild_json",
+			"subkeys": "guildMapSelect_1,guildMapSelect_2,guildMapSelect_3,guildMapSelect_4,guildMapSelect_5,guildMapSelect_6,guildMapSelect_7,guildMapSelect_8,guild_createBg,guild_glBg,guild_icon_qi,guild_jztitleBg,guild_line,guild_select,guild_titleBg,guild_titleBg2,guild_titleBg3,guild_titleBg4,guild_title_create,guild_title_gg,guild_title_gl,guild_title_jk,guild_title_js,guild_title_ls,guild_title_opt,guild_title_sp,guild_title_tc,guild_txt_1,guild_txt_2,guild_txt_content1,guild_txt_content2,guild_txt_gh,title_ghgm,title_gonggao,title_guild"
+		},
+		{
+			"url": "art/numbers/number4/number4.tmf",
+			"type": "bin",
+			"name": "number4_tmf"
+		},
+		{
+			"url": "art/numbers/number4/number_4.fnt",
+			"type": "font",
+			"name": "number_4_fnt"
+		},
+		{
+			"url": "art/numbers/number4/number_4.png",
+			"type": "image",
+			"name": "number_4_png"
+		},
+		{
+			"url": "art/openpartner/openpartner.tmm",
+			"type": "bin",
+			"name": "openpartner_tmm"
+		},
+		{
+			"url": "art/openpartner/openpartner.json",
+			"type": "sheet",
+			"name": "openpartner_json",
+			"subkeys": "openpartner_arrow1,openpartner_arrow2,openpartner_awardItem,openpartner_bg,openpartner_bg2,openpartner_bg3,openpartner_border1,openpartner_border2,openpartner_btnCharge,openpartner_careerBg,openpartner_itemBg,openpartner_opened,openpartner_sex1_1,openpartner_sex1_2,openpartner_sex2_1,openpartner_sex2_2,openpartner_title,openpartner_txtdesc,openpartner_word1,openpartner_word2,openpartner_word3,openpartner_word4,openpartner_word5"
+		},
+		{
+			"url": "art/getmaterial/getmaterial.tmm",
+			"type": "bin",
+			"name": "getmaterial_tmm"
+		},
+		{
+			"url": "art/getmaterial/getmaterial.json",
+			"type": "sheet",
+			"name": "getmaterial_json",
+			"subkeys": "getmaterial_border,getmaterial_itembg,getmaterial_line,getmaterial_title,getmaterial_wordBg,title_buy"
+		},
+		{
+			"url": "art/boss/boss.tmm",
+			"type": "bin",
+			"name": "boss_tmm"
+		},
+		{
+			"url": "art/boss/boss.json",
+			"type": "sheet",
+			"name": "boss_json",
+			"subkeys": "bossBar,bossBar2,bossBarBg,bossGo,bossListBg,bossNameBg,bossSha,bossTxt_guild,bossTxt_qm,boss_bloodBar,boss_btnDown,boss_headTxt,boss_info_bg,boss_list_bg,boss_meetBg,boss_meet_txt1,boss_rightBg,boss_roundBg,boss_round_rewardBg,boss_round_rewardBg2,boss_round_reward_1,boss_round_reward_2,boss_round_reward_3,boss_round_reward_txt,boss_round_reward_txt2,boss_round_reward_txt3,boss_round_reward_txt4,boss_round_reward_txt5,boss_round_title,boss_shieldBg,boss_shieldblood,title_boss,title_boss_rank_hit,title_boss_rank_kill,title_boss_reward,title_boss_tips"
+		},
+		{
+			"url": "art/fuli/fuli.tmm",
+			"type": "bin",
+			"name": "fuli_tmm"
+		},
+		{
+			"url": "art/fuli/fuli.json",
+			"type": "sheet",
+			"name": "fuli_json",
+			"subkeys": "btnMoneyTree,fuliBg,fuliBtnSelect,fuliBtn_buy,fuliBtn_functionNotice,fuliBtn_jh,fuliBtn_jijin,fuliBtn_login,fuliBtn_notice,fuliBtn_off,fuliBtn_share,fuliBtn_vip,fuliShareDesc,fuliTitleBg,fuliTxt,fuliTxt2,fuli_box,fuli_buy,fuli_geted,fuli_imageNotice,fuli_titleBg,moneyTreeBox,moneyTreeTxt,title_fuli"
+		},
+		{
+			"url": "art/loginReward/loginReward.tmm",
+			"type": "bin",
+			"name": "loginReward_tmm"
+		},
+		{
+			"url": "art/loginReward/loginReward.json",
+			"type": "sheet",
+			"name": "loginReward_json",
+			"subkeys": "loginRewardBox,loginRewardBox_14,loginRewardBox_2,loginRewardBox_7,loginRewardBox_open,loginReward_day1,loginReward_day14,loginReward_day2,loginReward_day3,loginReward_day4,loginReward_day5,loginReward_day6,loginReward_day7,loginReward_jt,title_loginReward"
+		},
+		{
+			"url": "art/meetPlayer/meetPlayer.tmm",
+			"type": "bin",
+			"name": "meetPlayer_tmm"
+		},
+		{
+			"url": "art/meetPlayer/meetPlayer.json",
+			"type": "sheet",
+			"name": "meetPlayer_json",
+			"subkeys": "mp_bg1,mp_bg2,mp_headTxt,mp_record_fail,mp_record_gray,mp_record_head,mp_record_red,mp_record_success,mp_record_xx,mp_record_xx2,mp_txt1"
+		},
+		{
+			"url": "art/artifact/artifact.tmm",
+			"type": "bin",
+			"name": "artifact_tmm"
+		},
+		{
+			"url": "art/artifact/artifact.json",
+			"type": "sheet",
+			"name": "artifact_json",
+			"subkeys": "artifact_arrowDown,artifact_arrowRight,artifact_arrowUp,artifact_bg3,artifact_border1,artifact_itemBg,artifact_listBg,artifact_nameBg,artifact_selectdItem,artifact_title,artifact_word,artifact_wordBg"
+		},
+		{
+			"url": "art/firstCharge/firstCharge.tmm",
+			"type": "bin",
+			"name": "firstCharge_tmm"
+		},
+		{
+			"url": "art/firstCharge/firstCharge.json",
+			"type": "sheet",
+			"name": "firstCharge_json",
+			"subkeys": "firstChargeBg"
+		},
+		{
+			"url": "art/lunhui/lunhui.tmm",
+			"type": "bin",
+			"name": "lunhui_tmm"
+		},
+		{
+			"url": "art/lunhui/lunhui.json",
+			"type": "sheet",
+			"name": "lunhui_json",
+			"subkeys": "lunhuiBg,title_lunhui"
+		},
+		{
+			"url": "art/fuben/fuben.tmm",
+			"type": "bin",
+			"name": "fuben_tmm"
+		},
+		{
+			"url": "art/fuben/fuben.json",
+			"type": "sheet",
+			"name": "fuben_json",
+			"subkeys": "fubenBar,fubenBarBg,fubenBg_1,fubenBg_2,fubenBg_3,fubenBg_4,fubenEquipBg,fubenIcon_tg,fubenTitleBg,fuben_point,fuben_pointBg,fuben_rank,fuben_reward,fuben_reward2,fuben_roleBg,fuben_tiaozhanBg,fuben_tipsBg,fuben_titleBg,fuben_txt_g,title_fuben"
+		},
+		{
+			"url": "art/checkpointboss/checkpointboss.tmm",
+			"type": "bin",
+			"name": "checkpointboss_tmm"
+		},
+		{
+			"url": "art/checkpointboss/checkpointboss.json",
+			"type": "sheet",
+			"name": "checkpointboss_json",
+			"subkeys": "checkpointboss_bar,checkpointboss_barBg,checkpointboss_bg,checkpointboss_border,checkpointboss_border2,checkpointboss_border3,checkpointboss_title,checkpointboss_word,checkpointboss_word2"
+		},
+		{
+			"url": "art/novicecg/novicecg.tmm",
+			"type": "bin",
+			"name": "novicecg_tmm"
+		},
+		{
+			"url": "art/novicecg/novicecg.json",
+			"type": "sheet",
+			"name": "novicecg_json",
+			"subkeys": "novice_bg,novice_word"
+		},
+		{
+			"url": "art/numbers/number5/number5.tmm",
+			"type": "bin",
+			"name": "number5_tmm"
+		},
+		{
+			"url": "art/numbers/number5/number_5.fnt",
+			"type": "font",
+			"name": "number_5_fnt"
+		},
+		{
+			"url": "art/numbers/number5/number_5.png",
+			"type": "image",
+			"name": "number_5_png"
+		},
+		{
+			"url": "art/numbers/number5/number_5.tmf",
+			"type": "bin",
+			"name": "number_5_tmf"
+		},
+		{
+			"url": "art/rank/rank.tmm",
+			"type": "bin",
+			"name": "rank_tmm"
+		},
+		{
+			"url": "art/rank/rank.json",
+			"type": "sheet",
+			"name": "rank_json",
+			"subkeys": "dj_1,dj_2,cb_1,cb_2,zy_1,zy_2,tz_1,tz_2,dz_1,dz_2,sj_1,sj_2,rankBg,rankBtnBai_dis,rankBtnBai_up,rankBtnType_down,rankBtnType_up,rankIcon,rankIcon2,rankIcon3,rankItemBg,rankTitleBg,rankTitleBg2,rankTitleBg3,rankTxt_my,title_rank"
+		},
+		{
+			"url": "art/partnerProperty/partnerProperty.tmm",
+			"type": "bin",
+			"name": "partnerProperty_tmm"
+		},
+		{
+			"url": "art/partnerProperty/partnerProperty.json",
+			"type": "sheet",
+			"name": "partnerProperty_json",
+			"subkeys": "partnerProperty_arrowLeft,partnerProperty_arrowRight,partnerProperty_titleBg"
+		},
+		{
+			"url": "art/orangesuit/orangesuit.tmm",
+			"type": "bin",
+			"name": "orangesuit_tmm"
+		},
+		{
+			"url": "art/orangesuit/orangesuit.json",
+			"type": "sheet",
+			"name": "orangesuit_json",
+			"subkeys": "orangesuit_arrow,orangesuit_bg,orangesuit_border1,orangesuit_border2,orangesuit_equipName1,orangesuit_equipName2,orangesuit_equipName3,orangesuit_title,orangesuit_word1,orangesuit_word2"
+		},
+		{
+			"url": "art/huodongDaily/huodongDaily.tmm",
+			"type": "bin",
+			"name": "huodongDaily_tmm"
+		},
+		{
+			"url": "art/huodongDaily/huodongDaily.json",
+			"type": "sheet",
+			"name": "huodongDaily_json",
+			"subkeys": "hdDaily_Bg,hdDaily_BtnSelect,hdDaily_headTxt"
+		},
+		{
+			"url": "art/treasure/treasure.tmm",
+			"type": "bin",
+			"name": "treasure_tmm"
+		},
+		{
+			"url": "art/treasure/treasure.json",
+			"type": "sheet",
+			"name": "treasure_json",
+			"subkeys": "title_treasure,title_treasurePack,treasureBg,treasureTxtEquip,treasureTxtEquip2,treasureTxt_title"
+		},
+		{
+			"url": "art/decomposition/decomposition.tmm",
+			"type": "bin",
+			"name": "decomposition_tmm"
+		},
+		{
+			"url": "art/decomposition/decomposition.json",
+			"type": "sheet",
+			"name": "decomposition_json",
+			"subkeys": "decomposition_item,decomposition_title,decomposition_wordBg"
+		},
+		{
+			"url": "art/guild_donate/guild_donate.tmm",
+			"type": "bin",
+			"name": "guild_donate_tmm"
+		},
+		{
+			"url": "art/guild_donate/guild_donate.json",
+			"type": "sheet",
+			"name": "guild_donate_json",
+			"subkeys": "guild_donateBg,guild_donateBg2,guild_donateBtn_th,guild_donateBtn_tq,guild_donateBtn_yb,guild_donateTitleBg,guild_donateTitleBg2,guild_donateTxt,guild_donateTxt_cs,guild_donateTxt_tq,guild_donate_effect1,guild_donate_effect2,guild_donate_effect3,guild_donate_effect4,guild_donate_effect5,guild_donate_effect6,guild_donate_effect7,guild_donate_logTxt,guild_donate_logTxt2,guild_redBg,guild_redBtn,guild_redIcon,guild_redIcon_tq,guild_redItemBg,guild_redTxt,title_guild_donate,title_guild_red"
+		},
+		{
+			"url": "art/kaiFuHuoDong/kaiFuHuoDong.tmm",
+			"type": "bin",
+			"name": "kaiFuHuoDong_tmm"
+		},
+		{
+			"url": "art/kaiFuHuoDong/kaiFuHuoDong.json",
+			"type": "sheet",
+			"name": "kaiFuHuoDong_json",
+			"subkeys": "kfhd_BtnSelect,kfhd_arrow,kfhd_bg,kfhd_complete,kfhd_paiMingBg,kfhd_paiMingRound,kfhd_paiMingTxt,kfhd_rank_bg,kfhd_robShop_bg,kfhd_robShop_line,kfhd_shopRed,kfhd_standTxt,kfhd_standTxt2,kfhd_standTxt3,kfhd_standardBg2,kfhd_title"
+		},
+		{
+			"url": "art/noviceguide/noviceguide.tmm",
+			"type": "bin",
+			"name": "noviceguide_tmm"
+		},
+		{
+			"url": "art/noviceguide/noviceguide.json",
+			"type": "sheet",
+			"name": "noviceguide_json",
+			"subkeys": "noviceguide_bossBg,noviceguide_bossTxt,noviceguide_bossTxt2,noviceguide_btn_boss,noviceguide_btn_meetBoss"
+		},
+		{
+			"url": "assets/icon/windowTitle/openGrid_title.png",
+			"type": "image",
+			"name": "openGrid_title_png"
+		},
+		{
+			"url": "art/guild_skill/guild_skill.tmm",
+			"type": "bin",
+			"name": "guild_skill_tmm"
+		},
+		{
+			"url": "art/guild_skill/guild_skill.json",
+			"type": "sheet",
+			"name": "guild_skill_json",
+			"subkeys": "guild_skillBg,guild_skillBg2,guild_skillBg3,guild_skillIcon,guild_skill_select,title_guild_skill"
+		},
+		{
+			"url": "art/relive/relive.tmm",
+			"type": "bin",
+			"name": "relive_tmm"
+		},
+		{
+			"url": "art/relive/relive.json",
+			"type": "sheet",
+			"name": "relive_json",
+			"subkeys": "relive_bg"
+		},
+		{
+			"url": "art/dominate/dominate.tmm",
+			"type": "bin",
+			"name": "dominate_tmm"
+		},
+		{
+			"url": "art/dominate/dominate.json",
+			"type": "sheet",
+			"name": "dominate_json",
+			"subkeys": "dominate_advStarBg,dominate_bg,dominate_bg2,dominate_border,dominate_rightArrow,dominate_word1,dominate_word2,dominate_word3"
+		},
+		{
+			"url": "art/rollPoint/rollView.tmm",
+			"type": "bin",
+			"name": "rollView_tmm"
+		},
+		{
+			"url": "art/rollPoint/rollView.json",
+			"type": "sheet",
+			"name": "rollView_json",
+			"subkeys": "roll_bg,roll_bg1,roll_bg2,roll_touzi"
+		},
+		{
+			"url": "art/loadingUI/loadingUI.tmm",
+			"type": "bin",
+			"name": "loadingUI_tmm"
+		},
+		{
+			"url": "art/loadingUI/loading.json",
+			"type": "sheet",
+			"name": "loading_json",
+			"subkeys": "loading_bar,loading_barBg,loading_pic"
+		},
+		{
+			"url": "assets/mapAssets/monster/700001/stand.json",
+			"type": "json",
+			"name": "stand7_json"
+		},
+		{
+			"url": "assets/mapAssets/monster/700001/stand.png",
+			"type": "image",
+			"name": "stand7_png"
+		},
+		{
+			"url": "assets/mapAssets/monster/700003/stand.json",
+			"type": "json",
+			"name": "stand8_json"
+		},
+		{
+			"url": "assets/mapAssets/monster/700003/stand.png",
+			"type": "image",
+			"name": "stand8_png"
+		},
+		{
+			"url": "assets/icon/share/image_share.png",
+			"type": "image",
+			"name": "image_share_png"
+		},
+		{
+			"url": "art/guild_farm/guild_farm.tmm",
+			"type": "bin",
+			"name": "guild_farm_tmm"
+		},
+		{
+			"url": "art/guild_farm/guild_farm.json",
+			"type": "sheet",
+			"name": "guild_farm_json",
+			"subkeys": "guild_farmBg,guild_farmBg2,guild_farmBtn_fei,guild_farmBtn_my,guild_farmBtn_shou,guild_farmBtn_shui,guild_farmBtn_tou,guild_farm_barBg,guild_farm_hand,guild_farm_icon,guild_farm_icon2,guild_farm_icon3,guild_farm_map,guild_farm_map2,guild_farm_shui,guild_farm_stauts_1,guild_farm_stauts_2,guild_farm_stauts_3,guild_farm_stauts_4,guild_farm_titleBg,guild_farm_txt,title_guild_farm"
+		},
+		{
+			"url": "art/cityWar/cityWar.tmm",
+			"type": "bin",
+			"name": "cityWar_tmm"
+		},
+		{
+			"url": "art/cityWar/cityWar.json",
+			"type": "sheet",
+			"name": "cityWar_json",
+			"subkeys": "cityWar_attackBtn,cityWar_bg2,cityWar_bg3,cityWar_bg4,cityWar_bg5,cityWar_bg6,cityWar_bg8,cityWar_boss,cityWar_boxAssign,cityWar_btnBack,cityWar_btnBackFront,cityWar_btnFront,cityWar_btnReward,cityWar_cwOutRankBg,cityWar_flag1,cityWar_flag2,cityWar_guildBox,cityWar_help,cityWar_helpTitle,cityWar_jifenImage,cityWar_rankIcon1,cityWar_rankIcon2,cityWar_rankIcon3,cityWar_refreshBtn,cityWar_title0,cityWar_title1,cityWar_title2,cityWar_title3,cityWar_titleReward,cityWar_txt1,cityWar_txtJGS,cityWar_txtJGS2,cityWar_txtJSR,cityWar_txtJSR2,cityWar_wenHao"
+		},
+		{
+			"url": "art/gameStart/gameStart.tmm",
+			"type": "bin",
+			"name": "gameStart_tmm"
+		},
+		{
+			"url": "art/gameStart/gameStart.json",
+			"type": "sheet",
+			"name": "gameStart_json",
+			"subkeys": "gameStart_btnStart,gameStart_hot,gameStart_maintenance,gameStart_new,gameStart_notice"
+		},
+		{
+			"url": "art/guild_shop/guild_shop.tmm",
+			"type": "bin",
+			"name": "guild_shop_tmm"
+		},
+		{
+			"url": "art/guild_shop/guild_shop.json",
+			"type": "sheet",
+			"name": "guild_shop_json",
+			"subkeys": "guild_shopBg,guild_shopHead,guild_shopHead_no,guild_shopIcon,guild_shopItemBg,guild_shopTalk,guild_shopTitle,guild_shopTxt,guild_shopTxt2"
+		},
+		{
+			"url": "art/charge/charge.tmm",
+			"type": "bin",
+			"name": "charge_tmm"
+		},
+		{
+			"url": "art/charge/charge.json",
+			"type": "sheet",
+			"name": "charge_json",
+			"subkeys": "charge_border,charge_border2"
+		},
+		{
+			"url": "assets/config/all.zip",
+			"type": "bin",
+			"name": "all_zip"
+		},
+		{
+			"url": "art/guild_fuben/guild_fuben.tmm",
+			"type": "bin",
+			"name": "guild_fuben_tmm"
+		},
+		{
+			"url": "art/guild_fuben/guild_fuben.json",
+			"type": "sheet",
+			"name": "guild_fuben_json",
+			"subkeys": "guild_fubenBg,guild_fubenBtn,guild_fubenBtn2,guild_fubenSaoBg,guild_fubenSaoIcon,guild_fubenTitleBg"
+		},
+		{
+			"url": "art/shengong/shengong.tmm",
+			"type": "bin",
+			"name": "shengong_tmm"
+		},
+		{
+			"url": "art/shengong/shengong.json",
+			"type": "sheet",
+			"name": "shengong_json",
+			"subkeys": "shengong_arrow,shengong_bar,shengong_barBg,shengong_bg,shengong_border,shengong_border2,shengong_border3,shengong_border4,shengong_finished,shengong_headbar,shengong_line,shengong_word1,shengong_word2,shengong_word3"
+		},
+		{
+			"url": "art/numbers/number_fight_1/number_fight_1.fnt",
+			"type": "font",
+			"name": "number_fight_1_fnt"
+		},
+		{
+			"url": "art/numbers/number_fight_1/number_fight_1.png",
+			"type": "image",
+			"name": "number_fight_1_png"
+		},
+		{
+			"url": "art/numbers/number_fight_1/number_fight_1.tmf",
+			"type": "bin",
+			"name": "number_fight_1_tmf"
+		},
+		{
+			"url": "art/numbers/number_fight_0/number_fight_0.fnt",
+			"type": "font",
+			"name": "number_fight_0_fnt"
+		},
+		{
+			"url": "art/numbers/number_fight_0/number_fight_0.png",
+			"type": "image",
+			"name": "number_fight_0_png"
+		},
+		{
+			"url": "art/numbers/number_fight_0/number_fight_0.tmf",
+			"type": "bin",
+			"name": "number_fight_0_tmf"
+		},
+		{
+			"url": "art/numbers/number_fight_2/number_fight_2.fnt",
+			"type": "font",
+			"name": "number_fight_2_fnt"
+		},
+		{
+			"url": "art/numbers/number_fight_2/number_fight_2.png",
+			"type": "image",
+			"name": "number_fight_2_png"
+		},
+		{
+			"url": "art/numbers/number_fight_2/number_fight_2.tmf",
+			"type": "bin",
+			"name": "number_fight_2_tmf"
+		},
+		{
+			"url": "art/numbers/number_fight_3/number_fight_3.fnt",
+			"type": "font",
+			"name": "number_fight_3_fnt"
+		},
+		{
+			"url": "art/numbers/number_fight_3/number_fight_3.png",
+			"type": "image",
+			"name": "number_fight_3_png"
+		},
+		{
+			"url": "art/numbers/number_fight_3/number_fight_3.tmf",
+			"type": "bin",
+			"name": "number_fight_3_tmf"
+		},
+		{
+			"url": "art/numbers/number_fight_4/number_fight_4.fnt",
+			"type": "font",
+			"name": "number_fight_4_fnt"
+		},
+		{
+			"url": "art/numbers/number_fight_4/number_fight_4.png",
+			"type": "image",
+			"name": "number_fight_4_png"
+		},
+		{
+			"url": "art/numbers/number_fight_4/number_fight_4.tmf",
+			"type": "bin",
+			"name": "number_fight_4_tmf"
+		},
+		{
+			"url": "art/mine/mine.tmm",
+			"type": "bin",
+			"name": "mine_tmm"
+		},
+		{
+			"url": "art/mine/mine.json",
+			"type": "sheet",
+			"name": "mine_json",
+			"subkeys": "mineBg,mineBtn,mineIcon_1,mineIcon_2,mineIcon_3,mineIcon_4,mineIcon_5,mineItemBg,mineItemIcon_1,mineItemIcon_2,mineItemIcon_3,mineItemIcon_4,mineItemIcon_5,mineItemName_1,mineItemName_2,mineItemName_3,mineItemName_4,mineItemName_5,mineTxt,mine_jt,mine_select"
+		},
+		{
+			"url": "art/exnobility/exnobility.tmm",
+			"type": "bin",
+			"name": "exnobility_tmm"
+		},
+		{
+			"url": "art/exnobility/exnobility.json",
+			"type": "sheet",
+			"name": "exnobility_json",
+			"subkeys": "exnobility_arrow,exnobility_bg,exnobility_finished,exnobility_headBg,exnobility_line,exnobility_nameBg,exnobility_word,exnobility_word2,exnobility_word3"
+		},
+		{
+			"url": "art/kfhdCharge/kfhdCharge.tmm",
+			"type": "bin",
+			"name": "kfhdCharge_tmm"
+		},
+		{
+			"url": "art/kfhdCharge/kfhdCharge.json",
+			"type": "sheet",
+			"name": "kfhdCharge_json",
+			"subkeys": "kfhdCharge_bg,kfhdCharge_border1,kfhdCharge_btn,kfhdCharge_gold,kfhdCharge_itemBg,kfhdCharge_itemLock,kfhdCharge_itemSelected,kfhdCharge_itemShader,kfhdCharge_leftArrow,kfhdCharge_rightArrow,kfhdCharge_today,kfhdCharge_word1,kfhdCharge_word2,kfhdCharge_word3,kfhdCharge_word4,kfhdCharge_word5"
+		},
+		{
+			"url": "art/numbers/number6/number_6.fnt",
+			"type": "font",
+			"name": "number_6_fnt"
+		},
+		{
+			"url": "art/numbers/number6/number_6.png",
+			"type": "image",
+			"name": "number_6_png"
+		},
+		{
+			"url": "art/numbers/number6/number_6.tmf",
+			"type": "bin",
+			"name": "number_6_tmf"
+		},
+		{
+			"url": "art/oneRmb/oneRmb.tmm",
+			"type": "bin",
+			"name": "oneRmb_tmm"
+		},
+		{
+			"url": "art/oneRmb/oneRmb.json",
+			"type": "sheet",
+			"name": "oneRmb_json",
+			"subkeys": "oneRmb_bg1,oneRmb_bg2,oneRmb_btn,oneRmb_word1,oneRmb_word2,oneRmb_word3"
+		},
+		{
+			"url": "art/numbers/number7/number_7.fnt",
+			"type": "font",
+			"name": "number_7_fnt"
+		},
+		{
+			"url": "art/numbers/number7/number_7.png",
+			"type": "image",
+			"name": "number_7_png"
+		},
+		{
+			"url": "art/numbers/number7/number_7.tmf",
+			"type": "bin",
+			"name": "number_7_tmf"
+		},
+		{
+			"url": "art/vipGuizu/vipGuizu.tmm",
+			"type": "bin",
+			"name": "vipGuizu_tmm"
+		},
+		{
+			"url": "art/vipGuizu/vipGuizu.json",
+			"type": "sheet",
+			"name": "vipGuizu_json",
+			"subkeys": "vipGuizuBtn_vip,vipGuizuBtn_zs,vipGuizuIcon_1,vipGuizuIcon_2,vipGuizuIcon_3,vipGuizuIcon_4,vipGuizuSelect,vipGuizuTxt"
+		},
+		{
+			"url": "art/kfhdTreasure/kfhdTreasure.tmm",
+			"type": "bin",
+			"name": "kfhdTreasure_tmm"
+		},
+		{
+			"url": "art/kfhdTreasure/kfhdTreasure.json",
+			"type": "sheet",
+			"name": "kfhdTreasure_json",
+			"subkeys": "kfhdTreasure__box1,kfhdTreasure_bar,kfhdTreasure_barBg,kfhdTreasure_bg,kfhdTreasure_border1,kfhdTreasure_border2,kfhdTreasure_box2,kfhdTreasure_box3,kfhdTreasure_box4,kfhdTreasure_equipTxt"
+		},
+		{
+			"url": "art/dailyCharge/dailyCharge.tmm",
+			"type": "bin",
+			"name": "dailyCharge_tmm"
+		},
+		{
+			"url": "art/dailyCharge/dailyCharge.json",
+			"type": "sheet",
+			"name": "dailyCharge_json",
+			"subkeys": "dailyCharge_bg,dailyCharge_getBtn,dailyCharge_word1,dailyCharge_word2,dailyCharge_word3"
+		},
+		{
+			"url": "art/dark/dark.tmm",
+			"type": "bin",
+			"name": "dark_tmm"
+		},
+		{
+			"url": "art/dark/dark.json",
+			"type": "sheet",
+			"name": "dark_json",
+			"subkeys": "darkNum_1,darkNum_100,darkNum_2,darkNum_200,darkNum_4,darkTitleBg,darkTitleBg2,darkTxt,darkTxt2,darkTxt3,darkTxt4,darkTxt5,dark_1,dark_10,dark_11,dark_12,dark_13,dark_14,dark_15,dark_16,dark_2,dark_3,dark_4,dark_5,dark_6,dark_7,dark_8,dark_9"
+		},
+		{
+			"url": "art/functionNotice/functionNotice.tmm",
+			"type": "bin",
+			"name": "functionNotice_tmm"
+		},
+		{
+			"url": "art/functionNotice/functionNotice.json",
+			"type": "sheet",
+			"name": "functionNotice_json",
+			"subkeys": "functionNotice_bg,functionNotice_box1,functionNotice_box2,functionNotice_headBg,functionNotice_item,functionNotice_itemDisable,functionNotice_itemSelected,functionNotice_word1,functionNotice_word2"
+		},
+		{
+			"url": "art/fanli/fanli.tmm",
+			"type": "bin",
+			"name": "fanli_tmm"
+		},
+		{
+			"url": "art/flxg/flxg.tmm",
+			"type": "bin",
+			"name": "flxg_tmm"
+		},
+		{
+			"url": "art/flxg/flxg.json",
+			"type": "sheet",
+			"name": "flxg_json",
+			"subkeys": "flxg_bg,flxg_btnBuy,flxg_itemBg,flxg_itemSelected,flxg_line,flxg_rightBg,flxg_word"
+		},
+		{
+			"url": "art/fllc/fllc.tmm",
+			"type": "bin",
+			"name": "fllc_tmm"
+		},
+		{
+			"url": "art/fllc/fllc.json",
+			"type": "sheet",
+			"name": "fllc_json",
+			"subkeys": "fllc_bg,fllc_bottom,fllc_btn,fllc_itemBg"
+		},
+		{
+			"url": "art/shadow/shadow.tmm",
+			"type": "bin",
+			"name": "shadow_tmm"
+		},
+		{
+			"url": "art/shadow/shadow.json",
+			"type": "sheet",
+			"name": "shadow_json",
+			"subkeys": "shadowBar,shadowBarBg,shadowBarLine,shadowBtnEquip,shadowEquip_1,shadowEquip_2,shadowEquip_3,shadowEquip_4,shadowIcon,shadowNameBg,shadowOpen,shadowShopBtn,shadowShopBtn2,shadowStar,shadowStar2,shadowTitleBg,shadowTitleBg2,shadowTxt,shadowTxt2,shadowTxt3,shadowTxt_1,shadowTxt_2,shadowTxt_3,shadowTxt_4,shadowTxt_b,shadow_jt,shadow_select,shadow_zhuanBtn,shadow_zhuanBtn_dis"
+		},
+		{
+			"url": "art/shareNew/shareNew.tmm",
+			"type": "bin",
+			"name": "shareNew_tmm"
+		},
+		{
+			"url": "art/shareNew/shareNew.json",
+			"type": "sheet",
+			"name": "shareNew_json",
+			"subkeys": "shareNew_bg,shareNew_word2"
+		},
+		{
+			"url": "art/fashion/fashion.tmm",
+			"type": "bin",
+			"name": "fashion_tmm"
+		},
+		{
+			"url": "art/fashion/fashion.json",
+			"type": "sheet",
+			"name": "fashion_json",
+			"subkeys": "fashion_bg,fashion_border1,fashion_border2,fashion_btnActive,fashion_flag,fashion_itemBg,fashion_selected,fashion_word,fashion_word2"
+		},
+		{
+			"url": "art/kfhdReCharge/kfhdReCharge.tmm",
+			"type": "bin",
+			"name": "kfhdReCharge_tmm"
+		},
+		{
+			"url": "art/kfhdReCharge/kfhdReCharge.json",
+			"type": "sheet",
+			"name": "kfhdReCharge_json",
+			"subkeys": "kfhdReCharge_bg,kfhdReCharge_word,kfhdReCharge_word2"
+		},
+		{
+			"url": "art/king/king.tmm",
+			"type": "bin",
+			"name": "king_tmm"
+		},
+		{
+			"url": "art/king/king.json",
+			"type": "sheet",
+			"name": "king_json",
+			"subkeys": "kingBg,kingBg2,kingIcon,kingIcon_vs,kingItemBg,kingStar_l,kingStar_l2,kingStar_r,kingStar_r2,kingTalkBg,kingTitleBg,kingTxt_bz,kingTxt_cur,kingTxt_jie,kingTxt_my,kingTxt_sz,kingType_1,kingType_2,kingType_3,kingType_4,kingType_s_1,kingType_s_2,kingType_s_3,kingType_s_4"
+		},
+		{
+			"url": "art/HFBossPoint/HFBossPoint.tmm",
+			"type": "bin",
+			"name": "HFBossPoint_tmm"
+		},
+		{
+			"url": "art/HFBossPoint/HFBossPoint.json",
+			"type": "sheet",
+			"name": "HFBossPoint_json",
+			"subkeys": "HFBossPoint_Border,HFBossPoint_arrowDown,HFBossPoint_arrowUp,HFBossPoint_bar,HFBossPoint_barBg,HFBossPoint_border2,HFBossPoint_box"
+		},
+		{
+			"url": "art/HFExchange/HFExchange.tmm",
+			"type": "bin",
+			"name": "HFExchange_tmm"
+		},
+		{
+			"url": "art/HFExchange/HFExchange.json",
+			"type": "sheet",
+			"name": "HFExchange_json",
+			"subkeys": "HFExchange_itemBg"
+		},
+		{
+			"url": "art/HFSiege/HFSiege.tmm",
+			"type": "bin",
+			"name": "HFSiege_tmm"
+		},
+		{
+			"url": "art/HFSiege/HFSiege.json",
+			"type": "sheet",
+			"name": "HFSiege_json",
+			"subkeys": "HFSiege_itembg"
+		},
+		{
+			"url": "art/HFCharge/HFCharge.tmm",
+			"type": "bin",
+			"name": "HFCharge_tmm"
+		},
+		{
+			"url": "art/HFCharge/HFCharge.json",
+			"type": "sheet",
+			"name": "HFCharge_json",
+			"subkeys": "HFCharge_bg,HFCharge_border1,HFCharge_btn,HFCharge_gold,HFCharge_itemBg,HFCharge_itemLock,HFCharge_itemSelected,HFCharge_itemShader,HFCharge_leftArrow,HFCharge_rightArrow,HFCharge_today,HFCharge_word1,HFCharge_word3,HFCharge_word4,HFCharge_word5"
+		},
+		{
+			"url": "art/HFDl/HFDl.tmm",
+			"type": "bin",
+			"name": "HFDl_tmm"
+		},
+		{
+			"url": "art/HFDl/HFDl.json",
+			"type": "sheet",
+			"name": "HFDl_json",
+			"subkeys": "HFDl_border"
+		},
+		{
+			"url": "art/HFTreasure/HFTreasure.tmm",
+			"type": "bin",
+			"name": "HFTreasure_tmm"
+		},
+		{
+			"url": "art/HFTreasure/HFTreasure.json",
+			"type": "sheet",
+			"name": "HFTreasure_json",
+			"subkeys": "HFTreasure__box1,HFTreasure_bar,HFTreasure_bg,HFTreasure_border1,HFTreasure_border2,HFTreasure_box2,HFTreasure_box3,HFTreasure_equipTxt,HFTreasuree_barBg"
+		},
+		{
+			"url": "art/HFGift/HFGift.tmm",
+			"type": "bin",
+			"name": "HFGift_tmm"
+		},
+		{
+			"url": "art/HFGift/HFGift.json",
+			"type": "sheet",
+			"name": "HFGift_json",
+			"subkeys": "HFGift_bg,HFGift_btnBuy,HFGift_itemBg,HFGift_itemSelected,HFGift_line,HFGift_rightBg,HFGift_word"
+		},
+		{
+			"url": "art/HFRank/HFRank.tmm",
+			"type": "bin",
+			"name": "HFRank_tmm"
+		},
+		{
+			"url": "art/HFRank/HFRank.json",
+			"type": "sheet",
+			"name": "HFRank_json",
+			"subkeys": "HFRank_bg,HFRank_paiMingBg,HFRank_paiMingRound,HFRank_paiMingTxt,HFRank_standardBg2"
+		},
+		{
+			"url": "art/hefu/hefu.tmm",
+			"type": "bin",
+			"name": "hefu_tmm"
+		},
+		{
+			"url": "art/hefu/hefu.json",
+			"type": "sheet",
+			"name": "hefu_json",
+			"subkeys": "hefu_bg,hefu_selected"
+		},
+		{
+			"url": "art/kfhdTitle/kfhdTitle.tmm",
+			"type": "bin",
+			"name": "kfhdTitle_tmm"
+		},
+		{
+			"url": "art/kfhdTitle/kfhdTitle.json",
+			"type": "sheet",
+			"name": "kfhdTitle_json",
+			"subkeys": "kfhdTitle_border1,kfhdTitle_border2,kfhdTitle_midBg,kfhdTitle_word"
+		},
+		{
+			"url": "art/HFTitle/HFTitle.tmm",
+			"type": "bin",
+			"name": "HFTitle_tmm"
+		},
+		{
+			"url": "art/HFTitle/HFTitle.json",
+			"type": "sheet",
+			"name": "HFTitle_json",
+			"subkeys": "HFTitle_border1,HFTitle_border2,HFTitle_midBg,HFTitle_word"
+		},
+		{
+			"url": "art/numbers/number_vip/number_vip.fnt",
+			"type": "font",
+			"name": "number_vip_fnt"
+		},
+		{
+			"url": "art/numbers/number_vip/number_vip.png",
+			"type": "image",
+			"name": "number_vip_png"
+		},
+		{
+			"url": "art/numbers/number_vip/number_vip.tmf",
+			"type": "bin",
+			"name": "number_vip_tmf"
+		},
+		{
+			"url": "art/flluck/flluck.tmm",
+			"type": "bin",
+			"name": "flluck_tmm"
+		},
+		{
+			"url": "art/flluck/flluck.json",
+			"type": "sheet",
+			"name": "flluck_json",
+			"subkeys": "flluck_border,flluck_line"
+		},
+		{
+			"url": "art/awake/awake.tmm",
+			"type": "bin",
+			"name": "awake_tmm"
+		},
+		{
+			"url": "art/awake/awake.json",
+			"type": "sheet",
+			"name": "awake_json",
+			"subkeys": "awakeIcon_1,awakeIcon_2,awakeIcon_3,awakeItemBg,awakeTxt,awake_point,awake_point2"
+		},
+		{
+			"url": "art/numbers/number_guildBoss/number_guildBoss.fnt",
+			"type": "font",
+			"name": "number_guildBoss_fnt"
+		},
+		{
+			"url": "art/numbers/number_guildBoss/number_guildBoss.png",
+			"type": "image",
+			"name": "number_guildBoss_png"
+		},
+		{
+			"url": "art/numbers/number_guildBoss/number_guildBoss.tmf",
+			"type": "bin",
+			"name": "number_guildBoss_tmf"
+		},
+		{
+			"url": "art/bless/bless.tmm",
+			"type": "bin",
+			"name": "bless_tmm"
+		},
+		{
+			"url": "art/bless/bless.json",
+			"type": "sheet",
+			"name": "bless_json",
+			"subkeys": "bless_bg"
+		},
+		{
+			"url": "art/QQFriend/QQFriend.tmm",
+			"type": "bin",
+			"name": "QQFriend_tmm"
+		},
+		{
+			"url": "art/QQFriend/QQFriend.json",
+			"type": "sheet",
+			"name": "QQFriend_json",
+			"subkeys": "QQFriendRank_head,QQFriend_bg,QQFriend_bg2,QQFriend_border1,QQFriend_btnShare,QQFriend_head,QQFriend_midBorder,QQFriend_selected,QQFriend_word1"
+		},
+		{
+			"url": "art/kuafu/kuafu.tmm",
+			"type": "bin",
+			"name": "kuafu_tmm"
+		},
+		{
+			"url": "art/kuafu/kuafu.json",
+			"type": "sheet",
+			"name": "kuafu_json",
+			"subkeys": "kf_map_btn_1,kf_map_btn_2,kf_map_btn_3,kf_map_btn_4,kf_map_btn_5,kf_map_btn_6,kuafu_bossTitle"
+		},
+		{
+			"url": "art/awakeEquip/awakeEquip.tmm",
+			"type": "bin",
+			"name": "awakeEquip_tmm"
+		},
+		{
+			"url": "art/awakeEquip/awakeEquip.json",
+			"type": "sheet",
+			"name": "awakeEquip_json",
+			"subkeys": "awakeEquipSoul_bg,awakeEquipSoul_w2,awakeEquip_bg,awakeEquip_border5,awakeEquip_btnSelect,awakeEquip_btnWear,awakeEquip_img1,awakeEquip_img2"
+		},
+		{
+			"url": "art/awakeEquipCompose/awakeEquipCompose.tmm",
+			"type": "bin",
+			"name": "awakeEquipCompose_tmm"
+		},
+		{
+			"url": "art/awakeEquipCompose/awakeEquipCompose.json",
+			"type": "sheet",
+			"name": "awakeEquipCompose_json",
+			"subkeys": "awakeEquipCompose_bg,awakeEquipCompose_border,awakeEquipCompose_word"
+		},
+		{
+			"url": "art/city/city.tmm",
+			"type": "bin",
+			"name": "city_tmm"
+		},
+		{
+			"url": "art/city/city.json",
+			"type": "sheet",
+			"name": "city_json",
+			"subkeys": "cityBtnClose,cityNpc_1,cityNpc_10,cityNpc_10s,cityNpc_11,cityNpc_12,cityNpc_12s,cityNpc_2,cityNpc_2s,cityNpc_3,cityNpc_3s,cityNpc_4,cityNpc_5,cityNpc_5s,cityNpc_6,cityNpc_7,cityNpc_7s,cityNpc_8,cityNpc_8s,cityNpc_9,cityNpc_9s,cityTitleBg,cityTxt_1,cityTxt_2,cityTxt_3,cityTxt_4,cityTxt_5,cityTxt_6,cityTxt_7,cityTxt_8"
+		},
+		{
+			"url": "art/noviceTaskGift/noviceTaskGift.tmm",
+			"type": "bin",
+			"name": "noviceTaskGift_tmm"
+		},
+		{
+			"url": "art/noviceTaskGift/noviceTaskGift.json",
+			"type": "sheet",
+			"name": "noviceTaskGift_json",
+			"subkeys": "noviceTaskGift_bg"
+		},
+		{
+			"url": "art/levelup/levelup.tmm",
+			"type": "bin",
+			"name": "levelup_tmm"
+		},
+		{
+			"url": "art/levelup/levelup.json",
+			"type": "sheet",
+			"name": "levelup_json",
+			"subkeys": "levelup_bg"
+		},
+		{
+			"url": "art/firstChargeFive/firstChargeFive.tmm",
+			"type": "bin",
+			"name": "firstChargeFive_tmm"
+		},
+		{
+			"url": "art/firstChargeFive/firstChargeFive.json",
+			"type": "sheet",
+			"name": "firstChargeFive_json",
+			"subkeys": "firstChargeFive_bg,firstChargeFive_charge,firstChargeFive_itembg,firstChargeFive_num,firstChargeFive_w1,firstChargeFive_w2,firstChargeFive_w3,firstChargeFive_wing,firstChargeFive_yuan"
+		},
+		{
+			"url": "art/achievement/achievement.tmm",
+			"type": "bin",
+			"name": "achievement_tmm"
+		},
+		{
+			"url": "art/achievement/achievement.json",
+			"type": "sheet",
+			"name": "achievement_json",
+			"subkeys": "achievement_border,achievement_itemBg,achievement_nameBg"
+		},
+		{
+			"url": "art/flxf/flxf.tmm",
+			"type": "bin",
+			"name": "flxf_tmm"
+		},
+		{
+			"url": "art/flxf/flxf.json",
+			"type": "sheet",
+			"name": "flxf_json",
+			"subkeys": "flxf_bg,flxf_bottom,flxf_btn,flxf_itemBg"
+		},
+		{
+			"url": "art/shareFunc/shareFunc.tmm",
+			"type": "bin",
+			"name": "shareFunc_tmm"
+		},
+		{
+			"url": "art/shareFunc/shareFunc.json",
+			"type": "sheet",
+			"name": "shareFunc_json",
+			"subkeys": "shareFunc_border,shareFunc_txt"
+		},
+		{
+			"url": "art/shopQizhen/shopQizhen.tmm",
+			"type": "bin",
+			"name": "shopQizhen_tmm"
+		},
+		{
+			"url": "art/shopQizhen/shopQizhen.json",
+			"type": "sheet",
+			"name": "shopQizhen_json",
+			"subkeys": "shopQizhenBg,shopQizhenBg2,shopQizhenBtn,shopQizhenTxt,shopQizhenTxt2"
+		},
+		{
+			"url": "art/followReward/followReward.json",
+			"type": "sheet",
+			"name": "followReward_json",
+			"subkeys": "followBg,followIcon,followInfo"
+		},
+		{
+			"url": "assets/icon/windowTitle/title_activity_off.png",
+			"type": "image",
+			"name": "title_activity_off_png"
+		},
+		{
+			"url": "art/shop/shop.tmm",
+			"type": "bin",
+			"name": "shop_tmm"
+		},
+		{
+			"url": "art/shop/shop.json",
+			"type": "sheet",
+			"name": "shop_json",
+			"subkeys": "shopTitle,shopTxt"
+		},
+		{
+			"url": "art/levelSell/levelSell.tmm",
+			"type": "bin",
+			"name": "levelSell_tmm"
+		},
+		{
+			"url": "art/levelSell/levelSell.json",
+			"type": "sheet",
+			"name": "levelSell_json",
+			"subkeys": "levelSell_bg,levelSell_btn,levelSell_item,levelSell_line,levelSell_selected"
+		},
+		{
+			"url": "art/activity/activity.tmm",
+			"type": "bin",
+			"name": "activity_tmm"
+		},
+		{
+			"url": "art/activity/activity.json",
+			"type": "sheet",
+			"name": "activity_json",
+			"subkeys": "activitySendGoldBtn_down,activitySendGoldBtn_up,qqvipBtn_reward,qqvipBtn_shop,superVip_bg2,superVip_btn,superVip_btn_dis,superVip_title,superVip_txt"
+		},
+		{
+			"url": "art/build/build.json",
+			"type": "sheet",
+			"name": "build_json",
+			"subkeys": "buildIcon_up,buildItemSelectp,buildStrengthenBg,build_equipBottom_1,build_equipBottom_2,build_equipBottom_3,build_equipBottom_4,build_equipBottom_40,build_equipBottom_41,build_equipBottom_42,build_equipBottom_43,build_equipBottom_44,build_equipBottom_45,build_equipBottom_46,build_equipBottom_47,build_equipBottom_5,build_equipBottom_6,runeAttrBg,runeBg,title_build"
+		},
+		{
+			"url": "art/shenlian/shenlian.tmm",
+			"type": "bin",
+			"name": "shenlian_tmm"
+		},
+		{
+			"url": "art/shenlian/shenlian.json",
+			"type": "sheet",
+			"name": "shenlian_json",
+			"subkeys": "shenlian_border,shenlian_w1,shenlian_w2"
+		},
+		{
+			"url": "art/onlineReward/onlineReward.json",
+			"type": "sheet",
+			"name": "onlineReward_json",
+			"subkeys": "btnOut,headwear,onlineRewardBg"
+		},
+		{
+			"url": "art/friend/friend.json",
+			"type": "sheet",
+			"name": "friend_json",
+			"subkeys": "btnFeedChance,friendContentBg,friendContentBg2,friendMsgBg,friendMsgBg2,friendMsgTimeBg,title_friend,title_friend_add,title_friend_black,title_friend_check,title_friend_sl"
+		},
+		{
+			"url": "art/numbers/number8/number_8.fnt",
+			"type": "font",
+			"name": "number_8_fnt"
+		},
+		{
+			"url": "art/numbers/number8/number_8.tmf",
+			"type": "bin",
+			"name": "number_8_tmf"
+		},
+		{
+			"url": "art/numbers/number8/number_8.png",
+			"type": "image",
+			"name": "number_8_png"
+		},
+		{
+			"url": "art/numbers/number9/number_9.fnt",
+			"type": "font",
+			"name": "number_9_fnt"
+		},
+		{
+			"url": "art/numbers/number9/number_9.png",
+			"type": "image",
+			"name": "number_9_png"
+		},
+		{
+			"url": "art/numbers/number10/number_10.png",
+			"type": "image",
+			"name": "number_10_png"
+		},
+		{
+			"url": "art/numbers/number10/number_10.fnt",
+			"type": "font",
+			"name": "number_10_fnt"
+		},
+		{
+			"url": "art/awakeScore/awakeScore.json",
+			"type": "sheet",
+			"name": "awakeScore_json",
+			"subkeys": "arrow1,arrow2,awakeScoreBg,iconAwakeScore,petMark0,petMark1"
+		},
+		{
+			"url": "art/createRole/createRole2.tmm",
+			"type": "bin",
+			"name": "createRole2_tmm"
+		},
+		{
+			"url": "art/createRole/createRole2.json",
+			"type": "sheet",
+			"name": "createRole2_json",
+			"subkeys": "career2_1_1,career2_1_2,career2_2_1,career2_2_2,career2_3_1,career2_3_2,createRoleBtn_dice2,createRoleBtn_enter2"
+		},
+		{
+			"url": "art/pkSkill/pkSkill.tmm",
+			"type": "bin",
+			"name": "pkSkill_tmm"
+		},
+		{
+			"url": "art/pkSkill/pkSkill.json",
+			"type": "sheet",
+			"name": "pkSkill_json",
+			"subkeys": "pkSkillBg,pkSkillTitleBg,pkSkill_itemBg,pkSkill_listBg,pkSkill_txt,pkSkill_txt2"
+		},
+		{
+			"url": "art/magicPet/magicPet.json",
+			"type": "sheet",
+			"name": "magicPet_json",
+			"subkeys": "MagicPetShopBtn,MagicPetShopBtn2,attrBg,feedBg,feedBtnBg,feedTitle1,feedTitle2,headBg,headLight,heart0,heart1,icon1,icon2,icon3,item_s,magicPetBg,weaponBg"
+		},
+		{
+			"url": "art/fanli/fanli.json",
+			"type": "sheet",
+			"name": "fanli_json",
+			"subkeys": "FanliLoginLuckTitle,circleCarnivalBanner,fanliBar,fanliBarBg,fanliColor_1,fanliColor_2,fanliColor_3,fanliColor_4,fanliColor_5,fanliLoginAward_border,fanliTxt_6,fanliTxt_end,fanliTxt_pt,fanliTxt_start,fanliZhuanBtn,fanliZhuanBtn2,fanli_bar,fanli_barBg,fanli_barLeft,fanli_barRight,fanli_bg,fanli_box,fanli_box2,fanli_box_close,fanli_box_open,fanli_dfwBtn,fanli_dfwBtn6,fanli_dice_1,fanli_dice_2,fanli_dice_3,fanli_dice_4,fanli_dice_5,fanli_dice_6,fanli_help,fanli_lq,fanli_midBorder,fanli_select,fanli_select2,fanli_selected,fanli_zpBtn,fanli_zpTxt,shopCheap_btn,shopCheap_icon,shopCheap_icon2,shopCheap_jian,shopCheap_lock,shopCheap_txt"
+		},
+		{
+			"name": "chatItemBg_vip16_png",
+			"type": "image",
+			"url": "assets/icon/chat/chatItemBg_vip16.png"
+		},
+		{
+			"name": "chatItemBg_vip17_png",
+			"type": "image",
+			"url": "assets/icon/chat/chatItemBg_vip17.png"
+		},
+		{
+			"name": "chatItemBg_vip18_png",
+			"type": "image",
+			"url": "assets/icon/chat/chatItemBg_vip18.png"
+		},
+		{
+			"name": "chatItemBg_vip19_png",
+			"type": "image",
+			"url": "assets/icon/chat/chatItemBg_vip19.png"
+		},
+		{
+			"name": "chatItemBg_vip20_png",
+			"type": "image",
+			"url": "assets/icon/chat/chatItemBg_vip20.png"
+		},
+		{
+			"name": "chat_roleOnline_1_png",
+			"type": "image",
+			"url": "assets/icon/chat/chat_roleOnline_1.png"
+		},
+		{
+			"name": "chat_roleOnline_2_png",
+			"type": "image",
+			"url": "assets/icon/chat/chat_roleOnline_2.png"
+		},
+		{
+			"name": "bg_png",
+			"type": "image",
+			"url": "assets/icon/fanli/flbless/bg.png"
+		},
+		{
+			"name": "fanliLoginAward_bg_png",
+			"type": "image",
+			"url": "assets/icon/fanli/loginAward/fanliLoginAward_bg.png"
+		},
+		{
+			"name": "fuli_jijinBg_png",
+			"type": "image",
+			"url": "assets/icon/fuli/fuli_jijinBg.png"
+		},
+		{
+			"name": "fuli_vip1_png",
+			"type": "image",
+			"url": "assets/icon/fuli/fuli_vip1.png"
+		},
+		{
+			"name": "fuli_vip2_png",
+			"type": "image",
+			"url": "assets/icon/fuli/fuli_vip2.png"
+		},
+		{
+			"name": "daily8_pic_jpg",
+			"type": "image",
+			"url": "assets/icon/huoDongDaily/daily8_pic.jpg"
+		},
+		{
+			"name": "loading_jpg",
+			"type": "image",
+			"url": "assets/icon/login/loading.jpg"
+		},
+		{
+			"name": "notice_png",
+			"type": "image",
+			"url": "assets/icon/notice/notice.png"
+		},
+		{
+			"name": "notice1_png",
+			"type": "image",
+			"url": "assets/icon/notice/notice1.png"
+		},
+		{
+			"name": "notice2_png",
+			"type": "image",
+			"url": "assets/icon/notice/notice2.png"
+		},
+		{
+			"name": "welcomeBg_png",
+			"type": "image",
+			"url": "assets/icon/other/welcomeBg.png"
+		},
+		{
+			"name": "welcomeBtn_png",
+			"type": "image",
+			"url": "assets/icon/other/welcomeBtn.png"
+		},
+		{
+			"name": "MagicPetShopBg_png",
+			"type": "image",
+			"url": "assets/icon/pet/MagicPetShopBg.png"
+		},
+		{
+			"name": "ShareNew_content_1_png",
+			"type": "image",
+			"url": "assets/icon/share/ShareNew_content_1.png"
+		},
+		{
+			"name": "ShareNew_content_4_png",
+			"type": "image",
+			"url": "assets/icon/share/ShareNew_content_4.png"
+		},
+		{
+			"name": "vipContent_10_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_10.png"
+		},
+		{
+			"name": "vipContent_11_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_11.png"
+		},
+		{
+			"name": "vipContent_12_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_12.png"
+		},
+		{
+			"name": "vipContent_13_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_13.png"
+		},
+		{
+			"name": "vipContent_14_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_14.png"
+		},
+		{
+			"name": "vipContent_15_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_15.png"
+		},
+		{
+			"name": "vipContent_16_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_16.png"
+		},
+		{
+			"name": "vipContent_17_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_17.png"
+		},
+		{
+			"name": "vipContent_18_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_18.png"
+		},
+		{
+			"name": "vipContent_19_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_19.png"
+		},
+		{
+			"name": "vipContent_20_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_20.png"
+		},
+		{
+			"name": "vipContent_21_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_21.png"
+		},
+		{
+			"name": "vipContent_22_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_22.png"
+		},
+		{
+			"name": "vipContent_23_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_23.png"
+		},
+		{
+			"name": "vipContent_24_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_24.png"
+		},
+		{
+			"name": "vipContent_25_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_25.png"
+		},
+		{
+			"name": "vipContent_6_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_6.png"
+		},
+		{
+			"name": "vipContent_7_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_7.png"
+		},
+		{
+			"name": "vipContent_8_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_8.png"
+		},
+		{
+			"name": "vipContent_9_png",
+			"type": "image",
+			"url": "assets/icon/vip/vipContent_9.png"
+		},
+		{
+			"name": "vipGuizuContent_1_png",
+			"type": "image",
+			"url": "assets/icon/vipGuizu/vipGuizuContent_1.png"
+		},
+		{
+			"name": "comp2_json",
+			"type": "sheet",
+			"url": "art/comp/comp.json",
+			"subkeys": "btn1_down,btn1_up,btn2,btn2_dis,btn2_up,btn7_dis,btn7_up,btn_add,btn_jian,combobox_down,combobox_up,comp_bar,comp_barBg,comp_btn10,comp_btn11,comp_btn12,comp_btn1_down,comp_btn20,comp_btn5,comp_btn8,comp_btn9_down,comp_btn9_up,comp_btnTar_down,comp_btnTar_up,comp_btn_add10,comp_btn_buy,comp_btn_charge,comp_btn_help,comp_btn_left,comp_btn_right,comp_btn_sub10,comp_checkbox_select_up,comp_checkbox_unselect,comp_close,comp_h_thumb,comp_thumb,comp_vip,comp_vip_month,CustomButtonSkin4,custom_radiobutton_down,custom_radiobutton_up,guild_bar,guild_barBg,textInput_bg,winBg,winBg2,wingBg3,win_close,win_close2,win_headBar,win_headBar2,win_innerBg"
+		},
+		{
+			"name": "comp3_json",
+			"type": "sheet",
+			"url": "art/comp/comp.json",
+			"subkeys": "btn1_down,btn1_up,btn2,btn2_dis,btn2_up,btn7_dis,btn7_up,btn_add,btn_jian,combobox_down,combobox_up,comp_bar,comp_barBg,comp_btn10,comp_btn11,comp_btn12,comp_btn1_down,comp_btn20,comp_btn5,comp_btn8,comp_btn9_down,comp_btn9_up,comp_btnTar_down,comp_btnTar_up,comp_btn_add10,comp_btn_buy,comp_btn_charge,comp_btn_help,comp_btn_left,comp_btn_right,comp_btn_sub10,comp_checkbox_select_up,comp_checkbox_unselect,comp_close,comp_h_thumb,comp_thumb,comp_vip,comp_vip_month,CustomButtonSkin4,custom_radiobutton_down,custom_radiobutton_up,guild_bar,guild_barBg,textInput_bg,winBg,winBg2,wingBg3,win_close,win_close2,win_headBar,win_headBar2,win_innerBg"
+		}
+	]
+}

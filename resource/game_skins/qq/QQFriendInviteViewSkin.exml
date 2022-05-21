@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QQFriendInviteViewSkin" width="577" height="678" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="QQFriend_json.QQFriend_bg2"/>
+	<ns1:CustomImage x="100" y="182" source="QQFriend_json.QQFriend_word1"/>
+	<ns1:CustomLabel id="_txtProgress" text="进度（2/5）" x="380" y="6" size="24" fontFamily="Microsoft YaHei" textColor="0xffef41"/>
+	<e:BitmapLabel id="_txtGold"  x="165" y="76" text="100" font="number_4_fnt" textAlign="center"/>
+	<ns1:CustomButton id="_btnShare" label="" x="441" y="39">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="QQFriend_json.QQFriend_btnShare" source.down="QQFriend_json.QQFriend_btnShare" source.disabled="QQFriend_json.QQFriend_btnShare"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<e:Scroller width="544" height="387" x="14" y="236" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="_itemContainer">
+		</e:Group>
+	</e:Scroller>
+	<ns1:CustomLabel text="好友通过链接进入游戏，你可获得邀请奖励。" x="77" y="639" size="22" fontFamily="Microsoft YaHei" textColor="0x00d228" textAlign="center" verticalAlign="justify"/>
+</e:Skin>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="MineRoleItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<w:Config id="15bf03f7455" ></w:Config>
+	<e:Group id="effectGroup" width="207" height="202" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:CustomImage id="icon" xmlns:ns1="*" x="103" y="118" source="mineIcon_1"/>
+		<ns1:CustomLabel id="txtTime" xmlns:ns1="*" text="23分25秒" x="53" y="8" size="18" bold="true" textColor="0x00D228" width="100" textAlign="center"/>
+		<ns1:CustomLabel id="txtName" xmlns:ns1="*" text="狗一样的敌人" x="28" y="26" size="18" bold="true" width="150" textAlign="center" textColor="0x00d228"/>
+	</e:Group>
+</e:Skin>

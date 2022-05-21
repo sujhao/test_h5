@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShadowZhuanSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="755" width="578">
+	<e:Group id="zhuanBg" x="298" y="273">
+		<ns1:CustomImage x="27" y="200" source="shadowIcon" rotation="-180"/>
+		<ns1:CustomImage x="165" y="116" source="shadowIcon" rotation="-230"/>
+		<ns1:CustomImage x="-171" y="-121" source="shadowIcon" rotation="-50"/>
+		<ns1:CustomImage x="-200" y="30" source="shadowIcon" rotation="-90"/>
+		<ns1:CustomImage x="-35" y="-202" source="shadowIcon"/>
+		<ns1:CustomImage x="122" y="-165" source="shadowIcon" rotation="-320"/>
+		<ns1:CustomImage x="200" y="-28" source="shadowIcon" rotation="-270"/>
+		<ns1:CustomImage x="-130" y="160" source="shadowIcon" rotation="-130"/>
+		<ns1:CustomLabel id="txt_0" text="×1" x="-30" y="-142" size="18" textColor="0x00D228" bold="true" textAlign="center" width="50"/>
+		<ns1:CustomLabel id="txt_1" text="×2" x="-118" y="-80" size="18" textColor="0x00D228" bold="true" textAlign="center" width="50" rotation="-50"/>
+		<ns1:CustomLabel id="txt_2" text="×3" x="-137" y="27" size="18" textColor="0x00D228" bold="true" textAlign="center" width="50" rotation="-90"/>
+		<ns1:CustomLabel id="txt_3" text="×4" x="-85" y="120" size="18" textColor="0x00D228" bold="true" textAlign="center" width="50" rotation="-130"/>
+		<ns1:CustomLabel id="txt_4" text="×5" x="25" y="140" size="18" textColor="0x00D228" bold="true" textAlign="center" width="50" rotation="-180"/>
+		<ns1:CustomLabel id="txt_5" text="×6" x="110" y="76" size="18" textColor="0x00D228" bold="true" textAlign="center" width="50" rotation="-230"/>
+		<ns1:CustomLabel id="txt_6" text="×7" x="133" y="-25" size="18" textColor="0x00d228" bold="true" textAlign="center" width="50" rotation="-270"/>
+		<ns1:CustomLabel id="txt_7" text="×8" x="80" y="-113" size="18" textColor="0x00D228" bold="true" textAlign="center" width="50" rotation="-320"/>
+	</e:Group>
+	<ns1:CustomButton id="btnGet" label="" x="180" y="150" scaleX="1" scaleY="1">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shadow_zhuanBtn" source.down="shadow_zhuanBtn" source.disabled="shadow_zhuanBtn_dis"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomImage id="image_select" y="484" x="54" source="shadow_select"/>
+	<ns1:CustomImage id="txtbeiBg_0" y="501" source="share_itembg2" x="72"/>
+	<ns1:CustomImage y="530" x="110" source="shadowTxt_b"/>
+	<ns1:CustomImage id="txtbeiBg_1" y="501" source="share_itembg2" x="189"/>
+	<ns1:CustomImage id="txtbeiBg_2" y="501" source="share_itembg2" x="306"/>
+	<ns1:CustomImage id="txtbeiBg_3" y="501" source="share_itembg2" x="421"/>
+	<ns1:CustomImage y="530" x="226" source="shadowTxt_b"/>
+	<ns1:CustomImage y="530" x="345" source="shadowTxt_b"/>
+	<ns1:CustomImage y="530" x="461" source="shadowTxt_b"/>
+	<ns1:CustomImage y="682" source="shadowBarBg"/>
+	<ns1:CustomImage id="bar" y="685" x="0" source="shadowBar"/>
+	<ns1:CustomImage id="imageCost" y="323" x="249" source="image_gold"/>
+	<ns1:CustomLabel text="开启秘藏次数越多，道具倍率越高" y="716" size="18" textColor="0x00D228" bold="true" textAlign="center" x="170"/>
+	<ns1:CustomLabel id="txtCost" text="100" y="327" size="20" bold="true" textAlign="center" x="292" textColor="0xffd200"/>
+	<e:BitmapLabel id="txtbei_0" x="90" y="535" font="number_0_fnt" text="1"/>
+	<e:BitmapLabel x="206" y="535" font="number_0_fnt" text="1" id="txtbei_1"/>
+	<e:BitmapLabel x="330" y="535" font="number_0_fnt" text="1" id="txtbei_2"/>
+	<e:BitmapLabel x="442" y="535" font="number_0_fnt" text="1" id="txtbei_3"/>
+</e:Skin>

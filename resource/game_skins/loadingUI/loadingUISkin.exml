@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="loadingUISkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage id="_imgBg" x="0" y="0" source="resource\assets\icon\login\loading.jpg"/>
+	<ns1:CustomImage y="602" source="loading_json.loading_barBg" x="198"/>
+	<e:Image id="_imageBar" source="loading_json.loading_bar" x="215" y="607"/>
+	<ns1:CustomLabel text="1231231/1212" id="textField" x="197" y="604" size="14" width="230" textAlign="center"/>
+	<ns1:CustomLabel text="首次加载文件较大，请耐心等待" x="209" y="624" size="14" bold="true" textColor="0x22dd28"/>
+	<ns1:CustomLabel id="_txt1" text=" 抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当\n 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活\n本网络游戏适合年满18周岁以上的用户使用；请您确定已如实进行实名注册；为了您的健康，请合理控制游戏时间" x="17" y="1076" anchorOffsetX="0" width="617" anchorOffsetY="0" height="60" size="12" textAlign="center"/>
+	<ns1:CustomLabel id="_txt2" text="新出网证（粤）字010号\n 著作权人：上海皋宇网络科技有限公司\n出版单位：北京艺术与科学电子出版社\n批准文号：新广出审【2016】372号\n出版物号：ISBN978-7-89429-689-4" x="17" y="957" size="12" anchorOffsetX="0" width="320" anchorOffsetY="0" height="96"/>
+	<ns1:CustomLabel id="_txt3" text="粤网文【2014】0633-233号" x="17" y="941" size="12"/>
+</e:Skin>

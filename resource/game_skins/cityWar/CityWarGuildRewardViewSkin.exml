@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CityWarGuildRewardViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="758">
+	<ns1:CustomImage source="cityWar_json.cityWar_bg3"/>
+	<ns1:CustomImage source="cityWar_json.cityWar_bg3" x="0" y="220"/>
+	<ns1:CustomImage x="197" y="0" source="cityWar_json.cityWar_txtJGS2"/>
+	<ns1:CustomImage x="197" y="220" source="cityWar_json.cityWar_txtJGS"/>
+	<ns1:CustomImage x="0" y="39" source="cityWar_json.cityWar_bg5"/>
+	<e:Scroller width="575" height="495" x="3" y="261" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="_itemContainer"/>
+	</e:Scroller>
+	<e:Group id="_headContainer" width="468" height="108" x="81" y="77" anchorOffsetY="0" anchorOffsetX="0"/>
+</e:Skin>

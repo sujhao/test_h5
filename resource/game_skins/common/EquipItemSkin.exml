@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="EquipItemSkinSkin" states="up,down,disabled" minHeight="120" minWidth="94"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image id="imageBorder" width="94" height="94" scale9Grid="1,3,8,8" alpha.disabled="0.5"
+             source.down="button_down_png"  source="itemBg"/>
+    <e:Label id="labelDisplay" top="54" bottom="-38" left="8" right="8" size="20" fontFamily="Microsoft YaHei"
+             textColor="0xFFFFFF" text="Lv.55" verticalAlign="middle" textAlign="center" height="40" />
+    <e:Image id="image" horizontalCenter="0" y="3" source="{data.url}" fillMode="scale" />
+    <w:Config id="159af718bcd"></w:Config>
+</e:Skin>

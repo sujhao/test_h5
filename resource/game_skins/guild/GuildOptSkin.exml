@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildOptSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" height="365">
+		<ns1:CustomImage x="7" y="260" anchorOffsetX="0" width="610" anchorOffsetY="0" source="share_contentBg"/>
+		<ns1:CustomButton id="btnGet" label="任命" x="146" y="287" skinName="CustomButtonSkin2Skin"/>
+		<ns1:CustomButton id="btnTi" label="踢出公会" x="351" y="287" skinName="CustomButtonSkin2Skin"/>
+		<ns1:CustomRadioButton id="radio_1" label="会长" x="85" y="138"/>
+		<ns1:CustomRadioButton id="radio_4" label="成员" x="517" y="138"/>
+		<ns1:CustomRadioButton id="radio_3" label="长老（0/2）" x="365" y="138"/>
+		<ns1:CustomRadioButton id="radio_2" label="副会长（0/2）" x="183" y="138"/>
+		<ns1:CustomLabel text="任命：" x="25" y="143" textColor="0xdda66b" size="18" bold="true"/>
+		<ns1:CustomImage x="247" y="11" source="guild_title_opt"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

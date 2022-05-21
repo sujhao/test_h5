@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShareNewWindowSkin" width="647" height="600" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="shareNew_json.shareNew_bg" x="-201" y="-143"/>
+	<ns1:CustomImage x="95" y="296" source="shareNew_json.shareNew_word2"/>
+	<ns1:CustomButton id="_btnShare" label="分享" x="268" y="450" skinName="CustomButtonSkin6Skin"/>
+	<ns1:CustomButton id="_btnClose" label="" x="554.5" y="68.5">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="comp_json.comp_close" source.down="comp_json.comp_close" source.disabled="comp_json.comp_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomLabel text="恭喜你又完成了一项伟大的冒险，赶快分享获得奖励吧！" x="108" y="147" size="18" bold="true" textColor="0xe7d0b7"/>
+	<e:Group id="_container" width="20" height="20" y="335" anchorOffsetY="0" anchorOffsetX="0"  horizontalCenter="-20" />
+	<e:Group id="contentGroup" width="200" height="107" x="103" y="192" anchorOffsetY="0"/>
+</e:Skin>

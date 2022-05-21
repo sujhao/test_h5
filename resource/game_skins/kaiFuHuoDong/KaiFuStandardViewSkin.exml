@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KaiFuStandardViewSkin" width="600" height="683" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="_imageContainer" width="552" height="129" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0">
+		<ns1:CustomLabel id="_txtTime" text="时间" x="295" y="16" size="20" bold="true" textColor="0xc78002"/>
+	</e:Group>
+	<ns1:CustomLabel id="_txtValue" text="我的等级" x="319" y="281" size="22" bold="true" width="230" textAlign="center" textColor="0xe7d0b7"/>
+	<ns1:CustomButton id="_btnBuy" label="购买" x="441" y="509" width="117" skinName="CustomButtonSkin7Skin" height="47"/>
+	<e:Group id="_myGoodsContainer" width="200" height="105" x="51" y="321" anchorOffsetY="0"/>
+	<e:Group id="_shopContainer" width="200" height="105" x="165" y="481" anchorOffsetY="0"/>
+	<ns1:CustomImage x="303" y="159" source="kaiFuHuoDong_json.kfhd_standTxt2"/>
+	<ns1:CustomImage x="303" y="386" source="kaiFuHuoDong_json.kfhd_standTxt"/>
+	<ns1:CustomImage x="465" y="421" source="kaiFuHuoDong_json.kfhd_arrow"/>
+	<ns1:CustomImage x="312" y="206" source="kaiFuHuoDong_json.kfhd_standardBg2"/>
+	<ns1:CustomLabel id="_txtCondition" text="达标条件" x="342" y="218" size="22" width="189" textColor="0xe7d0b7" anchorOffsetY="0" height="31" anchorOffsetX="0" textAlign="center" bold="true"/>
+	<ns1:CustomButton id="_btnUp" label="立即提升" x="384" y="336" skinName="CustomButtonSkin2Skin" anchorOffsetY="0" height="50" anchorOffsetX="0" width="111"/>
+	<ns1:CustomButton id="_btnGet" label="领取奖励" x="384" y="336" skinName="CustomButtonSkin2Skin" anchorOffsetY="0" height="50" anchorOffsetX="0" width="111"/>
+	<ns1:CustomImage id="_imageComplete" x="305" y="195" source="kaiFuHuoDong_json.kfhd_complete"/>
+	<ns1:CustomLabel id="_txtCost" text="9999" x="379" y="525" size="18" width="64" textAlign="left" textColor="0x28FF28"/>
+</e:Skin>

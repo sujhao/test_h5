@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatLabaWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"
+        height="513">
+	<ns1:LayeroutWindowSkin height="100%" id="panelSkin" skinName="CustomSmallWindowSkinSkin" anchorOffsetY="0" x="0"
+	                        anchorOffsetX="0">
+		<ns1:CustomImage x="12.99" y="46.66" source="comp_json.win_innerBg" anchorOffsetY="0" height="454" scale9Grid="73,96,444,576" anchorOffsetX="0" width="596.33"/>
+		<ns1:CustomLabel text="已购买大喇叭条数：" x="128" y="90" size="20"  bold="true" textColor="0xdda66b"/>
+		<ns1:CustomLabel text="每条30个中文字符" x="62" y="126" size="20" bold="true" textColor="0xe7d0b7" width="500" textAlign="center"/>
+		<ns1:CustomLabel id="txtBuy" text="快速购买大喇叭" x="400" y="90" size="20" bold="true" textColor="0x00d228"/>
+		<ns1:CustomLabel id="txtCount" text="0" x="307" y="90" size="20" bold="true" textColor="0xffd200"/>
+		<ns1:CustomImage source="textInput_bg" width="545" x="37" y="188.16"  scale9Grid="12,6,114,21" height="185"/>
+		<ns1:CustomImage x="13.36" y="426" source="share_json.share_contentBg" anchorOffsetX="0" width="596"/>
+		<ns1:CustomButton id="btnSend" label="发送" x="253" y="438.01"  skinName="CustomButtonSkin2Skin"/>
+		<e:EditableText id="txtContent" width="520" height="155" text="" x="50" y="203.66" textColor="0xe7d0b7" bold="true" size="20"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

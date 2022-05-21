@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="MineLogItemSKin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage width="590" y="72" source="share_line"/>
+	<ns1:CustomLabel id="txtTime" text="2017-12-30 23:59" x="16" y="14" size="16" bold="true" textColor="0xdda66b"/>
+	<ns1:CustomLabel id="txtContent" text="我抢夺了宫千绝四五六七铜矿来呀你有本事就打我啊！！" x="16" y="43" size="18" bold="true" textColor="0xe7d0b7"/>
+	<ns1:CustomLabel id="txtFuchou" text="复仇" x="497" y="43" size="18" bold="true" textColor="0x00d228"/>
+
+	<w:Config id="15bec5a53e8" ></w:Config>
+</e:Skin>

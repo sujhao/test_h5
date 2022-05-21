@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OfflineRewardViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" height="543">
+		<ns1:CustomImage x="23" y="70" source="fr_titleBg"/>
+		<ns1:CustomImage id="menuBg" source="share_bg2" scale9Grid="12,9,82,140" x="20" y="217" width="578" height="304"/>
+		<ns1:CustomImage x="22.5" y="220.5" source="share_titleBg"/>
+		<ns1:CustomImage x="309.5" y="220.5" source="share_titleBg"/>
+		<ns1:CustomLabel text="离线时间：" x="193" y="80.5" size="20" textColor="0xdda66b"/>
+		<ns1:CustomLabel text="获得如下资源" x="116" y="229.5" size="18" textColor="0xdda66b"/>
+		<ns1:CustomLabel text="额外加成效果" x="401" y="229.5" size="18" textColor="0xDDA66B"/>
+		<ns1:CustomLabel text="(最多累计24小时离线收益)" x="54" y="139" size="18" textColor="0x00d228"/>
+		<ns1:CustomLabel text="离线超过8小时后，只能获得80%离线收益" x="54" y="178" size="18" textColor="0x00D228"/>
+		<ns1:CustomLabel id="txtTime" text="12小时59分59秒" x="291" y="81.5" size="20" textColor="0xe7d0b7" bold="true"/>
+		<ns1:CustomImage x="84" y="285" source="textInput_bg" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="9,6,110,22" width="185" height="32"/>
+		<ns1:CustomImage x="84" y="347" source="textInput_bg" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="9,6,110,22" width="185" height="32"/>
+		<ns1:CustomImage x="84" y="409" source="textInput_bg" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="9,6,110,22" width="185" height="32"/>
+		<ns1:CustomImage x="365" y="285" source="textInput_bg" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="9,6,110,22" width="185" height="32"/>
+		<ns1:CustomImage x="365" y="347" source="textInput_bg" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="9,6,110,22" width="185" height="32"/>
+		<ns1:CustomImage x="36" y="284" source="resource/assets/icon/smallPic/1.png"/>
+		<ns1:CustomImage x="36" y="411.5" source="resource/assets/icon/smallPic/10022066.png"/>
+		<ns1:CustomImage x="36" y="352" source="resource/assets/icon/smallPic/5.png"/>
+		<ns1:CustomLabel id="txtBag" text="背包不足，自动出售 258 件装备" x="274" y="413" size="18" textColor="0xe7d0b7" anchorOffsetX="0" width="320" anchorOffsetY="0" height="22" bold="true" textAlign="right"/>
+		<ns1:CustomLabel id="txtCount" text="0" x="93" y="415.5" size="18" textColor="0xE7D0B7" bold="true"/>
+		<ns1:CustomLabel id="txtExt" text="0" x="93" y="354" size="18" textColor="0xE7D0B7" bold="true"/>
+		<ns1:CustomLabel id="txtCon" text="0" x="93" y="292" size="18" textColor="0xE7D0B7" bold="true"/>
+		<ns1:CustomLabel id="txtExt2" text="0" x="372" y="354" size="18" textColor="0x00D228" bold="true" anchorOffsetX="0" width="90" anchorOffsetY="0" height="20" textAlign="center"/>
+		<ns1:CustomLabel id="txtCon3" text="0" x="462" y="292.5" size="18" textColor="0x00D228" bold="true" width="90" textAlign="center"/>
+		<ns1:CustomLabel id="txtExt3" text="0" x="462" y="352" size="18" textColor="0x00D228" bold="true" width="90" textAlign="center"/>
+		<ns1:CustomLabel id="txtCon2" text="0" x="372" y="292.5" size="18" textColor="0x00D228" bold="true" width="90" textAlign="center"/>
+		<ns1:CustomLabel text="月卡/终生卡" x="362" y="262.5" size="18" bold="true" textColor="0x00d228" width="110" textAlign="center" anchorOffsetX="0"/>
+		<ns1:CustomLabel text="神器" x="462" y="262.5" size="18" textColor="0x00D228" bold="true" width="90" textAlign="center"/>
+		<ns1:CustomButton id="returnButton" label="" right="5" bottom="6" x="534" y="461" scaleX="1" scaleY="1">
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="share_json.share_btnReturn" source.down="share_json.share_btnReturn" source.disabled="share_json.share_btnReturn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="btnGet" label="确定" x="248" y="461" skinName="CustomButtonSkin2Skin"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

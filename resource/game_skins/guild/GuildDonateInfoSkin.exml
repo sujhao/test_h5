@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildDonateInfoSkin" width="580" height="755" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage id="bm_bg" source="guild_donateBg"/>
+	<ns1:CustomImage x="5" y="15" source="guild_donateTitleBg"/>
+	<ns1:CustomLabel id="txtZijin" text="0" x="104" y="30" size="18" textColor="0xE7D0B7" bold="true" anchorOffsetX="0" anchorOffsetY="0" height="18" textAlign="left"/>
+	<ns1:CustomLabel text="公会资金：" x="15" y="30" size="18" bold="true" textColor="0xdda66b"/>
+	<ns1:CustomImage y="377" source="guild_donateBg2" x="0"/>
+	<ns1:CustomImage x="217" y="106" source="guild_donateTitleBg2"/>
+	<ns1:CustomLabel id="txtCount" text="20人分抢" x="240" y="119" textColor="0xe7d0b7" size="20" bold="true" anchorOffsetX="0" width="101" anchorOffsetY="0" height="25" textAlign="center"/>
+	<ns1:CustomLabel text="公会成员进行捐献可使聚宝盆变大" x="153" y="393" size="18" bold="true" textColor="0xDDA66B"/>
+	<ns1:CustomLabel id="txtDaily_1" text="今天剩余2次" x="84" y="609" size="18" bold="true" textColor="0xDDA66B"/>
+	<ns1:CustomLabel id="txtDaily_2" text="今天剩余2次" x="240" y="609" size="18" bold="true" textColor="0xDDA66B"/>
+	<ns1:CustomLabel id="txtDaily_3" text="达到VIP3可用" x="396" y="609" size="18" bold="true" textColor="0xDDA66B"/>
+	<ns1:CustomLabel text="最终引爆聚宝盆的玩家可获得财神奖励" x="132" y="416" size="18" bold="true" textColor="0x00d228"/>
+	<ns1:GoodsItem id="goodItem" x="245" y="441"/>
+	<ns1:CustomButton id="btnGet_1" label="" x="91" y="632">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guild_donateBtn_tq" source.down="guild_donateBtn_tq" source.disabled="guild_donateBtn_tq"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="btnGet_2" label="" x="247" y="632">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guild_donateBtn_yb" source.down="guild_donateBtn_yb" source.disabled="guild_donateBtn_yb"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="btnGet_3" label="" x="407" y="632">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guild_donateBtn_th" source.down="guild_donateBtn_th" source.disabled="guild_donateBtn_th"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomImage x="91" y="718" source="textInput_bg" anchorOffsetX="0" width="86"/>
+	<ns1:CustomImage x="143" y="721" source="resource/assets/icon/smallPic/1.png"/>
+	<ns1:CustomLabel id="txtNeed_1" text="38万" x="96" y="726" size="18" bold="true" textColor="0xDDA66B" width="50" textAlign="center"/>
+	<ns1:CustomImage x="245" y="718" source="textInput_bg" anchorOffsetX="0" width="86"/>
+	<ns1:CustomImage x="290" y="721" source="image_gold"/>
+	<ns1:CustomLabel id="txtNeed_2" text="38万" x="250" y="726" size="18" bold="true" textColor="0xDDA66B" width="40" textAlign="center"/>
+	<ns1:CustomImage x="406" y="718" source="textInput_bg" anchorOffsetX="0" width="86"/>
+	<ns1:CustomImage x="450" y="721" source="image_gold"/>
+	<ns1:CustomLabel id="txtNeed_3" text="38万" x="411" y="726" size="18" bold="true" textColor="0xDDA66B" width="40" textAlign="center"/>
+	<ns1:CustomImage x="38" y="269" source=""/>
+	<ns1:CustomLabel text="可用贡献：" x="314" y="30" size="18" textColor="0xDDA66B" textAlign="left" bold="true"/>
+	<ns1:CustomLabel id="txtCur_gx" text="0" x="438" y="30" size="18" textColor="0xE7D0B7" textAlign="left" bold="true"/>
+	<ns1:CustomImage x="401" y="23.5" source="resource/assets/icon/smallPic/3.png"/>
+	<e:Group id="effectSp" width="200" height="200" x="120" y="152"/>
+	<ns1:CustomImage x="90" y="68" source="guild_donateTxt"/>
+	<e:BitmapLabel id="txtCost" width="194" height="27" x="250" y="74" text="1" anchorOffsetX="0" anchorOffsetY="0" font="number_0_fnt"/>
+	<ns1:CustomImage x="441" y="69" source="guild_donateTxt_tq"/>
+</e:Skin>

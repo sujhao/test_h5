@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildMembersViewSkin" width="580" height="755" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage x="0" y="724" width="580" source="share_contentBg2"/>
+	<ns1:CustomImage x="0" y="650" width="580" source="share_contentBg"/>
+	<ns1:CustomButton id="btnEnd" label="解散" x="226" y="687.5" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomButton id="btnUnit" label="卸任" x="102" y="687.5" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomButton id="btnOut" label="退出" x="350" y="687.5" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomImage x="29" y="619" source="guild_titleBg4"/>
+	<ns1:CustomLabel text="我的职位：" x="130" y="664" textColor="0xe7d0b7" size="16" bold="true"/>
+	<ns1:CustomLabel id="txtPos" text="普通成员" x="212" y="664" textColor="0xE7D0B7" size="16" bold="true"/>
+	<ns1:CustomLabel text="历史贡献：" x="330" y="664" textColor="0xE7D0B7" size="16" bold="true"/>
+	<ns1:CustomLabel id="txtGxLog" text="0" x="412" y="664" textColor="0xE7D0B7" size="16" bold="true"/>
+	<ns1:CustomLabel text="可用贡献：" x="237" y="626.5" textColor="0xE7D0B7" size="16" bold="true"/>
+	<ns1:CustomLabel id="txtGx" text="0" x="319" y="626.5" textColor="0xE7D0B7" size="16" bold="true"/>
+	<e:Scroller width="580" height="617.33" anchorOffsetY="0">
+		<e:DataGroup id="contentList" itemRenderer="GuildMemberItem"/>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MeetPlayerItemSkin" width="567" height="114" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage x="0" y="0" source="share_json.share_layer"/>
+	<ns1:CustomLabel id="_txtName" text="标签222" x="110" y="29" size="18" bold="true"/>
+	<ns1:CustomImage id="_imageExp" width="20" height="20" x="109" y="68"/>
+	<ns1:CustomImage id="_imageCoin" width="20" height="20" x="243.5" y="68"/>
+	<ns1:CustomImage id="_imageJMD" width="20" height="20" x="358" y="68"/>
+	<ns1:CustomLabel id="_txtExp" text="11111" x="137" y="70" size="18" bold="true"/>
+	<ns1:CustomLabel id="_txtCoin" text="11111" x="267" y="70" size="18" bold="true"/>
+	<ns1:CustomLabel id="_txtJMD" text="11111" x="379" y="70" size="18" bold="true"/>
+	<ns1:CustomButton id="_btn" label="寻敌" x="435" width="122" skinName="CustomButtonSkinSkin" height="48" verticalCenter="0"/>
+	<ns1:CustomLabel id="_txtLeftTime" text="" x="32" y="48" size="18"/>
+	<ns1:HeadItem id="_imageHead" x="20" y="22"/>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AwakeEquipMenuViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="97">
+	<ns1:CustomImage id="menuBg" source="share_bg2" scale9Grid="12,9,82,140" anchorOffsetY="0" height="102"/>
+	<ns1:CustomButton id="_btnDetail" label="查看" x="5" y="6" skinName="CustomButtonSkin3Skin" width="92" height="44"/>
+	<ns1:CustomButton id="_btnTakeOff" label="替换" x="5" y="49" skinName="CustomButtonSkin3Skin" width="92" height="44"/>
+</e:Skin>

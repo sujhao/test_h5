@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FanLiEggViewSkin" width="579" height="700" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16281935bfb"/>
+	<ns1:CustomButton id="_btnCharge" label="" x="385" y="78">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="share_json.share_btnCharge" source.down="share_json.share_btnCharge" source.disabled="share_json.share_btnCharge"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<e:Group id="_itemContainer1" width="309" height="59" x="258" y="132" anchorOffsetY="0" anchorOffsetX="0" visible="false"/>
+	<e:Group id="_itemContainer2" width="538" height="100" x="27" y="499" anchorOffsetY="0" anchorOffsetX="0">
+	</e:Group>
+    <ns1:CustomButton id="_btnAll" label="一网打尽" x="123" y="645" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomButton id="_btnRefresh" label="刷新" x="301" y="645" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomLabel id="_txtResFreshTime" text="免费刷新：23:00" x="306" y="624" size="20" fontFamily="Microsoft YaHei" textColor="0x00d228"/>
+	<ns1:CustomLabel id="_txtGold" text="1000" x="430" y="660" size="20" fontFamily="Microsoft YaHei" width="88" height="25" textColor="0xfff5c8"/>
+	<ns1:CustomLabel id="_txtResTimes" text="0" x="247" y="115" fontFamily="Microsoft YaHei" size="20" textColor="0xfff5c8"/>
+	<ns1:CustomLabel id="_txtTime" text="20:11:22" x="205" y="83" fontFamily="Microsoft YaHei" size="20" textColor="0xffd200" scaleX="0.8"/>
+	<e:BitmapLabel width="116" height="20" x="202" y="40" text="30000" textAlign="center" font="number_4_fnt" scaleX="0.8"/>
+	<e:BitmapLabel width="80" height="20" x="442" y="40" text="1" textAlign="center" font="number_4_fnt"/>
+	<ns1:CustomImage  x="469" y="659" source="image_gold"/>
+</e:Skin>

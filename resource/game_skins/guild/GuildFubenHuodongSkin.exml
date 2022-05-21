@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildFubenHuodongSkin" width="580" height="755" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller width="100%" height="100%">
+                <e:DataGroup id="itemList" itemRenderer="GuildFubenHuodongItem"/>
+	</e:Scroller>
+</e:Skin>

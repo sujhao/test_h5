@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZhuanShenViewSkin" width="588" height="755" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+    <ns1:CustomImage source="zhuan_bg"   x="0" y="-19.74" width="588" anchorOffsetY="0" height="774"/>
+    <ns1:CustomImage x="165" y="91.26" source="bg_fightPower" />
+    <e:BitmapLabel id="_txtFPower" width="309.01" height="29" x="264" y="114.26" font="number_0_fnt" text="23214314" anchorOffsetY="0"  rotation="0.35" anchorOffsetX="0"/>
+    <ns1:CustomImage x="25" y="-0.74" source="zhuan_buyTitle" />
+    <ns1:CustomImage x="133" y="6.26" source="zhuan_word" />
+    <ns1:CustomImage x="138" y="49.26" source="zhuan_json.zhuan_numbg" />
+    <ns1:CustomLabel id="_txtRoundNum" text="当前转生：1层" x="150" y="67.26" anchorOffsetX="0" width="266" textColor="0xffd200"
+                     fontFamily="Microsoft YaHei" size="22" textAlign="center" />
+    <ns1:CustomImage x="0.69" y="631.27" source="zhuan_border2"  scale9Grid="72,6,436,42" anchorOffsetY="0" height="112" anchorOffsetX="0" width="588"/>
+    <ns1:CustomImage x="2" y="489.26" source="zhuan_border1" />
+    <ns1:CustomImage x="141" y="452.26" source="zhuan_word3" />
+    <ns1:CustomImage x="353" y="452.26" source="zhuan_word2" />
+    <ns1:CustomLabel id="_txtPro" text="攻击：+1000防御：攻击：+1000防御：攻击：+1000防御：" x="129" y="494.26" size="18"
+                     fontFamily="Microsoft YaHei" anchorOffsetX="0" width="155" wordWrap="true" anchorOffsetY="0"
+                     height="107"  textColor="0xe7d0b7" lineSpacing="5"/>
+	<ns1:CustomLabel id="_txtProNext" text="攻击：+1000防御：" x="353" y="494.26" size="18" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="155" wordWrap="true" anchorOffsetY="0" height="107" textColor="0x00d228" lineSpacing="5"/>
+	<ns1:CustomImage  x="282" y="534.26" source="zhuan_rightIcon"/>
+	<ns1:CustomButton id="_btnOK" label="提升" y="683.5" anchorOffsetX="0" width="122" anchorOffsetY="0" height="48" horizontalCenter="-35"/>
+	<ns1:CustomLabel text="消耗修为：" x="165" y="647.5" size="20" fontFamily="Microsoft YaHei" width="100" textColor="0xe7d0b7"/>
+	<ns1:CustomLabel id="_txtConSoul" text="1000/1000" x="292" y="648.5" size="20" fontFamily="Microsoft YaHei" width="266" anchorOffsetX="0" textColor="0x00d228"/>
+	<ns1:CustomImage id="_imageSoulIcon" x="261" y="647" source=""/>
+	<ns1:CustomLabel id="txtLink" text="获取修为" x="361" y="697.5" size="20" fontFamily="Microsoft YaHei"  width="88" textColor="0x00d228"/>
+</e:Skin>

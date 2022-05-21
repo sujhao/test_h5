@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KfKillerGuildRankItemSkin" width="567" height="117" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="share_json.share_listItemBg"/>
+	<ns1:CustomImage x="28" y="22" source="kfKiller_json.kfKiller_w1"/>
+	<ns1:CustomImage x="182" y="0" source="share_json.share_vLine" height="117"/>
+	<ns1:CustomImage x="10" y="63" source="kfKiller_json.kfKiller_border4"/>
+	<ns1:CustomLabel id="_txtCount" text="Label" x="19" y="73" textColor="0xe7d0b7" size="16" fontFamily="Microsoft YaHei" width="137" textAlign="center"/>
+	<e:Group id="_itemContainer" width="200" height="64" x="205" y="21" anchorOffsetY="0"/>
+	<ns1:CustomButton id="_btnOK" label="领取" x="434" y="31" skinName="CustomButtonSkin7Skin" width="117" height="47"/>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuilEndSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" height="365">
+		<ns1:CustomImage x="6.5" y="260" anchorOffsetX="0" width="610" anchorOffsetY="0" source="share_contentBg"/>
+		<ns1:CustomButton id="btnGet" label="确定" x="146" y="287" skinName="CustomButtonSkin2Skin"/>
+		<ns1:CustomButton id="btnCanel" label="取消" x="351" y="287" skinName="CustomButtonSkin2Skin"/>
+		<ns1:CustomLabel text="请在下方手动输入" x="126" y="116" size="18" bold="true" textColor="0xe7d0b7"/>
+		<ns1:CustomLabel text="4个汉字进行操作" x="368.5" y="116" textColor="0xE7D0B7" size="18" bold="true"/>
+		<ns1:CustomLabel text="解散公会" x="283.5" y="116" size="18" bold="true" textColor="0xe31101"/>
+		<e:TextInput id="txtContent" width="252" height="41" x="194.5" y="157.5" anchorOffsetX="0" anchorOffsetY="0"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildFightEditSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" height="575">
+		<ns1:CustomImage x="7.5" y="505" anchorOffsetX="0" width="607" source="share_contentBg"/>
+		<ns1:CustomLabel text="战斗力≥" x="331" y="529.5" size="19" bold="true" textColor="0xe7d0b7" anchorOffsetX="0" width="78" anchorOffsetY="0" height="23"/>
+		<ns1:CustomTextInput id="txtFight" width="148" height="30" x="421.5" y="525" anchorOffsetX="0" anchorOffsetY="0" restrict="0-9"/>
+		<ns1:CustomCheckBox id="checkBox" label="自动同意加入公会：" x="107.5" y="520.5"/>
+		<ns1:CustomButton id="btnYes" label="一键同意" x="135" y="442" skinName="CustomButtonSkin2Skin"/>
+		<ns1:CustomImage id="bd_noBg" x="23.56" y="215.56" source="friendContentBg"/>
+		<ns1:CustomLabel id="txtNo" text="暂时没有任何申请" horizontalCenter="13" y="227.56" textColor="0xE7D0B7" size="18"/>
+		<ns1:CustomButton id="btnNo" label="一键拒绝" x="371.5" y="442" skinName="CustomButtonSkin2Skin"/>
+		<e:Scroller width="570" height="360" x="27" y="66" anchorOffsetX="0" anchorOffsetY="0">
+			<e:DataGroup id="checkList" itemRenderer="GuildCheckItem"/>
+		</e:Scroller>
+		<ns1:CustomImage x="244" y="9" source="guild_title_sp"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AwakeScoreAddItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:BitmapLabel id="num0" width="70" height="30" anchorOffsetX="0" anchorOffsetY="0" text="5.5" font="number_10_fnt" y="2" visible="false"/>
+	<e:BitmapLabel id="num1" width="76" height="30" anchorOffsetX="0" anchorOffsetY="0" font="number_9_fnt" text="5.5" y="2"/>
+	<ns1:CustomImage id="per0" source="awakeScore_json.petMark0" x="68" y="0" visible="false"/>
+	<ns1:CustomImage id="per1" x="68" y="0" source="awakeScore_json.petMark1"/>
+</e:Skin>

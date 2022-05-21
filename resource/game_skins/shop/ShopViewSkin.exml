@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="580" height="750">
+	<ns1:CustomImage source="share_json.share_contentBg" y="590" width="580"/>
+	<ns1:CustomImage y="722" source="share_json.share_contentBg2" horizontalCenter="0"/>
+	<ns1:CustomLabel text="查看筛选：" x="41" y="630" size="18" bold="true" textColor="0xdda66b"/>
+	<ns1:CustomLabel text="我的元宝：" x="148" y="705" anchorOffsetX="0" width="96" anchorOffsetY="0" height="28" size="18" textColor="0xDDA66B" bold="true"/>
+	<ns1:CustomImage x="271" y="697" source="textInput_bg"/>
+	<ns1:CustomImage x="230" y="702" source="image_gold"/>
+	<ns1:CustomLabel id="txtCost" text="20" x="284" y="705" anchorOffsetX="0" anchorOffsetY="0" height="20" size="18" textColor="0xE7D0B7" bold="true"/>
+	<ns1:CustomButton id="btnOrder" label="等级降序" x="347" y="622" width="117" skinName="CustomButtonSkin7Skin" height="47"/>
+	<e:Scroller width="571" height="589" y="0" anchorOffsetY="0" x="4" anchorOffsetX="0">
+		<e:DataGroup id="itemList" itemRenderer="ShopItem"/>
+	</e:Scroller>
+	<ns1:CustomCombobox id="combobox" x="130" y="622"/>
+</e:Skin>

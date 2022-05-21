@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CWRefreshItemSkin" width="145" height="99" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:HeadItem id="_headItem" x="30" y="0"/>
+	<ns1:CustomImage x="0" y="60" source="cityWar_json.cityWar_bg6"/>
+	<ns1:CustomLabel id="_txtName" text="我就是七个字的" x="4" y="67" size="18" width="130" textAlign="center" bold="true" textColor="0x00d228"/>
+</e:Skin>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginRewardSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin">
+		<ns1:CustomImage x="14" y="72" source="resource/assets/icon/loginreward/loginRewardBg.png" visible="false"/>
+		<ns1:CustomButton id="btnGet" label="领取奖励" y="843" skinName="CustomButtonSkin2Skin" horizontalCenter="0"/>
+		<ns1:CustomLabel text="登录天数：" x="380" y="863" textColor="0x00d228" size="16" bold="true"/>
+		<ns1:CustomLabel id="txtDay" text="0" x="462" y="863" textColor="0x00D228" size="16" bold="true"/>
+		<ns1:CustomImage id="box_1" x="96" y="184" source="loginRewardBox"/>
+		<ns1:CustomImage id="box_2" x="195.5" y="164.5" source="loginRewardBox_2"/>
+		<ns1:CustomImage id="box_5" x="96" y="312" source="loginRewardBox"/>
+		<ns1:CustomImage id="box_6" x="213" y="312" source="loginRewardBox"/>
+		<ns1:CustomImage id="box_7" x="311" y="289" source="loginRewardBox_7"/>
+		<ns1:CustomImage id="box_3" x="330" y="184" source="loginRewardBox"/>
+		<ns1:CustomImage id="box_4" x="447" y="184" source="loginRewardBox"/>
+		<ns1:CustomImage id="box_8" x="430.5" y="289" source="loginRewardBox_14"/>
+		<ns1:CustomImage x="101" y="159" source="loginReward_day1"/>
+		<ns1:CustomImage x="219" y="159" source="loginReward_day2"/>
+		<ns1:CustomImage x="336" y="159" source="loginReward_day3"/>
+		<ns1:CustomImage x="448" y="159" source="loginReward_day4"/>
+		<ns1:CustomImage x="101" y="289" source="loginReward_day5"/>
+		<ns1:CustomImage x="215.5" y="289" source="loginReward_day6"/>
+		<ns1:CustomImage x="333" y="289" source="loginReward_day7"/>
+		<ns1:CustomImage x="440" y="289" source="loginReward_day14"/>
+		<ns1:CustomImage x="295.5" y="206" source="loginReward_jt"/>
+		<ns1:CustomImage x="179.5" y="206" source="loginReward_jt"/>
+		<ns1:CustomImage x="416" y="206" source="loginReward_jt"/>
+		<ns1:CustomImage x="181.5" y="330" source="loginReward_jt"/>
+		<ns1:CustomImage x="296.5" y="330" source="loginReward_jt"/>
+		<ns1:CustomImage x="413" y="330" source="loginReward_jt"/>
+		<ns1:CustomImage id="lingqu_1" x="78.5" y="184" source="loginReward_ylq"/>
+		<ns1:CustomImage id="lingqu_2" x="198.5" y="184" source="loginReward_ylq"/>
+		<ns1:CustomImage id="lingqu_3" x="317.5" y="184" source="loginReward_ylq"/>
+		<ns1:CustomImage id="lingqu_4" x="437.5" y="184" source="loginReward_ylq"/>
+		<ns1:CustomImage id="lingqu_5" x="82" y="314" source="loginReward_ylq"/>
+		<ns1:CustomImage id="lingqu_6" x="201" y="314" source="loginReward_ylq"/>
+		<ns1:CustomImage id="lingqu_7" x="320" y="314" source="loginReward_ylq"/>
+		<ns1:CustomImage id="lingqu_8" x="439" y="314" source="loginReward_ylq"/>
+		<e:Scroller width="425" height="123" x="94" y="693" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Group>
+				<e:List id="rewardList" height="123" x="0" y="0" itemRenderer="RewardItem">
+					<e:layout>
+						<e:HorizontalLayout gap="10" />
+					</e:layout>
+				</e:List>
+			</e:Group>
+		</e:Scroller>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

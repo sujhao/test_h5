@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MagicPetWeaponItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage id="bgLight" source="magicPet_json.headLight" visible="false"/>
+	<ns1:CustomImage x="14" y="14" source="magicPet_json.headBg"/>
+	<ns1:CustomLabel id="txtLevel" text="1阶" x="99" y="65" fontFamily="Microsoft YaHei" size="18" anchorOffsetX="0" width="74" anchorOffsetY="0" height="23" textColor="0x12fc00"/>
+</e:Skin>

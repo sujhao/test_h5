@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="GuildFubenHuodongItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage source="share_listItemBg" height="162"/>
+	<ns1:CustomImage height="162" source="share_line3" x="114"/>
+	<ns1:CustomImage y="10" source="guild_jztitleBg" x="116"/>
+	<ns1:HeadItem id="head" x="30" y="45"/>
+	<ns1:CustomLabel id="txtTitle" text="兽人军团入侵" x="126" y="18.5" size="18" textColor="0xFFD200" bold="true"/>
+	<ns1:CustomLabel text="时间：" x="126" y="51" size="18" bold="true" textColor="0xDDA66B"/>
+	<ns1:CustomLabel text="奖励：" x="126" y="75" size="18" bold="true" textColor="0xDDA66B"/>
+	<ns1:CustomLabel id="txtReward" text="公会贡献、资金" x="184" y="75" size="18" bold="true" textColor="0xffd200"/>
+	<ns1:CustomLabel text="本轮剩余强盗：" x="126" y="98" size="18" bold="true" textColor="0xDDA66B"/>
+	<ns1:CustomLabel id="txtSheng" text="1/1" x="252" y="98" size="18" bold="true" textColor="0x00d228"/>
+	<ns1:CustomLabel id="txtTime" text="10：59-22:00" x="184" y="51" size="18" textColor="0xE7D0B7" bold="true" anchorOffsetX="0" anchorOffsetY="0" height="21" lineSpacing="10"/>
+	<ns1:CustomLabel id="txtCount" text="0/5" x="417" y="15" size="18" textColor="0xE7D0B7" bold="true" anchorOffsetX="0" width="150" anchorOffsetY="0" height="21" lineSpacing="10" textAlign="center"/>
+	<ns1:CustomButton id="btnGet" label="前往" x="431" y="39.5" skinName="CustomButtonSkin7Skin" width="122" height="48"/>
+
+	<w:Config id="15b8f9f8775" ></w:Config>
+</e:Skin>

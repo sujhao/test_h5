@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="RewardItemSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:GoodsItem id="goodItem" x="0" y="0"/>
+
+	<w:Config id="15a82d20e27" ></w:Config>
+</e:Skin>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MagicPetWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin">
+		<ns1:CustomImage y="58" x="12" source="magicPet_json.magicPetBg" anchorOffsetY="0"/>
+		<e:Group id="weaponClip" width="100" height="100" x="359" y="255" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group id="petClip" width="100" height="100" x="368" y="250" anchorOffsetX="0" anchorOffsetY="0">
+		</e:Group>
+		<e:Group id="coverClip" width="100" height="100" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Scroller height="377" x="20" y="104" anchorOffsetX="0" width="128">
+			<e:Group id="headCon" x="-9">
+				<ns1:CustomImage id="imgSelect" x="4" y="2" source="magicPet_json.item_s" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Scroller>
+		<ns1:CustomLabel id="txtGrade" text="一阶 · 魔宠" x="234" y="528" fontFamily="Microsoft YaHei" textColor="0xf9bd09" size="18" anchorOffsetX="0" width="144" anchorOffsetY="0" height="22" textAlign="center" bold="true"/>
+		<ns1:CustomLabel id="txtLevel" text="魔宠等级：0/1" x="213" y="548" fontFamily="Microsoft YaHei" size="18" anchorOffsetX="0" width="191" anchorOffsetY="0" height="18" textAlign="center" textColor="0x09f42b"/>
+		<ns1:CustomButton id="btnShow" label="跟随" x="315" y="457"/>
+		<ns1:CustomLabel id="txtName" text="猫女魔宠" x="314" y="107" fontFamily="Microsoft YaHei" size="22" textColor="0xf9bd09" anchorOffsetX="0" width="114" anchorOffsetY="0" height="26" textAlign="center" verticalAlign="middle"/>
+		<e:TabBar id="tabbar" width="471" height="50" x="33" y="832" anchorOffsetX="0" anchorOffsetY="0" itemRenderer="CustomItemRenderer" itemRendererSkinName="CustomTabItemSkinSkin"/>
+		<e:Group id="viewCon" x="26" y="576" width="568" height="242" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:CustomButton id="btnHelp" label="" x="517" y="9">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="cityWar_help" source.down="cityWar_help" source.disabled="cityWar_help"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

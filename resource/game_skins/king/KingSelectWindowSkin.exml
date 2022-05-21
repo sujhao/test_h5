@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KingSelectWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="360">
+	<ns1:LayeroutWindowSkin id="panelSkin" height="360" skinName="CustomSmallWindowSkinSkin">
+		<ns1:CustomImage x="241" y="110" source="kingIcon_vs"/>
+		<ns1:CustomImage x="86" y="110" source="kingItemBg"/>
+		<ns1:CustomImage x="431.5" y="110" source="kingItemBg"/>
+		<ns1:CustomLabel id="txtTime" text="匹配对手中......" x="235" y="313" size="18" textColor="0x00d228" bold="true" width="150" textAlign="center"/>
+		<ns1:HeadItem id="item" x="106" y="131"/>
+		<ns1:HeadItem id="item2" x="452" y="131"/>
+		<ns1:CustomLabel id="txtName" text="" x="67" y="226" size="18" bold="true" width="150" textAlign="center" textColor="0xffd200" height="20"/>
+		<ns1:CustomLabel id="txtName2" text="" x="412" y="226" size="18" bold="true" width="150" textAlign="center" textColor="0xFFD200" anchorOffsetX="0" height="20"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

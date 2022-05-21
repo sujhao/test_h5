@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WelcomeView2Skin"  xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomButton id="_btnOK" y="404" x="182">
+	<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="mainUI_json.mainUI_startHook" source.down="mainUI_json.mainUI_startHook" source.disabled="mainUI_json.mainUI_startHook"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</ns1:skinName>
+</ns1:CustomButton>
+</e:Skin>

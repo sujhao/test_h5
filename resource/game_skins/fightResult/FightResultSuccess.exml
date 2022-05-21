@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightResultSuccee" width="578" height="935" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="fightResult_json.fr_successBg"/>
+	<ns1:CustomImage x="71" y="170" source="fightResult_json.fr_txt1"/>
+	<e:Scroller width="455" height="541" x="70" y="209" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="_goodsContainer" x="0" y="0"/>
+	</e:Scroller>
+	<ns1:CustomButton id="_btn" label="按钮" x="185.5" y="776" skinName="CustomButtonSkin4Skin"/>
+</e:Skin>

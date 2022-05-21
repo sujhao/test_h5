@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="KingRankItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+	<w:Config id="15c871795e2" ></w:Config>
+	<ns1:CustomImage id="itemBg" source="share_lineBg" width="580"/>
+	<ns1:CustomLabel id="txtName" text="名字一个七位数" x="200" y="24" size="18" textColor="0xE7D0B7" bold="true" width="140" textAlign="left"/>
+	<ns1:CustomLabel id="txtValue" text="0场" y="24" size="18" bold="true" textColor="0xFFD200" width="110" textAlign="center" x="465"/>
+	<ns1:CustomImage id="icon" x="111" y="9" source="kingType_s_1"/>
+	<e:BitmapLabel x="137" y="21" text="5" font="number_2_fnt" id="txtLv"/>
+	<ns1:CustomLabel id="txtRank" text="100" y="22" size="20" textColor="0xE7D0B7" width="120" textAlign="center" bold="true"/>
+</e:Skin>

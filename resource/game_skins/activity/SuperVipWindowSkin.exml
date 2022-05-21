@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SuperVipWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="925">
+	<ns1:LayeroutWindowSkin id="panelSkin" width="620" height="925">
+		<ns1:CustomImage y="-63" source="activity_json.superVip_title" horizontalCenter="0"/>
+		<e:Group id="bgGroup" x="17" y="72">
+		</e:Group>
+		<ns1:CustomImage y="442" source="share_json.share_titleBg4" horizontalCenter="-1.5"/>
+		<ns1:CustomImage y="452" source="share_json.share_title_line" horizontalCenter="0"/>
+		<ns1:CustomImage y="443" horizontalCenter="1" x="129" source="activity_json.superVip_txt"/>
+		<ns1:CustomImage y="672" horizontalCenter="-3" x="139" source="activity_json.superVip_bg2"/>
+		<ns1:CustomButton id="btnGet" label="提交信息" y="848" skinName="CustomButtonSkin2Skin" horizontalCenter="0"/>
+		<ns1:CustomButton id="btnSms" label="" y="738" horizontalCenter="45.5" x="258">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="activity_json.superVip_btn" source.down="activity_json.superVip_btn" source.disabled="activity_json.superVip_btn_dis"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomLabel id="txtDes" text="" x="40" y="502" size="22" textColor="0xe7d0b7" bold="true" lineSpacing="10"/>
+		<ns1:CustomLabel id="txtNum" text="" x="245" y="407" size="22" textColor="0xE7D0B7" bold="true" lineSpacing="10"/>
+		<e:EditableText id="txtQQ" width="130" height="23" text="" x="106" y="700" textColor="0xe7d0b7" size="20" bold="true" anchorOffsetY="0"/>
+		<e:EditableText id="txtMail" width="130" height="23" text="" x="106" y="745" textColor="0xE7D0B7" size="20" bold="true" anchorOffsetY="0"/>
+		<e:EditableText id="txtDate" width="140" height="23" text="请输入8位数字" x="106" y="789" textColor="0xE7D0B7" size="20" bold="true" anchorOffsetY="0" restrict="0-9" maxChars="8"/>
+		<e:EditableText id="txtPhone" width="130" height="23" text="" x="393" y="698" textColor="0xE7D0B7" size="20" bold="true" anchorOffsetY="0"/>
+		<e:EditableText id="txtSms" width="130" height="23" text="" x="438" y="749" textColor="0xE7D0B7" size="20" bold="true" anchorOffsetY="0"/>
+		<ns1:CustomButton id="closeBtn" label="" top="10" right="-3">
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="win_close" source.down="win_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:CustomButton>
+		<ns1:CustomLabel id="txtTips" text="请找客服妹妹认证" x="380" y="867" size="18" bold="true" textColor="0x00d228"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

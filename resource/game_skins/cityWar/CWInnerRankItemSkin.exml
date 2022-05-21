@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CWInnerRankItemSkin" width="279" height="28" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<ns1:CustomLabel text="1  我就是七个字的" x="4" y="0" size="18" bold="true" textColor="0xCDB8A2" width="155" id="_txtName"/>
+	<ns1:CustomLabel text="188893" x="174" y="0" size="18" bold="true" textColor="0xCDB8A2" width="120" id="_txtPoint"/>
+</e:Skin>

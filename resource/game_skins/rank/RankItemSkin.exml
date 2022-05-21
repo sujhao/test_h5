@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="RankItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="587">
+	<ns1:CustomImage id="itemBg" width="587" source="achievement_json.achievement_itemBg" anchorOffsetY="0" height="74" scale9Grid="70,14,427,84" visible="false"/>
+	<ns1:CustomImage id="line" width="587" source="achievement_json.achievement_itemBg" scale9Grid="70,14,427,84" height="74" left="0" top="0"/>
+	<ns1:CustomImage id="iconCoin" x="132" y="40" source="resource/assets/icon/smallPic/1.png" visible="false"/>
+	<ns1:CustomImage id="rankIcon_num" x="10" y="9.5" source="rankIcon2" visible="false"/>
+	<ns1:CustomImage id="rankIcon" x="517" source="rankIcon" y="7" visible="false"/>
+	<ns1:CustomLabel id="txtName" text="名字一个七位数" x="76" y="16" size="18" textColor="0xe7d0b7" bold="true"/>
+	<ns1:CustomLabel id="txtFight" text="战斗力:1000万" x="76" y="43" size="18" bold="true" textColor="0xdda66b"/>
+	<ns1:CustomLabel id="txtResult" text="结算：" x="76" y="46" size="18" bold="true" textColor="0xDDA66B" visible="false"/>
+	<ns1:CustomLabel id="txtCoin" text="100万" x="171" y="46" size="18" bold="true" textColor="0xDDA66B" visible="false"/>
+	<ns1:CustomLabel id="txtItem" text="100万" x="290" y="46" size="18" bold="true" textColor="0xDDA66B" visible="false"/>
+	<ns1:CustomImage id="vipMonth" width="20" height="20" x="251" y="16" source="comp_vip_month" visible="false"/>
+	<ns1:CustomImage id="vipIcon" x="210" y="6" source="comp_vip" visible="false"/>
+	<e:BitmapLabel id="vipNum" x="230" y="25" font="number_vip_fnt" text="10" visible="false"/>
+	<ns1:CustomLabel id="txtLv" text="9转100级" x="276" y="16" size="18" textColor="0x00d228" bold="true"/>
+	<ns1:CustomLabel id="txtRank" text="100" x="12" y="29" size="20" textColor="0xe7d0b7" width="50" textAlign="center" bold="true"/>
+	<ns1:CustomLabel text="" width="100%" height="100%"/>
+
+	<w:Config id="15aeeabdf65" ></w:Config>
+</e:Skin>

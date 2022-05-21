@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityOffLineWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin">
+		<ns1:CustomImage x="18" y="72" source="fuli_json.fuliBg"/>
+		<ns1:CustomButton id="btn_off" label="" x="268" y="105">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fuli_json.fuliBtn_off" source.down="fuli_json.fuliBtn_off" source.disabled="fuli_json.fuliBtn_off"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomImage x="32" y="589" source="share_json.share_bg7"/>
+		<ns1:CustomButton id="btnGet" label="领取奖励" x="241" y="842" skinName="CustomButtonSkin2Skin"/>
+		<ns1:CustomImage x="38" y="600" source="share_json.share_titleBg3"/>
+		<ns1:CustomLabel text="活动时间：" x="62" y="387" size="20" textColor="0xFFD200" bold="true" anchorOffsetY="0" anchorOffsetX="0" lineSpacing="10"/>
+		<ns1:CustomLabel text="2017年9月8号0点~9月24号24点" x="163" y="389" size="20" bold="true" anchorOffsetY="0" anchorOffsetX="0" lineSpacing="10" textColor="0xe7d0b7"/>
+		<ns1:CustomLabel id="txtTime" text="1天23小时" x="203" y="511" size="20" bold="true" anchorOffsetY="0" anchorOffsetX="0" lineSpacing="10" textColor="0xe31101"/>
+		<ns1:CustomLabel id="txtCount" text="0" x="225" y="552" size="20" bold="true" anchorOffsetY="0" anchorOffsetX="0" lineSpacing="10" textColor="0x06ff00"/>
+		<ns1:CustomLabel text="离线补偿大礼包奖励展示" x="53" y="616" size="20" bold="true" anchorOffsetY="0" anchorOffsetX="0" lineSpacing="10" textColor="0xe7d0b7"/>
+		<ns1:CustomLabel text="活动期间，累计离线时间达到20小时即可领取1个补偿礼包，离线时间可累加，本活动每个玩家最多领取50个礼包" x="163" y="421" size="20" textColor="0xE7D0B7" bold="true" anchorOffsetY="0" anchorOffsetX="0" lineSpacing="10" height="88" width="392"/>
+		<ns1:CustomLabel text="活动说明：" x="62" y="418" size="20" textColor="0xFFD200" bold="true" anchorOffsetY="0" anchorOffsetX="0" lineSpacing="10"/>
+		<ns1:CustomLabel text="我的离线时间：" x="62" y="511" size="20" textColor="0xFFD200" bold="true" anchorOffsetY="0" anchorOffsetX="0" lineSpacing="10"/>
+		<ns1:CustomLabel text="可领取礼包数量：" x="62" y="552" size="20" textColor="0xFFD200" bold="true" anchorOffsetY="0" anchorOffsetX="0" lineSpacing="10"/>
+		<ns1:GoodsItemSmall id="item_0" x="55" y="658"/>
+		<ns1:GoodsItemSmall id="item_1" x="160" y="658"/>
+		<ns1:GoodsItemSmall id="item_2" x="265" y="658"/>
+		<ns1:GoodsItemSmall id="item_3" x="369" y="658"/>
+		<ns1:GoodsItemSmall id="item_4" x="474" y="658"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="ActivityJubaoRewardItemSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage source="share_json.share_listItemBg" width="580" height="127"/>
+	<ns1:CustomImage x="420" y="2" source="share_json.share_line3" height="127"/>
+	<ns1:CustomLabel id="txtDay" text="第1天" x="476" y="37" size="18" anchorOffsetX="0" anchorOffsetY="0" bold="true" textAlign="center" textColor="0xe7d0b7" lineSpacing="10"/>
+	<ns1:GoodsItemSmall id="item_0" x="22" y="12"/>
+	<ns1:GoodsItemSmall id="item_1" x="113" y="12"/>
+	<ns1:GoodsItemSmall id="item_2" x="203" y="12"/>
+	<ns1:GoodsItemSmall id="item_3" x="294" y="12"/>
+
+	<w:Config id="15a9388ae87" ></w:Config>
+</e:Skin>

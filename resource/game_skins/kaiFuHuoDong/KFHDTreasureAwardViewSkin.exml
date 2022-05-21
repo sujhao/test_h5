@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KFHDTreasureAwardViewSkin" width="620" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+    <ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" top="0" bottom="0" anchorOffsetY="0">
+        <ns1:CustomImage x="246" y="7" source="getmaterial_json.getmaterial_title" />
+        <ns1:CustomLabel id="txtDes" text="每日寻宝达到指定次数自动获得奖励" x="12" y="224" size="20" fontFamily="Microsoft YaHei"
+                         textAlign="center" textColor="0x22b232" width="596" />
+			<e:Group id="itemGroup" y="69" horizontalCenter="0">
+			</e:Group>
+    </ns1:LayeroutWindowSkin>
+</e:Skin>

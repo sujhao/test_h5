@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OpenGridViewSkin" width="600" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+    <ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" width="100%" height="100%" anchorOffsetY="0">
+			<ns1:CustomLabel text="消耗元宝：" x="117" y="68" size="20" fontFamily="Microsoft YaHei" textColor="0xe7d0b7"/>
+			<ns1:CustomLabel text="开启数量：" x="117" y="122" size="20" fontFamily="Microsoft YaHei" textColor="0xE7D0B7"/>
+			<ns1:CustomLabel id="_txtGold" text="消耗元宝：" x="261" y="68" size="20" fontFamily="Microsoft YaHei" textColor="0xE7D0B7"/>
+			<ns1:CustomImage  x="218" y="64" source="mainUI_json.image_gold"/>
+			<ns1:CustomNumberStep id="_numberStep"  x="215.5" y="114.5"/>
+			<ns1:CustomButton id="_btnOK" label="确定" x="148" y="180"/>
+			<ns1:CustomButton id="_btnCancel" label="取消" x="335" y="180"/>
+        
+    </ns1:LayeroutWindowSkin>
+	
+</e:Skin>

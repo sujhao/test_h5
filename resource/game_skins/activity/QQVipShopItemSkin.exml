@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="QQVipShopItemSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage source="share_json.share_listItemBg" width="580" height="127"/>
+	<ns1:CustomImage x="420" y="2" source="share_json.share_line3" height="127"/>
+	<ns1:CustomImage x="541" y="11" source="mainUI_json.image_gold2"/>
+	<ns1:CustomImage x="541" y="42" source="mainUI_json.image_gold2"/>
+	<ns1:CustomLabel id="txtCost2" text="现价" x="428" y="48" size="18" anchorOffsetX="0" anchorOffsetY="0" bold="true" textAlign="center" lineSpacing="10" textColor="0x00d228"/>
+	<ns1:CustomLabel id="txtCost" text="原价" x="428" y="21" size="18" anchorOffsetX="0" anchorOffsetY="0" bold="true" textAlign="center" lineSpacing="10" textColor="0x989090"/>
+	<ns1:GoodsItemSmall id="item" x="162" y="15"/>
+	<ns1:CustomButton id="btnBuy" label="购买" x="461" y="73" skinName="CustomButtonSkin7Skin" visible="false"/>
+	<ns1:CustomImage x="428" y="11" source="fanli_json.shopCheap_icon"/>
+	<ns1:CustomLabel id="txtTips" text="不符合条件" x="454" size="20" bold="true" textColor="0xE31101" verticalCenter="31.5"/>
+
+	<w:Config id="15a9388ae87" ></w:Config>
+</e:Skin>

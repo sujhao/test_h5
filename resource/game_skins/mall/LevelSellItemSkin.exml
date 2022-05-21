@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LevelSellItemSkin" width="89" height="89" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="levelSell_json.levelSell_item"/>
+	<e:BitmapLabel id="_txtNum" width="40" height="30" x="13" y="34" font="number_0_fnt" textAlign="center" text="5" anchorOffsetX="0"/>
+    <ns1:CustomImage id="_imgType"  y="35" x="53"/>
+</e:Skin>

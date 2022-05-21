@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MagicPetHeadItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage id="imgHead" x="23" y="7" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ns1:CustomImage id="txtBg" source="artifact_json.artifact_border1" x="13" y="55"/>
+	<ns1:CustomLabel id="txtReq" text="未激活" x="17" y="62" size="16" fontFamily="Microsoft YaHei" textColor="0xffffff" anchorOffsetX="0" width="91" anchorOffsetY="0" height="18" textAlign="center"/>
+</e:Skin>

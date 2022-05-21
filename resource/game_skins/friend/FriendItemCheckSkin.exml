@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="FriendItemCheckSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomLabel id="txtName" x="100" y="21" size="18" textColor="0xffd200" text="" height="25" anchorOffsetX="0" width="238"/>
+	<ns1:CustomLabel text="战斗力：" x="100" y="56" textColor="0xdda66b" size="18"/>
+	<ns1:CustomLabel id="txtFight" text="0" x="172" y="56" size="18" textColor="0xe7d0b7" anchorOffsetX="0" width="179" anchorOffsetY="0" height="25"/>
+	<ns1:CustomButton id="btnYes" label="同意" x="337" y="27" skinName="CustomButtonSkin3Skin" width="122" height="48"/>
+	<ns1:CustomButton id="btnNo" label="拒绝" x="462" y="27" skinName="CustomButtonSkin3Skin" width="122" height="48"/>
+	<ns1:CustomImage y="97" source="share_line"/>
+	<ns1:HeadItem id="bmHead" x="21" y="17"/>
+
+	<w:Config id="15a40b00a0a" ></w:Config>
+</e:Skin>

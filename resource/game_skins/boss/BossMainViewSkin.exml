@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossMainViewSkin" width="575" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller width="100%" height="100%">
+		<e:Group id="listGroup"/>
+	</e:Scroller>
+</e:Skin>

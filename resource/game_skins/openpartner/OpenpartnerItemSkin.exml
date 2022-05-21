@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OpenpartnerItemSkin" width="295" height="367" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage id="_imageBottom"  x="7" y="255" source="openpartner_json.openpartner_itemBg"/>
+	<ns1:CustomImage x="85" y="9" source="openpartner_json.openpartner_careerBg"/>
+	<ns1:CustomImage id="_imageCareer" x="116" y="21" source="share_json.share_title_career2"/>
+</e:Skin>

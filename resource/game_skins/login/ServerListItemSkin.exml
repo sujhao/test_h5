@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ServerListItemSkin" width="343" height="59" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage  source="comp_json.comp_btn10"/>
+<ns1:CustomImage id="_imageState" source="gameStart_json.gameStart_hot"/>
+	<ns1:CustomLabel id="_txtName" text="传世英雄333服" x="22" y="16" width="300" textAlign="center" textColor="0xdbc7b0" fontFamily="Microsoft YaHei" size="26"/>
+</e:Skin>

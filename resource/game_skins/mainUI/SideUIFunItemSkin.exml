@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SideUIFunItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+    <ns1:CustomLabel id="_txtAlert" text="Label" x="309" y="55" size="24" width="245" />
+</e:Skin>

@@ -1,0 +1,8 @@
+{"file":"kfKillerScene.png","frames":{
+"kfKillerScene_leftBg":{"x":0,"y":0,"w":242,"h":203,"offX":0,"offY":0,"sourceW":242,"sourceH":203},
+"kfKillerScene_bottomBg":{"x":0,"y":207,"w":403,"h":79,"offX":0,"offY":0,"sourceW":403,"sourceH":79},
+"kfKillerScene_score":{"x":185,"y":290,"w":23,"h":24,"offX":0,"offY":0,"sourceW":23,"sourceH":24},
+"kfKillerScene_btnRefresh":{"x":0,"y":394,"w":52,"h":52,"offX":0,"offY":0,"sourceW":52,"sourceH":52},
+"kfKillerScene_rightBg":{"x":0,"y":290,"w":181,"h":100,"offX":0,"offY":0,"sourceW":181,"sourceH":100},
+"kfKillerScene_dot":{"x":246,"y":39,"w":12,"h":12,"offX":0,"offY":0,"sourceW":12,"sourceH":12},
+"kfKillerScene_nameBg":{"x":246,"y":0,"w":115,"h":35,"offX":0,"offY":0,"sourceW":115,"sourceH":35}}}

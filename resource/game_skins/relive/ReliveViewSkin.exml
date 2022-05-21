@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ReliveViewSkin" width="609" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage x="0" y="0" source="relive_json.relive_bg"/>
+	<ns1:CustomLabel text="请等待          秒后复活" x="308" y="32" size="20" bold="true"/>
+	<ns1:CustomLabel id="_txtTime" text="60" x="372" y="30" size="24" textAlign="center" width="50" textColor="0xffcc00"/>
+	<ns1:CustomButton id="_btn" label="立即复活(     15)" x="326" y="104" skinName="CustomButtonSkin2Skin" width="195"/>
+	<ns1:CustomImage x="-100" y="-181" source="resource/assets/icon/other/reliveMeiZi.png"/>
+</e:Skin>

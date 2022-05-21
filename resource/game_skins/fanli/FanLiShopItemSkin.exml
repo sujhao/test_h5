@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="FanliShopItemSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage source="fllc_json.fllc_itemBg"/>
+	<ns1:CustomLabel id="txtName" text="每日限兑" x="390" y="29" textColor="0xE7D0B7" fontFamily="Microsoft YaHei" size="20" textAlign="center" anchorOffsetY="0" height="19" width="188"/>
+	<ns1:CustomLabel id="txtCount" text="（0/1）" x="390" y="51" width="188" textColor="0xE7D0B7" fontFamily="Microsoft YaHei" size="20" textAlign="center" anchorOffsetY="0" height="19"/>
+	<ns1:CustomButton id="btnGet" label="兑换" x="426" y="75" skinName="CustomButtonSkin7Skin" width="117" height="47"/>
+	<ns1:GoodsItemSmall id="item_0" x="10" y="14"/>
+	<ns1:GoodsItemSmall id="item_1" x="108" y="14"/>
+	<ns1:GoodsItemSmall id="item_2" x="207" y="14"/>
+	<ns1:GoodsItemSmall id="item_3" x="305" y="14"/>
+
+	<w:Config id="15aeeabdf65" ></w:Config>
+</e:Skin>

@@ -1,0 +1,6 @@
+{"file":"dailyCharge.png","frames":{
+"dailyCharge_bg":{"x":0,"y":0,"w":577,"h":752,"offX":0,"offY":0,"sourceW":577,"sourceH":752},
+"dailyCharge_word1":{"x":581,"y":0,"w":400,"h":99,"offX":0,"offY":0,"sourceW":400,"sourceH":99},
+"dailyCharge_word2":{"x":0,"y":950,"w":428,"h":43,"offX":0,"offY":0,"sourceW":428,"sourceH":43},
+"dailyCharge_word3":{"x":0,"y":756,"w":640,"h":190,"offX":0,"offY":0,"sourceW":640,"sourceH":190},
+"dailyCharge_getBtn":{"x":581,"y":103,"w":151,"h":50,"offX":0,"offY":0,"sourceW":151,"sourceH":50}}}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KFHDMrtItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="100" width="90">
+	<ns1:CustomImage id="select" source="kaiFuHuoDong_json.kfhd_BtnSelect" x="-13" y="-9" visible="false"/>
+	<ns1:CustomImage source="share_itembg2" x="1" y="6"/>
+	<ns1:CustomImage id="day" x="7" y="36.5" source=""/>
+</e:Skin>

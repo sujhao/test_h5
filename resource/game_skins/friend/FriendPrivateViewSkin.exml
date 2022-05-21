@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendPrivateViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin">
+		<ns1:CustomImage y="69.08" source="friendContentBg" horizontalCenter="0.5" />
+		<ns1:CustomLabel id="txtTitle" text="正在与XXX聊天" x="95" y="81.54" textColor="0xdda66b" size="18" anchorOffsetX="0"
+		                 width="432.97" anchorOffsetY="0" height="30.12" textAlign="center" />
+		<e:Scroller width="575" height="646" x="23" y="120" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group x="-1">
+				<e:List id="msgList" width="575" itemRenderer="FriendMsgItem" />
+			</e:Group>
+		</e:Scroller>
+		<ns1:CustomImage x="17" y="767" source="share_contentBg"  anchorOffsetX="0" width="587"/>
+		<ns1:CustomImage id="txtBg" x="18" y="774" source="textInput_bg" height="55" anchorOffsetX="0" width="485" scale9Grid="17,4,109,27"/>
+		<e:EditableText id="txtInput" width="467" height="55" text="" x="26" y="774" anchorOffsetX="0" verticalAlign="middle" bold="true" size="20" textColor="0xE7D0B7"/>
+		<ns1:CustomButton id="btnSend" label="发送" x="505" y="778" skinName="CustomButtonSkin3Skin" width="97" height="48"  anchorOffsetX="0"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

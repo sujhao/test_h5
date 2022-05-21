@@ -1,0 +1,4 @@
+{"file":"commonScene.png","frames":{
+"shadow":{"x":0,"y":0,"w":85,"h":53,"offX":0,"offY":0,"sourceW":85,"sourceH":53},
+"bar":{"x":0,"y":55,"w":55,"h":4,"offX":0,"offY":0,"sourceW":55,"sourceH":4},
+"redBar":{"x":57,"y":55,"w":53,"h":3,"offX":1,"offY":0,"sourceW":55,"sourceH":4}}}

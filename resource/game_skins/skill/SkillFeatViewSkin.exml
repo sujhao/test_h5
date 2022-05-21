@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillFeatViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="587" height="770">
+	<e:Image x="0" y="0" source="skillfeatBg"  width="587" height="770"/>
+	<ns1:CustomButton id="btnGet" label="升级" x="357" y="695" skinName="CustomButtonSkin2Skin" />
+	<ns1:CustomButton id="btnCanel" label="遗忘" x="111" y="695" skinName="CustomButtonSkin2Skin" />
+	<ns1:SkillFeatItem id="skillItem_1" y="80" anchorOffsetX="0" anchorOffsetY="0" />
+	<ns1:SkillFeatItem id="skillItem_2" y="80" anchorOffsetX="0" anchorOffsetY="0" x="141" />
+	<ns1:SkillFeatItem id="skillItem_3" y="80" anchorOffsetX="0" anchorOffsetY="0" x="283" />
+	<ns1:SkillFeatItem id="skillItem_4" y="80" anchorOffsetX="0" anchorOffsetY="0" x="424" />
+	<ns1:SkillFeatItem id="skillItem_5" y="279" anchorOffsetX="0" anchorOffsetY="0" />
+	<ns1:SkillFeatItem id="skillItem_6" y="279" anchorOffsetX="0" anchorOffsetY="0" x="141" />
+	<ns1:SkillFeatItem id="skillItem_7" y="279" anchorOffsetX="0" anchorOffsetY="0" x="283" />
+	<ns1:SkillFeatItem id="skillItem_8" y="279" anchorOffsetX="0" anchorOffsetY="0" x="424" />
+	<ns1:CustomImage y="471" source="skillfeatTitleBg2" />
+	<e:Group id="topContainer" width="357" height="94" x="108" y="-17" anchorOffsetY="0" anchorOffsetX="0"></e:Group>
+	<ns1:CustomImage y="623" source="skillfeatTitleBg"  anchorOffsetX="0" width="587"/>
+	<ns1:CustomLabel id="txtTips" text="本级提升失败时技能等级会降低" x="204" y="598" size="18" anchorOffsetX="0" anchorOffsetY="0" height="23"
+	                 textAlign="center" bold="true" textColor="0xd11101"  visible="false"/>
+	<ns1:CustomLabel id="txtNext" text="未学习" x="290" y="544" anchorOffsetX="0" width="270" anchorOffsetY="0"
+	                 height="50" size="18" bold="true" textColor="0x25930f" />
+	<ns1:CustomLabel text="本级效果：" x="197" y="495" anchorOffsetX="0" anchorOffsetY="0" height="30" textColor="0xE7D0B7"
+	                 size="18" bold="true" />
+	<ns1:SkillFeatItem id="skillItem" y="460" anchorOffsetX="0" anchorOffsetY="0" />
+	<ns1:CustomLabel text="下级效果：" x="197" y="544" anchorOffsetX="0" anchorOffsetY="0" textColor="0xE7D0B7" size="18"
+	                 bold="true" />
+	<ns1:CustomLabel id="txtCur" text="未学习" x="290" y="495" anchorOffsetX="0" width="275" anchorOffsetY="0" height="50"
+	                 textColor="0xE7D0B7" size="18" bold="true" />
+	<ns1:CustomLabel id="txtCost" text="0" x="205" y="639" anchorOffsetX="0" anchorOffsetY="0" height="22"
+	                 textColor="0xE7D0B7" size="18" bold="true" />
+	<ns1:CustomLabel text="升级消耗功勋：" x="75" y="639" anchorOffsetX="0" anchorOffsetY="0" height="22" textColor="0xE7D0B7"
+	                 size="18" bold="true" />
+	<ns1:CustomLabel id="txtMy" text="0" x="427" y="639" anchorOffsetX="0" anchorOffsetY="0" height="22" textColor="0xE7D0B7" size="18" bold="true"/>
+	<ns1:CustomLabel text="我的功勋：" x="336" y="639" anchorOffsetX="0" anchorOffsetY="0" height="22" textColor="0xE7D0B7" size="18" bold="true"/>
+	<ns1:CustomButton id="btnBook" label="" x="481" y="1">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="skillBtn_book" source.down="skillBtn_book"
+				         source.disabled="skillBtn_book" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="btnHelp" label="">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="comp_btn_help" source.down="comp_btn_help" source.disabled="comp_btn_help"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</ns1:CustomButton>
+</e:Skin>

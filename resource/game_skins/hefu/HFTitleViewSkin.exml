@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HFTitleViewSkin" width="577" height="715" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+    <ns1:CustomImage source="HFTitle_json.HFTitle_midBg" y="202" />
+    <ns1:CustomImage y="493" x="0" source="HFTitle_json.HFTitle_border2" />
+    <ns1:CustomImage y="237" x="394" source="HFTitle_json.HFTitle_word" />
+    <ns1:CustomImage y="532" x="0" source="HFTitle_json.HFTitle_border1" />
+    <e:Group id="_bodyContainer" width="128" height="116" x="166" y="320" anchorOffsetX="0" anchorOffsetY="0" />
+    <ns1:GoodsItem id="_item" x="412" y="314" />
+    <ns1:CustomImage x="295" y="423" source="bg_fightPower" />
+    <e:BitmapLabel id="_txtFpower" width="200" height="29" x="394" y="445" font="number_0_fnt" text="34234324"
+                   anchorOffsetY="0" />
+	<e:Group id="_itemContainer" width="561" height="116" x="8" y="545" anchorOffsetY="0" anchorOffsetX="0"/>
+</e:Skin>

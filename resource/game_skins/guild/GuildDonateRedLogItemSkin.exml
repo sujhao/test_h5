@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="GuildDonateRedLogItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+	<w:Config id="15b9509d30a" ></w:Config>
+	<ns1:CustomImage source="guild_redItemBg"/>
+	<ns1:HeadItem id="head" x="16" y="8.5"/>
+	<ns1:CustomLabel id="txtName" text="人物名字" x="105" y="13.5" size="20" bold="true" width="150" textAlign="left" textColor="0xE7D0B7"/>
+	<ns1:CustomLabel id="txtCost" text="金币：9999" x="105" y="44" size="20" bold="true" width="150" textAlign="left" textColor="0xffd200"/>
+	<e:Group id="tipsGroup" x="372" y="25">
+		<ns1:CustomImage x="0" y="0" source="guild_redIcon"/>
+		<ns1:CustomImage x="50" y="0" source="guild_redTxt"/>
+	</e:Group>
+</e:Skin>

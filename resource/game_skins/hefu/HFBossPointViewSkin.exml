@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HFBossPointViewSkin" width="577" height="676" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="HFBossPoint_json.HFBossPoint_barBg" x="34" y="318" visible="false"/>
+	<ns1:CustomImage x="58" y="325" source="HFBossPoint_json.HFBossPoint_bar" visible="false"/>
+	<e:Group id="_itemContainer" width="521" height="97" x="19" y="282" anchorOffsetY="0" anchorOffsetX="0"/>
+	<ns1:CustomImage id="_imgSelected1" x="68" y="255" source="HFBossPoint_json.HFBossPoint_arrowDown"/>
+	<ns1:CustomImage x="11" y="403" source="HFBossPoint_json.HFBossPoint_border2"/>
+	<ns1:CustomImage id="_imgSelected2" x="68" y="379" source="HFBossPoint_json.HFBossPoint_arrowUp"/>
+	<ns1:CustomImage x="14" y="427" source="HFBossPoint_json.HFBossPoint_Border"/>
+	<ns1:CustomLabel id="_txtNeedPoint" text="BOSS积分达到880可领取" x="32" y="435" size="20" textColor="0xe7d0b7" fontFamily="Microsoft YaHei" width="300"/>
+	<ns1:CustomLabel id="_txtPoint" text="BOSS积分达到880可领取" x="125" y="194" size="20" fontFamily="Microsoft YaHei" width="300" textColor="0xffd200"/>
+	<e:Group id="_itemAwardContainer" width="525" height="114" x="20" y="473" anchorOffsetY="0" anchorOffsetX="0"/>
+	<ns1:CustomButton id="_btnOK" label="领取奖励" x="226" y="633" skinName="CustomButtonSkin2Skin"/>
+</e:Skin>

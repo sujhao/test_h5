@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CWAssignItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="share_json.share_layer" height="135" scale9Grid="70,14,427,84" anchorOffsetX="0" width="576"/>
+	<ns1:CustomImage x="192" y="7" source="share_json.share_vLine"/>
+	<ns1:CustomLabel id="_txtPosition" text="[会长]" x="9" y="25" size="18" bold="true"/>
+	<ns1:CustomLabel text="贡献度：" x="9" y="60" size="18" bold="true" textColor="0xb88a59"/>
+	<ns1:CustomLabel text="战斗力：" x="9" y="92" size="18" bold="true" textColor="0xB88A59"/>
+	<ns1:CustomLabel id="_txtName" text="[会长]" x="60" y="25" size="18" bold="true"/>
+	<ns1:CustomLabel id="_txtGongXian" text="[会长]" x="73" y="60" size="18" bold="true" textColor="0xffd200"/>
+	<ns1:CustomLabel id="_txtFight" text="[会长]" x="73" y="92" size="18" bold="true" textColor="0xffd200"/>
+</e:Skin>

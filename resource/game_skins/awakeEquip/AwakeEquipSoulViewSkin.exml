@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AwakeEquipSoulViewSkin" width="577" height="755" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage x="0" y="0"  source="awakeEquip_json.awakeEquipSoul_bg"/>
+	<ns1:CustomButton id="_btnForgemind" label="" x="13" y="40" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="awakeEquip_json.awakeEquip_img1" source.down="awakeEquip_json.awakeEquip_img1" source.disabled="awakeEquip_json.awakeEquip_img1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="_btnOrangeSuit" label="" x="477" y="40" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="awakeEquip_json.awakeEquip_img2" source.down="awakeEquip_json.awakeEquip_img2" source.disabled="awakeEquip_json.awakeEquip_img2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomImage x="124" y="67" source="bg_fightPower" />
+	<ns1:CustomImage x="101" y="142" source="awakeEquip_json.awakeEquipSoul_w2"/>
+	<ns1:CustomImage id="_imgArrow" x="278" y="187" source="share_json.share_arrow1"/>
+	<e:BitmapLabel id="_txtFpower" width="200" height="29" x="223" y="89" font="number_0_fnt" text="34234324"
+	               anchorOffsetY="0" />
+	<ns1:CustomImage  x="247" y="265" source="resource/assets/icon/awakeEquip/awakeSoul_1.png"/>
+	<e:Group id="equipItemContainer" x="7" y="149">
+		<ns1:EquipItemSmall id="equip_1" x="0" y="0" name="40" />
+		<ns1:EquipItemSmall id="equip_2" x="0" y="125" name="41" />
+		<ns1:EquipItemSmall id="equip_5" x="0" y="250" name="42" />
+		<ns1:EquipItemSmall id="equip_6" x="0" y="368" name="43" />
+		<ns1:EquipItemSmall id="equip_3" x="478" y="0" name="44" />
+		<ns1:EquipItemSmall id="equip_4" x="478" y="125" name="45" />
+		<ns1:EquipItemSmall id="equip_500" x="478" y="250" name="46" />
+		<ns1:EquipItemSmall id="equip_600" x="478" y="368" name="47" />
+	</e:Group>
+	<ns1:CustomButton id="_btnChange" label="激活" x="222" y="694" anchorOffsetX="0" anchorOffsetY="0" width="144"
+	                  skinName="CustomButtonSkin6Skin" />
+	<ns1:CustomLabel id="_txtLink" text="标签" x="393" y="89" size="20" fontFamily="Microsoft YaHei"  textColor="0x00d228"/>
+	<ns1:CustomLabel id="_txtProNext" text="标签" x="341" y="187" size="36" fontFamily="Microsoft YaHei" textColor="0x00D228" stroke="1"/>
+	<ns1:CustomLabel id="_txtPro" text="标签" x="190" y="187" size="36" fontFamily="Microsoft YaHei" stroke="1" textColor="0xffffff"/>
+	<ns1:CustomImage id="_linkRedDot" x="446" y="636" source="share_json.share_alert"/>
+     <ns1:CustomLabel id="_txtName" text="标签" x="103" y="642" size="22" textColor="0xdbc7b0"
+                         fontFamily="Microsoft YaHei" width="111"  textAlign="right"/>
+	<ns1:CustomLabel id="_txtDesc" text="标签" x="113" y="524" size="20" textColor="0xDBC7B0" fontFamily="Microsoft YaHei" width="349" textAlign="left" anchorOffsetY="0" height="101" anchorOffsetX="0" lineSpacing="3"/>
+        <ns1:CustomImage x="221" y="633" source="comp_json.textInput_bg" />
+        <ns1:CustomLabel id="_txtCount" text="8/9" x="233" y="642" size="20" fontFamily="Microsoft YaHei" width="122"
+                         textAlign="center"  textColor="0x34c800"/>
+        <ns1:CustomLabel id="_txtRecLink" text="回收战魂" x="372" y="642" size="20" fontFamily="Microsoft YaHei" width="88"
+                         textColor="0x00d228"  visible="false"/>
+	<ns1:CustomImage id="_imageSelected" x="134" y="77" source="share_json.share_itemSelected"/>
+</e:Skin>

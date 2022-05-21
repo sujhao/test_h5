@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OpenpartnerRewardViewSkin" width="580" height="825" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+    <ns1:CustomImage source="openpartner_json.openpartner_bg3" />
+    <e:Group id="_itemContainer" width="550" height="158" x="10" y="86" anchorOffsetX="0" anchorOffsetY="0"></e:Group>
+    <ns1:CustomImage x="109" y="11" source="openpartner_json.openpartner_txtdesc" />
+    <ns1:CustomLabel text="奖励通过邮件发送" x="88" y="49" size="20" fontFamily="Microsoft YaHei" width="400"
+                     textAlign="center" textColor="0x00d228" />
+    <ns1:CustomButton id="_btnOK" label="" x="327" y="644">
+        <ns1:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="openpartner_json.openpartner_btnCharge"
+                         source.down="openpartner_json.openpartner_btnCharge"
+                         source.disabled="openpartner_json.openpartner_btnCharge" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </ns1:skinName>
+    </ns1:CustomButton>
+</e:Skin>

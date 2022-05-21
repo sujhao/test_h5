@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PKSkillProjectViewSkin" width="580" height="755" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller width="575" height="555" y="195" anchorOffsetY="0" x="5">
+		<e:Group id="itemList" width="575" height="555"/>
+	</e:Scroller>
+	<e:Group id="contentGroup">
+		<ns1:CustomImage source="pkSkill_json.pkSkill_listBg"/>
+		<ns1:CustomLabel id="txtExp" text="0" y="125" size="20" textColor="0xFFEA02" bold="true" anchorOffsetX="0" textAlign="left" x="422"/>
+		<ns1:CustomProgressBar id="bar" x="240" y="151" skinName="CustomProgressBarSkin2" width="300"/>
+		<ns1:CustomImage x="306" y="115" source="share_json.share_nameBg2"/>
+		<ns1:CustomImage x="309" y="115" source="pkSkill_json.pkSkill_txt"/>
+		<ns1:CustomImage id="_txt300" x="229" y="35" source="pkSkill_json.pkSkill_txt2"/>
+		<ns1:CustomImage x="478" y="107" source="pkSkill_json.pkSkillTitleBg"/>
+		<e:Group id="iconGroup" x="223" y="21">
+		<ns1:CustomImage x="15" y="86" source="pkSkill_json.pkSkillTitleBg"/>
+		<ns1:CustomLabel id="txtCur" text="0" x="15" y="87" textColor="0xE7D0B7" bold="true" size="16" width="58" textAlign="center"/>
+		</e:Group>
+		<ns1:CustomLabel id="txtNext" text="0" x="478" y="108" textColor="0xE7D0B7" bold="true" size="16" width="58" textAlign="center"/>
+	</e:Group>
+</e:Skin>

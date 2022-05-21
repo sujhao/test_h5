@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QQWeekGiftWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="620" height="925">
+	<ns1:LayeroutWindowSkin x="0" y="0" width="620" height="925" id="panelSkin">
+		<ns1:CustomImage x="17" y="69" source="QQFriend_json.QQFriend_bg"/>
+		<e:Group id="_viewContainer" width="573" height="604" x="32" y="219" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false"/>
+		<e:Scroller width="541" height="104" x="25" y="92" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyV="off">
+			<e:Group id="_iconContainer">
+				<ns1:CustomImage id="_selectImage" x="1" y="-3" scaleX="1" scaleY="1" source="QQFriend_json.QQFriend_selected"/>
+			</e:Group>
+		</e:Scroller>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

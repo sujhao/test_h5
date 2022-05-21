@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OneRmbWindowSkin" width="620" height="925" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin" width="100%" height="100%" x="0" y="0">
+		<ns1:CustomImage source="oneRmb_json.oneRmb_bg1" x="20" y="72"/>
+		<ns1:CustomImage x="268" y="171" source="oneRmb_json.oneRmb_word3"/>
+		<ns1:CustomImage x="19" y="265" source="oneRmb_json.oneRmb_word2"/>
+		<ns1:CustomImage x="21" y="386" source="oneRmb_json.oneRmb_bg2"/>
+		<ns1:CustomImage x="96" y="781" source="oneRmb_json.oneRmb_word1"/>
+		<ns1:CustomButton id="_btnCharge" label="" x="231" y="822">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="oneRmb_json.oneRmb_btn" source.down="oneRmb_json.oneRmb_btn" source.disabled="oneRmb_json.oneRmb_btn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="_btnYao" label="摇一摇" x="232" y="820" skinName="CustomButtomSkin5Skin"/>
+		<e:BitmapLabel id="_txt0" width="20" height="20" x="85" y="586" font="number_7_fnt" text="9" textAlign="center" name="0"/>
+		<e:BitmapLabel id="_txt1" width="20" height="20" x="194" y="586" font="number_7_fnt" text="9" textAlign="center" name="1"/>
+		<e:BitmapLabel id="_txt2" width="20" height="20" x="305" y="586" font="number_7_fnt" text="9" textAlign="center" name="2"/>
+		<e:BitmapLabel id="_txt3" width="20" height="20" x="414" y="586" font="number_7_fnt" text="9" textAlign="center" name="3"/>
+		<e:BitmapLabel id="_txtFlag" width="66" height="40" x="84" y="270" font="number_6_fnt" text="2" textAlign="center"/>
+		
+	</ns1:LayeroutWindowSkin>
+	
+	
+	
+	
+</e:Skin>

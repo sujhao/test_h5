@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AwakeScoreWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" height="728" width="611">
+		<ns1:CustomImage x="6" y="46" source="awakeScore_json.awakeScoreBg" anchorOffsetX="0" width="597"/>
+		<ns1:CustomLabel text="评级说明：\n 1.所有伙伴全身穿戴的觉醒装备进行评级\n 2.评级可百分比提高觉醒装备的基础属性，不提高觉醒技能\n 3.评级影响进入跨服觉醒boss的资格，评级不足无法进入\n 评级规则：\n 1.以60级觉醒装备为6分，每提升10级或1转，评分提高1分\n 2.评分每提高24分，评级增加1级" x="23" y="537" size="18" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="563" anchorOffsetY="0" height="167" lineSpacing="5" textColor="0xeaa15d"/>
+		<ns1:CustomLabel id="txtCareer" text="道士觉醒装备" x="212" y="492" size="18" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="179" anchorOffsetY="0" height="25" lineSpacing="4" textColor="0x3af218" textAlign="center"/>
+		<ns1:CustomLabel id="txtNext" text="下次提升需要评分：0" x="164" y="200" size="18" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="276" anchorOffsetY="0" lineSpacing="4" textAlign="center" textColor="0xe9ef17"/>
+		<ns1:CustomLabel id="txtTotal" text="三角色总评级：0" x="164" y="68" size="20" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="276" anchorOffsetY="0" lineSpacing="4" textAlign="center" textColor="0xed9717"/>
+		<ns1:CustomImage id="btnLeft" x="26" y="290" source="awakeScore_json.arrow1"/>
+		<ns1:CustomImage id="btnRight" x="541" y="297" source="awakeScore_json.arrow2"/>
+		<e:Group id="equipCon" width="446" height="236" x="80" y="229" anchorOffsetX="0" anchorOffsetY="0">
+		</e:Group>
+		<ns1:AwakeScoreAddItem id="numCur" width="101" height="30" x="180" y="153" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:AwakeScoreAddItem id="numNext" width="101" height="30" x="329" y="153" anchorOffsetX="0" anchorOffsetY="0"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

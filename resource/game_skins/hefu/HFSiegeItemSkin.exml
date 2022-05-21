@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HFSiegeItemSkin" width="578" height="161" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="HFSiege_json.HFSiege_itembg"/>
+	<ns1:CustomLabel id="_txtDesc" text="BOSS积" x="8" y="8.5" size="20" fontFamily="Microsoft YaHei" width="500" textColor="0x00d228"/>
+    <ns1:CustomButton id="_btnOK" label="领取" x="447" y="67.5" skinName="CustomButtonSkin7Skin" anchorOffsetX="0" width="117" height="47"/>
+	<e:Group id="_itemContainer" width="372" height="91" x="11" y="48" anchorOffsetY="0" anchorOffsetX="0"/>
+</e:Skin>

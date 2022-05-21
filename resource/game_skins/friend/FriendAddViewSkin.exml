@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendAddViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"
+        height="333">
+	<ns1:LayeroutWindowSkin height="100%" id="panelSkin" skinName="CustomSmallWindowSkinSkin" anchorOffsetY="0" x="0"
+	                        anchorOffsetX="0">
+		<ns1:CustomLabel text="输入姓名" x="88" y="163.5" textColor="0xdda66b" size="20" />
+		<ns1:CustomImage source="textInput_bg" width="233" x="188" y="155.5" />
+		<e:EditableText id="txtName" width="209" height="24" text="请输入玩家姓名" x="193" y="161" size="20" textColor="0x939393"
+		                anchorOffsetX="0" anchorOffsetY="0" />
+		<ns1:CustomButton id="btnAdd" label="添加" x="430" y="149" width="122" height="48" skinName="CustomButtonSkin3Skin" />
+		<ns1:CustomButton id="returnButton" label="" right="5" bottom="6">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="share_json.share_btnReturn" source.down="share_json.share_btnReturn" source.disabled="share_json.share_btnReturn" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

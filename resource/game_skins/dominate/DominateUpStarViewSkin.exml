@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DominateUpStarViewSkin" width="579" height="745" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+    <ns1:CustomImage source="dominate_json.dominate_bg"  />
+    <ns1:CustomImage x="167" y="67" source="share_json.share_fpowerBg" />
+    <ns1:CustomImage x="93.5" y="139" source="dominate_json.dominate_border" />
+    <ns1:CustomImage x="134.5" y="155" source="dominate_json.dominate_word3" />
+    <ns1:CustomImage x="332" y="155" source="dominate_json.dominate_word2" />
+    <e:BitmapLabel id="_txtFpower" width="200" height="29" x="266" y="89" font="number_0_fnt" text="34234324"
+                   anchorOffsetY="0" />
+    <ns1:CustomLabel id="_txtPro" text="攻击：+1000防御：攻击：+1000防御：攻击：+1000防御：" x="120" y="207" size="18"
+                     fontFamily="Microsoft YaHei" anchorOffsetX="0" width="155" wordWrap="true" anchorOffsetY="0"
+                     height="107" lineSpacing="5" textColor="0xe7d0b7" />
+    <ns1:CustomLabel id="_txtProNext" text="攻击：+1000防御：" x="338" y="207" size="18" fontFamily="Microsoft YaHei"
+                     anchorOffsetX="0" width="155" wordWrap="true" anchorOffsetY="0" height="107" lineSpacing="5"
+                     textColor="0x00d228" />
+    <ns1:CustomImage x="272" y="247" source="dominate_json.dominate_rightArrow" />
+    <e:Group id="_starContainer" width="450" height="45" x="58" y="367" anchorOffsetY="0" />
+    <e:Group id="_itemContainer" width="540" height="104" x="18" y="619" anchorOffsetY="0" anchorOffsetX="0" />
+    <ns1:CustomImage id="_imageSelected" x="342" y="600" source="share_json.share_itemSelected" />
+    <ns1:CustomImage x="206" y="418" width="183" height="35" source="comp_json.textInput_bg" scale9Grid="5,4,132,26" />
+    <ns1:CustomLabel text="需求等级：" x="115" y="426" size="18" fontFamily="Microsoft YaHei" textColor="0xe7d0b7" />
+    <ns1:CustomLabel id="_txtlv" text="111111" x="212" y="426" size="18" fontFamily="Microsoft YaHei"
+                     textColor="0xE7D0B7" width="170" textAlign="center" />
+    <ns1:CustomLabel id="_txtLink" text="获得主宰碎片" x="408" y="457" size="18" fontFamily="Microsoft YaHei" width="122"
+                     textAlign="left" textColor="0x00d228" />
+    <ns1:CustomImage x="206" y="457" width="183" height="35" source="comp_json.textInput_bg" scale9Grid="5,4,132,26" />
+    <ns1:CustomLabel id="_txtConLabel" text="消耗主宰碎片：" x="79" y="465" size="18" fontFamily="Microsoft YaHei"
+                     textColor="0xE7D0B7" />
+    <ns1:CustomLabel id="_txtCount" text="111111" x="211" y="464" size="18" fontFamily="Microsoft YaHei"
+                     textColor="0xE7D0B7" width="170" textAlign="center" />
+    <ns1:CustomImage x="206" y="495" width="183" height="35" source="comp_json.textInput_bg" scale9Grid="5,4,132,26" />
+    <ns1:CustomLabel text="成功几率：" x="115" y="503" size="18" fontFamily="Microsoft YaHei" textColor="0xE7D0B7" />
+    <ns1:CustomLabel id="_txtRate" text="111111" x="212" y="503" size="18" fontFamily="Microsoft YaHei"
+                     textColor="0xE7D0B7" width="170" textAlign="center" />
+    <ns1:CustomButton id="_btnOK" label="激活" x="222" y="558" skinName="CustomButtonSkin2Skin" />
+</e:Skin>

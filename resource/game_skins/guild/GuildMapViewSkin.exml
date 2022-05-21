@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildMapViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage id="down_6" x="278" y="324" source="guildMapSelect_6" name="down_6"/>
+	<ns1:CustomImage id="down_1" x="63" y="50" source="guildMapSelect_1" name="down_1"/>
+	<ns1:CustomImage id="down_2" x="343" y="54" source="guildMapSelect_2" name="down_2"/>
+	<ns1:CustomImage id="down_3" x="438" y="217" source="guildMapSelect_3" name="down_3"/>
+	<ns1:CustomImage id="down_4" x="122" y="416" source="guildMapSelect_4" name="down_4" visible="false"/>
+	<ns1:CustomImage id="down_5" x="430" y="422" source="guildMapSelect_5" name="down_5"/>
+	<ns1:CustomImage id="down_7" y="618" source="guildMapSelect_7" name="down_7"/>
+	<ns1:CustomImage id="down_8" x="509" y="693" source="guildMapSelect_8" name="down_8"/>
+	<ns1:CustomButton id="Btn_1" label="" x="40" y="150" name="Btn_1">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="resource/assets/icon/guild/guildMapBtn_1.png" source.down="resource/assets/icon/guild/guildMapBtn_1.png" source.disabled="resource/assets/icon/guild/guildMapBtn_1.png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton label="" x="360" y="125" id="Btn_2" name="Btn_2">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="resource/assets/icon/guild/guildMapBtn_2.png" source.down="resource/assets/icon/guild/guildMapBtn_2.png" source.disabled="resource/assets/icon/guild/guildMapBtn_2.png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton label="" x="536" y="306" id="Btn_3" name="Btn_3">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="resource/assets/icon/guild/guildMapBtn_3.png" source.down="resource/assets/icon/guild/guildMapBtn_3.png" source.disabled="resource/assets/icon/guild/guildMapBtn_3.png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton label="" x="68" y="409" id="Btn_4" name="Btn_4" visible="false">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="resource/assets/icon/guild/guildMapBtn_4.png" source.down="resource/assets/icon/guild/guildMapBtn_4.png" source.disabled="resource/assets/icon/guild/guildMapBtn_4.png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton label="" x="536" y="488" id="Btn_5" name="Btn_5">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="resource/assets/icon/guild/guildMapBtn_5.png" source.down="resource/assets/icon/guild/guildMapBtn_5.png" source.disabled="resource/assets/icon/guild/guildMapBtn_5.png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton label="" x="240" y="465" id="Btn_6" name="Btn_6">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="resource/assets/icon/guild/guildMapBtn_6.png" source.down="resource/assets/icon/guild/guildMapBtn_6.png" source.disabled="resource/assets/icon/guild/guildMapBtn_6.png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton label="" x="96" y="670" id="Btn_7" name="Btn_7">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="resource/assets/icon/guild/guildMapBtn_7.png" source.down="resource/assets/icon/guild/guildMapBtn_7.png" source.disabled="resource/assets/icon/guild/guildMapBtn_7.png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="Btn_8" label="" x="493" y="770" name="Btn_8">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="resource/assets/icon/guild/guildMapBtn_8.png" source.down="resource/assets/icon/guild/guildMapBtn_8png" source.disabled="resource/assets/icon/guild/guildMapBtn_8.png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="btnReturn" label="" x="553" y="858">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="share_json.share_btnReturn" source.down="share_json.share_btnReturn" source.disabled="share_json.share_btnReturn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+</e:Skin>

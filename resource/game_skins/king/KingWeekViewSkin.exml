@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KingRankViewSkin" width="578" height="755" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="share_titleBg" width="100%" y="356"/>
+	<ns1:CustomImage source="share_titleBg" width="100%"/>
+	<ns1:CustomLabel text="天梯奖励明细" horizontalCenter="0" y="365" size="18" textColor="0xDDA66B" bold="true"/>
+	<ns1:CustomLabel text="上周钻石前5名额外奖励"  horizontalCenter="0" y="9" size="18" textColor="0xDDA66B" bold="true"/>
+	<e:Scroller width="578" height="320" y="37" anchorOffsetX="0" anchorOffsetY="0">
+		<e:DataGroup id="ranklist" itemRenderer="KingWeekItem"/>
+	</e:Scroller>
+	<e:Scroller width="578" height="300" y="392" anchorOffsetX="0" anchorOffsetY="0">
+		<e:DataGroup id="ranklist2" itemRenderer="KingWeekItem2"/>
+	</e:Scroller>
+	<ns1:CustomImage y="690" source="share_titleBg3" width="100%" height="70"/>
+	<ns1:CustomImage y="711" x="47" source="kingTxt_bz"/>
+	<ns1:CustomImage y="711" x="264" source="kingTxt_sz"/>
+	<ns1:CustomImage id="icon" y="702" x="156" source="kingType_s_1"/>
+	<ns1:CustomImage id="icon2" y="702" x="374" source="kingType_s_1"/>
+	<ns1:CustomButton id="btnGet" label="领取" x="451" y="699" skinName="CustomButtonSkin7Skin" width="117" height="47"/>
+	<e:BitmapLabel id="txtLv" x="182" y="714" text="5" font="number_2_fnt"/>
+	<e:BitmapLabel id="txtLv2" x="400" y="714" text="5" font="number_2_fnt"/>
+	<ns1:CustomLabel id="txtTips" text="钻石前5名，虚位以待" y="195" horizontalCenter="0" size="18" textColor="0xE7D0B7" bold="true" textAlign="left"/>
+</e:Skin>

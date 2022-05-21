@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QQFriendInviteViewSkin" width="577" height="678" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller width="576" height="531" y="37" anchorOffsetX="0" anchorOffsetY="0">
+		<e:DataGroup id="_itemContainer" itemRenderer="QQFriendRankItem"/>
+	</e:Scroller>
+	<ns1:CustomImage x="0" y="0" source="share_titleBg" width="107" anchorOffsetX="0"/>
+	<ns1:CustomImage x="107" source="share_titleBg" width="275"/>
+	<ns1:CustomImage x="382" y="0" source="share_titleBg" width="195"/>
+	<ns1:CustomLabel text="排名" x="39" y="9" size="18" textColor="0xDDA66B" bold="true"/>
+	<ns1:CustomLabel text="名称" x="226" y="9" size="18" textColor="0xDDA66B" bold="true"/>
+	<ns1:CustomLabel text="等级" x="461" y="9" size="18" textColor="0xDDA66B" bold="true"/>
+	<ns1:CustomImage x="0" y="568" width="577" source="share_titleBg3" height="115" scale9Grid="208,19,45,17" anchorOffsetX="0"/>
+	<ns1:CustomImage x="0" y="545" anchorOffsetX="0" source="QQFriendRank_head"/>
+	<ns1:CustomLabel id="txtDes" text="你在75名好友中排行第" x="115" y="612" size="20" bold="true" textColor="0xe7d0b7"/>
+	<ns1:CustomLabel text="好棒哦！" x="385" y="612" size="20" textColor="0xE7D0B7" bold="true"/>
+	<e:BitmapLabel id="txtRank" x="346" y="605" text="1" font="number_0_fnt"/>
+	<ns1:CustomButton id="btnGet" label="炫耀" x="467" y="600" skinName="CustomButtonSkin7Skin" visible="false"/>
+</e:Skin>

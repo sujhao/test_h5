@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KaiFuReChargeViewSkin" width="577" height="678"  xmlns:ns1="*" xmlns:e="http://ns.egret.com/eui">
+    <ns1:CustomImage x="0" y="204" source="share_json.share_titleBg" anchorOffsetX="0" width="380" />
+    <ns1:CustomImage x="380" y="204" source="share_json.share_titleBg" anchorOffsetX="0" width="200" />
+    <ns1:CustomLabel text="奖励" x="159" y="213" size="20" bold="true" textColor="0x866745" />
+    <ns1:CustomLabel text="目标" x="459" y="213" size="20" bold="true" textColor="0x866745" />
+    <e:Scroller id="_scroll" width="575" height="358" x="3" y="242" anchorOffsetX="0" anchorOffsetY="0">
+        <e:DataGroup id="_itemContainer" itemRenderer="KFHDReChargeItem" />
+    </e:Scroller>
+    <e:Group id="_imageContainer" width="576" height="184" x="1" y="0" anchorOffsetY="0" anchorOffsetX="0">
+        <ns1:CustomLabel id="_txtTime" text="标签" x="139" y="66" anchorOffsetX="0" width="300" size="22"
+                         textColor="0xffd200" bold="true"  visible="false"/>
+        <ns1:CustomLabel id="_txtValue" text="标签" x="396" y="66" anchorOffsetX="0" width="166" size="22"
+                         textColor="0xFFD200" bold="true" textAlign="left" />
+        <ns1:CustomButton id="_btnGoTo" label="前往" x="438" y="120" skinName="CustomButtonSkin3Skin" width="122" />
+    </e:Group>
+</e:Skin>

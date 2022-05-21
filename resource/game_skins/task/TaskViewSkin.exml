@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TaskViewSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="260">
+	<ns1:CustomImage id="icon" source="mainUI_json.mainUI_taskIcon3" x="13"/>
+	<ns1:CustomLabel id="txtContent" text="强化装备" y="39" size="16" textColor="0xffd800" width="100%" bold="true" textAlign="center"/>
+	<ns1:CustomLabel id="txtContent2" text="金币*10000" y="58" size="16" textColor="0xffffff" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="21" bold="true" textAlign="center"/>
+</e:Skin>

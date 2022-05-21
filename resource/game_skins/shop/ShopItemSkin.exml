@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopItemSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage x="0" y="0" source="share_json.share_listItemBg" height="72"/>
+	<ns1:CustomLabel text="技能：" x="240" anchorOffsetX="0" anchorOffsetY="0" size="20" textColor="0xDDA66B" bold="true" verticalCenter="0"/>
+	<ns1:CustomLabel id="txtSkill" text="强化LV" x="299" anchorOffsetX="0" anchorOffsetY="0" height="20" size="20" textColor="0xE7D0B7" bold="true" verticalCenter="0"/>
+	<ns1:CustomImage id="nameBg"  x="10" y="18" source="mallNameBg_3"/>
+	<ns1:CustomLabel id="itemName" x="23" y="27" text="物品" size="20" textColor="0xe7d0b7" bold="true"/>
+	<ns1:CustomButton id="btnBuy" label="" x="407" width="145" skinName="CustomButtonSkin7Skin" verticalCenter="0"/>
+	<ns1:CustomImage  x="415" y="24" source="image_gold" touchEnabled="false"/>
+	<ns1:CustomLabel id="txtCost" text="1010" x="450" anchorOffsetX="0" anchorOffsetY="0" height="20" size="20" textColor="0xE7D0B7" bold="true" verticalCenter="1" y="36" width="100" textAlign="center" touchEnabled="false"/>
+</e:Skin>

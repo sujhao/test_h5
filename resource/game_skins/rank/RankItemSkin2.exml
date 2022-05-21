@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="RankItemSkinSkin2" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage id="itemBg" source="share_lineBg" width="580"/>
+	<ns1:CustomLabel id="txtName" text="名字一个七位数" x="137" y="24" size="18" textColor="0xe7d0b7" bold="true" width="140" textAlign="left"/>
+	<ns1:CustomLabel id="txtValue" text="1000关" y="24" size="18" bold="true" textColor="0xffd200" width="110" textAlign="center" right="0"/>
+	<ns1:CustomImage id="vipMonth" width="20" height="20" x="117" y="25" source="comp_vip_month"/>
+	<ns1:CustomImage id="vipIcon" x="76" y="14" source="comp_vip"/>
+	<e:BitmapLabel id="vipNum" x="97" y="32" font="number_vip_fnt" text="10"/>
+	<ns1:CustomLabel id="txtFight" text="999999" x="305" y="24" size="18" textColor="0x00d228" bold="true" width="160" textAlign="center"/>
+	<ns1:CustomLabel id="txtRank" text="100" y="22" size="20" textColor="0xe7d0b7" width="80" textAlign="center" bold="true"/>
+
+	<w:Config id="15aeeabdf65" ></w:Config>
+</e:Skin>

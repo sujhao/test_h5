@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="MailListItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="582" height="90">
+	<ns1:CustomImage  x="0" y="0" source="share_json.share_listItemBg" height="87" width="582"/>
+	<ns1:CustomLabel id="txtName" x="107" y="19" anchorOffsetX="0" width="320" size="18" textColor="0xe7d0b7" text="名字"/>
+	<ns1:CustomLabel id="txtTime" text="时间" x="107" y="44" anchorOffsetX="0" width="320" size="18" textColor="0xE7D0B7"/>
+	<ns1:CustomLabel id="txtNo" text="（附件未领取）" x="429" y="34" anchorOffsetX="0" width="131" size="18" anchorOffsetY="0" height="19" textColor="0xffd200"/>
+	<ns1:CustomImage id="mailIcon"  x="24" y="19" source="mailIcon_yes"/>
+
+	<w:Config id="15a3a7d7cbd" ></w:Config>
+</e:Skin>

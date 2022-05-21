@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MallListItemSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="118" width="580">
+	<ns1:CustomImage x="0" y="0" source="share_json.share_listItemBg" width="580" height="117"/>
+	<ns1:CustomImage id="nameBg"  x="125" y="14" source="mallNameBg_3"/>
+	<ns1:CustomLabel id="itemName" x="138" y="23" text="物品" size="20" textColor="0xe7d0b7" bold="true"/>
+	<ns1:CustomButton id="btnBuy" label="购买" x="428" y="25" width="117" height="47" skinName="CustomButtonSkin7Skin"/>
+	<ns1:GoodsItem id="item"  x="15" y="13"/>
+	<ns1:CustomImage id="mallIcon"  x="129" y="75" source="mainUI_json.image_gold2"/>
+	<ns1:CustomLabel id="txtSale" text="99" x="180" y="81" size="18" textColor="0xe7d0b7" bold="true"/>
+</e:Skin>

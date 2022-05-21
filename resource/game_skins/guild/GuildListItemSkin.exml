@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="GuildListItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage width="567" height="112" source="share_bg2" scale9Grid="12,9,82,140"/>
+	<ns1:CustomImage x="55" source="guild_line" y="6"/>
+	<ns1:CustomLabel id="txtIndex" text="1" x="8" y="44" size="22" textColor="0xe7d0b7" anchorOffsetX="0" width="40" anchorOffsetY="0" height="21" bold="true" textAlign="center" verticalCenter="0"/>
+	<ns1:CustomImage x="56.5" y="15" source="guild_jztitleBg"/>
+	<ns1:CustomButton id="btnGet" label="申请" x="429" y="50" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomLabel id="txtName" text="帮派名字" x="68" y="23" size="18" bold="true" textColor="0xffd200"/>
+	<ns1:CustomLabel text="会长：" x="65" y="67" size="18" textColor="0xdda66b" bold="true" anchorOffsetY="0" height="22"/>
+	<ns1:CustomLabel id="txtRoleName" text="会长名字" x="121" y="67" size="18" bold="true" anchorOffsetY="0" height="22" textColor="0xe7d0b7"/>
+	<ns1:CustomLabel text="人数：" x="287" y="67" size="18" textColor="0xDDA66B" bold="true" anchorOffsetY="0" height="22"/>
+	<ns1:CustomLabel id="txtNum" text="0/50" x="343" y="67" size="18" textColor="0xE7D0B7" bold="true" anchorOffsetY="0" height="22"/>
+	<ns1:CustomLabel text="限制战斗力：" x="359" y="21.5" size="18" textColor="0xDDA66B" bold="true" anchorOffsetY="0" height="22"/>
+	<ns1:CustomLabel id="txtFight" text="999999" x="464" y="21.5" size="18" textColor="0xE7D0B7" bold="true" anchorOffsetY="0" height="22"/>
+
+	<w:Config id="15a9388ae87" ></w:Config>
+</e:Skin>

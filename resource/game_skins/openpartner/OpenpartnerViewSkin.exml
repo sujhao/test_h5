@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OpenpartnerViewSkin" width="580" height="828" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+    <ns1:CustomImage source="openpartner_json.openpartner_bg" />
+    <e:Group id="_itemContainer" width="550" height="460" x="-8" y="3" anchorOffsetX="0" anchorOffsetY="0" />
+    <ns1:CustomImage x="13" y="446" source="openpartner_json.openpartner_border2" />
+    <ns1:CustomImage x="84" y="450" source="openpartner_json.openpartner_word1" />
+    <ns1:CustomImage id="_btnSex1" x="184" y="517" source="openpartner_json.openpartner_sex1_1" />
+    <ns1:CustomImage id="_btnSex2" x="324" y="517" source="openpartner_json.openpartner_sex2_1" />
+    <ns1:CustomImage x="17" y="590" id="_btnSex0" source="openpartner_json.openpartner_border1" />
+    <ns1:CustomImage id="_imageDesc" x="147" y="626" source="openpartner_json.openpartner_word2" />
+    <ns1:CustomImage id="_imageCount" x="350" y="626" source="openpartner_json.openpartner_word5" />
+    <ns1:CustomLabel id="_txtCon" text="标签" x="91" y="603" size="18" fontFamily="Microsoft YaHei" textColor="0xe7d0b7"
+                     width="400" textAlign="center" />
+    <ns1:CustomButton id="_btnOK" label="开启" x="236" y="694"  height="48"/>
+</e:Skin>

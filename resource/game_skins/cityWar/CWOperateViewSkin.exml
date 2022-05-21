@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CWOperateViewSkin" width="487" height="91" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="cityWar_json.cityWar_bg8" x="45"/>
+	<ns1:CustomButton id="_btnHelp" label="" y="21">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="cityWar_json.cityWar_wenHao" source.down="cityWar_json.cityWar_wenHao" source.disabled="cityWar_json.cityWar_wenHao"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomLabel text="我的积分" x="361" y="12" size="18" textColor="0x07AE22" bold="true"/>
+	<ns1:CustomLabel id="_txtPoint" text="0" x="355" y="51" size="18" textColor="0x07AE22" bold="true" width="100" textAlign="center"/>
+	<e:Group id="_containerFront" width="140" height="66" x="197" y="9" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:CustomButton id="_btnFront" label="" y="1" x="-4" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="cityWar_json.cityWar_btnFront" source.down="cityWar_json.cityWar_btnFront" source.disabled="cityWar_json.cityWar_btnFront"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomLabel id="_txtConsume" text="(消耗15积分)" x="0" y="41" size="18" textColor="0x07ae22" bold="true" scaleX="1" scaleY="1" width="136" textAlign="center"/>
+		<ns1:CustomLabel id="_txt1" text="当前采集公会：" x="8" y="11" size="18" textColor="0x07AE22" bold="true" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<ns1:CustomButton id="_btnBack" label="" x="52" y="25">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="cityWar_json.cityWar_btnBack" source.down="cityWar_json.cityWar_btnBack" source.disabled="cityWar_json.cityWar_btnBack"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<e:Group id="_containerAttack" width="118" height="103" x="69" y="-19" anchorOffsetY="0" anchorOffsetX="0">
+		<ns1:CustomImage x="13" y="-11" source="cityWar_json.cityWar_boss"/>
+		<ns1:CustomButton id="_btnAttack" label="" x="11" y="60">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="cityWar_json.cityWar_attackBtn" source.down="cityWar_json.cityWar_attackBtn" source.disabled="cityWar_json.cityWar_attackBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+	</e:Group>
+</e:Skin>

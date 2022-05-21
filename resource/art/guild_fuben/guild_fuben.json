@@ -1,0 +1,7 @@
+{"file":"guild_fuben.png","frames":{
+"guild_fubenBg":{"x":0,"y":0,"w":577,"h":752,"offX":0,"offY":0,"sourceW":577,"sourceH":752},
+"guild_fubenTitleBg":{"x":0,"y":1165,"w":127,"h":34,"offX":0,"offY":0,"sourceW":127,"sourceH":34},
+"guild_fubenBtn":{"x":0,"y":1203,"w":93,"h":37,"offX":0,"offY":0,"sourceW":93,"sourceH":37},
+"guild_fubenBtn2":{"x":131,"y":1165,"w":93,"h":37,"offX":0,"offY":0,"sourceW":93,"sourceH":37},
+"guild_fubenSaoBg":{"x":0,"y":756,"w":524,"h":405,"offX":0,"offY":0,"sourceW":524,"sourceH":405},
+"guild_fubenSaoIcon":{"x":97,"y":1203,"w":12,"h":12,"offX":0,"offY":0,"sourceW":12,"sourceH":12}}}

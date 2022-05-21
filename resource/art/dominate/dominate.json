@@ -1,0 +1,9 @@
+{"file":"dominate.png","frames":{
+"dominate_word2":{"x":679,"y":206,"w":92,"h":23,"offX":0,"offY":0,"sourceW":92,"sourceH":23},
+"dominate_word3":{"x":775,"y":206,"w":91,"h":23,"offX":0,"offY":0,"sourceW":91,"sourceH":23},
+"dominate_bg":{"x":0,"y":0,"w":579,"h":755,"offX":0,"offY":0,"sourceW":579,"sourceH":755},
+"dominate_border":{"x":583,"y":0,"w":432,"h":202,"offX":0,"offY":0,"sourceW":432,"sourceH":202},
+"dominate_rightArrow":{"x":870,"y":206,"w":37,"h":35,"offX":0,"offY":0,"sourceW":37,"sourceH":35},
+"dominate_word1":{"x":583,"y":206,"w":92,"h":23,"offX":0,"offY":0,"sourceW":92,"sourceH":23},
+"dominate_bg2":{"x":0,"y":759,"w":577,"h":745,"offX":0,"offY":0,"sourceW":577,"sourceH":745},
+"dominate_advStarBg":{"x":0,"y":1508,"w":575,"h":41,"offX":0,"offY":0,"sourceW":575,"sourceH":41}}}

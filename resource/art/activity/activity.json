@@ -1,0 +1,10 @@
+{"file":"activity.png","frames":{
+"qqvipBtn_reward":{"x":82,"y":295,"w":96,"h":81,"offX":1,"offY":0,"sourceW":98,"sourceH":82},
+"qqvipBtn_shop":{"x":82,"y":380,"w":95,"h":81,"offX":1,"offY":0,"sourceW":97,"sourceH":82},
+"superVip_btn":{"x":181,"y":380,"w":141,"h":37,"offX":0,"offY":0,"sourceW":141,"sourceH":37},
+"superVip_txt":{"x":746,"y":0,"w":222,"h":37,"offX":0,"offY":0,"sourceW":222,"sourceH":37},
+"superVip_title":{"x":0,"y":161,"w":658,"h":130,"offX":0,"offY":0,"sourceW":658,"sourceH":130},
+"superVip_bg2":{"x":0,"y":0,"w":580,"h":157,"offX":0,"offY":0,"sourceW":580,"sourceH":157},
+"superVip_btn_dis":{"x":82,"y":465,"w":141,"h":37,"offX":0,"offY":0,"sourceW":141,"sourceH":37},
+"activitySendGoldBtn_up":{"x":662,"y":0,"w":80,"h":228,"offX":0,"offY":0,"sourceW":80,"sourceH":232},
+"activitySendGoldBtn_down":{"x":0,"y":295,"w":78,"h":212,"offX":2,"offY":0,"sourceW":80,"sourceH":232}}}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExnobilityViewSkin" width="580" height="744" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="exnobility_json.exnobility_bg" />
+	<ns1:CustomImage x="196" y="22" source="exnobility_json.exnobility_nameBg" />
+	<ns1:CustomImage x="181" y="66" source="share_json.share_fpowerBg" />
+	<ns1:CustomImage x="379" y="161" source="exnobility_json.exnobility_word2" />
+	<e:BitmapLabel id="_txtFPower" width="175" height="33" x="285" y="88" text="" font="number_0_fnt"  anchorOffsetX="0"/>
+	<ns1:CustomImage x="140" y="161" source="exnobility_json.exnobility_word3"/>
+	<ns1:CustomLabel id="_txtPro" text="" x="108" y="172" size="18" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="172" wordWrap="true" anchorOffsetY="0" height="130" textColor="0xe7d0b7" lineSpacing="5"/>
+	<ns1:CustomLabel id="_txtProNext" text="1213123" x="371" y="220" size="18"
+	                 fontFamily="Microsoft YaHei" anchorOffsetX="0" width="172" wordWrap="true" anchorOffsetY="0"
+	                 height="130" lineSpacing="5" textColor="0x00d228" />
+	<ns1:CustomImage x="279" y="212" source="exnobility_json.exnobility_arrow" />
+	<ns1:CustomImage x="184" y="343" source="exnobility_json.exnobility_word" />
+	<ns1:CustomImage x="2" y="379" source="exnobility_json.exnobility_headBg" />
+	<ns1:CustomLabel id="_txtName" text="" x="183" y="34" size="20" fontFamily="Microsoft YaHei"
+	                 textAlign="center" width="222" textColor="0xe7d0b7" stroke="1" strokeColor="0x2b0c00" />
+	<e:Scroller width="567" height="247" x="4" y="423" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="_itemContainer"  x="-223" y="-294"/>
+	</e:Scroller>
+	<ns1:CustomButton id="_btnOK" label="升级" x="230" y="689"  skinName="CustomButtonSkin2Skin"/>
+</e:Skin>

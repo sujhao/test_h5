@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossAllViewSkin" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Scroller width="575" height="645" x="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:DataGroup id="bossList" itemRenderer="BossAllItem"/>
+	</e:Scroller>
+	<ns1:CustomLabel text="挑战次数：" x="146" y="683" size="18" textColor="0xdda66b" bold="true"/>
+	<ns1:CustomLabel id="txtTime" text="恢复时间：24时54分" x="332" y="683" size="18" textColor="0xDDA66B" bold="true"/>
+	<ns1:CustomImage x="238" y="674" source="textInput_bg" anchorOffsetX="0" width="88"/>
+	<ns1:CustomLabel id="txtCount" text="100/100" x="243" y="683" size="18" bold="true" textColor="0x00d228" width="80" textAlign="center"/>
+	<ns1:CustomLabel id="txtTips" text="BOSS提醒设置" x="350" y="625" size="18" textColor="0x00D228" bold="true" width="125" textAlign="center" anchorOffsetX="0" visible="false"/>
+</e:Skin>

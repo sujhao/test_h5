@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="GuildFubenSaoItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="155">
+	<ns1:CustomImage y="125" source="share_contentBg2"/>
+	<ns1:CustomImage x="20" source="share_nameBg2"/>
+	<ns1:CustomImage y="12" x="31" source="guild_fubenSaoIcon"/>
+	<ns1:GoodsItemSmall id="goodItem" x="49" y="39"/>
+	<ns1:CustomLabel id="txtTitle" text="第一关" x="51" y="11" size="18" bold="true" textColor="0xffd200"/>
+
+	<w:Config id="15bfbed9de4" ></w:Config>
+</e:Skin>

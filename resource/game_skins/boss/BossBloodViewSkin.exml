@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossBloodViewSkin" width="540" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage x="1" y="0" source="boss_json.boss_info_bg"/>
+	<ns1:CustomLabel id="_txtLv" text="" x="94" y="26" size="18" textColor="0xffd200" textAlign="center" width="35" height="24"/>
+	<ns1:CustomLabel id="_txtName" text="" x="130" y="29" size="18" width="120" textColor="0xe31101" textAlign="center" bold="true"/>
+	<ns1:CustomImage id="_imageBlood" x="102" y="53" scale9Grid="38,6,292,9" source="boss_json.boss_bloodBar"/>
+	<ns1:CustomLabel id="_txtBlood" text="" x="101" y="54" size="18" textAlign="center" width="351"/>
+	<ns1:CustomLabel id="_txtMyDamage" text="" x="99" y="79" size="18" textColor="0xffd200"/>
+	<ns1:CustomLabel id="_txtFirst" text="" x="189" y="79" size="18" textColor="0xd4bea7" width="235" textAlign="right"/>
+	<ns1:CustomButton id="_btnDown" label="" x="427" y="77">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="boss_json.boss_btnDown" source.down="boss_json.boss_btnDown" source.disabled="boss_json.boss_btnDown"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<e:Group id="_container" width="217" height="200" x="245" y="103" anchorOffsetX="0">
+		<ns1:CustomImage x="0" y="0" source="boss_json.boss_list_bg" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

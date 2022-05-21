@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KfKillerSceneEnemyItemSkin" width="114" height="92" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:HeadItem id="_headItem" x="18"/>
+<ns1:CustomImage y="55" source="kfKillerScene_json.kfKillerScene_nameBg"/>
+	<ns1:CustomLabel id="_txtName" text="Label" x="4" y="62" size="16" textColor="0xe7d0b7" fontFamily="Microsoft YaHei" width="97" textAlign="center"/>
+</e:Skin>

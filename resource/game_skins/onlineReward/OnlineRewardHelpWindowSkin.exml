@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OnlineRewardHelpWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin skinName="CustomSmallWindowSkinSkin" anchorOffsetY="0" height="555" id="panelSkin" y="-1">
+		<ns1:CustomImage x="242.5" y="8" source="cityWar_json.cityWar_helpTitle"/>
+		<ns1:CustomLabel text="活动说明：" x="21" y="60" fontFamily="Microsoft YaHei" size="24" textColor="0xffcf00"/>
+		<ns1:CustomLabel text="1.活动期间，每逢周六、周日，累计在线达到10分钟，30分钟和60分钟可领取奖励\n2.每天每档在线奖励只能领取1次\n3.在线时间越长，奖励越好" x="49" y="100" fontFamily="Microsoft YaHei" size="22" anchorOffsetX="0" width="518" anchorOffsetY="0" height="175" textColor="0xd8996a" lineSpacing="8"/>
+		<ns1:CustomLabel text="10分钟奖励：元宝x10,经验丹x1,金币x3万,材料宝箱x1\n30分钟奖励：元宝x30,经验丹x2,金币x6万,材料宝箱x1\n60分钟奖励：元宝x60,经验丹x3,金币x9万,材料宝箱x1" x="49" y="300" fontFamily="Microsoft YaHei" size="22" anchorOffsetX="0" width="532" anchorOffsetY="0" height="175" textColor="0xD8996A" lineSpacing="8"/>
+		<ns1:CustomLabel text="奖励说明：" x="21" y="260" fontFamily="Microsoft YaHei" size="24" textColor="0xFFCF00"/>
+		<ns1:CustomButton id="_btn" label="" x="559" y="496">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="share_json.share_btnReturn" source.down="share_json.share_btnReturn" source.disabled="share_json.share_btnReturn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

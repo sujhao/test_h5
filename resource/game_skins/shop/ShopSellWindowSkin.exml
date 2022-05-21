@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopSellWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"
+        height="513">
+	<ns1:LayeroutWindowSkin height="100%" id="panelSkin" skinName="CustomSmallWindowSkinSkin" anchorOffsetY="0" x="0"
+	                        anchorOffsetX="0">
+		<ns1:CustomImage width="598" x="12" y="46"  source="comp_json.win_innerBg" scale9Grid="73,96,444,576" anchorOffsetY="0" height="452" anchorOffsetX="0"/>
+		<ns1:CustomImage source="share_json.share_contentBg" y="350" width="597" x="12" anchorOffsetX="0" visible="false"/>
+		<e:Scroller width="592" height="210" y="47" anchorOffsetY="0" x="17" anchorOffsetX="0">
+			<e:DataGroup id="itemList" itemRenderer="ShopSellItem"/>
+		</e:Scroller>
+		<ns1:CustomImage y="266" anchorOffsetY="0" anchorOffsetX="0" source="share_json.share_titleBg3" horizontalCenter="0"/>
+		<ns1:CustomImage source="shop_json.shopTxt" y="277" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0.5"/>
+		<ns1:CustomImage source="share_json.share_contentBg2" y="474" horizontalCenter="0"/>
+		<ns1:GoodsItemSmall id="item" x="74" y="339"/>
+		<ns1:CustomImage id="nameBg" x="158" y="347" source="mallNameBg_3"/>
+		<ns1:CustomLabel id="itemName" x="171" y="356" text="" size="20" textColor="0xE7D0B7" bold="true"/>
+		<ns1:CustomImage x="172" source="image_gold" verticalCenter="149"/>
+		<ns1:CustomLabel id="txtCost" text="0" x="223" size="18" textColor="0xE7D0B7" bold="true" verticalCenter="149.5"/>
+		<ns1:CustomButton id="returnButton" label="" right="5" bottom="6">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="share_json.share_btnReturn" source.down="share_json.share_btnReturn" source.disabled="share_json.share_btnReturn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="btnGet" label="确定上架" x="421" y="359" width="120" skinName="CustomButtonSkin2Skin"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MallContentSkin" width="580" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage  x="0" y="597" width="580" height="153" source="mall_json.mallContentBg2"/>
+	<ns1:CustomButton id="btnBuyAll" label="全部购买" x="127" y="647" skinName="CustomButtonSkin2Skin">
+	</ns1:CustomButton>
+	<ns1:CustomButton id="btnFlush" label="刷新" x="331" y="647" skinName="CustomButtonSkin2Skin">
+	</ns1:CustomButton>
+	<ns1:CustomLabel text="下批商品刷新时间：" x="76" y="622" anchorOffsetX="0" width="175" anchorOffsetY="0" height="25" size="18" textColor="0xdda66b" bold="true"/>
+	<ns1:CustomLabel text="我的积分：" x="38" y="708" anchorOffsetX="0" width="96" anchorOffsetY="0" height="28" size="18" textColor="0xDDA66B" bold="true"/>
+	<ns1:CustomLabel text="我的元宝：" x="306" y="708" anchorOffsetX="0" width="96" anchorOffsetY="0" height="28" size="18" textColor="0xDDA66B" bold="true"/>
+	<ns1:CustomLabel id="txtCost" text="20" x="365" y="622" anchorOffsetX="0" anchorOffsetY="0" height="20" size="18" textColor="0xE7D0B7" bold="true"/>
+	<ns1:CustomLabel id="txtTime" text="0" x="244" y="622" anchorOffsetX="0" anchorOffsetY="0" height="25" size="18" textColor="0xffd200" bold="true"/>
+	<ns1:CustomImage x="429" y="700" source="textInput_bg"/>
+	<ns1:CustomImage x="152" y="700" source="textInput_bg" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ns1:CustomImage x="120" y="705" source="resource/assets/icon/smallPic/7.png"/>
+	<ns1:CustomImage x="389" y="616" source="mainUI_json.image_gold2"/>
+	<e:Scroller width="580" height="605" y="0" anchorOffsetY="0" x="8">
+		<e:DataGroup  id="mallList"  itemRenderer="MallListItem"/>
+	</e:Scroller>
+	<ns1:CustomImage x="388" y="703" source="mainUI_json.image_gold2"/>
+	<ns1:CustomLabel id="txtCost2" text="20" x="442" y="708" anchorOffsetX="0" anchorOffsetY="0" height="20" size="18" textColor="0xE7D0B7" bold="true"/>
+	<ns1:CustomLabel id="txtPoint" text="99999999" x="158" y="708" anchorOffsetX="0" width="96" anchorOffsetY="0" height="20" size="18" textColor="0xe7d0b7" bold="true"/>
+</e:Skin>

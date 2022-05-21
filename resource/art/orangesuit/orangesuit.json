@@ -1,0 +1,11 @@
+{"file":"orangesuit.png","frames":{
+"orangesuit_word2":{"x":583,"y":267,"w":92,"h":23,"offX":0,"offY":0,"sourceW":92,"sourceH":23},
+"orangesuit_arrow":{"x":952,"y":248,"w":37,"h":35,"offX":0,"offY":0,"sourceW":37,"sourceH":35},
+"orangesuit_bg":{"x":0,"y":0,"w":579,"h":756,"offX":0,"offY":0,"sourceW":579,"sourceH":756},
+"orangesuit_border1":{"x":583,"y":206,"w":163,"h":57,"offX":0,"offY":0,"sourceW":163,"sourceH":57},
+"orangesuit_border2":{"x":583,"y":0,"w":432,"h":202,"offX":0,"offY":0,"sourceW":432,"sourceH":202},
+"orangesuit_word1":{"x":679,"y":290,"w":91,"h":23,"offX":0,"offY":0,"sourceW":91,"sourceH":23},
+"orangesuit_equipName3":{"x":750,"y":206,"w":125,"h":38,"offX":0,"offY":0,"sourceW":125,"sourceH":38},
+"orangesuit_equipName1":{"x":879,"y":206,"w":123,"h":38,"offX":0,"offY":0,"sourceW":123,"sourceH":38},
+"orangesuit_equipName2":{"x":750,"y":248,"w":121,"h":38,"offX":0,"offY":0,"sourceW":121,"sourceH":38},
+"orangesuit_title":{"x":875,"y":248,"w":73,"h":39,"offX":0,"offY":0,"sourceW":73,"sourceH":39}}}

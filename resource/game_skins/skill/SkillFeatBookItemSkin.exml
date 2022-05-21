@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="SkillFeatBookItemSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="112">
+	<ns1:CustomImage width="582" scale9Grid="12,19,78,120" height="112" source="achievement_json.achievement_itemBg"/>
+	<ns1:CustomLabel id="txtDes" text="描述" x="123" y="14" size="20" bold="true" anchorOffsetX="0" width="434" anchorOffsetY="0" height="84" lineSpacing="10" textColor="0xe7d0b7"/>
+	<w:Config id="15af90168d6" ></w:Config>
+</e:Skin>

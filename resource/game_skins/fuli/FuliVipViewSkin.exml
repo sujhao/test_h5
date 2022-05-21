@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliVipViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="resource/assets/icon/fuli/fuli_vip1.png" x="15" y="15"/>
+	<ns1:CustomImage y="152" x="15" source="resource/assets/icon/fuli/fuli_vip2.png"/>
+	<ns1:CustomImage y="289" x="15" source="resource/assets/icon/fuli/fuli_vip3.png"/>
+	<ns1:CustomImage y="426" x="15" source="resource/assets/icon/fuli/fuli_vip4.png"/>
+	<ns1:CustomButton id="btnGet" label="购买月卡" x="226" y="607" skinName="CustomButtomSkin5Skin"/>
+	<ns1:CustomLabel id="txtTimeTitle" text="剩余时间：" x="185" y="668" anchorOffsetX="0" width="95" anchorOffsetY="0" height="25" size="18" textColor="0xDDA66B"/>
+	<ns1:CustomLabel id="txtTime" text="0" x="275" y="668" anchorOffsetX="0" anchorOffsetY="0" height="25" size="18" textColor="0xFFD200"/>
+</e:Skin>

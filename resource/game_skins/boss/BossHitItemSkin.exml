@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="BossHitItemSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage source="share_line" y="47"/>
+	<ns1:CustomLabel id="txtRank" text="1人" x="35" y="16" size="18" bold="true" textColor="0xe7d0b7" width="105" textAlign="center"/>
+	<ns1:CustomLabel id="txtName" text="1人" x="210" y="16" size="18" bold="true" textColor="0xE7D0B7" width="140" textAlign="center"/>
+	<ns1:CustomLabel id="txtValue" text="1人" x="410" y="16" size="18" bold="true" textColor="0xE7D0B7" width="140" textAlign="center"/>
+
+	<w:Config id="15aca92fc84" ></w:Config>
+</e:Skin>

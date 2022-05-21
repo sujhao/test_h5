@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KFHDPaiMingSkin" width="581" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="resource/assets/icon/huoDongDaily/kfhd_daBiaoBg.png"/>
+	<ns1:CustomImage x="313.5" y="383" source="kaiFuHuoDong_json.kfhd_standardBg2"/>
+	<ns1:CustomImage x="307" y="154" source="kaiFuHuoDong_json.kfhd_paiMingTxt"/>
+	<e:Group id="_imageContainer" width="552" height="129" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0">
+		<ns1:CustomLabel id="_txtTime" text="时间" x="295" y="16" size="20" bold="true" textColor="0xC78002"/>
+	</e:Group>
+	<ns1:CustomButton id="_btn" label="查看名人堂" x="227" y="624" skinName="CustomButtonSkin6Skin" width="140" anchorOffsetY="0" height="61"/>
+	<ns1:CustomLabel id="_txtPlayerName" text="标签" x="335" y="196" width="200" textAlign="center" size="22"/>
+	<ns1:CustomLabel id="_txtLv" text="标签" x="335" y="396" width="200" textAlign="center" size="22"/>
+	<e:Image id="_firstRound" source="kaiFuHuoDong_json.kfhd_paiMingRound" x="366" y="233"/>
+</e:Skin>

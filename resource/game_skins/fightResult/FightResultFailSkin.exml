@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FightResultFailSkin" width="578" height="935" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="fr_failBg"/>
+	<ns1:CustomImage id="_imageHead" x="71" y="154" source="fightResult_json.fr_txt1"/>
+	<e:Scroller width="455" height="125" x="70" y="193" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="_goodsContainer" x="0" y="0"/>
+	</e:Scroller>
+	<ns1:CustomButton id="_btn" label="退出" x="185.5" y="776" skinName="CustomButtonSkin4Skin"/>
+	<e:Group id="_allContainer" width="200" height="200" x="52" y="345">
+		<ns1:CustomButton id="_btnStone" label="" x="9" y="62" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fightResultBtn_stone" source.down="fightResultBtn_stone" source.disabled="fightResultBtn_stone"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="_btnStrength" label="" x="129" y="62" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fightResultBtn_streng" source.down="fightResultBtn_streng" source.disabled="fightResultBtn_streng"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="_btnDragon" label="" x="249" y="62" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fightResultBtn_lh" source.down="fightResultBtn_lh" source.disabled="fightResultBtn_lh"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="_btnLiLian" label="" x="368.5" y="62" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fightResultBtn_ll" source.down="fightResultBtn_ll" source.disabled="fightResultBtn_ll"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomImage x="184" y="9" source="fr_txt2" scaleX="1" scaleY="1"/>
+		<e:Group id="_openPartnerGroup" x="7.5" y="196">
+			<ns1:CustomImage x="0" y="0" source="fr_bqBg" scaleX="1" scaleY="1"/>
+			<ns1:CustomButton id="_btnRole" label="前往" x="350" y="104" skinName="CustomButtonSkin3Skin"/>
+		</e:Group>
+		<ns1:CustomImage x="-3" y="18" source="fightResult_json.fr_failBg_row1" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

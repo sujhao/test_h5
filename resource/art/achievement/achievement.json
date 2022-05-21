@@ -1,0 +1,4 @@
+{"file":"achievement.png","frames":{
+"achievement_border":{"x":882,"y":1,"w":92,"h":91,"offX":3,"offY":3,"sourceW":97,"sourceH":97},
+"achievement_itemBg":{"x":1,"y":1,"w":567,"h":112,"offX":0,"offY":0,"sourceW":567,"sourceH":112},
+"achievement_nameBg":{"x":570,"y":1,"w":310,"h":65,"offX":0,"offY":0,"sourceW":310,"sourceH":65}}}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GetMaterialItemSkin" width="553" height="52"  xmlns:ns1="*" xmlns:e="http://ns.egret.com/eui">
+<ns1:CustomImage x="0" y="0" source="share_json.share_bg3"/>
+<ns1:CustomLabel id="_txtLink" text="材料不足时，通过以下方式获得" x="5" y="12" size="20" fontFamily="Microsoft YaHei" textAlign="left" textColor="0x00d228" anchorOffsetX="0" width="535" anchorOffsetY="0" height="30" touchEnabled="false"/>
+</e:Skin>

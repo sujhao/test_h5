@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KuaFuMapViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomButton id="btnReturn" label="" x="564" y="21">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="win_close" source.down="win_close" source.disabled="win_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomImage id="down_6" x="278" y="324" source="guildMapSelect_6" name="down_6" visible="false"/>
+	<ns1:CustomImage id="down_1" x="63.83" y="50.67" source="guildMapSelect_1" name="down_1" visible="false"/>
+	<ns1:CustomImage id="down_2" x="343" y="54.67" source="guildMapSelect_2" name="down_2" visible="false"/>
+	<ns1:CustomImage id="down_3" x="438.5" y="217.5" source="guildMapSelect_3" name="down_3" visible="false"/>
+	<ns1:CustomImage id="down_4" x="122.83" y="416" source="guildMapSelect_4" name="down_4" visible="false"/>
+	<ns1:CustomImage id="down_5" x="430" y="422" source="guildMapSelect_5" name="down_5" visible="false"/>
+	<ns1:CustomButton id="Btn_1" label="" x="23" y="67" name="Btn_1">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="kf_map_btn_1" source.down="kf_map_btn_1" source.disabled="kf_map_btn_1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="Btn_2" label="" x="442" y="231" name="Btn_2">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="kf_map_btn_2" source.down="kf_map_btn_2" source.disabled="kf_map_btn_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="Btn_3" label="" x="23" y="405" name="Btn_3">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="kf_map_btn_3" source.down="kf_map_btn_3" source.disabled="kf_map_btn_3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="Btn_4" label="" x="442" y="405" name="Btn_4">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="kf_map_btn_4" source.down="kf_map_btn_4" source.disabled="kf_map_btn_4"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="Btn_5" label="" x="200" y="600" name="Btn_5">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="kf_map_btn_5" source.down="kf_map_btn_5" source.disabled="kf_map_btn_5"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="Btn_6" label="" x="442" y="700" name="Btn_6">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="kf_map_btn_6" source.down="kf_map_btn_6" source.disabled="kf_map_btn_6"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+</e:Skin>

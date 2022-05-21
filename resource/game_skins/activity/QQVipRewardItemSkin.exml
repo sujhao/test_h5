@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="QQVipRewardItemSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage source="share_json.share_listItemBg" width="580" height="127"/>
+	<ns1:CustomImage x="145" source="share_json.share_line3" height="127"/>
+	<ns1:GoodsItemSmall id="item_0" x="162" verticalCenter="-6.5"/>
+	<ns1:GoodsItemSmall id="item_1" x="253" verticalCenter="-6.5"/>
+	<ns1:GoodsItemSmall id="item_2" x="343" verticalCenter="-6.5"/>
+	<ns1:CustomImage id="img_ylq" x="465" source="share_json.loginReward_ylq" verticalCenter="0" visible="false"/>
+	<ns1:CustomLabel id="txtTips" text="不符合条件" x="462" size="20" bold="true" textColor="0xe31101" verticalCenter="0"/>
+	<ns1:CustomButton id="btnGet" label="领取奖励" x="446" skinName="CustomButtonSkin2Skin" verticalCenter="0" visible="false"/>
+
+	<w:Config id="15a9388ae87" ></w:Config>
+</e:Skin>

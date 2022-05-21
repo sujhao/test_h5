@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GetMaterialBuyWindowSkin" width="620" height="513" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+    <ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" width="100%" height="100%">
+        <ns1:CustomImage x="246" y="7" source="getmaterial_json.getmaterial_title" />
+        <ns1:CustomImage x="22" y="61" source="getmaterial_json.getmaterial_border" />
+			<ns1:CustomImage x="22" y="369" source="getmaterial_json.getmaterial_wordBg"/>
+			<ns1:CustomImage x="12" y="102" source="getmaterial_json.getmaterial_wordBg"/>
+			<ns1:CustomImage x="142" y="174" source="image_gold"/>
+        <ns1:CustomImage x="12" y="366" source="getmaterial_json.getmaterial_line" />
+			<ns1:CustomImage x="22" y="280" source="getmaterial_json.getmaterial_line"/>
+        <ns1:CustomLabel text="材料不足时，通过以下方式获得" x="173" y="72" size="20" fontFamily="Microsoft YaHei" textAlign="center"  textColor="0xe7d0b7"/>
+			<ns1:CustomLabel id="txtName" text="物品名" x="137" y="142" size="20" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xE7D0B7"/>
+			<ns1:CustomLabel id="txtCost" text="99" x="186" y="177.5" size="20" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xffd200"/>
+			<ns1:CustomImage x="477" y="209" source="image_gold"/>
+			<ns1:CustomLabel text="总价：" x="424" y="213" size="20" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xE7D0B7"/>
+			<ns1:CustomLabel id="txtTol" text="99" x="522" y="213" size="20" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xFFD200"/>
+			<ns1:CustomLabel text="其它途径：" x="42" y="380" size="20" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xdda66b"/>
+			<ns1:CustomLabel text="商城购买：" x="22" y="112" size="20" fontFamily="Microsoft YaHei" textAlign="center" textColor="0xDDA66B"/>
+			<ns1:GoodsItem id="_item"  x="28" y="142"/>
+			<ns1:CustomButton id="btnChong" label="充值" x="155.5" y="302" skinName="CustomButtonSkin2Skin"/>
+			<ns1:CustomButton id="btnBuy" label="购买" x="340" y="302" skinName="CustomButtonSkin2Skin"/>
+			<ns1:CustomNumberStep2 id="numStep" x="137" y="206"/>
+			<e:Group id="_itemContainer" width="200" height="61" x="28" y="410" anchorOffsetY="0"/>
+			<ns1:CustomButton id="btnReturn" label="" right="4" bottom="6">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="share_json.share_btnReturn" source.down="share_json.share_btnReturn" source.disabled="share_json.share_btnReturn"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:CustomButton>
+    </ns1:LayeroutWindowSkin>
+</e:Skin>

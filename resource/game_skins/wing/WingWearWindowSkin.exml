@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WingWearWindowSkin" width="620" height="925" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+    <ns1:LayeroutWindowSkin id="panelSkin" width="100%" height="100%" x="0" y="0">
+        <ns1:CustomImage source="wing_json.wing_bg" y="72" x="19" />
+        <e:Group id="topContainer" width="357" height="94" x="129" y="56" anchorOffsetY="0" anchorOffsetX="0" />
+        <ns1:CustomImage x="44" y="456" source="wing_json.wing_border3" />
+        <ns1:CustomLabel id="_txtJie" text="标签" size="18" fontFamily="Microsoft YaHei" textColor="0xffd200" height="18"
+                         width="111" y="461" x="251" textAlign="center" />
+        <ns1:CustomButton id="_btnOK" label="一键穿戴" x="247" y="751" />
+        <e:Group id="_itemContainer" x="103" y="508">
+            <ns1:EquipItem x="0" y="0" name="30" />
+            <ns1:EquipItem x="214" y="0" name="32" />
+            <ns1:EquipItem x="107" y="0" name="31" />
+            <ns1:EquipItem x="322" y="0" name="33" />
+        </e:Group>
+        <e:Group id="_wingCotainer" width="200" height="200" x="305" y="300" />
+    </ns1:LayeroutWindowSkin>
+</e:Skin>

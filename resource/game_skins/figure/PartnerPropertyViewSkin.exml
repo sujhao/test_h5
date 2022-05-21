@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PartnerPropertyViewSkin" width="429" height="567" xmlns:ns1="*" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage  source="comp_json.wingBg3"/>
+	<ns1:CustomImage  source="partnerProperty_json.partnerProperty_titleBg" x="50" y="10"/>
+	<ns1:CustomImage id="_imageCareer" x="183" y="23" source="share_json.share_title_career3"/>
+	<ns1:CustomLabel text="角色属性：" x="71" y="54" textColor="0xffd200" size="20" fontFamily="Microsoft YaHei"/>
+	<e:Group x="70" y="120">
+		<ns1:CustomImage x="91" y="0" width="183" height="35" source="comp_json.textInput_bg" scale9Grid="5,4,132,26"/>
+		<ns1:CustomLabel text="魔       法：" x="0" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xdda66b"/>
+		<ns1:CustomLabel id="_txtMp" text="111111" x="97" y="8" size="18" fontFamily="Microsoft YaHei" width="170" textColor="0xe7d0b7"/>
+	</e:Group>
+	<e:Group x="70" y="160">
+		<ns1:CustomImage x="91" y="0" width="183" height="35" source="comp_json.textInput_bg" scale9Grid="5,4,132,26"/>
+		<ns1:CustomLabel text="攻       击：" x="0" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xDDA66B"/>
+		<ns1:CustomLabel id="_txtAttack" text="111111" x="97" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xE7D0B7" width="170"/>
+	</e:Group>
+	<e:Group x="70" y="200">
+		<ns1:CustomImage x="91" y="0" width="183" height="35" source="comp_json.textInput_bg" scale9Grid="5,4,132,26"/>
+		<ns1:CustomLabel text="物       防：" x="0" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xDDA66B"/>
+		<ns1:CustomLabel id="txtAttDef" text="111111" x="97" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xE7D0B7" width="170"/>
+	</e:Group>
+	<e:Group x="70" y="240">
+		<ns1:CustomImage x="91" y="0" width="183" height="35" source="comp_json.textInput_bg" scale9Grid="5,4,132,26"/>
+		<ns1:CustomLabel text="法       防：" x="0" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xDDA66B"/>
+		<ns1:CustomLabel id="_txtMagicDef" text="111111" x="97" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xE7D0B7" width="170"/>
+	</e:Group>
+	<e:Group x="70" y="280">
+		<ns1:CustomImage x="91" y="0" width="183" height="35" source="comp_json.textInput_bg" scale9Grid="5,4,132,26"/>
+		<ns1:CustomLabel text="暴       击：" x="0" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xDDA66B"/>
+		<ns1:CustomLabel id="_txtCrit" text="111111" x="97" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xE7D0B7" width="170"/>
+	</e:Group>
+	<e:Group x="70" y="321">
+		<ns1:CustomImage x="91" y="0" width="183" height="35" source="comp_json.textInput_bg" scale9Grid="5,4,132,26"/>
+		<ns1:CustomLabel text="暴击伤害：" x="0" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xDDA66B"/>
+		<ns1:CustomLabel id="_txtCritHurt" text="111111" x="97" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xE7D0B7" width="170"/>
+	</e:Group>
+	<e:Group x="70" y="362">
+		<ns1:CustomImage x="91" y="0" width="183" height="35" source="comp_json.textInput_bg" scale9Grid="5,4,132,26"/>
+		<ns1:CustomLabel text="抗       暴：" x="0" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xDDA66B"/>
+		<ns1:CustomLabel id="_txtCritDef" text="111111" x="97" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xE7D0B7" width="170"/>
+	</e:Group>
+	<e:Group x="70" y="80">
+		<ns1:CustomImage x="91" y="0" width="183" height="35" source="comp_json.textInput_bg" scale9Grid="5,4,132,26"/>
+		<ns1:CustomLabel text="生       命：" x="0" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xDDA66B"/>
+		<ns1:CustomLabel id="_txtHp" text="111111" x="97" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xE7D0B7" width="170"/>
+	</e:Group>
+	<e:Group x="70" y="402">
+		<ns1:CustomImage x="91" y="0" width="183" height="35" source="comp_json.textInput_bg" scale9Grid="5,4,132,26"/>
+		<ns1:CustomLabel text="麻痹几率：" x="0" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xDDA66B"/>
+		<ns1:CustomLabel id="_txtPalsyRate" text="111111" x="97" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xE7D0B7" width="170"/>
+	</e:Group>
+	<e:Group x="70" y="442">
+		<ns1:CustomImage x="91" y="0" width="183" height="35" source="comp_json.textInput_bg" scale9Grid="5,4,132,26"/>
+		<ns1:CustomLabel text="麻痹抵抗：" x="0" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xDDA66B"/>
+		<ns1:CustomLabel id="_txtPalsyDef" text="111111" x="97" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xE7D0B7" width="170"/>
+	</e:Group>
+	<e:Group x="70" y="482">
+		<ns1:CustomImage x="91" y="0" width="183" height="35" source="comp_json.textInput_bg" scale9Grid="5,4,132,26"/>
+		<ns1:CustomLabel text="伤害减免：" x="0" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xDDA66B"/>
+		<ns1:CustomLabel id="_txtHurtDef" text="111111" x="97" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xE7D0B7" width="170"/>
+	</e:Group>
+	<e:Group x="70" y="522">
+		<ns1:CustomImage x="91" y="0" width="183" height="35" source="comp_json.textInput_bg" scale9Grid="5,4,132,26"/>
+		<ns1:CustomLabel text="伤害加成：" x="0" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xDDA66B"/>
+		<ns1:CustomLabel id="_txtHurtUp" text="111111" x="97" y="8" size="18" fontFamily="Microsoft YaHei" textColor="0xE7D0B7" width="170"/>
+	</e:Group>
+	<ns1:CustomButton id="_btnLeft" label="" x="13" y="266">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="partnerProperty_json.partnerProperty_arrowLeft" source.down="partnerProperty_json.partnerProperty_arrowLeft" source.disabled="partnerProperty_json.partnerProperty_arrowLeft"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="_btnRight" label="" x="392" y="265">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="partnerProperty_json.partnerProperty_arrowRight" source.down="partnerProperty_json.partnerProperty_arrowRight" source.disabled="partnerProperty_json.partnerProperty_arrowRight"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="_btnReturn" label="" left="386" top="-11">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="win_close" source.down="win_close" source.disabled="win_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+</e:Skin>

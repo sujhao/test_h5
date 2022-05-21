@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FunctionNoticeViewSkin" width="577" height="678" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+        <ns1:CustomImage source="functionNotice_json.functionNotice_bg" x="0" y="0" />
+    <e:Group id="_group1" x="0" y="0">
+        <ns1:CustomImage x="0" y="1" source="functionNotice_json.functionNotice_headBg" />
+        <ns1:CustomImage x="0" y="371" source="functionNotice_json.functionNotice_headBg" />
+        <ns1:CustomImage x="118" y="4" source="functionNotice_json.functionNotice_word1" />
+        <ns1:CustomImage x="118" y="372" source="functionNotice_json.functionNotice_word2" />
+        <e:Group id="_itemContainer" width="565" height="311" x="7" y="63" anchorOffsetX="0" anchorOffsetY="0" />
+    </e:Group>
+    <!--<e:Group id="_group2" x="0" y="0" width="577" height="678">
+    -->
+    <!--</e:Group>
+    -->
+    <e:Scroller id="_scroller" width="577" height="678" x="0" y="0">
+        <e:Group id="_group2" />
+    </e:Scroller>
+</e:Skin>

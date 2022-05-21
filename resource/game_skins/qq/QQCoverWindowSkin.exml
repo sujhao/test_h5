@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="QQCoverWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="resource/assets/icon/other/qqCoverBg.png"/>
+	<e:Group id="_container" width="20" height="20" y="255" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-35"/>
+	<ns1:CustomButton id="_btnGoto" label="前往设置" x="256" y="382" skinName="CustomButtonSkin6Skin"/>
+	<ns1:CustomButton id="_btnClose" label="" x="554.5" y="68.5">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="comp_json.comp_close" source.down="comp_json.comp_close" source.disabled="comp_json.comp_close"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</ns1:CustomButton>
+</e:Skin>

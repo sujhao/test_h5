@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BuildStarViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="awakeEquip_json.awakeEquipSoul_bg"/>
+	<ns1:CustomLabel id="txtItem" text="金刚石：" x="34" y="642" size="22" textColor="0xDBC7B0" fontFamily="Microsoft YaHei" width="111" textAlign="right"/>
+	<ns1:CustomImage x="152" y="633" source="comp_json.textInput_bg"/>
+	<ns1:CustomLabel id="txtCount" text="8/9" x="164" y="642" size="20" fontFamily="Microsoft YaHei" width="122" textAlign="center" textColor="0x34C800"/>
+	<ns1:CustomLabel id="txtDes" text="升星降级（0级不降）在公会BOSS场景被其他玩家杀死有概率导致升星降级，击杀者会获得对应数量的材料" x="113" y="524" size="20" textColor="0xDBC7B0" fontFamily="Microsoft YaHei" width="358" textAlign="left" anchorOffsetY="0" height="101" anchorOffsetX="0" lineSpacing="3"/>
+	<ns1:CustomImage x="100" y="141" source="awakeEquip_json.awakeEquipSoul_w2"/>
+	<ns1:CustomImage x="272" y="306" source="share_json.share_arrow1"/>
+	<ns1:BuildItem id="item_5" x="8" y="394"/>
+	<ns1:BuildItem id="item_6" x="481" y="394"/>
+	<ns1:BuildItem id="item_7" x="8" y="517"/>
+	<ns1:BuildItem id="item_8" x="478" y="517"/>
+	<ns1:BuildItem id="item_4" x="482" y="271"/>
+	<ns1:BuildItem id="item_3" x="8" y="271"/>
+	<ns1:BuildItem id="item_2" x="478" y="148"/>
+	<ns1:BuildItem id="item_1" y="148" x="8"/>
+	<ns1:CustomImage id="img_select" x="-12" y="128" source="buildItemSelectp"/>
+	<ns1:CustomButton id="btnGet" label="升星"  y="694" skinName="CustomButtonSkin2Skin" x="222"/>
+	<ns1:CustomLabel id="txtTitle" text="武器升星" y="198" size="24" width="150"  x="213" textAlign="center" bold="true" textColor="0xffd200"/>
+	<ns1:CustomLabel text="当前等级：" y="247" size="20" x="192" bold="true" textColor="0xFFD200"/>
+	<ns1:CustomLabel id="txtLv" text="0" y="247" size="20" x="287" textAlign="left" bold="true" textColor="0xFFD200"/>
+	<ns1:CustomImage x="314" y="638" anchorOffsetX="0" anchorOffsetY="0" source="mainUI_json.image_copper"/>
+	<ns1:CustomLabel id="txtCost" text="0" x="356" y="641" size="20" anchorOffsetX="0" width="145" anchorOffsetY="0" height="19" textAlign="left" bold="true" textColor="0x34c800"/>
+	<ns1:CustomLabel id="proNext_1" text="0%" x="348" y="303" size="36" fontFamily="Microsoft YaHei" textColor="0x00D228" stroke="1"/>
+	<ns1:CustomLabel id="pro_1" text="0%" x="165" y="303" size="36" fontFamily="Microsoft YaHei" stroke="1" textColor="0xFFFFFF"/>
+</e:Skin>

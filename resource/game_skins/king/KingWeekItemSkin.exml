@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="KingWeekItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="125" width="578">
+
+	<w:Config id="15c871795e2" ></w:Config>
+	<ns1:CustomImage width="578" source="share_line" y="122"/>
+	<ns1:CustomLabel id="txtName" text="名字一个七位数" x="195" verticalCenter="0" size="18" textColor="0xE7D0B7" bold="true" textAlign="left"/>
+	<ns1:CustomImage id="icon" x="116" verticalCenter="0.5" source="kingType_s_1"/>
+	<e:BitmapLabel x="142" y="52" text="5" font="number_2_fnt" id="txtLv"/>
+	<ns1:CustomLabel id="txtRank" text="1"  verticalCenter="0" size="20" textColor="0xE7D0B7" width="120" textAlign="center" bold="true"/>
+	<ns1:CustomButton id="btnGet" label="领取" x="470" skinName="CustomButtonSkin7Skin"  verticalCenter="0"  visible="false"/>
+	<ns1:GoodsItem id="item" x="347" y="2"/>
+</e:Skin>

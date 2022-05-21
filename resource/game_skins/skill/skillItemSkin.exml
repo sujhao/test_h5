@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skillItemSkinSkin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+    <e:Image id="itemBg"  scale9Grid="1,3,8,8" alpha.disabled="0.5"
+            
+              anchorOffsetX="0" source="skillItemBg"/>
+	<e:Image id="nameBg" scale9Grid="1,3,8,8" anchorOffsetX="0" x="31" y="135" source="share_nameBg"/>
+	<ns1:CustomLabel id="txtName" text="" y="143" textColor="0xe7d0b7" size="16" anchorOffsetX="0" width="84" anchorOffsetY="0" height="20" textAlign="center" bold="true" x="36"/>
+	<ns1:CustomImage id="lvBg" x="39" y="89" source="skillItemLvBg"/>
+	<ns1:CustomLabel id="txtLv" text="0" x="40" y="105" size="18" anchorOffsetX="0" width="73" textAlign="center" anchorOffsetY="0" height="18" bold="true" textColor="0xffd200"/>
+	<ns1:CustomImage id="iconSelect" source="skill_select" visible="false"/>
+
+	<w:Config id="15a1c961e21" ></w:Config>
+</e:Skin>

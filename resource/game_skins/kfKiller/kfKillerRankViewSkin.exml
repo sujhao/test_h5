@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="kfKillerRankViewSkin" width="577" height="752" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="kfKiller_json.kfKiller_border2" y="20"/>
+	<ns1:CustomLabel text="排行奖励在每周日23点30分通过邮件发放" x="55" y="31" textColor="0xffd200" size="20" fontFamily="Microsoft YaHei" width="457" textAlign="center"/>
+	<e:Group id="_itemContainer" width="570" height="673" x="3" y="70" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FanLiShopViewSkin" height="677" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="579">
+	<ns1:CustomImage x="0" y="600" touchEnabled="false" source="share_json.share_contentBg" width="578"/>
+	<e:Scroller width="578" height="433" x="0" y="166" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="datalist"/>
+	</e:Scroller>
+	<ns1:CustomLabel text="剩余时间：" x="103" y="98" textColor="0xdda66b" size="20" fontFamily="Microsoft YaHei" bold="true"/>
+	<ns1:CustomLabel text="集字兑换即将截止，请大家及时兑换" y="629" textColor="0xDDA66B" size="20" fontFamily="Microsoft YaHei" horizontalCenter="0" bold="true"/>
+	<ns1:CustomLabel id="txtTime" text="剩余时间：" x="203" y="98" size="20" fontFamily="Microsoft YaHei" textColor="0x00d228" bold="true"/>
+</e:Skin>

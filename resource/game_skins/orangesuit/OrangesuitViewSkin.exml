@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OrangesuitViewSkin" width="579" height="756" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+    <ns1:CustomImage source="orangesuit_json.orangesuit_bg" x="0" y="0" />
+    <ns1:CustomImage x="92" y="287" source="orangesuit_json.orangesuit_border2" />
+    <e:Group id="_currentProGroup" x="130" y="301">
+        <ns1:CustomImage x="7" y="0" source="orangesuit_json.orangesuit_word1" />
+        <ns1:CustomLabel id="_txtFPower" text="战力：0" x="0" y="37" textColor="0xffd200" size="20"
+                         fontFamily="Microsoft YaHei" width="122" />
+        <ns1:CustomLabel id="_txtPro" text="" x="-13" y="54" size="18" textColor="0xe7d0b7" fontFamily="Microsoft YaHei"
+                         anchorOffsetX="0" width="277" wordWrap="true" anchorOffsetY="0" height="107" lineSpacing="5" />
+    </e:Group>
+    <e:Group id="_nextProGroup" x="313" y="301">
+        <ns1:CustomImage x="7" y="0" source="orangesuit_json.orangesuit_word2" />
+        <ns1:CustomLabel id="_txtFPowerNext" text="战力：0" x="0" y="37" textColor="0xFFD200" size="20"
+                         fontFamily="Microsoft YaHei" width="122" />
+        <ns1:CustomLabel id="_txtProNext" text="" x="-13" y="54" size="18" fontFamily="Microsoft YaHei"
+                         anchorOffsetX="0" width="277" wordWrap="true" anchorOffsetY="0" height="107" lineSpacing="5"
+                         textColor="0x00d228" />
+    </e:Group>
+    <ns1:CustomLabel id="_txtConLabel" text="消耗橙装碎片：" x="32" y="601" textAlign="left" size="18" textColor="0xE7D0B7"
+                     fontFamily="Microsoft YaHei" width="135" />
+    <ns1:CustomImage x="158" y="597" width="203" height="31" source="comp_json.textInput_bg" scale9Grid="5,4,132,26" />
+    <ns1:CustomLabel id="_txtConNum" text="" x="164" y="602" size="18" fontFamily="Microsoft YaHei" textColor="0xE7D0B7"
+                     width="199" />
+    <ns1:CustomLabel id="_txtLink" text="" x="374" y="601" size="18" fontFamily="Microsoft YaHei" width="155"
+                     textColor="0x00d228" />
+    <e:Group id="equipItemContainer" x="18" y="79">
+        <ns1:EquipItemSmall id="equip_5" x="-10" y="0" name="1" />
+        <ns1:EquipItemSmall id="equip_0" x="-10" y="121" name="2" />
+        <ns1:EquipItemSmall id="equip_1" x="-10" y="240" name="5" />
+        <ns1:EquipItemSmall id="equip_2" x="-10" y="356" name="7" />
+        <ns1:EquipItemSmall id="equip_3" x="468" y="0" name="3" />
+        <ns1:EquipItemSmall id="equip_4" x="468" y="121" name="4" />
+        <ns1:EquipItemSmall id="equip_6" x="468" y="240" name="6" />
+        <ns1:EquipItemSmall id="equip_7" x="468" y="356" name="8" />
+    </e:Group>
+    <e:Group id="_currentGroup" x="120" y="92">
+        <ns1:CustomImage x="0" y="0" source="orangesuit_json.orangesuit_border1" />
+        <ns1:CustomLabel id="_txtName" text="" x="22" y="17" textAlign="center" size="18" textColor="0xe7d0b7"
+                         fontFamily="Microsoft YaHei" width="122" />
+        <ns1:EquipItem id="_myEquip" width="94" height="120" x="36" y="60" skinName="GoodsItemSkinSkin" name="1" />
+    </e:Group>
+    <e:Group id="_nextGroup" x="286" y="92">
+        <ns1:CustomImage x="0" y="0" source="orangesuit_json.orangesuit_border1" />
+        <ns1:CustomLabel id="_txtName2" text="" x="22" y="17" textAlign="center" size="18" textColor="0xE7D0B7"
+                         fontFamily="Microsoft YaHei" width="122" />
+        <ns1:EquipItem id="_nextEquip" width="94" height="120" x="36" y="60" skinName="GoodsItemSkinSkin" name="1" />
+    </e:Group>
+    <ns1:CustomButton id="_btnOK" label="升级" y="667" skinName="CustomButtonSkin2Skin"  horizontalCenter="0"/>
+    <ns1:CustomImage id="_imageSelected" y="313" x="-5" source="share_json.share_itemSelected" touchEnabled="false" />
+	<ns1:CustomImage id="_imageReddot" width="20" height="20" x="360" y="593" source="share_json.share_alert" touchEnabled="false"/>
+    <ns1:CustomButton id="btnHelp" label="" y="2">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="comp_btn_help" source.down="comp_btn_help" source.disabled="comp_btn_help"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+</e:Skin>

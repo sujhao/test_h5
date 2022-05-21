@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="login" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="461">
+	<!--<e:Image source="bg_jpg" x="0" y="0"/>-->
+	<e:TextInput id="plat_id" width="200" height="50" x="260" y="58" text="wangkeng"/>
+	<e:TextInput id="plat_ip" width="200" height="50" x="260" y="166" text="192.168.0.198"/>
+	<e:TextInput id="plat_port" width="200" height="50" x="260" y="262" text="8000"/>
+	<e:TextInput id="txtServerID" width="200" height="50" x="260" y="329" text="1"/>
+	<e:Button id="btnEnter" label="开始游戏" x="294" y="398" anchorOffsetX="0" width="142"/>
+	<ns1:CustomLabel text="用户ID" x="94" y="68" anchorOffsetX="0" width="160" anchorOffsetY="0" height="30" textColor="0xef1023" bold="true" size="30" textAlign="left"/>
+	<ns1:CustomLabel text="服务器IP" x="94" y="176" anchorOffsetX="0" width="160" anchorOffsetY="0" height="30" textColor="0xEF1023" bold="true" size="30" textAlign="left"/>
+	<ns1:CustomLabel text="服务器端口" x="94" y="272" anchorOffsetX="0" width="160" anchorOffsetY="0" height="30" textColor="0xEF1023" bold="true" size="30" textAlign="left"/>
+	<ns1:CustomLabel text="服务器ID" x="94" y="342" anchorOffsetX="0" width="160" anchorOffsetY="0" height="30" textColor="0xEF1023" bold="true" size="30" textAlign="left"/>
+</e:Skin>

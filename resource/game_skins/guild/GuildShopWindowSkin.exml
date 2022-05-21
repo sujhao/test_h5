@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildShopWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin">
+		<ns1:CustomImage x="18" y="74" source="guild_shopBg"/>
+		<e:Group x="22" y="440">
+			<ns1:CustomImage x="0" y="38" source="guild_shopItemBg"/>
+			<ns1:CustomImage x="95" y="0" source="guild_shopTitle"/>
+			<ns1:CustomLabel id="txtCount" text="100/100" x="177.5" y="303" size="18" textColor="0xE7D0B7" bold="true" width="80" textAlign="left"/>
+			<ns1:CustomLabel id="txtGx" text="100/999999" x="389.5" y="303" size="18" textColor="0xE7D0B7" bold="true" textAlign="left"/>
+			<ns1:CustomLabel text="本日剩余次数:" x="58.5" y="303" size="18" bold="true" width="125" textAlign="left" textColor="0xdda66b" anchorOffsetX="0"/>
+			<ns1:CustomLabel text="消耗贡献:" x="303" y="303" size="18" bold="true" width="100" textAlign="left" textColor="0xDDA66B" anchorOffsetX="0"/>
+			<ns1:GoodsItem id="item_0" x="74" y="58"/>
+			<ns1:GoodsItem id="item_1" x="183" y="58"/>
+			<ns1:GoodsItem id="item_2" x="293" y="58"/>
+			<ns1:GoodsItem id="item_3" x="403" y="58"/>
+			<ns1:GoodsItem id="item_4" x="74" y="173"/>
+			<ns1:GoodsItem id="item_5" x="183" y="173"/>
+			<ns1:GoodsItem id="item_6" x="293" y="173"/>
+			<ns1:GoodsItem id="item_7" x="403" y="173"/>
+			<ns1:CustomButton id="btnGet" label="开启宝箱" x="224" y="329" skinName="CustomButtonSkin2Skin"/>
+			<ns1:CustomImage x="49" y="36" source="guild_shopIcon"/>
+			<ns1:CustomImage x="268" y="36" source="guild_shopIcon"/>
+			<ns1:CustomImage x="158" y="36" source="guild_shopIcon"/>
+		</e:Group>
+		<e:Group id="resultGroup" x="71" y="450" visible="false">
+			<ns1:CustomImage x="0" y="0" source="share_black2" anchorOffsetX="0" width="473" anchorOffsetY="0" height="251"/>
+			<ns1:CustomImage anchorOffsetX="0" anchorOffsetY="0" source="share_titleBg3" width="100%"/>
+			<ns1:CustomImage x="182" y="11" source="guild_shopTxt2" anchorOffsetX="0" anchorOffsetY="0"/>
+			<ns1:GoodsItem id="item_result" x="187" y="76"/>
+		</e:Group>
+		<e:Group x="71" y="85">
+			<ns1:CustomImage x="119" y="58" source="guild_shopHead"/>
+			<ns1:CustomImage id="head" x="187" y="133" source="guild_shopHead_no"/>
+			<ns1:CustomImage x="0" y="0" source="guild_shopTxt"/>
+			<e:Group id="tipsGroup" x="24" y="165">
+				<ns1:CustomImage x="0" y="0" source="guild_shopTalk"/>
+				<ns1:CustomLabel text="点我送礼" x="35" y="12" size="16" textColor="0xe7d0b7" bold="true"/>
+			</e:Group>
+			<ns1:CustomLabel id="txtName" text="" x="49" y="293" size="18" textColor="0xE7D0B7" bold="true" width="300" textAlign="left" height="20"/>
+			<ns1:CustomLabel id="txtLog" text="更多记录>>" x="349" y="293" size="18" bold="true" width="120" textAlign="left" textColor="0x00e205"/>
+			<ns1:GoodsItem id="item" x="329" y="127.5"/>
+			<ns1:CustomImage id="icon_lq" x="324" y="144" source="loginReward_ylq"/>
+		</e:Group>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

@@ -1,0 +1,13 @@
+{"file":"artifact.png","frames":{
+"artifact_wordBg":{"x":719,"y":219,"w":115,"h":35,"offX":0,"offY":0,"sourceW":115,"sourceH":35},
+"artifact_arrowDown":{"x":938,"y":102,"w":49,"h":30,"offX":0,"offY":0,"sourceW":49,"sourceH":30},
+"artifact_arrowRight":{"x":845,"y":154,"w":30,"h":27,"offX":0,"offY":0,"sourceW":30,"sourceH":27},
+"artifact_arrowUp":{"x":938,"y":136,"w":49,"h":30,"offX":0,"offY":0,"sourceW":49,"sourceH":30},
+"artifact_bg3":{"x":0,"y":0,"w":580,"h":751,"offX":0,"offY":0,"sourceW":580,"sourceH":751},
+"artifact_border1":{"x":838,"y":219,"w":101,"h":34,"offX":0,"offY":0,"sourceW":101,"sourceH":34},
+"artifact_itemBg":{"x":845,"y":61,"w":89,"h":89,"offX":0,"offY":0,"sourceW":89,"sourceH":89},
+"artifact_listBg":{"x":584,"y":0,"w":131,"h":444,"offX":0,"offY":0,"sourceW":131,"sourceH":444},
+"artifact_nameBg":{"x":719,"y":0,"w":279,"h":57,"offX":0,"offY":0,"sourceW":279,"sourceH":57},
+"artifact_selectdItem":{"x":719,"y":61,"w":122,"h":122,"offX":0,"offY":0,"sourceW":122,"sourceH":122},
+"artifact_word":{"x":719,"y":187,"w":234,"h":28,"offX":0,"offY":0,"sourceW":234,"sourceH":28},
+"artifact_title":{"x":938,"y":61,"w":67,"h":37,"offX":0,"offY":0,"sourceW":67,"sourceH":37}}}

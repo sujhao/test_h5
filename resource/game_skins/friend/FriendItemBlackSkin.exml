@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="FriendItemBlackSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage  y="97" source="share_line"/>
+	<ns1:CustomLabel id="txtName" x="123" y="36" textColor="0xFFD200" size="18" text="" width="300" height="30"/>
+	<ns1:CustomButton id="btnDel" label="删除" x="452" y="27" skinName="CustomButtonSkin3Skin" width="122" height="48"/>
+	<ns1:HeadItem id="bmHead" x="21" y="17"/>
+
+	<w:Config id="15a411576a7" ></w:Config>
+</e:Skin>

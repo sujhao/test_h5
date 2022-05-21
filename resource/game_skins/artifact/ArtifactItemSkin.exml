@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ArtifactItemSkin" width="105" height="105" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage id="_image_selected" source="artifact_json.artifact_selectdItem" x="-9" y="-10" anchorOffsetX="0" visible="false"/>
+	<ns1:CustomImage id="_image"  x="0" y="-2" source=""/>
+	<e:Group id="_container1" x="2" y="57">
+		<ns1:CustomImage id="_image0" x="0" y="0" source="artifact_json.artifact_border1"/>
+		<ns1:CustomLabel id="_txtCondition" text="" x="0" y="8" size="16" textColor="0xe7d0b7" width="100" textAlign="center"/>
+	</e:Group>
+	<ns1:CustomImage id="_imageName" x="18" y="83"  horizontalCenter="0"/>
+</e:Skin>

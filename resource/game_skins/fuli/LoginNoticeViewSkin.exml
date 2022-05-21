@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginNoticeViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+    <ns1:LayeroutWindowSkin id="panelSkin">
+        <e:Scroller id="_scroll" width="581" height="745" x="16" y="70" anchorOffsetX="0" anchorOffsetY="0">
+            <e:Group id="_contentContainer"  x="1"/>
+        </e:Scroller>
+    </ns1:LayeroutWindowSkin>
+</e:Skin>

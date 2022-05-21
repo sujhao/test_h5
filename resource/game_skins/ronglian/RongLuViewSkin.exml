@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RongLuViewSkin" width="587" height="770" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="ronglian_json.ronglian_bg2"  x="-4" y="-12"/>
+	<ns1:CustomImage x="164" y="15" source="share_json.share_fpowerBg" />
+	<ns1:CustomButton id="_btnAdd" label="一键添加" x="93" y="670"  visible="false"/>
+	<ns1:CustomButton id="_btnOk" label="熔炼" y="694"  horizontalCenter="0.5"/>
+	<e:BitmapLabel id="_txtFpwer" width="111" height="30" x="272" y="36" font="number_0_fnt" text="2313123" anchorOffsetY="0" />
+	<ns1:CustomImage x="2" y="120" source="ronglian_json.ronglian_border1" />
+	<ns1:CustomLabel id="_txtPro" text="攻击：+1000防御：攻击：+1000防御：攻击：+1000防御：" x="96" y="134" size="18"
+	                 fontFamily="Microsoft YaHei" anchorOffsetX="0" width="133" wordWrap="true" anchorOffsetY="0"
+	                 height="130" textColor="0xe7d0b7" lineSpacing="5" />
+	<ns1:CustomLabel id="_txtProNext" text="攻击：+1000防御：攻击：+1000防御：攻击：+1000防御：" x="352" y="134" size="18"
+	                 fontFamily="Microsoft YaHei" anchorOffsetX="0" width="133" wordWrap="true" anchorOffsetY="0"
+	                 height="130" lineSpacing="5" textColor="0x00d228" />
+	<ns1:CustomImage x="266" y="174" source="ronglian_json.ronglian_rightArrow" />
+	<ns1:CustomImage x="0" y="289" source="ronglian_json.ronglian_border2" />
+	<ns1:CustomImage x="72" y="295" source="ronglian_json.ronglian_word2" />
+	<ns1:CustomImage x="1" y="380" source="ronglian_json.ronglian_headBg" />
+	<ns1:CustomImage x="182" y="304" source="ronglian_json.ronglian_barBg" />
+	<ns1:CustomImage id="_bar" x="187" y="309" source="ronglian_json.ronglian_bar" />
+	<ns1:CustomLabel id="_txtLv" text="（Lv 2）" x="498" y="308" size="18" fontFamily="Microsoft YaHei" textColor="0xffd200"
+	                 textAlign="left" />
+	<ns1:CustomLabel id="_txtValue" text="4234234" x="274" y="310" size="16" fontFamily="Microsoft YaHei" textAlign="center" width="122"
+	                 textColor="0xffffff"  stroke="1.5" strokeColor="0x000000"/>
+	<ns1:CustomImage x="234" y="375" source="ronglian_json.ronglian_title4" />
+	<e:Group id="itemContainer" x="29" y="432">
+		<ns1:GoodsItem x="-17" y="2" name="item1" />
+		<ns1:GoodsItem x="96" y="2" name="item2" />
+		<ns1:GoodsItem x="213" y="2" name="item3" />
+		<ns1:GoodsItem x="328" y="2" name="item4" />
+		<ns1:GoodsItem x="-17" y="118" name="item6" />
+		<ns1:GoodsItem x="96" y="118" name="item7" />
+		<ns1:GoodsItem x="213" y="118" name="item8" />
+		<ns1:GoodsItem x="328" y="118" name="item9" />
+		<ns1:GoodsItem x="441" y="2" name="item5" scaleX="1" scaleY="1" />
+		<ns1:GoodsItem x="441" y="118" name="item10" scaleX="1" scaleY="1" />
+	</e:Group>
+</e:Skin>

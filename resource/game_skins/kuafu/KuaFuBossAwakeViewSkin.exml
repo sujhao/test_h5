@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KuaFuBossAwakeViewSkin" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage source="share_bg4"/>
+	<ns1:CustomImage y="33" source="share_titleBg2" scale9Grid="118,12,170,16" width="100%"/>
+	<ns1:CustomImage x="32" y="37" source="kuafu_bossTitle" horizontalCenter="0"/>
+	<e:Scroller width="575" height="600" x="0" y="150" anchorOffsetX="0" anchorOffsetY="0">
+		<e:DataGroup id="bossList" itemRenderer="KuaFuBossAwakeItem"/>
+	</e:Scroller>
+	<ns1:CustomLabel text="挑战次数：" y="100" size="18" textColor="0xdda66b" bold="true" x="19"/>
+	<ns1:CustomLabel id="txtBack" text="挑战令：（0/1）" y="100" size="18" textColor="0xDDA66B" bold="true" x="199"/>
+	<ns1:CustomLabel id="txtTime" text="恢复时间：24时54分" x="390" y="100" size="18" textColor="0xDDA66B" bold="true"/>
+	<ns1:CustomImage x="103" y="91" source="textInput_bg" anchorOffsetX="0" width="88"/>
+	<ns1:CustomLabel id="txtCount" text="100/100" x="108" y="99" size="18" bold="true" textColor="0x00d228" width="80" textAlign="center"/>
+	<e:Scroller width="200" height="200" x="-126" y="317">
+	</e:Scroller>
+</e:Skin>

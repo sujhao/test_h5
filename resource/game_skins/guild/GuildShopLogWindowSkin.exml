@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildShopLogWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" height="455">
+		<e:Scroller width="605" height="300" anchorOffsetX="0" anchorOffsetY="0" x="8" y="47" scaleX="1" scaleY="1">
+			<e:DataGroup id="itemList" itemRenderer="GuildLogItem" y="1"/>
+		</e:Scroller>
+		<ns1:CustomImage x="8" y="347" source="share_contentBg" anchorOffsetX="0" width="606"/>
+		<ns1:CustomImage x="9" y="422" anchorOffsetX="0" width="606" source="share_contentBg2"/>
+		<ns1:CustomButton id="btnClose" label="关闭" x="248" y="371" skinName="CustomButtonSkin2Skin"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="MallListItemSkin2Skin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="117" width="580">
+
+	<w:Config id="15a4bfeb29d" ></w:Config>
+	<ns1:CustomImage x="0" y="0" source="share_json.share_listItemBg" width="580"/>
+	<ns1:CustomImage id="nameBg" x="125" y="14" source="mallNameBg_3"/>
+	<ns1:CustomLabel id="itemName" x="138" y="23" text="物品" size="20" textColor="0xE7D0B7" bold="true"/>
+	<ns1:CustomButton id="btnBuy" label="购买" x="428" y="25" width="117" height="47" skinName="CustomButtonSkin7Skin"/>
+	<ns1:GoodsItem id="item" x="15" y="13"/>
+	<ns1:CustomLabel id="txtSale" text="99" x="180" y="81" size="18" textColor="0xE7D0B7" bold="true"/>
+	<ns1:CustomLabel id="txtSale2" text="99" x="326" y="81" size="18" textColor="0xE7D0B7" bold="true"/>
+	<ns1:CustomLabel id="txtCount" text="今天已兑换：1/1" x="416" y="81" size="18" textColor="0xdda66b" bold="true"/>
+	<ns1:CustomImage id="bm_over" x="420" y="14" source="mallIcon_over" visible="false"/>
+</e:Skin>

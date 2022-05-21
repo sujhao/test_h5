@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="KingWeekItemSkinSkin2" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="125" width="578">
+
+	<w:Config id="15c871795e2" ></w:Config>
+	<ns1:CustomImage width="580" source="share_line" y="122"/>
+	<ns1:CustomLabel id="txtName" text="名字一个七位数" x="117" verticalCenter="0.5" size="18" textColor="0xE7D0B7" bold="true" textAlign="left"/>
+	<ns1:CustomImage id="icon" x="31" verticalCenter="0" source="kingType_s_1"/>
+	<ns1:CustomImage x="434" verticalCenter="0" y="48" source="share_json.share_imageAdd"/>
+	<ns1:GoodsItem id="item" x="327" y="2"/>
+	<ns1:HeadItem id="head" x="477"  verticalCenter="0"/>
+</e:Skin>

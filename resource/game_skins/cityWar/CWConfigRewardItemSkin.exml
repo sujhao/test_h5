@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CWConfigRewardItemSkin" height="132" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="share_json.share_layer" height="130"/>
+	<e:Image source="share_json.share_vLine" x="85" y="7"/>
+	<ns1:CustomImage id="_imageRank" x="16" y="37" source="cityWar_json.cityWar_rankIcon1"/>
+	<e:BitmapLabel id="_txtRank" x="31" y="53" text="4" font="number_4_fnt"/>
+</e:Skin>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="GuildMemberItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+	<w:Config id="15aa2ef4b73" ></w:Config>
+	<ns1:CustomImage width="567" height="112" source="share_bg2" scale9Grid="12,9,82,140"/>
+	<ns1:CustomImage x="116" source="guild_line" y="6"/>
+	<ns1:CustomLabel id="txtName" text="[普通成员]" x="140" y="17.5" size="18" textColor="0x00D228" bold="true"/>
+	<ns1:CustomLabel text="战斗力：" x="140" y="73" size="18" textColor="0xDDA66B" bold="true"/>
+	<ns1:CustomLabel id="txtFight" text="0" x="211" y="73" size="18" textColor="0xFFD200"/>
+	<ns1:CustomLabel text="贡献度：" x="140" y="45" size="18" textColor="0xDDA66B" bold="true"/>
+	<ns1:CustomLabel id="txtGx" text="0" x="215" y="45" size="18" textColor="0xFFD200"/>
+	<ns1:CustomButton id="btnOpt" label="操作" x="452" y="33" width="92" skinName="CustomButtonSkin2Skin" visible="false"/>
+	<ns1:CustomButton id="btnTan" label="弹劾" x="452" y="33" skinName="CustomButtonSkin2Skin" width="92" visible="false"/>
+	<ns1:CustomLabel id="txtTime" text="&lt;1小时" x="344" y="46" textColor="0xe31101" size="18" bold="true"/>
+	<ns1:HeadItem id="bmHead" x="24" y="24"/>
+</e:Skin>

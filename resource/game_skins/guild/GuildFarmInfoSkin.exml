@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildFarmInfoSkin" width="580" height="755" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="guild_farmBg" />
+	<ns1:CustomImage y="478" source="guild_farmBg2" x="-5" />
+	<ns1:CustomImage y="600" source="share_contentBg" anchorOffsetX="0" width="580" />
+	<ns1:CustomImage y="728" x="56" source="share_contentBg2" />
+	<ns1:CustomImage x="-5" y="433" source="guild_farm_barBg" />
+	<e:Group id="monsterFigureContainer" width="150" height="100" x="400" y="50"/>
+	<ns1:CustomImage id="map_3" x="165" y="116" source="guild_farm_map" />
+	<ns1:CustomImage id="map_6" x="247" y="159" source="guild_farm_map" />
+	<ns1:CustomImage id="map_9" x="334" y="203" source="guild_farm_map" />
+	<ns1:CustomImage id="map_12" x="421" y="246" source="guild_farm_map" />
+	<ns1:CustomImage id="map_2" x="81" y="156" source="guild_farm_map" />
+	<ns1:CustomImage id="map_5" x="166" y="199" source="guild_farm_map" />
+	<ns1:CustomImage id="map_8" x="251" y="244" source="guild_farm_map" />
+	<ns1:CustomImage id="map_11" x="340" y="286" source="guild_farm_map" />
+	<ns1:CustomImage id="map_1" y="197" source="guild_farm_map" />
+	<ns1:CustomImage id="map_4" x="84" y="240" source="guild_farm_map" />
+	<ns1:CustomImage id="map_7" x="170" y="284" source="guild_farm_map" />
+	<ns1:CustomImage id="map_10" x="256" y="326" source="guild_farm_map" />
+	<ns1:CustomImage id="shu_3" x="182" source="guild_farm_stauts_4" y="33" />
+	<ns1:CustomImage id="shu_2" x="100" source="guild_farm_stauts_4" y="76" />
+	<ns1:CustomImage id="shu_1" x="15" source="guild_farm_stauts_4" y="116" />
+	<ns1:CustomImage id="shu_6" x="266" source="guild_farm_stauts_4" y="76" />
+	<ns1:CustomImage id="shu_5" x="180" source="guild_farm_stauts_4" y="114" />
+	<ns1:CustomImage id="shu_4" x="93" source="guild_farm_stauts_4" y="157" />
+	<ns1:CustomImage id="shu_9" x="350" source="guild_farm_stauts_4" y="119" />
+	<ns1:CustomImage id="shu_8" x="267" source="guild_farm_stauts_4" y="165" />
+	<ns1:CustomImage id="shu_7" x="180" source="guild_farm_stauts_4" y="203" />
+	<ns1:CustomImage id="shu_12" x="436.5" source="guild_farm_stauts_4" y="169" />
+	<ns1:CustomImage id="shu_11" x="355" source="guild_farm_stauts_4" y="200" />
+	<ns1:CustomImage id="shu_10" x="270" source="guild_farm_stauts_4" y="244" />
+	<ns1:CustomImage x="15" y="442" source="guild_farm_txt" />
+	<ns1:CustomImage y="320" source="guild_farm_icon3" />
+	<e:Group id="openGroup" x="270" y="244">
+		<ns1:CustomImage x="27" y="42" source="guild_farm_icon" />
+		<ns1:CustomImage x="-19" y="83" source="guild_farm_icon2" />
+		<ns1:CustomLabel id="txtOpen" text="80级开启" x="14" y="102" size="18" textColor="0xe7d0b7" bold="true" width="100"
+		                 textAlign="center" />
+	</e:Group>
+	<ns1:CustomImage source="guild_farm_titleBg" />
+	<ns1:CustomImage x="115" y="444" source="guild_barBg"  width="449" scale9Grid="43,7,263,8"/>
+	<ns1:CustomImage id="guild_bar" x="119" y="448" source="guild_bar" scale9Grid="1,5,267,3" anchorOffsetX="0" width="441"
+	                 anchorOffsetY="0" height="17" />
+	<ns1:CustomLabel id="txtBar" text="0/10000" x="226" y="449" size="16" textColor="0xE7D0B7" bold="true"
+	                 anchorOffsetX="0" width="230" anchorOffsetY="0" height="18" textAlign="center" />
+	<ns1:CustomLabel id="txtName" text="我自己" y="365" size="20" bold="true" anchorOffsetX="0"
+	                 width="180" anchorOffsetY="0" height="18" textAlign="center"  textColor="0x00d228"/>
+	<ns1:CustomButton id="btn_tou" label="" x="143" y="490" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="guild_farmBtn_tou" source.down="guild_farmBtn_tou"
+				         source.disabled="guild_farmBtn_tou" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="btn_shou" label="" x="250" y="489" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="guild_farmBtn_shou" source.down="guild_farmBtn_shou"
+				         source.disabled="guild_farmBtn_shou" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="btn_fei" label="" x="250" y="490" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="guild_farmBtn_fei" source.down="guild_farmBtn_fei"
+				         source.disabled="guild_farmBtn_fei" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="btn_shui" label="" x="250" y="489" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="guild_farmBtn_shui" source.down="guild_farmBtn_shui"
+				         source.disabled="guild_farmBtn_shui" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="btn_my" label="" x="350.5" y="490" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="guild_farmBtn_my" source.down="guild_farmBtn_my"
+				         source.disabled="guild_farmBtn_my" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<e:Scroller id="listScroller" width="580" height="150" y="604" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Group>
+			<e:List id="roleList" height="150" x="0" y="0" itemRenderer="GuildFarmRoleItem"></e:List>
+		</e:Group>
+	</e:Scroller>
+	<ns1:CustomLabel id="txtTime" text="冷却时间：06:59:59" x="50" y="530" size="18" bold="true" textColor="0xe31101"  visible="false"/>
+	<ns1:CustomLabel id="txtCount" text="今天使用次数：30/100" x="50" y="530" size="18" bold="true" textColor="0xe7d0b7"  visible="false"/>
+	<ns1:CustomLabel id="txtLv" text="庄园等级：1级" x="14" y="8" size="18" bold="true" textColor="0xE7D0B7" />
+	<ns1:CustomLabel id="txtGx" text="250贡献/块田地" x="197" y="8" size="18" bold="true" textColor="0xE7D0B7" width="200"
+	                 textAlign="center" />
+	<ns1:CustomLabel id="txtHas" text="我的贡献：999999" x="410" y="8" size="18" bold="true" textColor="0xE7D0B7" />
+	<e:Group id="talkGroup" x="293" y="43">
+		<ns1:CustomImage x="0" y="0" source="share_guildAlertBg"/>
+		<ns1:CustomLabel id="txtTalk" text="我是种田小能手" x="9" y="5" size="16" bold="true" textColor="0xe7d0b7" anchorOffsetY="0" height="39" anchorOffsetX="0" width="159" textAlign="center" verticalAlign="middle"/>
+	</e:Group>
+	<e:Group id="effectGroup" width="150" height="100" y="30" visible="false"/>
+</e:Skin>

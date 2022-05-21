@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildFubenInfoSkin" width="580" height="755" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage  source="guild_fubenBg"/>
+	<e:Group id="monsterGroup" width="177" height="151" x="270" y="230" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="monsterGroup2" width="200" height="100" y="89"/>
+	<ns1:CustomButton id="btnGet" label="挑战" x="229" y="520" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomButton id="btnSao" label="扫荡" x="413" y="573" skinName="CustomButtonSkin7Skin" width="122" height="48"/>
+	<ns1:CustomButton id="btnZhu2" label="" x="71" y="693" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guild_fubenBtn2" source.down="guild_fubenBtn2" source.disabled="guild_fubenBtn2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="btnZhu" label="" x="71" y="693">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="guild_fubenBtn" source.down="guild_fubenBtn" source.disabled="guild_fubenBtn"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</ns1:CustomButton>
+	<ns1:CustomLabel id="txtNext" text="第1关" x="215" y="487" size="22" textColor="0xdda66b" bold="true" width="150" textAlign="center"/>
+	<ns1:CustomLabel text="今日助战：" x="53" y="662" size="18" textColor="0xDDA66B" bold="true" width="100" textAlign="center"/>
+	<ns1:CustomLabel text="记录关数：" x="380" y="503" size="18" textColor="0xDDA66B" bold="true" width="100" textAlign="center"/>
+	<ns1:CustomLabel id="txtCur" text="第1关" x="477" y="503" size="18" bold="true" textAlign="left" textColor="0xffd200"/>
+	<ns1:CustomLabel id="txtTitle" text="虚位以待" x="402" y="665" size="18" bold="true" textAlign="left" textColor="0xe7d0b7" anchorOffsetX="0"/>
+	<ns1:CustomLabel id="txtRank" text="" x="364" y="46" size="18" bold="true" width="150" textAlign="left" textColor="0xE7D0B7" anchorOffsetX="0"/>
+	<ns1:CustomLabel id="txtGuan" text="" x="518" y="46" size="18" bold="true" width="60" textAlign="left" textColor="0xE7D0B7" anchorOffsetX="0"/>
+	<ns1:CustomLabel id="txtGuan2" text="" x="518" y="68" size="18" bold="true" width="60" textAlign="left" textColor="0xE7D0B7" anchorOffsetX="0"/>
+	<ns1:CustomLabel id="txtGuan3" text="" x="518" y="89" size="18" bold="true" width="60" textAlign="left" textColor="0xE7D0B7" anchorOffsetX="0"/>
+	<ns1:CustomLabel id="txtRank2" text="" x="364" y="68" size="18" bold="true" width="150" textAlign="left" textColor="0xE7D0B7"/>
+	<ns1:CustomLabel id="txtRank3" text="" x="364" y="89" size="18" bold="true" width="150" textAlign="left" textColor="0xE7D0B7"/>
+	<ns1:CustomLabel id="txtRole_p" text="" x="402" y="689" size="18" bold="true" width="100" textAlign="left" textColor="0x02a4e7"/>
+	<ns1:CustomLabel id="txtFight" text="" x="402" y="712" size="18" textColor="0xFFD200" bold="true" width="174" textAlign="left" anchorOffsetX="0"/>
+	<ns1:CustomLabel id="txtSao" text="1/1" x="477" y="530" size="18" bold="true" textAlign="left" textColor="0x00d228" visible="false"/>
+	<ns1:CustomLabel id="txtZhu" text="1/1" x="150" y="662" size="18" textColor="0x00D228" bold="true" textAlign="left"/>
+	<ns1:CustomLabel text="每日扫荡：" x="380" y="530" size="18" textColor="0xDDA66B" bold="true" width="100" textAlign="center" visible="false"/>
+	<ns1:GoodsItemSmall id="item" x="61.5" y="497"/>
+	<ns1:HeadItem id="head" x="317" y="662"/>
+</e:Skin>

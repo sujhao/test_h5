@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleNameEditSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" anchorOffsetY="0" height="222" anchorOffsetX="0" width="486" top="0" left="0">
+		<ns1:CustomImage x="7" y="326" anchorOffsetX="0" width="607" source="share_contentBg" visible="false"/>
+		<ns1:CustomButton id="btnGet" label="确定" y="155" skinName="CustomButtonSkin2Skin" horizontalCenter="0"/>
+		<ns1:CustomLabel text="角色改名需要：" x="47" y="69" textColor="0xdda66b" size="18" bold="true"/>
+		<ns1:CustomLabel text="请输入角色名字：" x="47" y="114" textColor="0xDDA66B" size="18" bold="true"/>
+		<ns1:CustomLabel id="txtGood" text="改名卡×5" x="176" y="69" textColor="0xDDA66B" size="18" bold="true"/>
+		<ns1:CustomLabel id="txtBuy" text="立即购买" x="357" y="69" size="18" bold="true" textColor="0x00d228"/>
+		<ns1:CustomImage source="textInput_bg" width="233" x="188" y="106"/>
+		<e:EditableText id="txtName" width="209" height="24" text="请输入玩家姓名" x="193" y="112" size="20" textColor="0x939393" anchorOffsetX="0" anchorOffsetY="0"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

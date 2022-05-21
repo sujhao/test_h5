@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZhuanShenBuyViewSkin" width="620" height="613" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin"  skinName="CustomSmallWindowSkinSkin" width="100%" height="100%">
+		<ns1:CustomImage x="246" y="12" source="zhuan_json.zhuan_titleXiuWei"/>
+		<e:Group width="599" height="532" x="10" y="47" anchorOffsetX="0" id="itemContainer" anchorOffsetY="0">
+		</e:Group>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

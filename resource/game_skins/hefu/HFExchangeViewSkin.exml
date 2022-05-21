@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HFExchangeViewSkin" width="578" height="676" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomButton id="_btnOK" label="领取奖励" x="226" y="633" skinName="CustomButtonSkin2Skin"/>
+	<e:Scroller width="578" height="480" x="0" y="126" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="_itemContainer"/>
+	</e:Scroller>
+	<ns1:CustomLabel id="_txtTime" text="剩余时间：" x="44" y="51" size="20" textColor="0xe7d0b7" fontFamily="Microsoft YaHei" width="300"/>
+	<ns1:CustomLabel id="_txtCount" text="当前拥有：" x="44" y="84" size="20" textColor="0xE7D0B7" fontFamily="Microsoft YaHei" width="300"/>
+</e:Skin>

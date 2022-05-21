@@ -1,0 +1,17 @@
+{"file":"kaiFuHuoDong.png","frames":{
+"kfhd_title":{"x":701,"y":301,"w":128,"h":37,"offX":2,"offY":2,"sourceW":134,"sourceH":42},
+"kfhd_BtnSelect":{"x":845,"y":139,"w":110,"h":110,"offX":3,"offY":4,"sourceW":117,"sourceH":118},
+"kfhd_robShop_line":{"x":0,"y":505,"w":578,"h":3,"offX":0,"offY":0,"sourceW":578,"sourceH":3},
+"kfhd_robShop_bg":{"x":0,"y":0,"w":577,"h":201,"offX":0,"offY":0,"sourceW":577,"sourceH":201},
+"kfhd_rank_bg":{"x":0,"y":203,"w":579,"h":149,"offX":0,"offY":0,"sourceW":579,"sourceH":149},
+"kfhd_standTxt3":{"x":910,"y":319,"w":100,"h":28,"offX":0,"offY":0,"sourceW":100,"sourceH":28},
+"kfhd_standTxt":{"x":579,"y":137,"w":264,"h":51,"offX":0,"offY":0,"sourceW":264,"sourceH":51},
+"kfhd_standTxt2":{"x":581,"y":270,"w":257,"h":29,"offX":0,"offY":0,"sourceW":257,"sourceH":29},
+"kfhd_complete":{"x":910,"y":251,"w":80,"h":66,"offX":0,"offY":0,"sourceW":80,"sourceH":66},
+"kfhd_standardBg2":{"x":581,"y":190,"w":245,"h":46,"offX":0,"offY":0,"sourceW":245,"sourceH":46},
+"kfhd_shopRed":{"x":581,"y":301,"w":118,"h":46,"offX":0,"offY":0,"sourceW":118,"sourceH":46},
+"kfhd_arrow":{"x":840,"y":251,"w":68,"h":86,"offX":0,"offY":0,"sourceW":68,"sourceH":86},
+"kfhd_paiMingRound":{"x":850,"y":0,"w":137,"h":137,"offX":0,"offY":0,"sourceW":137,"sourceH":137},
+"kfhd_paiMingBg":{"x":579,"y":0,"w":269,"h":135,"offX":0,"offY":0,"sourceW":269,"sourceH":135},
+"kfhd_paiMingTxt":{"x":581,"y":238,"w":257,"h":30,"offX":0,"offY":0,"sourceW":257,"sourceH":30},
+"kfhd_bg":{"x":0,"y":354,"w":579,"h":149,"offX":2,"offY":1,"sourceW":581,"sourceH":152}}}

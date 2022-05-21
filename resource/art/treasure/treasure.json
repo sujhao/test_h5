@@ -1,0 +1,7 @@
+{"file":"treasure.png","frames":{
+"title_treasure":{"x":933,"y":1,"w":71,"h":29,"offX":2,"offY":8,"sourceW":73,"sourceH":45},
+"title_treasurePack":{"x":933,"y":32,"w":70,"h":29,"offX":2,"offY":8,"sourceW":73,"sourceH":45},
+"treasureBg":{"x":1,"y":1,"w":589,"h":770,"offX":0,"offY":0,"sourceW":589,"sourceH":770},
+"treasureTxtEquip":{"x":592,"y":1,"w":169,"h":48,"offX":3,"offY":4,"sourceW":173,"sourceH":53},
+"treasureTxtEquip2":{"x":763,"y":1,"w":168,"h":48,"offX":3,"offY":4,"sourceW":173,"sourceH":53},
+"treasureTxt_title":{"x":592,"y":51,"w":113,"h":29,"offX":122,"offY":2,"sourceW":356,"sourceH":33}}}

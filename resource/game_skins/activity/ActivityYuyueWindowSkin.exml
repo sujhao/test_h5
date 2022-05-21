@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityYuyueWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="640">
+	<ns1:CustomImage source="resource/assets/icon/activity/activity_yuyueBg.png" x="-136"/>
+	<ns1:CustomLabel id="txtTime" text="9月9日领取" x="158" y="333" size="22" bold="true" anchorOffsetY="0" height="30" anchorOffsetX="0" lineSpacing="10" textColor="0xFDF6E2"/>
+	<ns1:GoodsItemSmall id="item_1" x="172" y="363"/>
+	<ns1:CustomLabel id="txtTitle" text="9月8~10号预约领取资格 " x="210" y="215" size="26" textColor="0xFFD200" bold="true" anchorOffsetY="0" anchorOffsetX="0" lineSpacing="10"/>
+	<ns1:CustomLabel id="txtTitle2" text="16号和17号即可领取超值大礼" x="210" y="250" size="26" textColor="0xFFD200" bold="true" anchorOffsetY="0" anchorOffsetX="0" lineSpacing="10"/>
+	<ns1:CustomLabel id="txtDes" text="橙色装备x10，元宝x200，百战碎片x1000" x="125" y="290" size="22" bold="true" anchorOffsetY="0" height="30" anchorOffsetX="0" lineSpacing="10" textColor="0xfe8900"/>
+	<ns1:CustomLabel text="礼包内容：" x="19" y="290" size="22" bold="true" anchorOffsetY="0" height="30" anchorOffsetX="0" lineSpacing="10" textColor="0xcac199"/>
+	<ns1:CustomButton id="btnGet1" label="分享领奖" x="137" y="460" skinName="CustomButtomSkin5Skin" visible="false"/>
+	<ns1:CustomLabel id="txtTime2" text="9月9日领取" x="371" y="333" size="22" bold="true" anchorOffsetY="0" height="30" anchorOffsetX="0" lineSpacing="10" textColor="0xFDF6E2"/>
+	<ns1:GoodsItemSmall id="item_2" x="385" y="363"/>
+	<ns1:CustomButton id="btnGet2" label="分享领奖" x="350" y="460" skinName="CustomButtomSkin5Skin" visible="false"/>
+	<ns1:CustomButton id="btnClose" label="" x="570" y="178">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="comp_json.win_close" source.down="comp_json.win_close" source.disabled="comp_json.win_close"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="btnGet" label="点击预约" x="240" y="460" skinName="CustomButtomSkin5Skin" visible="false"/>
+	<ns1:CustomLabel id="txtTips" text="你已预约" x="269" y="473" size="26" textColor="0xFFD200" bold="true" anchorOffsetY="0" anchorOffsetX="0" lineSpacing="10" visible="false"/>
+</e:Skin>

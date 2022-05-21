@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BlessWindowSkin" width="620" height="751" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="bless_json.bless_bg"/>
+	<ns1:CustomLabel id="_txtContent" text="标签" x="133" y="419" size="22" fontFamily="Microsoft YaHei" width="366" textAlign="center" textColor="0xe7d0b7"/>
+	<ns1:CustomLabel text="你获得了以下奖励：" x="133" y="448" size="22" fontFamily="Microsoft YaHei" width="366" textAlign="center" textColor="0xe7d0b7"/>
+	<ns1:CustomLabel id="_txtName" text="你获得了以下奖励：" x="133" y="585" size="22" fontFamily="Microsoft YaHei" width="366" textAlign="center" textColor="0xE7D0B7"/>
+	<ns1:CustomLabel text="此时无比幸福的你想怎么回应呢？" x="133" y="620" size="22" fontFamily="Microsoft YaHei" width="366" textAlign="center" textColor="0xE7D0B7"/>
+	<ns1:CustomLabel id="_txtCount" text="" x="113" y="713" size="22" fontFamily="Microsoft YaHei" width="366" textAlign="left" textColor="0x00d228"/>
+	<ns1:CustomButton id="_btnGive" label="回赠" x="113" y="656" skinName="CustomButtonSkin11Skin"/>
+	<ns1:CustomButton id="_btnKiss" label="回吻" x="259" y="656" skinName="CustomButtonSkin11Skin"/>
+	<ns1:CustomButton id="_btnAddFriend" label="加好友" x="405" y="656" skinName="CustomButtonSkin11Skin"/>
+</e:Skin>

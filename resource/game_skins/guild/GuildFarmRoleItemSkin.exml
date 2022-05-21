@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="GuildFarmRoleItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage width="150" height="140"  source="share_bg6" scale9Grid="36,33,36,82"/>
+	<ns1:HeadItem id="head" x="39" y="21"/>
+	<ns1:CustomImage id="iconSelect" x="21" y="4" source="share_itemSelected" visible="false"/>
+	<ns1:CustomLabel id="txtName" text="玩家名字七个字" y="104" size="18" bold="true" textAlign="center" textColor="0xe7d0b7" width="150"/>
+	<ns1:CustomImage id="iconShui" x="42" y="76" source="guild_farm_shui"/>
+	<ns1:CustomImage id="iconTou" x="85" y="76" source="guild_farm_hand"/>
+
+	<w:Config id="15b574dc1c4" ></w:Config>
+</e:Skin>

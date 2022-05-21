@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="GuildUpgradeItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+	<w:Config id="15aa26eb676" ></w:Config>
+	<ns1:CustomImage width="567" height="216" source="share_bg2" scale9Grid="12,9,82,140"/>
+	<ns1:CustomImage y="15" source="guild_jztitleBg" x="2"/>
+	<ns1:CustomButton id="btnGet" label="升级" x="435" y="16" width="117" skinName="CustomButtonSkin7Skin" height="47"/>
+	<ns1:CustomLabel id="txtTitle" text="1级管理大厅" x="18" y="24" size="18" textColor="0xffd200" bold="true"/>
+	<ns1:CustomLabel id="txtNeed" text="管理大厅等级决定公会等级" x="18" y="57" size="18" textColor="0x00d228" bold="true"/>
+	<ns1:CustomLabel text="资金消耗：" x="18" y="90" size="18" bold="true" textColor="0xdda66b"/>
+	<ns1:CustomImage width="541" height="87" x="13" y="119" source="textInput_bg" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="6,6,130,22"/>
+	<ns1:CustomLabel id="txtDes" text="1.解锁4级公会建筑" x="20" y="130" size="18" textColor="0xe7d0b7" bold="true" anchorOffsetX="0" width="520" anchorOffsetY="0" height="68" lineSpacing="10"/>
+	<ns1:CustomProgressBar id="bar" x="112" y="87" skinName="CustomProgressBarSkin2"/>
+</e:Skin>

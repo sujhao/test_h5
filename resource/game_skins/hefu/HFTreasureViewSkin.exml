@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HFTreasureViewSkin" width="577" height="677" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="HFTreasure_json.HFTreasure_bg" />
+	<ns1:CustomImage x="150" y="27" source="HFTreasure_json.HFTreasure_border1"  />
+	<ns1:CustomImage x="241" y="38.5" source="HFTreasure_json.HFTreasure_equipTxt" />
+	<ns1:CustomImage id="_imgGold1" x="146" y="413"  source=""/>
+	<ns1:CustomLabel id="_txtCon1" text="12" x="184" y="418" size="20" fontFamily="Microsoft YaHei" width="88"
+	                 textAlign="left" verticalAlign="justify" textColor="0xffd200" />
+	<ns1:CustomImage id="_imgGold2" x="360" y="413" rotation="359.32"  source=""/>
+	<ns1:CustomLabel id="_txtCon2" text="12" x="396" y="418" size="20" textColor="0xFFD200" fontFamily="Microsoft YaHei"
+	                 width="88" textAlign="left" verticalAlign="justify" rotation="359.32" />
+	<ns1:CustomLabel id="_txtCount" text="每日寻宝达到指定次数可领取奖励" x="94" y="459" size="20" fontFamily="Microsoft YaHei"
+	                 width="388" textAlign="center" textColor="0xffd200" />
+	<ns1:CustomButton id="_btnGet" label="寻宝1次" x="107" y="355" skinName="CustomButtomSkin5Skin" />
+	<ns1:CustomButton id="_btnGet10" label="寻宝10次" x="316" y="355" skinName="CustomButtomSkin5Skin" />
+	<e:Group width="542" height="242" x="20" y="81" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:GoodsItem id="_item6" x="428" y="134" />
+		<ns1:GoodsItem id="_item5" x="296" y="134" />
+		<ns1:GoodsItem id="_item3" x="14" y="134" />
+		<ns1:GoodsItem id="_item0" x="14" y="8" />
+		<ns1:GoodsItem id="_item4" x="150" y="134" />
+		<ns1:GoodsItem id="_item2" x="428" y="8" />
+		<ns1:GoodsItem id="_item1" x="227" y="8" />
+	</e:Group>
+	<e:Group id="_itemContainer2" width="413" height="107" x="78" y="493" anchorOffsetY="0" anchorOffsetX="0"/>
+</e:Skin>

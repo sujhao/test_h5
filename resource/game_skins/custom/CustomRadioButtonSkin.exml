@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CustomRadioButtonSkin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Group width="100%" height="100%">
+        <e:layout>
+            <e:HorizontalLayout verticalAlign="middle"/>
+        </e:layout>
+        <e:Image fillMode="scale" alpha="1" alpha.disabled="0.5" alpha.down="0.7"
+                 source="radiobutton_unselect_png"
+                
+                
+                 source.up="custom_radiobutton_up" source.down="custom_radiobutton_down" source.disabled="custom_radiobutton_up" source.upAndSelected="custom_radiobutton_down" source.downAndSelected="custom_radiobutton_down" source.disabledAndSelected="custom_radiobutton_down"/>
+        <e:Label id="labelDisplay" size="20" textColor="0x707070"
+                 textAlign="center" verticalAlign="middle"
+                 fontFamily="Tahoma" size.up="18" textColor.up="0xe7d0b7" bold.up="true" textColor.down="0xe7d0b7" bold.down="true" size.down="18" bold.disabled="true" size.disabled="18" textColor.upAndSelected="0xe7d0b7" size.upAndSelected="18" bold.upAndSelected="true" textColor.downAndSelected="0xe7d0b7" size.downAndSelected="18" bold.downAndSelected="true" bold.disabledAndSelected="true" size.disabledAndSelected="18" textColor.disabledAndSelected="0xe7d0b7"/>
+    </e:Group>
+
+	<w:Config id="15a98065f39" ></w:Config>
+</e:Skin>

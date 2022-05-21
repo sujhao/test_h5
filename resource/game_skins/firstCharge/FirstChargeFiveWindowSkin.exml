@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FirstChargeFiveWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="925">
+	<ns1:LayeroutWindowSkin id="panelSkin" anchorOffsetX="0" width="620" height="925">
+    <ns1:CustomImage id="bm_title" y="72" x="18"  source="firstChargeFive_json.firstChargeFive_bg"/>
+		<ns1:CustomImage id="bm_title3" y="195" x="-19" source="firstChargeFive_json.firstChargeFive_wing"/>
+		<ns1:CustomImage id="bm_title0" y="96" x="21" source="firstChargeFive_json.firstChargeFive_w1"/>
+		<ns1:CustomImage id="bm_title1" y="670" x="179" source="firstChargeFive_json.firstChargeFive_w2"/>
+		<ns1:CustomImage id="bm_title2" y="713" x="245" source="firstChargeFive_json.firstChargeFive_num"/>
+		
+		<ns1:CustomButton id="btn_lq" label="领取奖励" x="238" y="855" skinName="CustomButtonSkin2Skin" visible="false"/>
+		<e:Group id="_itemContainer1" width="558" height="152" x="33" y="366" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group id="_itemContainer2" width="538" height="108" x="35" y="765" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:BitmapLabel id="_txtCount" width="103" height="30" x="220" y="744" textAlign="center" text="1212" font="number_2_fnt" visible="false"/>
+		<ns1:CustomLabel id="_txtLink" text="标签" x="156" y="893" textColor="0x00ff31" size="20" fontFamily="Microsoft YaHei" width="300" textAlign="center"/>
+</ns1:LayeroutWindowSkin>
+</e:Skin>

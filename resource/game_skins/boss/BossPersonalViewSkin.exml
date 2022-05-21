@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossPersonalViewSkin" width="575" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller width="575" height="645">
+		<e:DataGroup id="bossList"  itemRenderer="BossPersonalItem"/>
+	</e:Scroller>
+</e:Skin>

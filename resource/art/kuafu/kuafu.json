@@ -1,0 +1,8 @@
+{"file":"kuafu.png","frames":{
+"kf_map_btn_1":{"x":522,"y":0,"w":174,"h":65,"offX":2,"offY":0,"sourceW":177,"sourceH":65},
+"kf_map_btn_2":{"x":178,"y":37,"w":172,"h":62,"offX":3,"offY":2,"sourceW":177,"sourceH":65},
+"kf_map_btn_3":{"x":0,"y":134,"w":174,"h":63,"offX":2,"offY":1,"sourceW":177,"sourceH":65},
+"kf_map_btn_4":{"x":700,"y":67,"w":174,"h":63,"offX":2,"offY":1,"sourceW":177,"sourceH":65},
+"kf_map_btn_5":{"x":700,"y":0,"w":174,"h":63,"offX":2,"offY":1,"sourceW":177,"sourceH":65},
+"kuafu_bossTitle":{"x":0,"y":0,"w":518,"h":33,"offX":0,"offY":1,"sourceW":519,"sourceH":34},
+"kf_map_btn_6":{"x":0,"y":37,"w":174,"h":63,"offX":2,"offY":1,"sourceW":177,"sourceH":65}}}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildDonateRedLogSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller width="580" height="370" x="2">
+		<e:DataGroup id="itemList" itemRenderer="GuildDonateRedLogItem"/>
+	</e:Scroller>
+</e:Skin>

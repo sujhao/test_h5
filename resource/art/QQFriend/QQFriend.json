@@ -1,0 +1,10 @@
+{"file":"QQFriend.png","frames":{
+"QQFriend_word1":{"x":583,"y":134,"w":377,"h":34,"offX":0,"offY":0,"sourceW":377,"sourceH":34},
+"QQFriend_bg":{"x":0,"y":849,"w":579,"h":149,"offX":0,"offY":0,"sourceW":579,"sourceH":149},
+"QQFriend_bg2":{"x":0,"y":0,"w":577,"h":678,"offX":0,"offY":0,"sourceW":577,"sourceH":678},
+"QQFriend_head":{"x":583,"y":0,"w":125,"h":125,"offX":0,"offY":0,"sourceW":125,"sourceH":125},
+"QQFriend_midBorder":{"x":0,"y":682,"w":579,"h":163,"offX":0,"offY":0,"sourceW":579,"sourceH":163},
+"QQFriend_selected":{"x":829,"y":0,"w":110,"h":110,"offX":0,"offY":0,"sourceW":110,"sourceH":110},
+"QQFriend_border1":{"x":671,"y":172,"w":120,"h":34,"offX":0,"offY":0,"sourceW":120,"sourceH":34},
+"QQFriend_btnShare":{"x":583,"y":172,"w":84,"h":84,"offX":0,"offY":0,"sourceW":84,"sourceH":84},
+"QQFriendRank_head":{"x":712,"y":0,"w":113,"h":130,"offX":0,"offY":0,"sourceW":113,"sourceH":130}}}

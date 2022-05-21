@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SpecialEquipWindowSkin" width="620" height="743" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage  source="special_json.special_bg"/>
+	<ns1:CustomButton id="_btnClose" label="" x="571" y="-6">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="comp_json.win_close" source.down="comp_json.win_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomButton id="_btnReturn" label="" x="562" y="683">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="share_json.share_btnReturn" source.down="share_json.share_btnReturn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<!--<ns1:HeroListTopBox id="heroListTopBox"  horizontalCenter="0" y="-3"/>-->
+	<ns1:EquipItem id="_item"  x="262" y="196"/>
+	<ns1:CustomImage  x="169" y="324" source="special_json.special_border1"/>
+	<ns1:CustomImage x="141" y="428" source="special_json.special_word1"/>
+	<ns1:CustomImage x="19" y="598" source="special_json.special_border2"/>
+	<ns1:CustomImage x="26" y="466" source="special_json.special_word3"/>
+	<ns1:CustomImage x="363" y="428" source="special_json.special_word2"/>
+	<ns1:CustomLabel id="_txtName" text="标签4234234234" x="197" y="343" size="18" fontFamily="Microsoft YaHei" textColor="0xffd200" width="222" textAlign="center"/>
+	<ns1:CustomLabel id="_txtDesc" text="标签4234234234" x="100" y="386" size="18" fontFamily="Microsoft YaHei" width="410" textAlign="center" textColor="0x00d228"/>
+    <ns1:CustomLabel id="_txtPro" text="攻击：+1000防御：攻击：+1000防御：攻击：+1000防御：" x="134" y="475" size="18"
+                     fontFamily="Microsoft YaHei" anchorOffsetX="0" width="155" wordWrap="true" anchorOffsetY="0"
+                     height="107"  textColor="0xe7d0b7" lineSpacing="5"/>
+	<ns1:CustomLabel id="_txtCon" text="消耗麻痹XX碎片：" x="159" y="615" size="18" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="155" wordWrap="true" anchorOffsetY="0" height="22" textColor="0xE7D0B7"/>
+	<ns1:CustomLabel id="_txtProNext" text="攻击：+1000防御：" x="358" y="475" size="18" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="155" wordWrap="true" anchorOffsetY="0" height="107" textColor="0x00d228" lineSpacing="5"/>
+	<ns1:CustomImage  x="287" y="492" source="special_json.special_rightArrow"/>
+	<ns1:CustomImage x="316" y="609" source="comp_json.textInput_bg"/>
+	<ns1:CustomLabel id="_txtConCount" text="标签4234234234" x="320" y="617" size="18" fontFamily="Microsoft YaHei" textColor="0xFFD200" width="141" textAlign="left" height="22"/>
+	<ns1:CustomButton id="_btnOK" label="按钮" x="253" y="661"/>
+</e:Skin>

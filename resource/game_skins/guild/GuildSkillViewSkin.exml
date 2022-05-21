@@ -1,0 +1,35 @@
+<e:Skin class="GuildSkillViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin">
+		<ns1:CustomImage x="19" y="71" source="guild_skillBg"/>
+		<ns1:CustomImage x="34" y="373" source="guild_skillBg2"/>
+		<ns1:CustomImage y="195" source="guild_skillBg3" x="22"/>
+		<e:Group id="barGroup" x="175" y="434">
+			<ns1:CustomImage x="0" y="0" source="guild_barBg" width="350"/>
+			<ns1:CustomImage id="guild_bar" x="3" y="4" source="guild_bar" scale9Grid="1,5,267,3" anchorOffsetX="0" width="344" anchorOffsetY="0" height="17"/>
+			<ns1:CustomLabel id="txtBar" text="0/10000" x="59" y="5" size="16" textColor="0xE7D0B7" bold="true" anchorOffsetX="0" width="230" anchorOffsetY="0" height="18" textAlign="center"/>
+		</e:Group>
+		<ns1:CustomButton id="btnGet" label="学习" x="245" y="746" skinName="CustomButtonSkin2Skin"/>
+		<e:Group id="topContainer" width="357" height="94" x="129" y="56"/>
+		<ns1:GuildSkillItem id="itemShow" x="63" y="372"/>
+		<ns1:GuildSkillItem id="item_1" x="43" y="210"/>
+		<ns1:GuildSkillItem id="item_2" x="149" y="210"/>
+		<ns1:GuildSkillItem id="item_5" x="466" y="210"/>
+		<ns1:GuildSkillItem id="item_3" x="255" y="210"/>
+		<ns1:GuildSkillItem id="item_4" x="360" y="210"/>
+		<ns1:CustomLabel id="txtName" text="技能名字" x="179" y="400" size="18" bold="true" textColor="0xe7d0b7"/>
+		<ns1:CustomLabel id="txtPro" text="加成" x="179" y="436" size="18" bold="true" textColor="0xE7D0B7" visible="false"/>
+		<ns1:CustomLabel text="当前属性" x="136" y="509" size="18" textColor="0xdda66b" textAlign="left" bold="true"/>
+		<ns1:CustomLabel text="可用贡献：" x="77" y="609" size="18" textColor="0xDDA66B" textAlign="left" bold="true"/>
+		<ns1:CustomLabel text="升级消耗：" x="77" y="639" size="18" textColor="0xDDA66B" textAlign="left" bold="true"/>
+		<ns1:CustomLabel text="下级属性" x="374" y="509" size="18" textColor="0xDDA66B" textAlign="left" bold="true"/>
+		<ns1:CustomLabel id="txtCur" text="生命：9999" x="136" y="537" size="18" textAlign="left" bold="true" textColor="0xe7d0b7" anchorOffsetY="0" height="55" anchorOffsetX="0" width="155" lineSpacing="10"/>
+		<ns1:CustomLabel id="txtCur_gx" text="9999" x="201" y="609" size="18" textColor="0xE7D0B7" textAlign="left" bold="true"/>
+		<ns1:CustomLabel id="txtgx" text="9999" x="201" y="639" size="18" textColor="0xE7D0B7" textAlign="left" bold="true"/>
+		<ns1:CustomLabel id="txtCoin" text="9999" x="340" y="639" size="18" textColor="0xE7D0B7" textAlign="left" bold="true"/>
+		<ns1:CustomLabel id="txtNext" text="生命：9999" x="374" y="537" size="18" textAlign="left" bold="true" textColor="0x00d228" anchorOffsetY="0" height="55" width="155" lineSpacing="10"/>
+		<ns1:CustomImage x="287" y="536" source="guild_skillIcon"/>
+		<ns1:CustomImage x="305.5" y="634" source="resource/assets/icon/smallPic/1.png"/>
+		<ns1:CustomImage x="164" y="634" source="resource/assets/icon/smallPic/3.png"/>
+		<ns1:CustomImage x="164" y="603" source="resource/assets/icon/smallPic/3.png"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

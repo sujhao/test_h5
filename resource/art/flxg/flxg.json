@@ -1,0 +1,8 @@
+{"file":"flxg.png","frames":{
+"flxg_itemSelected":{"x":581,"y":378,"w":122,"h":142,"offX":0,"offY":0,"sourceW":122,"sourceH":142},
+"flxg_rightBg":{"x":581,"y":0,"w":220,"h":374,"offX":0,"offY":0,"sourceW":220,"sourceH":374},
+"flxg_word":{"x":581,"y":524,"w":104,"h":28,"offX":0,"offY":0,"sourceW":104,"sourceH":28},
+"flxg_bg":{"x":0,"y":0,"w":577,"h":677,"offX":0,"offY":0,"sourceW":577,"sourceH":677},
+"flxg_itemBg":{"x":805,"y":0,"w":122,"h":129,"offX":0,"offY":0,"sourceW":122,"sourceH":129},
+"flxg_line":{"x":0,"y":681,"w":528,"h":89,"offX":0,"offY":0,"sourceW":528,"sourceH":89},
+"flxg_btnBuy":{"x":0,"y":774,"w":161,"h":67,"offX":0,"offY":0,"sourceW":161,"sourceH":67}}}

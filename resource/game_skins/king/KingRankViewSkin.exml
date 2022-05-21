@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KingRankViewSkin" width="578" height="755" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="share_titleBg" width="120"/>
+	<ns1:CustomImage x="121" source="share_titleBg" width="345"/>
+	<ns1:CustomImage x="467" source="share_titleBg" width="110"/>
+	<ns1:CustomLabel text="排名" x="39" y="9" size="18" textColor="0xDDA66B" bold="true"/>
+	<ns1:CustomLabel text="名称" x="270.5" y="9" size="18" textColor="0xDDA66B" bold="true"/>
+	<ns1:CustomLabel text="净胜场" x="495.5" y="9" size="18" textColor="0xDDA66B" bold="true"/>
+	<e:Scroller width="580" height="655" y="37" anchorOffsetX="0" anchorOffsetY="0">
+		<e:DataGroup id="ranklist" itemRenderer="KingRankItem"/>
+	</e:Scroller>
+	<ns1:CustomImage y="691" source="share_titleBg3" width="100%" height="70"/>
+	<ns1:CustomImage y="711" x="47" source="kingTxt_my"/>
+	<ns1:CustomImage id="icon" y="701" x="156" source="kingType_s_1"/>
+	<e:BitmapLabel id="txtLv" x="182" y="714" text="5" font="number_2_fnt"/>
+	<ns1:CustomLabel text="排名：" x="292" y="716" size="18" bold="true" textColor="0xdda66b"/>
+	<ns1:CustomLabel id="txtRank" text="未上榜" x="343" y="716" size="18" bold="true" textColor="0xe7d0b7"/>
+	<ns1:CustomLabel id="txtCount" text="0场" x="497" y="716" size="18" bold="true" textColor="0xE7D0B7"/>
+	<ns1:CustomLabel text="净胜场：" x="429" y="716" size="18" bold="true" textColor="0xDDA66B"/>
+</e:Skin>

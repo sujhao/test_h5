@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShadowEquipSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="755" width="578">
+	<ns1:CustomImage source="shadowTitleBg2" y="634" anchorOffsetY="0"/>
+	<ns1:CustomImage  horizontalCenter="0" y="237" source="shadowTitleBg"/>
+	<ns1:CustomImage source="share_contentBg2" x="53" y="725" visible="false"/>
+	<ns1:CustomButton id="btnGet" label="升级" y="686"  skinName="CustomButtonSkin2Skin"  horizontalCenter="0"/>
+	<ns1:CustomImage x="212" y="572" source="comp_json.textInput_bg" scale9Grid="17,4,109,27" anchorOffsetX="0" width="160"/>
+	<ns1:CustomLabel id="txtPro" text="" x="145" y="293" size="18" textColor="0xDDA66B" bold="true" anchorOffsetX="0" width="132" anchorOffsetY="0" height="75" lineSpacing="10"/>
+	<ns1:CustomLabel id="txtPro2" text="" x="338" y="293" size="18" bold="true" anchorOffsetX="0" width="158" anchorOffsetY="0" height="75" textColor="0x00d228" lineSpacing="10"/>
+	<ns1:CustomLabel id="txtCount" text="0/0" x="215" y="582" size="18" bold="true" width="150" textAlign="center" textColor="0xdda66b"/>
+	<ns1:CustomLabel id="txtName" text="光环碎片：" x="63" y="582" size="18" bold="true" width="150" textAlign="right" textColor="0xDDA66B"/>
+	<ns1:CustomLabel id="txtFight" text="战斗力：0" x="133" y="288" size="20" bold="true" width="150" textAlign="left" textColor="0xffd200"/>
+	<ns1:CustomLabel id="txtFight2" text="战斗力：0" x="326" y="288" size="20" bold="true" width="150" textAlign="left" textColor="0xFFD200"/>
+	<ns1:CustomImage x="275" y="142" source="shadow_jt"/>
+	<ns1:CustomImage x="146" y="200" source="shadowNameBg"/>
+	<ns1:CustomImage x="148" y="251" source="shadowTxt2"/>
+	<ns1:CustomImage x="344" y="251" source="shadowTxt3"/>
+	<ns1:CustomImage x="334" y="200" source="shadowNameBg"/>
+	<ns1:CustomImage x="275" y="328" source="shadow_jt"/>
+	<ns1:GoodsItemSmall id="item_cur" x="153" y="118"/>
+	<ns1:GoodsItemSmall id="item_next" x="340" y="118"/>
+	<ns1:GoodsItemSmall id="item_1" x="90" y="421"/>
+	<ns1:GoodsItemSmall id="item_2" x="194" y="421"/>
+	<ns1:GoodsItemSmall id="item_3" x="298" y="421"/>
+	<ns1:GoodsItemSmall id="item_4" x="402" y="421"/>
+	<ns1:CustomImage id="itemLock_1" x="90" y="421" source="shadowEquip_1"/>
+	<ns1:CustomImage id="itemLock_2" x="194" y="421" source="shadowEquip_2"/>
+	<ns1:CustomImage id="itemLock_3" x="298" y="421" source="shadowEquip_3"/>
+	<ns1:CustomImage id="itemLock_4" x="402" y="421" source="shadowEquip_4"/>
+	<ns1:CustomImage id="imageSelect" x="77" y="409" source="share_json.share_itemSelected"/>
+</e:Skin>

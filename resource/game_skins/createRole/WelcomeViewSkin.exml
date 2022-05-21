@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WelcomeViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage id="welcomeBg" source="share_black2" width="640" height="1136" scale9Grid="6,6,38,38"/>
+	<ns1:CustomButton id="btnEnter" label="" x="241" y="567" width="125" height="40">
+	</ns1:CustomButton>
+</e:Skin>

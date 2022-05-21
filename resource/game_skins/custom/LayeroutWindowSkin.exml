@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LayeroutWindowSkinSkin" minHeight="620" minWidth="550" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+    <e:Image  scale9Grid="46,57,531,781"  source="winBg" horizontalCenter="0" top="17"/>
+    <e:Group id="moveArea" left="0" right="0" top="0" height="45">
+        <e:Image  source="win_headBar" width="464" height="64" y="6" horizontalCenter="0"/>
+        <e:Label id="titleDisplay" size="20" fontFamily="Tahoma" textColor="0xFFFFFF"
+                 wordWrap="false" left="15" right="5" verticalCenter="0"/>
+			<ns1:CustomButton id="closeButton" label="" top="8" right="-4">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="win_close" source.down="win_close"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:CustomButton>
+			<e:Image id="imageTitle" horizontalCenter="0.5" top="20" source=""/>
+    </e:Group>
+	<ns1:CustomImage id="win_bg"  source="comp_json.win_innerBg" left="16" top="62"  scale9Grid="29,23,537,710"/>
+	<ns1:CustomButton id="returnButton" label="" right="8" bottom="9">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="share_json.share_btnReturn" source.down="share_json.share_btnReturn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+
+	<w:Config id="159a536d89b" ></w:Config>
+</e:Skin>

@@ -1,0 +1,7 @@
+{"file":"getmaterial.png","frames":{
+"getmaterial_title":{"x":0,"y":185,"w":135,"h":41,"offX":0,"offY":0,"sourceW":135,"sourceH":41},
+"getmaterial_wordBg":{"x":164,"y":45,"w":186,"h":40,"offX":0,"offY":0,"sourceW":186,"sourceH":40},
+"getmaterial_border":{"x":164,"y":0,"w":575,"h":41,"offX":0,"offY":0,"sourceW":575,"sourceH":41},
+"getmaterial_itembg":{"x":0,"y":0,"w":160,"h":181,"offX":0,"offY":0,"sourceW":160,"sourceH":181},
+"getmaterial_line":{"x":354,"y":45,"w":593,"h":3,"offX":0,"offY":0,"sourceW":593,"sourceH":3},
+"title_buy":{"x":164,"y":89,"w":58,"h":28,"offX":0,"offY":0,"sourceW":58,"sourceH":28}}}

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="ZhuanShengXiuWeiItemSkinSkin" states="up,down,disabled" width="600" height="131" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+    <e:Image  alpha.disabled="0.5"
+             source="zhuan_buyItem"
+              width="600" scale9Grid="72,16,438,99"/>
+    <e:Label id="labelDisplay" width="111" height="20"
+             size="20" fontFamily="Tahoma"
+             textColor="0xFFFFFF" verticalAlign="middle" textAlign="center" x="316" y="56" text=""/>
+	<ns1:GoodsItem id="_item"  x="20" y="18"/>
+	<ns1:CustomImage  x="115" y="20" source="zhuan_priceBg"/>
+	<ns1:CustomImage id="_imageGold" x="271" y="68" source="mainUI_json.image_gold"/>
+	<ns1:CustomLabel id="_txtSoul" text="增加 10 点修为" x="129" y="31" size="18" anchorOffsetX="0" width="222" fontFamily="Microsoft YaHei"/>
+	<ns1:CustomLabel id="_txtTimes" text="今天还可兑换12/6次" x="384" y="33" size="16" anchorOffsetX="0" width="184" fontFamily="Microsoft YaHei" textAlign="right" textColor="0xdda66b"/>
+	<ns1:CustomLabel id="_txtReq" text="增加 10 点修为" x="129" y="73" size="18" anchorOffsetX="0" width="155" fontFamily="Microsoft YaHei" textColor="0xdda66b"/>
+	<ns1:CustomLabel id="_txtReqGold" text="增加 10 点修为" x="320" y="73" size="18" anchorOffsetX="0" width="132" fontFamily="Microsoft YaHei" textColor="0xffd200"/>
+	<ns1:CustomButton id="_btnOK" label="购买" x="449" y="65" height="48"/>
+
+	<w:Config id="15a1b89c137" ></w:Config>
+</e:Skin>

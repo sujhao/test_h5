@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CWInnerRankViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage x="0" y="0" source="cityWar_json.cityWar_cwOutRankBg"/>
+	<e:Group id="_containerPerson" width="261" height="64" x="5" y="36" anchorOffsetY="0" anchorOffsetX="0">
+	</e:Group>
+	<e:Group id="_containerGuild" width="261" height="64" x="5" y="136" anchorOffsetY="0" anchorOffsetX="0"/>
+</e:Skin>

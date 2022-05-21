@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildGonggaoSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" anchorOffsetY="0" height="474">
+		<ns1:CustomTextInput id="txtContent" width="459" height="232" x="81" y="95" anchorOffsetX="0" anchorOffsetY="0" maxChars="200"/>
+		<ns1:CustomButton id="btnGet" label="确定" x="249.5" y="394" skinName="CustomButtonSkin2Skin"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

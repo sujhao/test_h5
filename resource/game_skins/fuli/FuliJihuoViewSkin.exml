@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliJihuoViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage x="15" source="resource/assets/icon/fuli/fuli_jihuo.png" y="50"/>
+	<ns1:CustomImage y="249" x="54.5" source="fuliTitleBg"/>
+	<ns1:CustomImage y="268.5" x="154.5" source="fuliTxt"/>
+	<ns1:CustomButton id="btnGet" label="领取奖励" x="214" y="378" skinName="CustomButtomSkin5Skin"/>
+	<ns1:CustomTextInput id="_txtCode" width="403" height="40" x="88" y="316" anchorOffsetX="0"/>
+</e:Skin>

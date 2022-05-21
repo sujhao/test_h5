@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MagicPetFeedViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="magicPet_json.feedBg" y="112"/>
+	<ns1:CustomLabel text="体力：" x="29" y="41" size="22" fontFamily="Microsoft YaHei"/>
+	<ns1:CustomImage x="342" y="1" source="magicPet_json.feedBtnBg"/>
+	<ns1:CustomImage id="btnFeed1" x="362" y="26" source="magicPet_json.feedTitle1"/>
+	<ns1:CustomImage x="457" y="1" source="magicPet_json.feedBtnBg"/>
+	<ns1:CustomImage id="btnFeed2" x="476" y="26" source="magicPet_json.feedTitle2"/>
+	<e:Group id="timeCon" width="221" height="51" x="98" y="34" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ns1:CustomLabel id="txtLog" text="" fontFamily="Microsoft YaHei" size="20" scaleX="1" scaleY="1" anchorOffsetX="0" width="559" anchorOffsetY="0" height="74" y="160" x="10" lineSpacing="3"/>
+	<ns1:CustomLabel text="体力不足时可通过好友赠送恢复" x="16" y="122" anchorOffsetX="0" width="301" anchorOffsetY="0" height="26" size="20" fontFamily="Microsoft YaHei" textColor="0xfcd5a6"/>
+	<ns1:CustomLabel id="txtLink" text="私聊好友" x="326" y="122" anchorOffsetX="0" width="99" anchorOffsetY="0" height="26" size="20" fontFamily="Microsoft YaHei" textColor="0x16ff24"/>
+</e:Skin>

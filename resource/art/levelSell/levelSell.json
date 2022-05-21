@@ -1,0 +1,6 @@
+{"file":"levelSell.png","frames":{
+"levelSell_selected":{"x":581,"y":0,"w":116,"h":116,"offX":0,"offY":0,"sourceW":116,"sourceH":116},
+"levelSell_bg":{"x":0,"y":0,"w":577,"h":831,"offX":0,"offY":0,"sourceW":577,"sourceH":831},
+"levelSell_btn":{"x":701,"y":0,"w":161,"h":67,"offX":0,"offY":0,"sourceW":161,"sourceH":67},
+"levelSell_item":{"x":866,"y":0,"w":89,"h":89,"offX":0,"offY":0,"sourceW":89,"sourceH":89},
+"levelSell_line":{"x":701,"y":71,"w":131,"h":34,"offX":0,"offY":0,"sourceW":131,"sourceH":34}}}

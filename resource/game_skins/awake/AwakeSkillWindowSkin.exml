@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AwakeSkillWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<ns1:LayeroutWindowSkin id="panelSkin" height="745" skinName="CustomSmallWindowSkinSkin">
+		<e:Group id="contentGroup" width="607" height="470" x="6" y="47" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:CustomImage x="166" y="43" source="awakeItemBg"/>
+			<ns1:CustomImage id="img_jh" x="367" y="235" source="share_jihuo"/>
+		</e:Group>
+		<ns1:CustomButton id="btnLeft" label="" x="27" y="240">
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="share_leftBtn" source.down="share_leftBtn" source.disabled="share_leftBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="btnRight" label="" x="552" y="240">
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="share_rightBtn" source.down="share_rightBtn" source.disabled="share_rightBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="returnButton" label="" right="4" bottom="6">
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="share_json.share_btnReturn" source.down="share_json.share_btnReturn" source.disabled="share_json.share_btnReturn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:CustomButton>
+		<ns1:CustomImage x="104.5" y="442" source="share_titleBg2"/>
+		<ns1:CustomImage id="img_career" x="50" y="80" source="awakeIcon_1"/>
+		<ns1:CustomLabel id="txtTitle" text="激活条件" x="160" y="452" textColor="0xe7d0b7" bold="true" size="20" width="300" textAlign="center"/>
+		<ns1:CustomLabel text="技能效果：" x="43" y="543" textColor="0xE7D0B7" bold="true" size="18" width="103" textAlign="left" anchorOffsetX="0"/>
+		<ns1:CustomLabel id="txtDes" text="技能效果" x="141" y="543" textColor="0xE7D0B7" bold="true" size="18" width="442" textAlign="left" lineSpacing="5" anchorOffsetY="0" height="59" anchorOffsetX="0"/>
+		<ns1:CustomLabel text="觉醒技能自动替换原有职业技能并继承原有技能等级 觉醒技能可继续升级来提升技能效果" x="43" y="610" bold="true" size="18" width="431" textAlign="left" anchorOffsetX="0" lineSpacing="5" textColor="0xdda66b"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

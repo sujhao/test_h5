@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="925">
+	<ns1:LayeroutWindowSkin id="panelSkin" height="925">
+		<e:Scroller width="587" height="263.33" x="17" y="576" anchorOffsetX="0" anchorOffsetY="0">
+			<e:DataGroup id="ranklist" itemRenderer="RankItem" y="1"/>
+		</e:Scroller>
+		<e:Group id="roleGroup" width="587" height="423" x="17" y="150" anchorOffsetX="0" anchorOffsetY="0">
+			<ns1:CustomButton id="btnGet" label="" x="444" y="316">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="rankBtnBai_up" source.down="rankBtnBai_up" source.disabled="rankBtnBai_dis"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:CustomButton>
+			<ns1:CustomImage x="410" y="249.5" source="rankTitleBg2"/>
+			<ns1:CustomImage x="442" y="249" source="resource/assets/icon/smallPic/1.png"/>
+			<ns1:CustomImage x="442" y="279" source="resource/assets/icon/smallPic/5.png"/>
+			<ns1:CustomLabel id="txtCoin" text="10000" x="476" y="258" textColor="0xe7d0b7" bold="true" size="18"/>
+			<ns1:CustomLabel id="txtExp" text="10000" x="476" y="286" textColor="0xE7D0B7" bold="true" size="18"/>
+		</e:Group>
+		<ns1:CustomImage x="20" y="830.69" source="rankTitleBg"/>
+		<ns1:CustomImage x="145" y="860.69" source="rankTxt_my"/>
+		<ns1:CustomLabel id="txtRank" text="100" x="259" y="864.69" size="18" bold="true" textColor="0xe7d0b7"/>
+		<ns1:CustomLabel text="战力榜" x="21" y="91" textColor="0xdda66b" bold="true" size="22" touchEnabled="false" visible="false"/>
+		<ns1:CustomLabel text="等级榜" x="111" y="91" textColor="0xDDA66B" bold="true" size="22" touchEnabled="false" visible="false"/>
+		<ns1:CustomLabel text="神翼榜" x="193" y="91" textColor="0xDDA66B" bold="true" size="22" touchEnabled="false" visible="false"/>
+		<ns1:CustomLabel text="遭遇榜" x="276" y="91" textColor="0xDDA66B" bold="true" size="22" touchEnabled="false" visible="false"/>
+		<ns1:CustomLabel text="战皇榜" x="360" y="91" textColor="0xDDA66B" bold="true" size="22" touchEnabled="false" rotation="359.25" visible="false"/>
+		<ns1:CustomLabel text="法神榜" x="446" y="91" textColor="0xDDA66B" bold="true" size="22" touchEnabled="false" visible="false"/>
+		<ns1:CustomLabel text="道祖榜" x="522" y="91" textColor="0xDDA66B" bold="true" size="22" touchEnabled="false" visible="false"/>
+		<ns1:CustomImage x="446" y="847" anchorOffsetX="0" anchorOffsetY="0" width="104" height="50" source="share_titleBg2" scale9Grid="132,15,136,15" visible="false"/>
+		<ns1:CustomLabel text="刷新倒计时" y="854.69" size="20" bold="true" textColor="0xFFD200" width="110" textAlign="center" anchorOffsetY="0" height="26" x="458"/>
+		<e:Image source="zhuan_json.zhuan_border2" x="15.98" y="60.98" scale9Grid="72,20,436,15" width="587" anchorOffsetY="0" height="87.99"/>
+		<ns1:CustomLabel id="txtTime" text="30：59" y="880.69" size="20" bold="true" textColor="0xFFD200" width="110" textAlign="center" anchorOffsetY="0" height="26" x="458"/>
+		<ns1:CustomButton id="btnType_1" label="" x="23.33" y="68.66" name="btnType_1" width="73" height="70">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rankBtnType_up" source.down="rankBtnType_up" source.disabled="rankBtnType_down"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="btnType_2" label="" x="105.5" y="68.66" name="btnType_2" width="73" height="70">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rank_json.dj_1" source.down="rank_json.dj_2" source.disabled="rank_json.dj_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="btnType_3" label="" x="188" y="68.66" name="btnType_3" width="73" height="70">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rank_json.cb_1" source.down="rank_json.cb_2" source.disabled="rank_json.cb_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="btnType_4" label="" x="270.5" y="68.66" name="btnType_4" width="73" height="70">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rank_json.zy_1" source.down="rank_json.zy_2" source.disabled="rank_json.zy_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="btnType_5" label="" x="353" y="68.66" name="btnType_5" rotation="359.25" width="73" height="70">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rank_json.sj_1" source.down="rank_json.sj_2" source.disabled="rank_json.sj_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="btnType_6" label="" x="436.5" y="68.66" name="btnType_6" width="73" height="70">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rank_json.tz_1" source.down="rank_json.tz_2" source.disabled="rank_json.tz_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="btnType_7" label="" x="519" y="68.66" name="btnType_7" width="73" height="70">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rank_json.dz_1" source.down="rank_json.dz_2" source.disabled="rank_json.dz_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

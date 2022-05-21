@@ -1,0 +1,15 @@
+{"file":"figure.png","frames":{
+"bg_equipItem":{"x":904,"y":1,"w":72,"h":71,"offX":0,"offY":0,"sourceW":72,"sourceH":71},
+"bg_fightPower":{"x":583,"y":99,"w":254,"h":50,"offX":0,"offY":8,"sourceW":255,"sourceH":65},
+"bg_figure":{"x":1,"y":1,"w":580,"h":760,"offX":0,"offY":0,"sourceW":580,"sourceH":760},
+"btn_chenghao":{"x":583,"y":151,"w":64,"h":65,"offX":18,"offY":10,"sourceW":101,"sourceH":85},
+"btn_chenzhuang":{"x":903,"y":145,"w":65,"h":69,"offX":9,"offY":9,"sourceW":83,"sourceH":87},
+"btn_zhouhun":{"x":839,"y":99,"w":62,"h":77,"offX":11,"offY":0,"sourceW":83,"sourceH":87},
+"btn_zhuangban":{"x":904,"y":74,"w":72,"h":69,"offX":13,"offY":4,"sourceW":101,"sourceH":85},
+"figure_midBg":{"x":583,"y":1,"w":319,"h":96,"offX":8,"offY":0,"sourceW":334,"sourceH":96},
+"image_glass":{"x":978,"y":1,"w":36,"h":42,"offX":0,"offY":0,"sourceW":36,"sourceH":42},
+"item_lock":{"x":649,"y":151,"w":61,"h":53,"offX":0,"offY":0,"sourceW":61,"sourceH":53},
+"title_figure":{"x":712,"y":151,"w":76,"h":29,"offX":2,"offY":1,"sourceW":79,"sourceH":32},
+"title_meridians":{"x":790,"y":178,"w":78,"h":28,"offX":1,"offY":2,"sourceW":79,"sourceH":32},
+"title_wing":{"x":649,"y":206,"w":77,"h":28,"offX":1,"offY":2,"sourceW":79,"sourceH":32},
+"title_zhuansheng":{"x":728,"y":208,"w":75,"h":27,"offX":3,"offY":2,"sourceW":79,"sourceH":32}}}

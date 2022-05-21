@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CWPersonRankViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="share_json.share_titleBg" x="2" y="0" width="105" anchorOffsetX="0"/>
+	<e:Image source="share_json.share_titleBg" x="107" y="0" width="205" anchorOffsetX="0"/>
+	<e:Image source="share_json.share_titleBg" x="312" y="0" width="170" anchorOffsetX="0"/>
+	<e:Image source="share_json.share_titleBg" x="482" y="0" width="95" anchorOffsetX="0"/>
+	<ns1:CustomLabel text="名次" x="35" y="9" size="18" bold="true" textColor="0xB98C5B"/>
+	<ns1:CustomLabel text="玩家名字" x="175" y="9" size="18" bold="true" textColor="0xB98C5B"/>
+	<ns1:CustomLabel text="公会" x="380" y="9" size="18" bold="true" textColor="0xB98C5B"/>
+	<ns1:CustomLabel text="积分" x="513" y="9" size="18" bold="true" textColor="0xB98C5B"/>
+	<e:Scroller width="579" height="720" x="4" y="37" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off">
+		<e:Group id="_container" anchorOffsetX="0" width="502" anchorOffsetY="0" height="500"/>
+	</e:Scroller>
+</e:Skin>

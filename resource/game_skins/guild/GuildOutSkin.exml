@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildOutSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" height="365">
+		<ns1:CustomImage x="7" y="260" anchorOffsetX="0" width="610" anchorOffsetY="0" source="share_contentBg"/>
+		<ns1:CustomButton id="btnGet" label="确定" x="146" y="287" skinName="CustomButtonSkin2Skin"/>
+		<ns1:CustomButton id="btnCanel" label="取消" x="351" y="287" skinName="CustomButtonSkin2Skin"/>
+		<ns1:CustomLabel text="退出公会将会保留技能属性加成和贡献值" x="29" y="83" size="18" bold="true" textColor="0xe7d0b7"/>
+		<ns1:CustomLabel text="退出公会将清空庄园作物和进度" x="29" y="119" size="18" bold="true" textColor="0xe31101"/>
+		<ns1:CustomLabel text="是否继续？" x="29" y="155" textColor="0xE7D0B7" size="18" bold="true"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

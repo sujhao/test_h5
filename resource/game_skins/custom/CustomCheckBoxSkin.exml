@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CustomCheckBoxSkinSkin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Group width="100%" height="100%" verticalCenter="0">
+        <e:layout>
+            <e:HorizontalLayout verticalAlign="middle"/>
+        </e:layout>
+        <e:Image fillMode="scale" alpha="1" alpha.disabled="0.5" alpha.down="0.7"
+                 source="comp_json.comp_checkbox_unselect"
+                 source.upAndSelected="comp_json.comp_checkbox_select_up"
+                 source.downAndSelected="comp_json.comp_checkbox_select_up"
+                 source.disabledAndSelected="comp_json.comp_checkbox_select_up" width="28" height="28" y="1"/>
+        <e:Label id="labelDisplay" size="18" textColor="0x707070"
+                 textAlign="center"
+                 fontFamily="Microsoft YaHei" textColor.up="0xdda66b" bold.up="true" textColor.down="0xdda66b" bold.down="true" bold.disabled="true" textColor.upAndSelected="0xdda66b" bold.upAndSelected="true" textColor.downAndSelected="0xdda66b" bold.downAndSelected="true" textColor.disabledAndSelected="0xdda66b" bold.disabledAndSelected="true" y="12" verticalAlign="middle"/>
+    </e:Group>
+
+	<w:Config id="15a44d3b882" ></w:Config>
+</e:Skin>

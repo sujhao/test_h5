@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MeetPlayerRecordSkin" width="620" height="745" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin width="620" height="745" x="0" y="0" skinName="CustomSmallWindowSkinSkin" id="panelSkin">
+		<e:Scroller width="604" height="690" x="9" y="46" anchorOffsetX="0" anchorOffsetY="0">
+			<e:DataGroup id="_container"  itemRenderer="MPRecordItem">
+			</e:DataGroup>
+		</e:Scroller>
+		<ns1:CustomButton id="_btn" label="" x="559" y="686">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="share_json.share_btnReturn" source.down="share_json.share_btnReturn" source.disabled="share_json.share_btnReturn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

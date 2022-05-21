@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankCommonSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin">
+		<e:Scroller width="581" height="649" x="18" y="108" anchorOffsetX="0" anchorOffsetY="0">
+			<e:DataGroup  id="ranklist"  itemRenderer="RankItem2"/>
+		</e:Scroller>
+		<ns1:CustomImage x="21" y="758" anchorOffsetX="0" source="rankTitleBg3"/>
+		<ns1:CustomImage x="232" y="780" source="rankTxt_my"/>
+		<ns1:CustomImage x="19" y="71" source="share_titleBg" width="80"/>
+		<ns1:CustomImage x="99" y="71" source="share_titleBg" width="230"/>
+		<ns1:CustomImage x="328" y="71" source="share_titleBg" width="160"/>
+		<ns1:CustomImage x="488" y="71" source="share_titleBg" width="110"/>
+		<ns1:CustomLabel text="排名" x="40" y="80" size="18" textColor="0xdda66b" bold="true"/>
+		<ns1:CustomLabel text="名称" x="195" y="80" size="18" textColor="0xDDA66B" bold="true"/>
+		<ns1:CustomLabel text="战力" x="390" y="80" size="18" textColor="0xDDA66B" bold="true"/>
+		<ns1:CustomLabel text="关卡" x="525" y="80" size="18" textColor="0xDDA66B" bold="true"/>
+		<e:BitmapLabel id="txtRank" width="250" height="20" x="346" y="782" text="0" font="number_0_fnt"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

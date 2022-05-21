@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildUpgradeViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller width="583" height="755">
+		<e:DataGroup  id="upgradeList" itemRenderer="GuildUpgradeItem"/>
+	</e:Scroller>
+</e:Skin>

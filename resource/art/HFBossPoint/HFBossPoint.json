@@ -1,0 +1,8 @@
+{"file":"HFBossPoint.png","frames":{
+"HFBossPoint_arrowUp":{"x":556,"y":90,"w":64,"h":38,"offX":0,"offY":0,"sourceW":64,"sourceH":38},
+"HFBossPoint_Border":{"x":0,"y":196,"w":543,"h":41,"offX":0,"offY":0,"sourceW":543,"sourceH":41},
+"HFBossPoint_box":{"x":556,"y":0,"w":89,"h":86,"offX":0,"offY":0,"sourceW":89,"sourceH":86},
+"HFBossPoint_arrowDown":{"x":649,"y":0,"w":43,"h":51,"offX":0,"offY":0,"sourceW":43,"sourceH":51},
+"HFBossPoint_barBg":{"x":0,"y":241,"w":508,"h":26,"offX":0,"offY":0,"sourceW":508,"sourceH":26},
+"HFBossPoint_bar":{"x":0,"y":271,"w":460,"h":12,"offX":0,"offY":0,"sourceW":460,"sourceH":12},
+"HFBossPoint_border2":{"x":0,"y":0,"w":552,"h":192,"offX":0,"offY":0,"sourceW":552,"sourceH":192}}}

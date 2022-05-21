@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildListViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin">
+		<ns1:CustomButton id="btnCreate" label="创建公会" y="847" skinName="CustomButtonSkin2Skin" horizontalCenter="0"/>
+		<ns1:CustomImage x="20" y="72" source="guild_titleBg3"/>
+		<ns1:CustomLabel text="选择要加入的公会" x="229" y="82.5" size="20" textColor="0xdda66b" bold="true"/>
+		<ns1:CustomLabel text="VIP6开启" x="162.67" y="864.5" size="16" textColor="0xdda66b" anchorOffsetY="0" height="24" bold="true"/>
+		<e:Group id="listGroup" width="580" height="710" x="21" y="116"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

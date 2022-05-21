@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="925">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="LayeroutWindowSkinSkin" height="925">
+		<ns1:CustomImage x="17" y="69" source="fanli_json.fanli_bg"/>
+		<e:Scroller id="_scroller" width="541" height="104" x="25" y="92" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyV="off">
+		<e:Group id="_iconContainer">
+			<ns1:CustomImage id="_selectImage" x="8" y="-3" scaleX="1" scaleY="1" source="fanli_json.fanli_selected"/>
+		</e:Group>
+		</e:Scroller>
+		<e:Group id="contentGroup" x="23" y="218" width="575" anchorOffsetY="0" height="645">
+		</e:Group>
+		<ns1:CustomButton id="btnHelp" label="" y="14.63" x="520.31">
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="comp_btn_help" source.down="comp_btn_help" source.disabled="comp_btn_help"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:CustomButton>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

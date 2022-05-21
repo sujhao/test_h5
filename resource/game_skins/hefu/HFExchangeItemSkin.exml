@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HFExchangeItemSkin" width="578" height="157" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="HFExchange_json.HFExchange_itemBg"/>
+	<ns1:GoodsItem id="_item"  x="23" y="42"/>
+    <ns1:CustomLabel id="_txtTimes" text="BOSS积" x="139" y="94" size="20" fontFamily="Microsoft YaHei" width="300" textColor="0xffd200"/>
+	<ns1:CustomLabel id="_txtAllTimes" text="BOSS积" x="8" y="8" size="20" fontFamily="Microsoft YaHei" width="500" textColor="0xe7d0b7"/>
+	<ns1:CustomLabel id="_txtCount" text="BOSS积" x="139" y="58" size="20" fontFamily="Microsoft YaHei" width="300" textColor="0xdda66b"/>
+    <ns1:CustomButton id="_btnOK" label="领取奖励" x="442" y="66" skinName="CustomButtonSkin7Skin" anchorOffsetX="0" width="117" height="47"/>
+</e:Skin>

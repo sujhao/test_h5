@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OnlineRewardGiftItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage x="42" y="14" source="onlineReward_json.headwear"/>
+	<ns1:CustomLabel id="txtHead" text="在线10分钟奖励" x="123" y="11" textColor="0xffda4c" fontFamily="Microsoft YaHei" size="22" anchorOffsetX="0" width="189" anchorOffsetY="0" height="24" textAlign="center"/>
+	<e:Group id="rewardCon" width="436" height="115" x="8" y="44" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ns1:CustomImage id="iconGet" x="163" y="58" source="share_json.loginReward_ylq"/>
+</e:Skin>

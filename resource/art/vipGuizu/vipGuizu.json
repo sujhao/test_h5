@@ -1,0 +1,9 @@
+{"file":"vipGuizu.png","frames":{
+"vipGuizuBtn_vip":{"x":1,"y":147,"w":66,"h":64,"offX":10,"offY":15,"sourceW":87,"sourceH":95},
+"vipGuizuBtn_zs":{"x":429,"y":125,"w":65,"h":68,"offX":7,"offY":7,"sourceW":79,"sourceH":82},
+"vipGuizuIcon_1":{"x":373,"y":1,"w":122,"h":122,"offX":0,"offY":0,"sourceW":122,"sourceH":122},
+"vipGuizuIcon_2":{"x":125,"y":125,"w":122,"h":121,"offX":0,"offY":0,"sourceW":122,"sourceH":121},
+"vipGuizuIcon_3":{"x":125,"y":1,"w":122,"h":122,"offX":0,"offY":0,"sourceW":122,"sourceH":122},
+"vipGuizuIcon_4":{"x":249,"y":1,"w":122,"h":122,"offX":0,"offY":0,"sourceW":122,"sourceH":122},
+"vipGuizuSelect":{"x":1,"y":1,"w":122,"h":144,"offX":0,"offY":0,"sourceW":122,"sourceH":144},
+"vipGuizuTxt":{"x":249,"y":125,"w":178,"h":30,"offX":0,"offY":0,"sourceW":179,"sourceH":31}}}

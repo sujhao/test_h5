@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShadowTipSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="share_tipbg" width="340" height="330" scale9Grid="31, 32, 278, 144"/>
+	<ns1:CustomImage source="shadowTxt" x="127" y="11"/>
+	<ns1:CustomImage x="128" y="41" source="itemBgSmall_4"/>
+	<ns1:CustomLabel id="txtDes" text="" y="156" size="18" bold="true" textAlign="center" width="235" x="53" anchorOffsetX="0" anchorOffsetY="0" height="110" textColor="0x00d228" lineSpacing="10"/>
+	<ns1:CustomButton id="btnGet" label="确定" x="110" y="271" skinName="CustomButtonSkin2Skin"/>
+</e:Skin>

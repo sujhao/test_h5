@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossFieldViewSkin" width="575" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Scroller width="100%" height="645">
+		<e:DataGroup id="bossList" itemRenderer="BossFieldItem"/>
+	</e:Scroller>
+	<ns1:CustomLabel id="txtTime" text="我的挑战CD:" y="683" bold="true" size="18" textColor="0xDDA66B" textAlign="center" x="125"/>
+	<ns1:CustomLabel id="txtClear" text="清除CD" y="683" bold="true" size="18" textAlign="center" x="344" textColor="0x00D228"/>
+	<ns1:CustomLabel id="txtClearShare" text="分享清除CD" y="683" bold="true" size="18" textAlign="center" x="424" textColor="0x00D228"/>
+</e:Skin>

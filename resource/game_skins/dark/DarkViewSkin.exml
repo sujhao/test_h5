@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DarkViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="580">
+	<ns1:CustomImage x="65" y="166" source="share_titleBg3"/>
+	<ns1:CustomImage x="92" y="182" source="darkTitleBg"/>
+	<ns1:CustomImage id="map_1" x="25" y="260" source="dark_1"  pixelHitTest="true" alpha="1" name="grid_1"/>
+	<ns1:CustomImage x="136" y="260" id="map_2" source="dark_2"  pixelHitTest="true" alpha="1" name="grid_2"/>
+	<ns1:CustomImage x="246" y="260" id="map_3" source="dark_3"  pixelHitTest="true" alpha="1" name="grid_3"/>
+	<ns1:CustomImage x="352" y="260" id="map_4" source="dark_4"  pixelHitTest="true" alpha="1" name="grid_4"/>
+	<ns1:CustomImage x="-9" y="312" id="map_5" source="dark_5"  pixelHitTest="true" alpha="1" name="grid_5"/>
+	<ns1:CustomImage x="124" y="311" id="map_6" source="dark_6" pixelHitTest="true" alpha="1" name="grid_6"/>
+	<ns1:CustomImage x="255" y="311" id="map_7" source="dark_7"  pixelHitTest="true" alpha="1" name="grid_7"/>
+	<ns1:CustomImage x="382" y="311" id="map_8" source="dark_8"  pixelHitTest="true" alpha="1" name="grid_8"/>
+	<ns1:CustomImage x="-35" y="383" id="map_9" source="dark_9"  pixelHitTest="true" alpha="1" name="grid_9"/>
+	<ns1:CustomImage x="114" y="383" id="map_10" source="dark_10"  pixelHitTest="true" alpha="1" name="grid_10"/>
+	<ns1:CustomImage x="261" y="382" id="map_11" source="dark_11"  pixelHitTest="true" alpha="1" name="grid_11"/>
+	<ns1:CustomImage x="408" y="382" id="map_12" source="dark_12"  pixelHitTest="true" alpha="1" name="grid_12"/>
+	<ns1:CustomImage x="-42" y="467" id="map_13" source="dark_13"  pixelHitTest="true" alpha="1" name="grid_13"/>
+	<ns1:CustomImage x="97" y="466" id="map_14" source="dark_14"  pixelHitTest="true" alpha="1" name="grid_14"/>
+	<ns1:CustomImage x="285" y="466" id="map_15" source="dark_15" pixelHitTest="true" alpha="1" name="grid_15"/>
+	<ns1:CustomImage id="map_16" x="417" y="467" source="dark_16" pixelHitTest="true" alpha="1" name="grid_16"/>
+	<ns1:CustomLabel text="探索次数：" x="77" y="20" size="20" textColor="0xdda66b" bold="true" textAlign="left"/>
+	<ns1:CustomLabel id="txtCount" text="6/6" x="180" y="20" size="20" bold="true" anchorOffsetY="0" height="19" textColor="0xe7d0b7"/>
+	<ns1:CustomLabel text="我的排名：" x="77" y="62" size="20" textColor="0xDDA66B" bold="true" textAlign="left"/>
+	<ns1:CustomLabel id="txtCur" text="当前位置：10" x="10" y="602" size="20" textColor="0xE7D0B7" bold="true" anchorOffsetY="0" height="19"/>
+	<ns1:CustomLabel id="txtRankContent" text="" x="10" y="681" size="20" textColor="0xE7D0B7" bold="true" anchorOffsetY="0" height="19"/>
+	<ns1:CustomLabel id="txtRankContent2" text="" x="10" y="713" size="20" textColor="0xE7D0B7" bold="true" anchorOffsetY="0" height="19"/>
+	<ns1:CustomLabel id="txtRank" text="100" x="180" y="62" size="20" textColor="0xE7D0B7" bold="true" anchorOffsetY="0" height="19"/>
+	<ns1:CustomLabel id="txtTitle" text="第8层" x="179" y="182" size="20" textColor="0xE7D0B7" bold="true" anchorOffsetY="0" height="20" anchorOffsetX="0" width="227" textAlign="center"/>
+	<ns1:CustomLabel id="txtLook_rank" text="查看排名" x="414" y="62" size="20" bold="true" anchorOffsetY="0" height="19" textColor="0x00d228"/>
+	<ns1:CustomLabel id="txtLog" text="战斗记录" x="10" y="650" size="20" bold="true" anchorOffsetY="0" height="19" textColor="0x00D228"/>
+	<ns1:CustomLabel id="txtLook_reward" text="查看奖励" x="414" y="105" size="20" textColor="0x00D228" bold="true" anchorOffsetY="0" height="19"/>
+	<ns1:CustomLabel text="本周达到最高层数：" x="77" y="104" size="20" textColor="0xDDA66B" bold="true" textAlign="left"/>
+	<ns1:CustomLabel id="txtTop" text="66" x="261" y="104" size="20" textColor="0xE7D0B7" bold="true" anchorOffsetY="0" height="19"/>
+	<e:Group id="effectGroup" width="125" height="54" x="227" y="586" visible="false">
+		<ns1:CustomButton id="btnGet" label="进入下层" skinName="CustomButtonSkin2Skin"/>
+	</e:Group>
+	<e:Group id="roleGroup" width="139" height="138" x="51" y="216" anchorOffsetY="0" anchorOffsetX="0"/>
+	<ns1:CustomButton id="btnHelp" label="">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="comp_btn_help" source.down="comp_btn_help" source.disabled="comp_btn_help"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</ns1:CustomButton>
+	<e:Group id="mapGroup" width="200" height="200"/>
+</e:Skin>

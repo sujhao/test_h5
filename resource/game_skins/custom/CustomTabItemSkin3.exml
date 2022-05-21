@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CustomTabItemSkin3Skin" minWidth="166" minHeight="48" states="up,down" xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="100%" height="100%" source="comp_json.comp_btn9_down" source.down="comp_json.comp_btn9_up"/>
+	
+		
+			<e:Label id="labelDisplay" text="{data.label}" horizontalCenter="0" textColor.down="0xe7d0b7" textColor.up="0xdda66b" verticalCenter="3" fontFamily="Microsoft YaHei" size="22" textColor="0xe7d0b7" bold="true"/>
+			
+</e:Skin>

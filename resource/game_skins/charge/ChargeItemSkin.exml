@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChargeItemSkin" width="567" height="112" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage   source="charge_json.charge_border"/>
+	<ns1:CustomImage x="136" y="14" source="charge_json.charge_border2"/>
+	<e:BitmapLabel id="_txtCount" width="200" height="20" x="148.5" y="29" font="number_0_fnt" text="200"/>
+	<ns1:CustomLabel id="_txtDesc" text="标签" x="138" y="78" size="20" textColor="0xe7d0b7" fontFamily="Microsoft YaHei"/>
+	<ns1:CustomButton id="_btnOk" label="按钮" x="442" y="32" skinName="CustomButtonSkin7Skin" width="117" height="47"/>
+	<ns1:CustomImage id="_imageGold" x="248" y="73" source=""/>
+</e:Skin>

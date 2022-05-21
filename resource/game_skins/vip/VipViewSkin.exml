@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="925">
+	<ns1:LayeroutWindowSkin id="panelSkin" height="925" x="-1">
+		<e:Group id="picGroup" x="21.69" y="61" anchorOffsetY="0" height="171">
+			<ns1:CustomImage x="1.8" y="0" source="vipBg" anchorOffsetY="0" height="165" scale9Grid="12,91,554,43"/>
+		</e:Group>
+		<ns1:CustomImage x="166" y="82.33" source="vipTxt_vip" />
+		<ns1:CustomImage x="370" y="82.33" source="vipTxt_vip" />
+		<ns1:CustomImage width="508" height="26" x="54" y="113" source="expBar_bg" />
+		<ns1:CustomImage id="bm_exp" width="448.2" height="13.33" x="84.4" y="119.33"  source="comp_bar" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:CustomImage x="277" y="156" source="vipTxt_kcw" />
+		<ns1:CustomImage x="350" y="161" source="vipTxt_vip2" />
+		<ns1:CustomImage x="126" y="160" source="image_gold" />
+		<ns1:CustomImage x="51" y="156" source="vipTxt_zcz" />
+		<ns1:CustomLabel id="txtCount" text="100000000" x="167" y="162" size="20" textColor="0xffd200" anchorOffsetX="0"
+		                 width="111.4" />
+		<ns1:CustomButton id="btnChongzhi" label="" x="428.33" y="148" height="48" width="140">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="vipBtn_cz" source.down="vipBtn_cz" source.disabled="vipBtn_cz" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomLabel id="txtExp" text="0/1000" y="119" size="16" textAlign="center"  horizontalCenter="0"/>
+		<ns1:CustomButton id="btnRight" label="" x="563" y="482">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="vipBtnRight" source.down="vipBtnRight" source.disabled="vipBtnRight"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<ns1:CustomButton id="btnLeft" label="" x="0" y="482">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="vipBtnLeft" source.down="vipBtnLeft" source.disabled="vipBtnLeft"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+		<e:BitmapLabel id="txtLv" width="37" height="27" x="391" y="162" font="number_2_fnt" text="1" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:CustomImage y="678" source="vipBg3" horizontalCenter="0"/>
+		<e:Scroller width="440" height="123" y="694" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0">
+			<e:Group y="-2">
+			<e:List id="vipList" height="123" x="0" y="0" itemRenderer="VipItem">
+				<e:layout>
+				<e:HorizontalLayout gap="10"/>
+				</e:layout>
+			</e:List>
+			</e:Group>
+		</e:Scroller>
+		<ns1:CustomButton id="btnGet" label="领取" y="845" skinName="CustomButtonSkin2Skin" horizontalCenter="0"/>
+		<e:BitmapLabel id="curLv" x="228" y="84" text="0" font="number_0_fnt"/>
+		<e:BitmapLabel id="nextLv" x="430" y="84" text="0" font="number_0_fnt"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

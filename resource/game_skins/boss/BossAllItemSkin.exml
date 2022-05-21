@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="BossAllItemSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage source="bossListBg"/>
+	<ns1:CustomImage x="14" y="139" source="bossNameBg"/>
+	<e:Group id="headGroup" x="21" y="26">
+	</e:Group>
+	<ns1:CustomLabel text="争夺：" x="146" y="11" size="18" bold="true" textColor="0xdda66b"/>
+	<ns1:CustomLabel text="掉落：" x="146" y="39" size="18" bold="true" textColor="0xDDA66B"/>
+	<ns1:CustomLabel id="txtCount" text="1人" x="200" y="11" size="18" bold="true" textColor="0x00d228"/>
+	<ns1:CustomLabel id="txtKill" text="击杀排行" x="256.5" y="11" size="18" bold="true" textColor="0x00D228"/>
+	<ns1:CustomLabel id="txtHit" text="伤害排行" x="357" y="11" size="18" bold="true" textColor="0x00D228"/>
+	<ns1:CustomLabel id="txtPoint" text="评级限制：0" x="455" y="48" size="18" bold="true" textColor="0xffffff" visible="false"/>
+	<ns1:EquipItem id="item_2" x="347" y="64"/>
+	<ns1:EquipItem id="item_1" x="247" y="64"/>
+	<ns1:CustomButton id="btnGet" label="挑战" x="450" y="73" skinName="CustomButtonSkin7Skin" width="117" height="47"/>
+	<ns1:CustomLabel id="txtName" text="boss名字" y="146" size="20" textColor="0xffea02" bold="true" anchorOffsetX="0" width="150" textAlign="center"/>
+	<ns1:EquipItem id="item_0" x="149" y="64"/>
+	<ns1:CustomImage id="hpBg" x="28" y="111" source="bossBarBg"/>
+	<ns1:CustomImage id="hpBar" x="31" y="114" source="bossBar"/>
+	<ns1:CustomLabel id="txtHp" text="100/100" x="26" y="113" size="18" bold="true" anchorOffsetX="0" width="97" textAlign="center" textColor="0xffe4c7"/>
+	<ns1:CustomLabel id="txtTime" text="24:58:59" x="450" y="86" size="20" bold="true" width="120" textAlign="center" textColor="0xffffff"/>
+	<e:Group id="tipGroup" x="0" y="0" width="575" height="190" anchorOffsetX="0" visible="false">
+		<ns1:CustomImage width="100%" height="100%" source="share_black3" x="0" y="0"/>
+		<ns1:CustomImage id="lock" x="44" y="57" source="share_lock"/>
+		<ns1:CustomLabel id="txtTips" text="6转开启" x="163" y="77" size="42" textColor="0xdda66b" bold="true" textAlign="center" anchorOffsetX="0" width="261"/>
+	</e:Group>
+
+	<w:Config id="15aca92fc84" ></w:Config>
+</e:Skin>

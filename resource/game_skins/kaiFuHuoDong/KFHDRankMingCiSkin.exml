@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KFHDRankMingCiSkin" width="271" height="139" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="kaiFuHuoDong_json.kfhd_paiMingBg"/>
+	<ns1:CustomLabel id="_txtMingCi" text="标签" x="10" y="24" size="18" bold="true" textColor="0xffd200" textAlign="left" width="144"/>
+	<ns1:CustomLabel id="_txtName" text="标签" x="10" y="58" size="18" bold="true" textAlign="left" width="160"/>
+	<ns1:CustomLabel id="_txtLv" text="标签" x="10" y="84" size="18" bold="true" textColor="0xc85a04" textAlign="center"/>
+</e:Skin>

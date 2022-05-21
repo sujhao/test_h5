@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FuliJijinViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller id="_scroll" width="570" height="385" y="204" anchorOffsetX="0" anchorOffsetY="0" x="5">
+		<e:DataGroup id="itemList" itemRenderer="FuliJijinItem"/>
+	</e:Scroller>
+	<ns1:CustomImage source="share_contentBg2" x="51" y="652"/>
+	<ns1:CustomImage y="592" source="share_contentBg" width="575"/>
+	<ns1:CustomButton id="btnBuy" label="" x="221" y="613">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="fuliBtn_buy" source.down="fuliBtn_buy" source.disabled="fuliBtn_buy"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:CustomButton>
+	<ns1:CustomImage id="iconBuy" x="255" y="623" source="fuli_buy"/>
+</e:Skin>

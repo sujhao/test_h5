@@ -1,0 +1,16 @@
+{"file":"loginReward.png","frames":{
+"loginReward_day5":{"x":300,"y":113,"w":68,"h":31,"offX":1,"offY":1,"sourceW":70,"sourceH":33},
+"loginReward_day6":{"x":228,"y":110,"w":68,"h":31,"offX":1,"offY":1,"sourceW":70,"sourceH":33},
+"loginReward_day7":{"x":372,"y":78,"w":68,"h":31,"offX":1,"offY":1,"sourceW":70,"sourceH":33},
+"loginReward_day14":{"x":312,"y":43,"w":89,"h":31,"offX":1,"offY":1,"sourceW":91,"sourceH":33},
+"loginReward_jt":{"x":450,"y":0,"w":30,"h":27,"offX":0,"offY":0,"sourceW":31,"sourceH":28},
+"loginRewardBox":{"x":228,"y":0,"w":80,"h":71,"offX":0,"offY":0,"sourceW":80,"sourceH":71},
+"loginRewardBox_open":{"x":114,"y":114,"w":94,"h":80,"offX":0,"offY":0,"sourceW":94,"sourceH":80},
+"title_loginReward":{"x":312,"y":0,"w":134,"h":39,"offX":3,"offY":2,"sourceW":140,"sourceH":44},
+"loginReward_day1":{"x":405,"y":43,"w":68,"h":31,"offX":1,"offY":1,"sourceW":70,"sourceH":33},
+"loginReward_day2":{"x":300,"y":78,"w":68,"h":31,"offX":1,"offY":1,"sourceW":70,"sourceH":33},
+"loginReward_day3":{"x":114,"y":198,"w":68,"h":31,"offX":1,"offY":1,"sourceW":70,"sourceH":33},
+"loginReward_day4":{"x":228,"y":75,"w":68,"h":31,"offX":1,"offY":1,"sourceW":70,"sourceH":33},
+"loginRewardBox_14":{"x":114,"y":0,"w":110,"h":110,"offX":0,"offY":0,"sourceW":110,"sourceH":110},
+"loginRewardBox_2":{"x":0,"y":114,"w":110,"h":110,"offX":0,"offY":0,"sourceW":110,"sourceH":110},
+"loginRewardBox_7":{"x":0,"y":0,"w":110,"h":110,"offX":0,"offY":0,"sourceW":110,"sourceH":110}}}

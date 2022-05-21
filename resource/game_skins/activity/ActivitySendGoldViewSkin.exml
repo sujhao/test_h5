@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivitySendGoldViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="588" height="677">
+	<ns1:CustomImage id="img_mask5" x="44" y="368" source="share_json.share_black" anchorOffsetX="0" width="68" anchorOffsetY="0" height="102"/>
+	<ns1:CustomImage id="img_mask4" x="118" y="368" source="share_json.share_black" anchorOffsetX="0" width="68" anchorOffsetY="0" height="102"/>
+	<ns1:CustomImage id="img_mask3" x="194" y="368" source="share_json.share_black" anchorOffsetX="0" width="68" anchorOffsetY="0" height="102"/>
+	<ns1:CustomImage id="img_mask2" x="269" y="368" source="share_json.share_black" anchorOffsetX="0" width="68" anchorOffsetY="0" height="102"/>
+	<ns1:CustomImage id="img_mask1" x="345" y="368" source="share_json.share_black" anchorOffsetX="0" width="68" anchorOffsetY="0" height="102"/>
+	<ns1:CustomImage id="img_mask0" x="419" y="368" source="share_json.share_black" anchorOffsetX="0" width="68" anchorOffsetY="0" height="102"/>
+	<ns1:CustomImage id="img_up" x="506" y="229" source="activity_json.activitySendGoldBtn_up"/>
+	<ns1:CustomImage id="img_down" x="504" y="343" source="activity_json.activitySendGoldBtn_down" visible="false"/>
+	<ns1:CustomLabel id="txtTime" text="倒计时" x="212" y="66" size="20" bold="true" textColor="0xffd200"/>
+	<ns1:CustomLabel id="txtTitle" text="" x="213" y="125" size="20" bold="true" textColor="0xFFD200" anchorOffsetY="0" height="52" anchorOffsetX="0" width="292"/>
+	<ns1:CustomLabel id="txtCost" text="" y="524" size="20" bold="true" textColor="0xFFD200" anchorOffsetY="0" anchorOffsetX="0" width="300" textAlign="center" horizontalCenter="0"/>
+	<ns1:CustomLabel id="txtCount" text="剩余次数：0/7" y="620" size="20" bold="true" anchorOffsetY="0" anchorOffsetX="0" width="300" textAlign="center" horizontalCenter="0" x="154" textColor="0xffffff"/>
+	<ns1:CustomLabel id="txtContent" text="" y="551" size="20" bold="true" anchorOffsetY="0" anchorOffsetX="0" width="500" textAlign="center" textColor="0xdda66b" horizontalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="friendViewSjub"  xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="948.63">
+	<ns1:LayeroutWindowSkin id="panelSkin"  x="0" y="0" height="925">
+		<ns1:CustomImage  x="16" y="738" source="friendContentBg2" anchorOffsetX="0" width="586"/>
+		<e:Scroller width="570" height="665" x="25" y="70" anchorOffsetX="0" anchorOffsetY="0">
+			<e:DataGroup id="friendList"  itemRenderer="FriendItemLast"/>
+		</e:Scroller>
+		<ns1:CustomButton id="btnCheck" label="申请列表" x="351" y="757" skinName="CustomButtonSkin3Skin"/>
+		<ns1:CustomButton id="btnAdd" label="添加好友" x="230" y="757" skinName="CustomButtonSkin3Skin"/>
+		<ns1:CustomButton id="btnBlack" label="黑名单" x="472" y="757" skinName="CustomButtonSkin3Skin"/>
+		<ns1:CustomLabel text="好友数量：" x="41" y="773" size="18" textColor="0xdda66b"/>
+		<ns1:CustomLabel id="txtCount" text="3/100" x="127" y="773" size="18" textColor="0xe7d0b7"/>
+		<e:TabBar id="tabBar" width="240" height="50" x="41" y="852" anchorOffsetY="0"  itemRendererSkinName="CustomTabItemSkinSkin"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

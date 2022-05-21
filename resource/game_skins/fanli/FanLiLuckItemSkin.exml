@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FanLiLuckItemSkin" width="569" height="132" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+<ns1:CustomImage source="flluck_json.flluck_line" y="124"/>
+	<e:Group id="_itemContainer" width="434" height="113" x="5" y="6" anchorOffsetY="0" anchorOffsetX="0"/>
+	<ns1:CustomLabel id="_txtGold" text="1000" x="490" y="23" size="20" fontFamily="Microsoft YaHei" textColor="0xffd200" width="85"/>
+	<ns1:CustomImage id="_imgGold"  x="450" y="20" source="image_gold"/>
+	<ns1:CustomButton id="_btnOK" label="购买" x="463" y="48" skinName="CustomButtonSkin7Skin"/>
+	<ns1:CustomImage id="_imgState" x="449" y="41" source="share_json.share_soldOut"/>
+	<ns1:CustomButton id="_btnOK2" label="捡钱" x="443" y="39" skinName="CustomButtonSkin2Skin"/>
+</e:Skin>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="FriendItemLastSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="87" width="567">
+	<ns1:CustomImage  x="0" y="0" source="share_json.share_listItemBg" height="87"/>
+	<ns1:CustomLabel id="txtName" x="120" y="17" textColor="0xffd200" size="18" text="" height="30" anchorOffsetX="0" width="278"/>
+	<ns1:CustomLabel id="txtContent" text="聊天内容" x="116" y="47" size="18" textColor="0xdda66b" anchorOffsetY="0" height="38" anchorOffsetX="0" width="444"/>
+	<ns1:HeadItem id="headitem" x="20" y="9"/>
+
+	<w:Config id="15a3c0c5431" ></w:Config>
+</e:Skin>

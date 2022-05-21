@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MeetBossWindowSkin" width="620" height="925" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin x="0" y="0" id="panelSkin">
+		<ns1:CustomButton id="_btnChallenge" label="挑战" x="242" y="840" skinName="CustomButtonSkin2Skin"/>
+		<ns1:CustomImage y="70.5" source="boss_json.boss_meetBg" x="20.5"/>
+		<ns1:CustomImage x="273.5" y="16" source="boss_json.boss_headTxt"/>
+		<e:Group id="_goodsContainer" width="573" height="122" x="21" y="685" anchorOffsetY="0" anchorOffsetX="0"/>
+		<ns1:CustomLabel id="_txtBossName" text="标签" x="216" y="143" anchorOffsetX="0" width="186" verticalAlign="middle" textAlign="center" size="24"/>
+		<ns1:CustomImage x="113.5" y="85" source="boss_json.boss_meet_txt1"/>
+		<e:Group id="_monsterContainer" width="200" height="200" x="301" y="507"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AchievementWindowSkin" width="580" height="751" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller width="567" height="737" x="5" y="7" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Group id="_itemContainer"  width="580" x="-2"/>
+	</e:Scroller>
+</e:Skin>

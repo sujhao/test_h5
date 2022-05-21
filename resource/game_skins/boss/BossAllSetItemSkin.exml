@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="BossAllSetItemSkinSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:CustomImage id="itemBg" source="share_lineBg" visible="false"/>
+	<ns1:CustomLabel id="txtName" text="标签" x="35" y="24" size="18" textColor="0xffd200" bold="true"/>
+	<ns1:CustomLabel id="txtLv" text="50级" x="250" y="24" size="18" bold="true" textColor="0xe7d0b7" width="70" textAlign="center"/>
+	<ns1:CustomCheckBox id="checkBox" label="复活时提醒" x="415" y="17"/>
+
+	<w:Config id="15aff808534" ></w:Config>
+</e:Skin>

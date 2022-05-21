@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MagicPetAttrViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="558" height="257">
+	<ns1:CustomImage x="80" y="0" source="magicPet_json.attrBg"/>
+	<ns1:CustomButton id="btnGrade" label="升阶" x="52" y="192" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomButton id="btnActive" label="激活" x="211" y="193" skinName="CustomButtonSkinSkin"/>
+	<ns1:CustomButton id="btnLevel" label="升级" x="361" y="192" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomLabel id="txtGrade" text="需进行升阶" x="5" y="160" textColor="0xffca00" fontFamily="Microsoft YaHei" size="20" anchorOffsetX="0" width="239" anchorOffsetY="0" height="27" textAlign="center"/>
+	<ns1:CustomLabel id="txtCur" text="生命：+1000\n攻击：+1000\n物防：+1000\n法防：+1000" x="114" y="56" fontFamily="Microsoft YaHei" size="18" textColor="0xffe68e" anchorOffsetX="0" width="144" anchorOffsetY="0" height="85" lineSpacing="2"/>
+	<ns1:CustomLabel id="txtNext" text="生命：+1000\n攻击：+1000\n物防：+1000\n法防：+1000" x="315" y="56" fontFamily="Microsoft YaHei" size="18" anchorOffsetX="0" width="144" anchorOffsetY="0" height="85" textColor="0x4ef700" lineSpacing="2"/>
+	<ns1:CustomLabel id="txtItem" text="蓝色升级丹：0/10" x="336" y="162" fontFamily="Microsoft YaHei" size="20" textColor="0xff6200"/>
+	<ns1:CustomLabel id="txtCon" text="激活条件：" x="5" y="162" fontFamily="Microsoft YaHei" size="20" textColor="0xFF6200" anchorOffsetX="0" width="549" anchorOffsetY="0" height="19" textAlign="center"/>
+</e:Skin>

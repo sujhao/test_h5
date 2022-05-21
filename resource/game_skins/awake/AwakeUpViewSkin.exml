@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AwakeUpViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage x="145" y="0" source="share_fpowerBg"/>
+	<e:BitmapLabel id="numFight" x="249" y="24" font="number_0_fnt" text="0" anchorOffsetX="0" width="189" anchorOffsetY="0" height="36"/>
+	<ns1:SkillItem id="skillItem" x="43" y="294" anchorOffsetX="0" anchorOffsetY="0"/>
+	<ns1:CustomLabel text="下一星点属性" x="233" y="478" size="18" textColor="0xe7d0b7" bold="true"/>
+	<ns1:CustomLabel id="txtLine" text="查看总属性" x="242" y="556" size="18" bold="true" textColor="0x00d228"/>
+	<ns1:CustomLabel id="txtBuy" text="获取真气" x="368.5" y="704.5" size="18" bold="true" textColor="0x00D228"/>
+	<ns1:CustomLabel id="txtPro" text="道祖生命：999" x="189" y="510" size="18" textColor="0xE7D0B7" bold="true" width="200" textAlign="center" anchorOffsetY="0" height="42"/>
+	<ns1:CustomImage x="212" y="595" source="awakeTxt"/>
+	<ns1:CustomProgressBar id="bar" x="65" y="642" skinName="CustomProgressBarSkin"/>
+	<ns1:CustomButton id="btnGet" label="激活" x="227" y="687" skinName="CustomButtonSkin2Skin"/>
+	<e:Group id="pointGroup" x="39" y="35" touchChildren="false" touchEnabled="false">
+		<ns1:CustomImage id="point1_1" x="200" y="199" source="awake_point"/>
+		<ns1:CustomImage id="point1_2" x="110" y="179" source="awake_point"/>
+		<ns1:CustomImage id="point1_3" x="40" y="109" source="awake_point"/>
+		<ns1:CustomImage id="point1_4" x="0" y="20" source="awake_point"/>
+		<ns1:CustomImage id="point1_5" x="80" y="50" source="awake_point"/>
+		<ns1:CustomImage id="point1_6" x="160" y="100" source="awake_point"/>
+		<ns1:CustomImage id="point1_7" x="250" y="120" source="awake_point"/>
+		<ns1:CustomImage id="point1_8" x="350" y="60" source="awake_point"/>
+		<ns1:CustomImage id="point1_9" x="410" y="0" source="awake_point"/>
+		<ns1:CustomImage id="point1_10" x="479" y="20" source="awake_point"/>
+		<ns1:CustomImage id="point1_11" x="430" y="90" source="awake_point"/>
+		<ns1:CustomImage id="point1_12" x="340" y="169" source="awake_point"/>
+		<ns1:CustomImage id="point1_13" x="380" y="239" source="awake_point"/>
+		<ns1:CustomImage id="point1_14" x="370" y="320" source="awake_point"/>
+		<ns1:CustomImage id="point1_15" x="320" y="319" source="awake_point"/>
+		<ns1:CustomImage id="point1_16" x="330" y="369" source="awake_point"/>
+		<ns1:CustomImage id="point1_17" x="259" y="299" source="awake_point"/>
+		<ns1:CustomImage id="point1_18" x="290" y="239" source="awake_point"/>
+		<ns1:CustomImage id="point1_19" x="210" y="259" source="awake_point"/>
+		<ns1:CustomImage id="point1_20" x="156" y="283" source="awake_point"/>
+	</e:Group>
+	<e:Group id="pointGroup2" x="37.5" y="63" touchEnabled="false" touchChildren="false">
+		<ns1:CustomImage id="point2_1" x="208" y="211" source="awake_point2"/>
+		<ns1:CustomImage x="149" y="189" source="awake_point2" id="point2_2"/>
+		<ns1:CustomImage x="50" y="199" source="awake_point2" id="point2_3"/>
+		<ns1:CustomImage x="0" y="148" source="awake_point2" id="point2_4"/>
+		<ns1:CustomImage x="50" y="79" source="awake_point2" id="point2_5"/>
+		<ns1:CustomImage x="110" y="39" source="awake_point2" id="point2_6"/>
+		<ns1:CustomImage x="211" y="89" source="awake_point2" id="point2_7"/>
+		<ns1:CustomImage x="271" y="0" source="awake_point2" id="point2_8"/>
+		<ns1:CustomImage x="349" y="31" source="awake_point2" id="point2_9"/>
+		<ns1:CustomImage x="309" y="81" source="awake_point2" id="point2_10"/>
+		<ns1:CustomImage x="289" y="139" source="awake_point2" id="point2_11"/>
+		<ns1:CustomImage x="311" y="216" source="awake_point2" id="point2_12"/>
+		<ns1:CustomImage x="363" y="148" source="awake_point2" id="point2_13"/>
+		<ns1:CustomImage x="430" y="128" source="awake_point2" id="point2_14"/>
+		<ns1:CustomImage x="478" y="179" source="awake_point2" id="point2_15"/>
+		<ns1:CustomImage x="458" y="249" source="awake_point2" id="point2_16"/>
+		<ns1:CustomImage x="398" y="288" source="awake_point2" id="point2_17"/>
+		<ns1:CustomImage x="299" y="298" source="awake_point2" id="point2_18"/>
+		<ns1:CustomImage x="241" y="348" source="awake_point2" id="point2_19"/>
+		<ns1:CustomImage id="point2_20" x="232" y="278" source="awake_point2"/>
+	</e:Group>
+	<ns1:CustomImage x="438" y="423" source="share_nameBg2"/>
+	<ns1:CustomLabel id="txtName" text="技能名" x="449" y="431.5" size="18" bold="true" textAlign="left" textColor="0xffd200"/>
+</e:Skin>

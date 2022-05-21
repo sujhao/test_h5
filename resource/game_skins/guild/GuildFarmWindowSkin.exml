@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuildFarmWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin">
+		<e:TabBar id="tabBar" width="230" height="50" x="41" y="852" anchorOffsetY="0" itemRendererSkinName="CustomTabItemSkinSkin" anchorOffsetX="0"/>
+		<e:Group id="contentGroup" width="580" height="755" x="20" y="72" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:CustomButton id="btnHelp" label="" y="15" x="520">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="comp_btn_help" source.down="comp_btn_help" source.disabled="comp_btn_help"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:CustomButton>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

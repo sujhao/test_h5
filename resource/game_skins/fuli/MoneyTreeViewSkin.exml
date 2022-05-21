@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MoneyTreeViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomButton id="btnGet" label="摇一摇" x="226" y="589" skinName="CustomButtonSkin2Skin"/>
+	<ns1:CustomImage x="174" y="22" source="moneyTreeTxt"/>
+	<ns1:CustomImage id="box" x="15" y="110" source="moneyTreeBox"/>
+	<ns1:CustomImage x="268" y="642" source="image_gold"/>
+	<ns1:CustomImage x="69" y="400" source="share_titleBg3" anchorOffsetY="0" height="75" scale9Grid="55,15,336,19"/>
+	<ns1:CustomProgressBar id="bar" x="64" y="56"/>
+	<ns1:CustomLabel id="txtAdd" text="5%" x="353" y="27" size="25" bold="true" textColor="0x00d228"/>
+	<ns1:CustomLabel id="txtBox" text="50次奖励" x="28" y="214" size="20" bold="true" textColor="0xffd200" anchorOffsetX="0" width="102" textAlign="center"/>
+	<ns1:CustomLabel id="txtBoxCount" text="0/10" x="28" y="240" size="20" bold="true" anchorOffsetX="0" width="102" textAlign="center" textColor="0xe7d0b7"/>
+	<ns1:CustomLabel id="txtCost" text="10" x="314" y="646" size="20" bold="true" textColor="0xFFD200" anchorOffsetX="0" textAlign="left"/>
+	<ns1:CustomLabel text="立即获得" x="120" y="495" size="22" bold="true" anchorOffsetX="0" width="102" textAlign="right" textColor="0xe7d0b7"/>
+	<ns1:CustomLabel text="今日剩余：" x="124" y="551" size="18" bold="true" anchorOffsetX="0" width="102" textAlign="right" textColor="0xdda66b"/>
+	<ns1:CustomLabel text="消耗：" x="171" y="646" size="18" bold="true" textColor="0xDDA66B" anchorOffsetX="0" width="102" textAlign="right"/>
+	<ns1:CustomLabel id="_txtShare" text="分享" x="360" y="607" size="18" bold="true" textColor="0xDDA66B" anchorOffsetX="0" width="102" textAlign="left"/>
+	<ns1:CustomLabel id="txtCount" text="5次" x="226" y="551" size="18" bold="true" anchorOffsetX="0" textAlign="left" textColor="0x00d228"/>
+	<ns1:CustomLabel id="txtVip" text="提高VIP次数可增加次数" x="285" y="551" size="18" bold="true" textColor="0x00D228" anchorOffsetX="0" textAlign="left"/>
+	<ns1:CustomLabel id="txtReward" text="31.5万（+5%）金币" x="234" y="496" size="20" bold="true" anchorOffsetX="0" textAlign="center" textColor="0xe7d0b7"/>
+	<ns1:CustomLabel id="txtDes" text="摇钱有几率暴击，受vip等级影响\n暴击可获得双倍金币" x="85" y="416" size="18" bold="true" textColor="0xFFD200" anchorOffsetX="0" width="403" textAlign="center" lineSpacing="5"/>
+	<e:Group id="effectGroup2" width="200" height="200" x="167" y="114"/>
+	<e:Group id="effectGroup" width="150" height="154" y="113" anchorOffsetY="0"/>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleEditHeadSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin" anchorOffsetY="0" height="419">
+		<ns1:CustomImage x="9" y="48" anchorOffsetX="0" width="601" source="comp_json.win_innerBg" anchorOffsetY="0" height="356" scale9Grid="73,96,444,576"/>
+		<ns1:CustomImage x="28" y="71" anchorOffsetX="0" anchorOffsetY="0" width="562" height="243" source="zhuan_json.zhuan_border2" scale9Grid="72,18,436,10"/>
+		<ns1:CustomButton id="btnGet" label="确定" y="339" skinName="CustomButtonSkin2Skin" horizontalCenter="0"/>
+		<ns1:CustomButton id="returnButton" label="" right="5" bottom="6">
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="share_json.share_btnReturn" source.down="share_json.share_btnReturn" source.disabled="share_json.share_btnReturn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:CustomButton>
+		<e:Group id="headGroup" width="200" height="200" x="90" y="85"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

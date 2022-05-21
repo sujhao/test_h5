@@ -1,0 +1,5 @@
+{"file":"mail.png","frames":{
+"title_mail":{"x":0,"y":45,"w":69,"h":40,"offX":2,"offY":2,"sourceW":74,"sourceH":45},
+"title_mailContent":{"x":0,"y":0,"w":133,"h":41,"offX":2,"offY":2,"sourceW":139,"sourceH":46},
+"mailIcon_yes":{"x":132,"y":45,"w":55,"h":47,"offX":0,"offY":0,"sourceW":55,"sourceH":47},
+"mailIcon_no":{"x":73,"y":45,"w":55,"h":47,"offX":0,"offY":0,"sourceW":55,"sourceH":47}}}

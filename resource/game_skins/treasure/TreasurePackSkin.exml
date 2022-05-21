@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TreasurePackSkin" width="577" height="752" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Scroller id="vScroll" width="577" height="690" anchorOffsetY="0" y="8" x="7">
+		<e:DataGroup id="itemList" itemRenderer="TreasurePackItem" anchorOffsetY="0" height="690">
+			<!--<e:List id="itemList" width="577" itemRenderer="GoodsItem"/>-->
+		</e:DataGroup>
+	</e:Scroller>
+	<ns1:CustomImage y="696" anchorOffsetX="0" width="585" source="bag_json.bg" scale9Grid="72,9,438,56" x="0"/>
+	<ns1:CustomImage x="0" y="724" anchorOffsetX="0" width="100%" source="share_contentBg2" visible="false"/>
+	<ns1:CustomButton id="btnGet" label="全部取出" x="231" y="707" skinName="CustomButtonSkin2Skin"/>
+</e:Skin>

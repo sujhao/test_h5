@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DarkRewardWindowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<ns1:LayeroutWindowSkin id="panelSkin" skinName="CustomSmallWindowSkinSkin">
+		<ns1:CustomImage id="win_bg" source="comp_json.win_innerBg" scale9Grid="29,23,537,710" width="597" x="13" y="47" anchorOffsetY="0" height="823" anchorOffsetX="0"/>
+		<ns1:CustomButton id="returnButton" label="" right="5" bottom="6">
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="share_json.share_btnReturn" source.down="share_json.share_btnReturn" source.disabled="share_json.share_btnReturn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:CustomButton>
+		<e:TabBar id="tabBar" width="220" height="60" x="32" y="805" itemRenderer="CustomItemRenderer" itemRendererSkinName="CustomTabItemSkinSkin"/>
+		<e:Group id="contentGroup" width="600" height="735" x="9" y="50" anchorOffsetX="0" anchorOffsetY="0"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

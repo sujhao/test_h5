@@ -1,0 +1,8 @@
+{"file":"awake.png","frames":{
+"awakeTxt":{"x":284,"y":74,"w":150,"h":35,"offX":0,"offY":0,"sourceW":151,"sourceH":36},
+"awake_point":{"x":448,"y":0,"w":19,"h":19,"offX":0,"offY":0,"sourceW":19,"sourceH":19},
+"awake_point2":{"x":471,"y":0,"w":19,"h":19,"offX":0,"offY":0,"sourceW":19,"sourceH":19},
+"awakeIcon_1":{"x":366,"y":0,"w":78,"h":70,"offX":0,"offY":0,"sourceW":78,"sourceH":70},
+"awakeIcon_2":{"x":284,"y":113,"w":75,"h":70,"offX":0,"offY":0,"sourceW":75,"sourceH":70},
+"awakeIcon_3":{"x":284,"y":0,"w":78,"h":70,"offX":0,"offY":0,"sourceW":78,"sourceH":70},
+"awakeItemBg":{"x":0,"y":0,"w":280,"h":297,"offX":1,"offY":0,"sourceW":281,"sourceH":298}}}

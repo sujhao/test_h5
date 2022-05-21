@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MailViewSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin"  x="0" y="0">
+		<e:Scroller id="mailScroller" width="582" height="755" x="19" y="66" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group anchorOffsetX="0"  anchorOffsetY="0" x="1">
+				<e:List id="mailList" width="580"  x="0" y="0"  itemRenderer="MailListItem"/>
+			</e:Group>
+		</e:Scroller>
+		<ns1:CustomButton id="btnGetAll" label="一键领取" y="845" skinName="CustomButtonSkin2Skin" horizontalCenter="0"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

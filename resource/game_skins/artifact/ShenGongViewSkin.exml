@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShenGongViewSkin" width="580" height="751" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<ns1:CustomImage source="shengong_json.shengong_bg" />
+	<ns1:CustomImage x="16" y="19" source="shengong_json.shengong_border" />
+	<ns1:CustomImage x="20" y="75" source="shengong_json.shengong_word1" />
+	<ns1:CustomImage x="125" y="161" source="shengong_json.shengong_arrow" />
+	<ns1:CustomImage x="243" y="7" source="shengong_json.shengong_word3" />
+	<ns1:CustomImage x="254" y="7" source="shengong_json.shengong_border4" />
+	<ns1:CustomImage x="243" y="136" source="shengong_json.shengong_word3" />
+	<ns1:CustomImage x="2" y="272" source="shengong_json.shengong_border3" />
+	<ns1:CustomImage x="155" y="279" source="shengong_json.shengong_word2" />
+	<ns1:CustomImage x="0" y="368" source="shengong_json.shengong_headbar" />
+	<ns1:CustomImage x="126" y="313" source="shengong_json.shengong_barBg" />
+	<ns1:CustomImage id="_imgBar" x="130" y="317" source="shengong_json.shengong_bar" />
+	<ns1:CustomImage x="2" y="113" source="shengong_json.shengong_border2" />
+	<ns1:CustomLabel id="_txtName" text="标签gdfgdgdg" x="5" y="31" size="20" fontFamily="Microsoft YaHei" textAlign="center"
+	                 width="222" textColor="0xe7d0b7"  stroke="1" strokeColor="0x2b0c00"/>
+	<ns1:GoodsItem id="_item" x="298" y="23" />
+	<ns1:CustomLabel id="_txtGoodsName" text="gdg" x="399" y="38" size="24" fontFamily="Microsoft YaHei" bold="true" textAlign="left"
+	                 width="122" textColor="0xffd200"  stroke="1" strokeColor="0x2b0c00"/>
+	<ns1:CustomLabel id="_txtGoodsName2" text="任务名称" x="16" y="377" size="18" fontFamily="Microsoft YaHei"
+	                 textAlign="center" width="122" textColor="0xdda66b" />
+	<ns1:CustomLabel id="_txtGoodsName3" text="次数" x="166" y="377" size="18" fontFamily="Microsoft YaHei"
+	                 textAlign="center" width="122" textColor="0xDDA66B" />
+	<ns1:CustomLabel id="_txtGoodsName4" text="单次奖励" x="301" y="377" size="18" fontFamily="Microsoft YaHei"
+	                 textAlign="center" width="122" textColor="0xDDA66B" />
+	<ns1:CustomLabel id="_txtGoodsName5" text="操作" x="444" y="377" size="18" fontFamily="Microsoft YaHei"
+	                 textAlign="center" width="122" textColor="0xDDA66B" />
+	<ns1:CustomLabel id="_txtGoodsName0" text="消耗历练：" x="11" y="313" size="20" fontFamily="Microsoft YaHei"
+	                 textAlign="left" width="122" textColor="0xFFD200" />
+	<ns1:CustomLabel id="_txtProgress" text="111/12" x="173" y="318" size="16" fontFamily="Microsoft YaHei"
+	                 textAlign="center" width="200" textColor="0xffffff" stroke="1.5" />
+	<ns1:CustomLabel id="_txtNeedLvl" text="gdg" x="399" y="70" size="20" fontFamily="Microsoft YaHei" textAlign="left"
+	                 width="166" textColor="0xdda66b"  stroke="1" strokeColor="0x2b0c00"/>
+	<e:Group id="_txtAwardContainer" width="200" height="95" x="279" y="144" anchorOffsetY="0" />
+	<ns1:CustomLabel id="_txtPro" text="攻击：+1000防御：" x="13" y="113" size="18" textColor="0xe7d0b7"
+	                 fontFamily="Microsoft YaHei" anchorOffsetX="0" width="204" wordWrap="true" anchorOffsetY="0"
+	                 height="158" lineSpacing="7" />
+	<ns1:CustomLabel id="_txtProNext" text="1666" x="158" y="113" size="18" fontFamily="Microsoft YaHei" anchorOffsetX="0"
+	                 width="124" wordWrap="true" anchorOffsetY="0" height="158" lineSpacing="7" textColor="0x00d228" />
+	<ns1:CustomButton id="_btnOK" label="升级" x="445" y="299"  skinName="CustomButtonSkin2Skin"/>
+	<e:Scroller width="567" height="323" x="3" y="413" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="_itemContainer" />
+	</e:Scroller>
+</e:Skin>

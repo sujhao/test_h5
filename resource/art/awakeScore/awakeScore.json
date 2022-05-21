@@ -1,0 +1,7 @@
+{"file":"awakeScore.png","frames":{
+"arrow1":{"x":598,"y":158,"w":41,"h":61,"offX":0,"offY":0,"sourceW":41,"sourceH":61},
+"arrow2":{"x":598,"y":93,"w":41,"h":61,"offX":0,"offY":0,"sourceW":41,"sourceH":61},
+"awakeScoreBg":{"x":0,"y":0,"w":594,"h":529,"offX":0,"offY":0,"sourceW":594,"sourceH":529},
+"iconAwakeScore":{"x":598,"y":0,"w":83,"h":89,"offX":0,"offY":0,"sourceW":83,"sourceH":89},
+"petMark0":{"x":598,"y":257,"w":31,"h":30,"offX":0,"offY":0,"sourceW":31,"sourceH":30},
+"petMark1":{"x":598,"y":223,"w":31,"h":30,"offX":0,"offY":0,"sourceW":31,"sourceH":30}}}

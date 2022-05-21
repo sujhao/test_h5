@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SideUIFunViewSkin" width="620" height="925" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin" width="100%" height="100%" x="0" y="0">
+		<e:Group id="container" width="579" height="812" x="21" y="65" anchorOffsetX="0" anchorOffsetY="0" />
+	</ns1:LayeroutWindowSkin>
+</e:Skin>

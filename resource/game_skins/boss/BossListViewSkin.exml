@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossListViewSkin" width="575" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Scroller width="100%" height="645">
+		<e:DataGroup id="bossList" itemRenderer="BossHomeItem"/>
+	</e:Scroller>
+	<e:Group x="80" y="683">
+		<ns1:CustomLabel id="txtTime" text="我的挑战CD:" y="0" bold="true" size="18" textColor="0xDDA66B" textAlign="center" x="46"/>
+		<ns1:CustomLabel id="txtTime_prop" text="免费挑战剩余时间:" y="32" bold="true" size="18" textColor="0xDDA66B" textAlign="center" x="46" visible="false"/>
+		<e:Group id="tipsGroup" x="0" y="32" visible="false">
+			<ns1:CustomLabel id="txtCount" text="0/1" y="0" bold="true" size="18" textColor="0xDDA66B" textAlign="center" x="30"/>
+			<ns1:CustomLabel text="消耗道具，可免费挑战12小时" y="0" bold="true" size="18" textColor="0xDDA66B" textAlign="center" x="80"/>
+			<ns1:CustomLabel id="txtBuy" text="立即购买" bold="true" size="18" textAlign="center" x="343" textColor="0x00D228"/>
+		</e:Group>
+		<ns1:CustomLabel id="txtClear" text="清除CD" y="0" bold="true" size="18" textAlign="center" x="264" textColor="0x00d228"/>
+		<ns1:CustomLabel id="txtClearShare" text="清除CD" y="0" bold="true" size="18" textAlign="center" x="354" textColor="0x00d228"/>
+	</e:Group>
+</e:Skin>

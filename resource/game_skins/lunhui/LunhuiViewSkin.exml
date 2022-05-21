@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LunhuiViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:LayeroutWindowSkin id="panelSkin">
+		<ns1:CustomImage x="19" y="62" source="lunhuiBg"/>
+		<ns1:CustomButton id="btnHelp" label="" x="521" y="16">
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="comp_btn_help" source.down="comp_btn_help" source.disabled="comp_btn_help"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:CustomButton>
+		<ns1:CustomLabel id="txtDay" text="今日可轮回1次" x="150.5" y="603" size="20" textColor="0xdda66b" bold="true" width="315" textAlign="center"/>
+		<ns1:CustomLabel id="txtCount" text="本次轮回需通过关卡数：12000/1000（已达标）" x="57" y="724" size="20" textColor="0xDDA66B" bold="true" width="506" textAlign="center" anchorOffsetX="0" anchorOffsetY="0" height="25"/>
+		<ns1:CustomLabel text="轮回后可花费元宝回归最高关卡，终生卡用户免费回归" x="57" y="754" size="20" textColor="0xDDA66B" bold="true" width="506" textAlign="center" anchorOffsetX="0" anchorOffsetY="0" height="25"/>
+		<ns1:CustomLabel id="txtVip" text="成为VIP6每日可额外轮回1次" x="150.5" y="640" size="20" textColor="0xDDA66B" bold="true" anchorOffsetX="0" width="315" anchorOffsetY="0" height="22" textAlign="center"/>
+		<ns1:CustomButton id="btnGet" label="轮回" x="162" y="845" skinName="CustomButtonSkin2Skin"/>
+		<ns1:CustomButton id="btnBack" label="回归" x="326" y="845" skinName="CustomButtonSkin2Skin"/>
+		<e:Group id="effectSp" width="50" height="50" x="310" y="367" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:CustomCheckBox id="checkBox" label="超级轮回丹（0/1）" y="790" horizontalCenter="0"/>
+	</ns1:LayeroutWindowSkin>
+</e:Skin>
